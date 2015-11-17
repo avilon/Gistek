@@ -53,25 +53,25 @@
 									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column1 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column2 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column3 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column4 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column5 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column6 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column7 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column8 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column9 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column10 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column11 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column12 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column13 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column14 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column15 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column16 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column17 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column18 ) &gt; 0"/>
+									<tgridcol conditional-processing="count( document/flat/strdata/@column19 ) &gt; 0"/>
 								</children>
 							</tgridbody-cols>
 							<tgridheader-rows>
@@ -217,92 +217,245 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="2"/>
+													<autocalc xpath="count( document/flat/strdata/@column1 ) &gt; 0 + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="3"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="4"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="5"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="6"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="7"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="8"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="9"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="10"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="11"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="12"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="13"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="14"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="15"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 
+number(count( document/flat/strdata/@column14 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="16"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 
+number(count( document/flat/strdata/@column14 ) &gt; 0) + 
+number(count( document/flat/strdata/@column15 ) &gt; 0) + 1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="17"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 
+number(count( document/flat/strdata/@column14 ) &gt; 0) + 
+number(count( document/flat/strdata/@column15 ) &gt; 0) + 
+number(count( document/flat/strdata/@column16 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="18"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 
+number(count( document/flat/strdata/@column14 ) &gt; 0) + 
+number(count( document/flat/strdata/@column15 ) &gt; 0) + 
+number(count( document/flat/strdata/@column16 ) &gt; 0) +
+number(count( document/flat/strdata/@column17 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="19"/>
+													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
+number(count( document/flat/strdata/@column2 ) &gt; 0) + 
+number(count( document/flat/strdata/@column3 ) &gt; 0) + 
+number(count( document/flat/strdata/@column4 ) &gt; 0) + 
+number(count( document/flat/strdata/@column5 ) &gt; 0) + 
+number(count( document/flat/strdata/@column6 ) &gt; 0) +
+number(count( document/flat/strdata/@column7 ) &gt; 0) + 
+number(count( document/flat/strdata/@column8 ) &gt; 0) + 
+number(count( document/flat/strdata/@column9 ) &gt; 0) + 
+number(count( document/flat/strdata/@column10 ) &gt; 0) +
+number(count( document/flat/strdata/@column11 ) &gt; 0) +
+number(count( document/flat/strdata/@column12 ) &gt; 0) +
+number(count( document/flat/strdata/@column13 ) &gt; 0) + 
+number(count( document/flat/strdata/@column14 ) &gt; 0) + 
+number(count( document/flat/strdata/@column15 ) &gt; 0) + 
+number(count( document/flat/strdata/@column16 ) &gt; 0) +
+number(count( document/flat/strdata/@column17 ) &gt; 0) +
+number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 												</children>
 											</tgridcell>
 										</children>

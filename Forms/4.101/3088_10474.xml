@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="3088" subject_variant="">
+<strdata code="1" name="1">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30">1</column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200">6900054</column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20">158</column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30">10000</column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11">15.00000000000</column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2">12.00</column>
+</strdata>
+<strdata code="2" name="2">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30">2</column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200">6900018</column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20">180</column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30">15000</column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11">18.00000000000</column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2">15.00</column>
+</strdata>
+<strdata code="3" name="3">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4" name="4">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="5" name="5">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="6" name="6">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="7" name="7">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="8" name="8">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="9" name="9">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="10" name="10">
+ <column name="№ п/п" order="1" id="74" datatype="number" format="30"></column>
+ <column name="№ договора купли-продажи (БР)" order="2" id="75" datatype="text" format="200"></column>
+ <column name="ГТП" order="3" id="76" datatype="text" format="20"></column>
+ <column name="Объем электроэнергии, кВт*ч" order="4" id="77" datatype="number" format="30"></column>
+ <column name="Цена, руб./кВт*ч" order="5" id="78" datatype="number" format="30.11"></column>
+ <column name="Стоимость (без НДС), руб." order="6" id="79" datatype="number" format="30.2"></column>
+</strdata>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="220" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="221" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="222" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="223" datatype="text" format="100"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="224" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="225" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="226" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="227" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="321" datatype="text" format="300"></column>
+ <column name="Почтовый адрес" order="2" id="322" datatype="text" format="300"></column>
+ <column name="Фактический адрес" order="3" id="323" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="324" datatype="text" format="300"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="325" datatype="text" format="300"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="326" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="327" datatype="text" format="300"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="328" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="329" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="330" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="331" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="332" datatype="text" format="300"></column>
+</strfree>
+</document>

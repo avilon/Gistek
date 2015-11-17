@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="1" subject="338517" subject_variant="65">
+<strdata code="1" name="Сальдо перетоков электрической энергии в границах субъекта Российской Федерации">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">100.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">500.000</column>
+</strdata>
+<strdata code="2" name="Сальдо перетоков электрической энергии со смежными субъектами РФ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">1500.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">3000.000</column>
+</strdata>
+<strdata code="201" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048">Пермский край</column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100">555</column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">1000.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">2000.000</column>
+</strdata>
+<strdata code="202" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048">Тюменская область</column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100">450</column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">500.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">1000.000</column>
+</strdata>
+<strdata code="203" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="204" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="205" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="206" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="207" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="208" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="209" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="210" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="211" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="212" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="213" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="214" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="215" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="216" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="217" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="218" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="219" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="220" name="Переток в субъект РФ по линии электропередачи ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="Перетоки электрической энергии с потребителями - субъектами ОРЭМ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">600.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">900.000</column>
+</strdata>
+<strdata code="301" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048">Пермский край</column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">500.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">600.000</column>
+</strdata>
+<strdata code="302" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048">Тюменская область</column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3">100.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3">300.000</column>
+</strdata>
+<strdata code="303" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="304" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="305" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="306" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="307" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="308" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="309" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="310" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="311" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="312" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="313" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="314" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="315" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="316" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="317" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="318" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="319" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="320" name="Перетоки электрической энергии с потребителями - ОРЭМ по присоединению ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="4" name="Сальдо межгосударственных перетоков электрической энергии         ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставки, расположенным в границах субъекта РФ">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="501" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="502" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="503" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="504" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="505" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="506" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="507" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="508" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="509" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="510" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="511" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="512" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="513" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="514" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="515" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="516" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="517" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="518" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="519" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="520" name="Переток электрической энергии с энергосистемами иностранных государств по точкам поставкипо линии электропередачи">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="Потери электрической энергии в единой национальной (общероссийской) электрической сети в границах субъекта Российской Федерации">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="Потери электрической энергии в сетях 750 кВ и выше в границах субъекта Российской Федерации">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="Потери электрической энергии в сетях 330-500 кВ в границах субъекта Российской Федерации">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="Потери электрической энергии в сетях 220 кВ и ниже в границах субъекта Российской Федерации">
+ <column name="Субъект РФ" order="1" id="72" datatype="classifier" format="2048"></column>
+ <column name="Линии электропередач" order="2" id="73" datatype="text" format="100"></column>
+ <column name="Присоединения" order="3" id="74" datatype="text" format="100"></column>
+ <column name="Линии электропередач с ЭС иностранных государств" order="4" id="75" datatype="text" format="100"></column>
+ <column name="Факт за сутки, МВт*ч" order="5" id="76" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="6" id="77" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="82" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="83" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="84" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="85" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="82" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="83" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="84" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="85" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="98" datatype="text" format="300"></column>
+</strdata>
+</document>

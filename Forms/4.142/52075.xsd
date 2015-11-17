@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:decimal"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata2" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:decimal"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strcontact" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

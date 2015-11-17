@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="7" subject="338517" subject_variant="65">
+<strdata code="10" name="1. Потребление электрической энергии, всего">
+ <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3">1000.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3">2000.000</column>
+</strdata>
+<strdata code="20" name="2. Сальдо перетоков">
+ <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3">700.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3">1150.000</column>
+ <strclass code="2000001" name="Белгородская область" id="14">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000002" name="Брянская область" id="15">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000003" name="Владимирская область" id="17">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000004" name="Воронежская область" id="20">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000005" name="Ивановская область" id="24">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000006" name="Калужская область" id="29">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000007" name="Костромская область" id="34">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000008" name="Курская область" id="38">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000009" name="Липецкая область" id="42">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000010" name="Москва" id="45">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000011" name="Московская область" id="46">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000012" name="Орловская область" id="54">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000013" name="Рязанская область" id="61">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000014" name="Смоленская область" id="66">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000015" name="Тамбовская область" id="68">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000016" name="Тверская область" id="28">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000017" name="Тульская область" id="70">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000018" name="Ярославская область" id="78">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000019" name="Республика Карелия" id="86">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000020" name="Республика Коми" id="87">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000021" name="Архангельская область" id="11">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000022" name="Ненецкий АО [Архангельская область]" id="11100">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000023" name="Вологодская область" id="19">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000024" name="Калининградская область" id="27">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000025" name="Ленинградская область" id="41">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000026" name="Санкт-Петербург" id="40">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000027" name="Мурманская область" id="47">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000028" name="Новгородская область" id="49">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000029" name="Псковская область" id="58">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000030" name="Республика Адыгея" id="79">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000031" name="Республика Дагестан" id="82">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000032" name="Республика Ингушетия" id="26">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000033" name="Кабардино-Балкарская Республика" id="83">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000034" name="Республика Калмыкия" id="85">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000035" name="Карачаево-Черкесская Республика" id="91">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000036" name="Республика Северная Осетия-Алания" id="90">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000037" name="Чеченская Республика" id="96">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000038" name="Краснодарский край" id="3">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000039" name="Ставропольский край" id="7">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000040" name="Астраханская область" id="12">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000041" name="Волгоградская область" id="18">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000042" name="Ростовская область" id="60">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000043" name="Республика Башкортостан" id="80">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000044" name="Республика Марий Эл" id="88">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000045" name="Республика Мордовия" id="89">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000046" name="Республика Татарстан" id="92">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000047" name="Удмуртская Республика" id="94">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000048" name="Чувашская Республика" id="97">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000049" name="Кировская область" id="33">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000050" name="Нижегородская область" id="22">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000051" name="Оренбургская область" id="53">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000052" name="Пензенская область" id="56">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000053" name="Пермский край" id="57">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3">500.000</column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3">750.000</column>
+ </strclass>
+ <strclass code="2000054" name="Самарская область" id="36">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000055" name="Саратовская область" id="63">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000056" name="Ульяновская область" id="73">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000057" name="Курганская область" id="37">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000058" name="Свердловская область" id="65">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000059" name="Тюменская область" id="71">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3">200.000</column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3">400.000</column>
+ </strclass>
+ <strclass code="2000060" name="Ханты-Мансийский АО - Югра [Тюменская область]" id="71100">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000061" name="Ямало-Ненецкий АО [Тюменская область]" id="71140">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000062" name="Челябинская область" id="75">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000063" name="Республика Алтай" id="84">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000064" name="Республика Бурятия" id="81">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000065" name="Республика Тыва" id="93">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000066" name="Республика Хакасия" id="95">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000067" name="Алтайский край" id="1">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000068" name="Красноярский край" id="4">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000069" name="Иркутская область" id="25">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000070" name="Кемеровская область" id="32">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000071" name="Новосибирская область" id="50">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000072" name="Омская область" id="52">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000073" name="Томская область" id="69">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000074" name="Забайкальский край" id="76">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000075" name="Республика Саха [Якутия]" id="98">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000076" name="Приморский край" id="5">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000077" name="Хабаровский край" id="8">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000078" name="Амурская область" id="10">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000079" name="Камчатский край" id="30">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000080" name="Корякский АО [Камчатский край]" id="30100">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000081" name="Магаданская область" id="44">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000082" name="Сахалинская область" id="64">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000083" name="Еврейская АО" id="99">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000084" name="Чукотский АО" id="77">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000085" name="Республика Крым" id="35">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000086" name="Севастополь" id="67">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="2000087" name="г. Байконур" id="736">
+  <column name="Факт за сутки, МВт*ч " order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="Факт нарастающим итогом с начала месяца, МВт*ч" order="2" id="6" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="11" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="11" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+</document>

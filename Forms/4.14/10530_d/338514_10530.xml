@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="7" subject="338514" subject_variant="">
+<strdata code="10" name="1. Выработка электрической энергии, всего (в том числе по генератору (блоку))">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">1000.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">5000.000</column>
+<strdetail code="1000001">
+ <entity>ggtttjjgt</entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">154.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">554.000</column>
+</strdetail>
+<strdetail code="1000002">
+ <entity>yyyyyy</entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">230.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">700.000</column>
+</strdetail>
+<strdetail code="1000003">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000004">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000005">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000006">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000007">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000008">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000009">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000010">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000011">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000012">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000013">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000014">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000015">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000016">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000017">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000018">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000019">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000020">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000021">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000022">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000023">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000024">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000025">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000026">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000027">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000028">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000029">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000030">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000031">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000032">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000033">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000034">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000035">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000036">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000037">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000038">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000039">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000040">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000041">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000042">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000043">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000044">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000045">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000046">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000047">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000048">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000049">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="1000050">
+ <entity></entity>
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3"></column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3"></column>
+</strdetail>
+</strdata>
+<strdata code="110" name="2. Потребление электрической энергии, всего">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">1000.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">2000.000</column>
+</strdata>
+<strdata code="120" name="2.1. Расход э/э на собственные нужды">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">100.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">200.000</column>
+</strdata>
+<strdata code="220" name="2.2. Потери электроэнергии в станционной электросети">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">50.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">100.000</column>
+</strdata>
+<strdata code="230" name="2.3. Расход электроэнергии на производственные и хозяйственные нужды">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">850.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">1700.000</column>
+</strdata>
+<strdata code="240" name="3. Сальдо перетоков электрической энергии">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">0.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">3000.000</column>
+</strdata>
+<strdata code="250" name="4. Отпуск тепловой энергии, тыс.Гкал">
+ <column name="Факт за сутки, МВт" order="1" id="11" datatype="number" format="30.3">100.000</column>
+ <column name="Факт нарастающим итогом с начала месяца, МВт" order="2" id="12" datatype="number" format="30.3">3000.000</column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="17" datatype="text" format="100">Иванов</column>
+ <column name="Должность" order="2" id="18" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон" order="3" id="19" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес" order="4" id="20" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="17" datatype="text" format="100">Петров</column>
+ <column name="Должность" order="2" id="18" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон" order="3" id="19" datatype="text" format="100">322-00-48</column>
+ <column name="Электронный адрес" order="4" id="20" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="33" datatype="text" format="300">Топливно-энергетическая компания</column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="33" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300">665555</column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300">666666</column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300">6644</column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="33" datatype="text" format="300"></column>
+</strdata>
+</document>

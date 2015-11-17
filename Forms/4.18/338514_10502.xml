@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2012" month="12" day="" subject="338514" subject_variant="">
+<strdata code="1001" name="1001">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048">Модернизация</column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30">1</column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30">7773</column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50">К6455О</column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048">Турбина газовая осевая</column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048">Торф</column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048">Топливо печное бытовое</column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3">11155.000</column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3">4458.000</column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2">75.00</column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30">2018</column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30">5</column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048">ДА</column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3">55555.000</column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000">прим1</column>
+</strdata>
+<strdata code="1002" name="1002">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048">Демонтаж при реконструкции эл.станции</column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30">2</column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30">333333</column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50">П552Ш</column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048">Турбины паровые с производственным отбором</column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048">Топливо печное бытовое</column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048">Низкопотенциальная тепловая энергия земли, воздуха и воды, с использованием специальных теплоносителей</column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3">44478.000</column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3">1147.000</column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2">55.00</column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30">2030</column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30">12</column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048">НЕТ</column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3">44789.000</column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000">прим2</column>
+</strdata>
+<strdata code="1003" name="1003">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1004" name="1004">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1005" name="1005">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1006" name="1006">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1007" name="1007">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1008" name="1008">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1009" name="1009">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1010" name="1010">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1011" name="1011">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1012" name="1012">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1013" name="1013">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1014" name="1014">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1015" name="1015">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1016" name="1016">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1017" name="1017">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1018" name="1018">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1019" name="1019">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strdata code="1020" name="1020">
+ <column name="вид работ" order="1" id="64" datatype="classifier" format="2048"></column>
+ <column name="Номер очереди электростанции" order="2" id="65" datatype="number" format="30"></column>
+ <column name="Станционный номер оборудования" order="3" id="66" datatype="number" format="30"></column>
+ <column name="Тип и марка оборудования" order="4" id="67" datatype="text" format="50"></column>
+ <column name="Подвид оборудования" order="5" id="68" datatype="classifier" format="2048"></column>
+ <column name="Вид основного топлива" order="6" id="69" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="7" id="70" datatype="classifier" format="2048"></column>
+ <column name="Установленная электрическая мощность выводимого агрегата, МВт" order="8" id="71" datatype="number" format="30.3"></column>
+ <column name="Установленная тепловая мощность выводимого агрегата, Гкал/ч" order="9" id="72" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="10" id="73" datatype="number" format="30.2"></column>
+ <column name="Ожидаемые год вывода из эксплуатации" order="11" id="74" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц вывода из эксплуатации" order="12" id="75" datatype="number" format="30"></column>
+ <column name="Участие в нормативном первичном и автоматическом вторичном регулировании частоты и перетоков мощности (да/нет)" order="13" id="76" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые затраты на окончательный демонтаж, тыс. руб." order="14" id="77" datatype="number" format="30.3"></column>
+ <column name="Примечание" order="15" id="78" datatype="text" format="1000"></column>
+</strdata>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="22" datatype="text" format="100">Иванов</column>
+ <column name="Должность руководителя организации" order="2" id="23" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон руководителя организации" order="3" id="24" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес руководителя организации" order="4" id="25" datatype="text" format="100">nn@mail.ru</column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="26" datatype="text" format="100">Петров</column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="27" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="28" datatype="text" format="100">322-00-49</column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="29" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="31" datatype="text" format="300">Топливно-энергетический комплекс</column>
+ <column name="Почтовый адрес" order="2" id="32" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+ <column name="Фактический адрес" order="3" id="33" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="34" datatype="text" format="300">6688888888</column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="35" datatype="text" format="300">665555555555</column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="36" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="37" datatype="text" format="300">6688888</column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="38" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="39" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="40" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="41" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="42" datatype="text" format="300"></column>
+</strfree>
+</document>

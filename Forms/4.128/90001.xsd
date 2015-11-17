@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:byte"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:int"/>
+									<xs:attribute name="col5" use="required" type="xs:string"/>
+									<xs:attribute name="col6" use="required" type="xs:string"/>
+									<xs:attribute name="col7" use="required" type="xs:string"/>
+									<xs:attribute name="col8" use="required" type="xs:string"/>
+									<xs:attribute name="col9" use="required" type="xs:string"/>
+									<xs:attribute name="col10" use="required" type="xs:string"/>
+									<xs:attribute name="col11" use="required" type="xs:string"/>
+									<xs:attribute name="col12" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata2" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata3" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+									<xs:attribute name="col5" use="required" type="xs:string"/>
+									<xs:attribute name="col6" use="required" type="xs:string"/>
+									<xs:attribute name="col7" use="required" type="xs:string"/>
+									<xs:attribute name="col8" use="required" type="xs:string"/>
+									<xs:attribute name="col9" use="required" type="xs:string"/>
+									<xs:attribute name="col10" use="required" type="xs:string"/>
+									<xs:attribute name="col11" use="required" type="xs:string"/>
+									<xs:attribute name="col12" use="required" type="xs:string"/>
+									<xs:attribute name="col13" use="required" type="xs:string"/>
+									<xs:attribute name="col14" use="required" type="xs:string"/>
+									<xs:attribute name="col15" use="required" type="xs:string"/>
+									<xs:attribute name="col16" use="required" type="xs:string"/>
+									<xs:attribute name="col17" use="required" type="xs:string"/>
+									<xs:attribute name="col18" use="required" type="xs:string"/>
+									<xs:attribute name="col19" use="required" type="xs:string"/>
+									<xs:attribute name="col20" use="required" type="xs:string"/>
+									<xs:attribute name="col21" use="required" type="xs:string"/>
+									<xs:attribute name="col22" use="required" type="xs:string"/>
+									<xs:attribute name="col23" use="required" type="xs:string"/>
+									<xs:attribute name="col24" use="required" type="xs:string"/>
+									<xs:attribute name="col25" use="required" type="xs:string"/>
+									<xs:attribute name="col26" use="required" type="xs:string"/>
+									<xs:attribute name="col27" use="required" type="xs:string"/>
+									<xs:attribute name="col28" use="required" type="xs:string"/>
+									<xs:attribute name="col29" use="required" type="xs:string"/>
+									<xs:attribute name="col30" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata4" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata5" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:int"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strcontact" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strsubject" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="id" use="required" type="xs:short"/>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

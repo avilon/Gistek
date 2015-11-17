@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="9" day="" subject="338707" subject_variant="">
+<strdata code="10" name="Среднесписочная численность работающих, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30">445</column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">448</column>
+</strdata>
+<strdata code="20" name="Число пострадавших при несчастных случаях на производстве, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30">3</column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">8</column>
+</strdata>
+<strdata code="21" name="Число пострадавших при несчастных случаях на производстве со смертельным исходом, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30">1</column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="22" name="Число пострадавших при несчастных случаях на производстве с тяжелым исходом, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30">1</column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="23" name="Число пострадавших при групповых несчастных случаях, всего, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">2</column>
+</strdata>
+<strdata code="24" name="Число пострадавших при групповых несчастных случаях со смертельным исходом, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30">1</column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="30" name="Количество несчастных случаев, всего, шт.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30"></column>
+</strdata>
+<strdata code="31" name="Количество групповых несчастных случаев, шт.">
+ <column name="За аналогичный период предыдущего года" order="1" id="12" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="13" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="40" name="Коэффициент частоты общего травматизма  ">
+ <column name="За аналогичный период предыдущего года" order="1" id="18" datatype="number" format="30.2">6.74</column>
+ <column name="С начала текущего года" order="2" id="19" datatype="number" format="30.2">17.86</column>
+</strdata>
+<strdata code="41" name="Коэффициент частоты смертельного травматизма       ">
+ <column name="За аналогичный период предыдущего года" order="1" id="18" datatype="number" format="30.2">2.25</column>
+ <column name="С начала текущего года" order="2" id="19" datatype="number" format="30.2">2.23</column>
+</strdata>
+<strdata code="50" name="Процент числа пострадавших в отчетном периоде относительно предыдущего года, %">
+ <column name="За аналогичный период предыдущего года" order="1" id="23" datatype="number" format="30.1"></column>
+ <column name="С начала текущего года" order="2" id="24" datatype="number" format="30.1">266.7</column>
+</strdata>
+<strdata code="51" name="Процент числа погибших в отчетном периоде относительно предыдущего года, %">
+ <column name="За аналогичный период предыдущего года" order="1" id="23" datatype="number" format="30.1"></column>
+ <column name="С начала текущего года" order="2" id="24" datatype="number" format="30.1">100.0</column>
+</strdata>
+<strdata code="60" name="Численность лиц с впервые установленным профессиональным заболеванием, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="31" datatype="number" format="30">2</column>
+ <column name="С начала текущего года" order="2" id="32" datatype="number" format="30"></column>
+</strdata>
+<strdata code="61" name="Численность лиц, состоящих на учете с профессиональным заболеванием, которым назначены выплаты в возмещение вреда, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="31" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="32" datatype="number" format="30"></column>
+</strdata>
+<strdata code="62" name="Численность пострадавших, которым установлен процент утраты трудоспособности по трудовым увечьям и профзаболеваниям, чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="31" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="32" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="63" name="Количество человеко-дней нетрудоспособности у пострадавших с утратой трудоспособности на 1 рабочий день и более, чел.-дней">
+ <column name="За аналогичный период предыдущего года" order="1" id="31" datatype="number" format="30">1</column>
+ <column name="С начала текущего года" order="2" id="32" datatype="number" format="30"></column>
+</strdata>
+<strdata code="64" name="Число пострадавших, которым назначены выплаты на возмещение вреда (в том числе в связи со смертью кормильца), чел.">
+ <column name="За аналогичный период предыдущего года" order="1" id="31" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="32" datatype="number" format="30">1</column>
+</strdata>
+<strdata code="65" name="Затраты на возмещение вреда, причиненного работникам вследствие несчастных случаев или профессиональных заболеваний, а также лицам, имеющим на это право в случае смерти пострадавшего, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3">23.000</column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="66" name="Суммарный ущерб, понесенный организацией в результате несчастных случаев, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="70" name="Израсходовано на мероприятия по охране труда, всего, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3">333.000</column>
+</strdata>
+<strdata code="71" name="Израсходовано на мероприятия по предупреждению несчастных случаев, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3">777.000</column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3">890.000</column>
+</strdata>
+<strdata code="72" name="Израсходовано на проведение санитарно-гигиенических мероприятий по предупреждению заболеваний на производстве, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="73" name="Израсходовано на мероприятия по общему улучшению условий труда, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3">56.000</column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="74" name="Израсходовано на обеспечение работников средствами индивидуальной защиты, тыс. руб.">
+ <column name="За аналогичный период предыдущего года" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="С начала текущего года" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="80" name="Количество рабочих мест, подлежащих аттестации, ед.">
+ <column name="За аналогичный период предыдущего года" order="1" id="50" datatype="number" format="30">10</column>
+ <column name="С начала текущего года" order="2" id="51" datatype="number" format="30"></column>
+</strdata>
+<strdata code="81" name="Количество рабочих мест, прошедших аттестацию, ед.">
+ <column name="За аналогичный период предыдущего года" order="1" id="50" datatype="number" format="30">445</column>
+ <column name="С начала текущего года" order="2" id="51" datatype="number" format="30">448</column>
+</strdata>
+<strdata code="82" name="Количество рабочих мест, не соответствующих нормативным требованиям по охране труда, ед.">
+ <column name="За аналогичный период предыдущего года" order="1" id="50" datatype="number" format="30">1</column>
+ <column name="С начала текущего года" order="2" id="51" datatype="number" format="30"></column>
+</strdata>
+<strdata code="83" name="Число работников на рабочих местах, не соответствующих нормативным требованиям по охране труда, ед.">
+ <column name="За аналогичный период предыдущего года" order="1" id="50" datatype="number" format="30"></column>
+ <column name="С начала текущего года" order="2" id="51" datatype="number" format="30"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="55" datatype="text" format="100">Иванов Семен Семенович</column>
+ <column name="Должность" order="2" id="56" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон" order="3" id="57" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес" order="4" id="58" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="55" datatype="text" format="100">Петров</column>
+ <column name="Должность" order="2" id="56" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон" order="3" id="57" datatype="text" format="100">322-00-48</column>
+ <column name="Электронный адрес" order="4" id="58" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="73" datatype="text" format="300">Топливно-энергетическая компания</column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="73" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300">66888</column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300">66875</column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300">66887</column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+<strdata code="133" name="ОКТМО">
+ <column name="Значение" order="1" id="73" datatype="text" format="300"></column>
+</strdata>
+</document>

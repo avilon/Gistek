@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="338512" subject_variant="">
+<strdata code="1" name="Отпуск тепловой энергии с коллекторов, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">5854.000</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3">6605.000</column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3">5598.000</column>
+</strdata>
+<strdata code="2" name="Отпуск тепловой энергии на собственные нужды, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">1154.000</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3">1854.000</column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3">1200.000</column>
+</strdata>
+<strdata code="3" name="Отпуск тепловой энергии в сеть, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">3500.000</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3">3451.000</column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3">3128.000</column>
+</strdata>
+<strdata code="4" name="Собственное потребление тепловой энергии на производство прочей продукции, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">1200.000</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3">1300.000</column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3">1270.000</column>
+</strdata>
+<strdata code="5" name="Отпуск тепловой энергии в сеть потребителям, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">100</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="51" name="Отпуск тепловой энергии в сеть потребителям по одноставочному тарифу всего, в том числе:, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">50</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ <strclass code="5100001" name="горячая вода" id="1">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">20</column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5100002" name="отборный пар давлением от1,2 до 2,5 кг\см2" id="2">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">30</column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5100003" name="отборный пар давлением от 2,5 до 7 кг\см2" id="3">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5100004" name="отборный пар давлением от7 до 13 кг\см2" id="4">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5100005" name="отборный пар давлением свыше 13 кг\см2" id="5">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5100006" name="острый и редуцированный пар" id="6">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="52" name="Отпуск тепловой энергии в сеть потребителям по двухставочному тарифу всего, в том числе:, тыс. Гкал">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">50</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ <strclass code="5200001" name="горячая вода" id="1">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">50</column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5200002" name="отборный пар давлением от1,2 до 2,5 кг\см2" id="2">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5200003" name="отборный пар давлением от 2,5 до 7 кг\см2" id="3">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5200004" name="отборный пар давлением от7 до 13 кг\см2" id="4">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5200005" name="отборный пар давлением свыше 13 кг\см2" id="5">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5200006" name="острый и редуцированный пар" id="6">
+  <column name="Базовый период" order="1" id="13" datatype="number" format="30.3"></column>
+  <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="6" name="Заявленная (расчетная) величина мощности (в мес.), Гкал/ч">
+ <column name="Базовый период" order="1" id="13" datatype="number" format="30.3">5000.000</column>
+ <column name="Период регулирования" order="2" id="14" datatype="number" format="30.3">6500.000</column>
+ <column name="Отчетный квартал" order="3" id="15" datatype="number" format="30.3">7000.000</column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="18" datatype="text" format="100">Иванов</column>
+ <column name="Должность" order="2" id="19" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон" order="3" id="20" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес" order="4" id="21" datatype="text" format="100">nn@mail.ru</column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="18" datatype="text" format="100">Петров</column>
+ <column name="Должность" order="2" id="19" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон" order="3" id="20" datatype="text" format="100">322-00-48</column>
+ <column name="Электронный адрес" order="4" id="21" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="34" datatype="text" format="300">Топливно-энергетическая компания</column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="34" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300">6655555</column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300">66666666</column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300">6644</column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="34" datatype="text" format="300"></column>
+</strdata>
+</document>

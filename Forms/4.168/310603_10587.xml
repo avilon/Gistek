@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2015" month="12" day="" subject="310603" subject_variant="">
+<strdata code="1" name="Поступление электроэнергии в сеть, всего, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">100.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">5.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">20.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">25.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">30.000</column>
+</strdata>
+<strdata code="2" name="из сетей смежного уровня напряжения, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">200.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">10.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">15.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">20.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">25.000</column>
+</strdata>
+<strdata code="3" name="   в том числе из сети ВН, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">300.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">35.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">40.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">45.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">50.000</column>
+</strdata>
+<strdata code="4" name="   в том числе из сети СН1, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">400.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">55.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">60.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">60.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">70.000</column>
+</strdata>
+<strdata code="5" name="   в том числе из сети СН2, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">500.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">75.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">80.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">85.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">90.000</column>
+</strdata>
+<strdata code="6" name="от генерирующих компаний, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">600.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">11.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">12.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">13.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">14.000</column>
+</strdata>
+<strdata code="7" name="от сетей ЕНЭС, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">700.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">1.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">16.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">17.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">18.000</column>
+</strdata>
+<strdata code="8" name="от смежных сетевых организаций, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">800.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">19.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">20.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">21.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">22.000</column>
+</strdata>
+<strdata code="9" name="от потребителей с блок станцией, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">900.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3">23.000</column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3">24.000</column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3">25.000</column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3">26.000</column>
+</strdata>
+<strdata code="10" name="Потери электроэнергии в сети, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1000.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="Относительные потери электроэнергии в сети, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1100.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="Расход электроэнергии на производственные и (или) хозяйственные нужды, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1200.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="Полезный отпуск из сети по применяемым тарифам">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1300.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="14" name="   нижестоящим сетевым организациям, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1400.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="   потребителям, юридическим лицам и ИП, не оказывающим услуги по передаче электроэнергии, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1500.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="   населению и приравненным к нему потребителям, МВт*ч">
+ <column name="Всего" order="1" id="21" datatype="number" format="30.3">1600.000</column>
+ <column name="ВН" order="2" id="22" datatype="number" format="30.3"></column>
+ <column name="СН 1" order="3" id="23" datatype="number" format="30.3"></column>
+ <column name="СН 2" order="4" id="24" datatype="number" format="30.3"></column>
+ <column name="НН" order="5" id="25" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="28" datatype="text" format="100">Павлова</column>
+ <column name="Должность" order="2" id="29" datatype="text" format="100">Руководитель</column>
+ <column name="Контактный телефон" order="3" id="30" datatype="text" format="100">3432</column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="100">test@test.ru</column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="28" datatype="text" format="100">Плехова</column>
+ <column name="Должность" order="2" id="29" datatype="text" format="100">Ответственный</column>
+ <column name="Контактный телефон" order="3" id="30" datatype="text" format="100">2420</column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="100">testetst@test.ru</column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">Наименование отчитывающейся организации10</column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">204500</column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">Кострома</column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">10</column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">20</column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">30</column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">40</column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">50</column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">60</column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">70</column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">80</column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">90</column>
+</strdata>
+<strdata code="133" name="ОКТМО">
+ <column name="Значение" order="1" id="45" datatype="text" format="300">100</column>
+</strdata>
+</document>

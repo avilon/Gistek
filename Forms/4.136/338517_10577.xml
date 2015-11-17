@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2015" month="4" day="" subject="338517" subject_variant="">
+<strdata code="100" name="Суммарный объем привлеченных кредитов и займов на начало отчетного периода, тыс. руб.">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">3000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">1000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">2000.000</column>
+</strdata>
+<strdata code="110" name="Средневзвешенный годовой процент по всем кредитам и займам на начало отчетного периода, %">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">15.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">19.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">12.000</column>
+</strdata>
+<strdata code="120" name="Привлечено кредитов и займов за отчетный период, тыс. руб.">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">114000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">54000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">60000.000</column>
+</strdata>
+<strdata code="130" name="Средневзвешенный годовой процент по вновь привлеченным кредитам и займам за отчетный период, %">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">16.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">20.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">13.000</column>
+</strdata>
+<strdata code="140" name="Погашение кредитов и займов в отчетном периоде, тыс. руб.">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">30000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">10000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">20000.000</column>
+</strdata>
+<strdata code="141" name="Погашение процентов по кредитам в отчетном периоде, тыс. руб.">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">15000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">5000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">10000.000</column>
+</strdata>
+<strdata code="150" name="Привлеченные кредиты и займы на конец отчетного периода, тыс. руб.">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">87000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">45000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">42000.000</column>
+</strdata>
+<strdata code="160" name="Средневзвешенный годовой процент по всем кредитам и займам на конец отчетного периода, %">
+ <column name="Всего" order="1" id="12" datatype="number" format="30.3">16.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="13" datatype="number" format="30.3">15.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="14" datatype="number" format="30.3">18.000</column>
+</strdata>
+<strdata code="200" name="Суммарный объем привлеченных кредитов и займов на начало отчетного периода, тыс. $ США">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">515000.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">15000.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">500000.000</column>
+</strdata>
+<strdata code="210" name="Средневзвешенный годовой процент по всем кредитам и займам на начало отчетного периода, %">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">7.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">10.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">6.000</column>
+</strdata>
+<strdata code="220" name="Привлечено кредитов и займов за отчетный период, тыс. $ США">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">60221.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">54777.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">5444.000</column>
+</strdata>
+<strdata code="230" name="Средневзвешенный годовой процент по вновь привлеченным кредитам и займам за отчетный период, %">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">8.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">12.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">6.000</column>
+</strdata>
+<strdata code="240" name="Погашение кредитов и займов в отчетном периоде, тыс. $ США">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">61110.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">55555.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">5555.000</column>
+</strdata>
+<strdata code="241" name="Погашение процентов по кредитам в отчетном периоде, тыс. $ США">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">4888.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">4444.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">444.000</column>
+</strdata>
+<strdata code="250" name="Привлеченные кредиты и займы на конец отчетного периода, тыс. $ США">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">514111.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">14222.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">499889.000</column>
+</strdata>
+<strdata code="260" name="Средневзвешенный годовой процент по всем кредитам и займам на конец отчетного периода, %">
+ <column name="Всего" order="1" id="25" datatype="number" format="30.3">8.000</column>
+ <column name="Краткосрочные кредиты и займы (до 12 месяцев)" order="2" id="26" datatype="number" format="30.3">7.000</column>
+ <column name="Долгосрочные кредиты и займы (свыше 12 месяцев)" order="3" id="27" datatype="number" format="30.3">9.000</column>
+</strdata>
+<strdata code="301" name="Руководитель организации">
+ <column name="ФИО" order="1" id="32" datatype="text" format="100">Иванов</column>
+ <column name="Должность" order="2" id="33" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон" order="3" id="34" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес" order="4" id="35" datatype="text" format="100">nn@mail.ru</column>
+</strdata>
+<strdata code="302" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="32" datatype="text" format="100">Петров</column>
+ <column name="Должность" order="2" id="33" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон" order="3" id="34" datatype="text" format="100">322-00-48</column>
+ <column name="Электронный адрес" order="4" id="35" datatype="text" format="100"></column>
+</strdata>
+<strdata code="321" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">Топливно-энергетическая компания</column>
+</strdata>
+<strdata code="322" name="Почтовый адрес">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+</strdata>
+<strdata code="323" name="Фактический адрес">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="324" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">668888</column>
+</strdata>
+<strdata code="325" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">667777</column>
+</strdata>
+<strdata code="326" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="327" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">66888</column>
+</strdata>
+<strdata code="328" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="329" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="330" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300">56</column>
+</strdata>
+<strdata code="331" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="332" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+<strdata code="333" name="ОКТМО">
+ <column name="Значение" order="1" id="49" datatype="text" format="300"></column>
+</strdata>
+</document>

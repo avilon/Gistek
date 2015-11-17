@@ -1,10 +1,8 @@
 <document version="1.0" created="create_xml_online">
   <flat>
-    <strdata name="Программа1" measure="" code="" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19=""/>
-    <strdata name="первый" measure="%" code="1" column1="11.00" column2="21.00" column3="31.00" column4="41.00" column5="51.00" column6="61.00" column7="71.00" column8="81.00" column9="91.00" column10="100.00" column11="101.00" column12="102.00" column13="103.00" column14="104.00" column15="105.00" column16="106.00" column17="107.00" column18="108.00" column19="108.00"/>
-    <strdata name="второй" measure="млн. кВт. ч" code="2" column1="12.00" column2="22.00" column3="32.00" column4="42.00" column5="52.00" column6="62.00" column7="72.00" column8="82.00" column9="92.00" column10="102.00" column11="111.00" column12="112.00" column13="113.00" column14="114.00" column15="115.00" column16="116.00" column17="117.00" column18="118.00" column19="118.00"/>
-    <strdata name="Программа2" measure="" code="" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19=""/>
-    <strdata name="третий" measure="%" code="3" column1="21.00" column2="22.00" column3="23.00" column4="24.00" column5="25.00" column6="26.00" column7="27.00" column8="28.00" column9="29.00" column10="30.00" column11="29.00" column12="28.00" column13="27.00" column14="26.00" column15="25.00" column16="24.00" column17="23.00" column18="22.00" column19="22.00"/>
+    <strdata name="Программа1" subname="" measure="" code=""/>
+    <strdata name="первый" subname="Подпрограмма001" measure="%" code="1" column1="11.00" column3="31.00" column5="51.00" column6="61.00" column7="71.00" column8="81.00" column9="91.00" column10="100.00" column11="101.00" column12="102.00" column13="103.00" column14="104.00" column15="105.00" column16="106.00" column17="107.00" column18="108.00"/>
+    <strdata name="второй" subname="Подпрограмма002" measure="млн. кВт. ч" code="2" column1="12.00" column3="32.00" column5="52.00" column6="62.00" column7="72.00" column8="82.00" column9="92.00" column10="102.00" column11="111.00" column13="113.00" column14="114.00" column15="115.00" column16="116.00" column17="117.00" column18="118.00" column19="120"/>
     <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
     <strServiceInf name="Почтовый адрес" code="122" col1=""/>
     <strServiceInf name="Фактический адрес" code="123" col1=""/>

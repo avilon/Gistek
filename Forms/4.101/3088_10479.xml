@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="3088" subject_variant="">
+<strdata code="1" name="1">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30">1</column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200">458</column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30">1400</column>
+</strdata>
+<strdata code="2" name="2">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30">2</column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200">580</column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30">1800</column>
+</strdata>
+<strdata code="3" name="3">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="4" name="4">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="5" name="5">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="6" name="6">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="7" name="7">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="8" name="8">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="9" name="9">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strdata code="10" name="10">
+ <column name="№ п/п" order="1" id="142" datatype="number" format="30"></column>
+ <column name="Неценовая зона" order="2" id="143" datatype="text" format="200"></column>
+ <column name="Объем продажи электроэнергии по двусторонним договорам, кВт*ч" order="3" id="144" datatype="number" format="30"></column>
+</strdata>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="265" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="266" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="267" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="268" datatype="text" format="100"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="269" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="270" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="271" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="272" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="387" datatype="text" format="300"></column>
+ <column name="Почтовый адрес" order="2" id="388" datatype="text" format="300"></column>
+ <column name="Фактический адрес" order="3" id="389" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="390" datatype="text" format="300"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="391" datatype="text" format="300"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="392" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="393" datatype="text" format="300"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="394" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="395" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="396" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="397" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="398" datatype="text" format="300"></column>
+</strfree>
+</document>

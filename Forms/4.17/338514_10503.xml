@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2012" month="12" day="" subject="338514" subject_variant="">
+<strfree code="1001">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30">1</column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048">Турбины паровые, газовые и гидравлические</column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048">Турбины паровые АЭС</column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048">Турбины паровые с производственными и теплофикационными отборами</column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50">К6666Щ</column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200">Екатеринбург</column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048">Топливо печное бытовое</column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048">Топливо печное бытовое</column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048">Новое строительство</column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30">2018</column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30">5</column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048">Проектная документация</column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048">ДА</column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3">50000.000</column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048">ДА</column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048">Неопределенность нагрузок потребителя</column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30">12</column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500">Simens</column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3">15000.000</column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3">18000.000</column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2">75.00</column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1">30.0</column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3">55555.000</column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3">15.000</column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3">44444.000</column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3">5889.000</column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3">5477.000</column>
+</strfree>
+<strfree code="1002">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30">2</column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048">Котлы</column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048">Котлы АЭС</column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048">Котлы паровые утилизаторы трехконтурные</column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50">В6665</column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200">Белоярский</column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048">Низкопотенциальная тепловая энергия земли, воздуха и воды, с использованием специальных теплоносителей</column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048">Топливо печное бытовое</column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048">Замена</column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30">2020</column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30">1</column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048">Замысел, инициализация проекта</column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048">НЕТ</column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3">20000.000</column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048">ДА</column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048">Экологические ограничения</column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30">60</column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500">Норд</column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3">2444.000</column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3">15000.000</column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2">80.00</column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1">50.0</column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3">44444.000</column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3">10.000</column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3">555.000</column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3">789.000</column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3">111456.000</column>
+</strfree>
+<strfree code="1003">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1004">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1005">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1006">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1007">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1008">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1009">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1010">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1011">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1012">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1013">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1014">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1015">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1016">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1017">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1018">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1019">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="1020">
+ <entity></entity>
+ <column name="Номер очереди электростанции" order="1" id="25" datatype="number" format="30"></column>
+ <column name="Оборудование" order="2" id="26" datatype="classifier" format="2048"></column>
+ <column name="Вид оборудования" order="3" id="27" datatype="classifier" format="2048"></column>
+ <column name="Подвид оборудования" order="4" id="28" datatype="classifier" format="2048"></column>
+ <column name="Тип и марка оборудования" order="5" id="29" datatype="text" format="50"></column>
+ <column name="Место расположения площадки" order="6" id="30" datatype="text" format="200"></column>
+ <column name="Вид основного топлива" order="7" id="31" datatype="classifier" format="2048"></column>
+ <column name="Вид резервного топлива" order="8" id="32" datatype="classifier" format="2048"></column>
+ <column name="Направление инвестиций" order="9" id="33" datatype="classifier" format="2048"></column>
+ <column name="Ожидаемые год ввода в эксплуатацию" order="10" id="34" datatype="number" format="30"></column>
+ <column name="Ожидаемые месяц ввода в эксплуатацию" order="11" id="35" datatype="number" format="30"></column>
+ <column name="Текущая стадия проработки предложения" order="12" id="36" datatype="classifier" format="2048"></column>
+ <column name="Присутствие инвестпроекта в перечне объектов поставки мощности (да, нет)" order="13" id="37" datatype="classifier" format="2048"></column>
+ <column name="Предполагаемая плата за технологическое присоединение, тыс. руб." order="14" id="38" datatype="number" format="30.3"></column>
+ <column name="Планируется подключение к ЕЭС России (да, нет)" order="15" id="39" datatype="classifier" format="2048"></column>
+ <column name="Риск" order="16" id="40" datatype="classifier" format="2048"></column>
+ <column name="Срок переноса проекта в случае риска, мес" order="17" id="41" datatype="number" format="30"></column>
+ <column name="Производитель оборудования" order="18" id="42" datatype="text" format="500"></column>
+ <column name="Мощность электрическая, МВт" order="19" id="43" datatype="number" format="30.3"></column>
+ <column name="Мощность тепловая, Гкал/ч" order="20" id="44" datatype="number" format="30.3"></column>
+ <column name="КПД (суммарный для когенерационных установок), %" order="21" id="45" datatype="number" format="30.2"></column>
+ <column name="Номинальный срок службы, лет" order="22" id="46" datatype="number" format="30.1"></column>
+ <column name="Стоимость оборудования, млн руб." order="23" id="47" datatype="number" format="30.3"></column>
+ <column name="Планируемая стоимость ежегодного обслуживания оборудования, млн руб." order="24" id="48" datatype="number" format="30.3"></column>
+ <column name="Удельные капиталовложения, тыс. руб./кВт" order="25" id="49" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ЭЭ, г у.т./кВт?ч" order="26" id="50" datatype="number" format="30.3"></column>
+ <column name="Удельный расход топлива на выработку ТЭ, кг у.т./Гкал" order="27" id="51" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="53" datatype="text" format="100">Иванов</column>
+ <column name="Должность руководителя организации" order="2" id="54" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон руководителя организации" order="3" id="55" datatype="text" format="100">322-00-45</column>
+ <column name="Электронный адрес руководителя организации" order="4" id="56" datatype="text" format="100">nn@mail.ru</column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="57" datatype="text" format="100">Петров</column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="58" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="59" datatype="text" format="100">322-00-43</column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="60" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="62" datatype="text" format="300">Топливно-энергетическая компания</column>
+ <column name="Почтовый адрес" order="2" id="63" datatype="text" format="300">г.Екатеринбург, ул.Ленина, 101</column>
+ <column name="Фактический адрес" order="3" id="64" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="65" datatype="text" format="300">66888888</column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="66" datatype="text" format="300">66999999</column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="67" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="68" datatype="text" format="300">66777777</column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="69" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="70" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="71" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="72" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="73" datatype="text" format="300"></column>
+</strfree>
+</document>

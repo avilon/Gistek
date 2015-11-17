@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="900000" subject_variant="">
+<strdata code="10" name="Текущие затраты на охрану окружающей среды, всего">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">25489.000</column>
+</strdata>
+<strdata code="14" name="амортизационные отчисления на восстановление      основных фондов по охране окружающей среды">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">5114.000</column>
+</strdata>
+<strdata code="20" name="по охране и рациональному использованию водных ресурсов  (из строки 10)">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6556.000</column>
+</strdata>
+<strdata code="21" name="в т.ч. выплачено другим предприятиям (организациям) за прием и очистку сточных вод">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">5552.000</column>
+</strdata>
+<strdata code="30" name="по охране атмосферного воздуха  (из строки 10)">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6665.000</column>
+</strdata>
+<strdata code="40" name="по охране окружающей среды (земельных ресурсов) от отходов производства и потребления (из строки 10)">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">5584.000</column>
+</strdata>
+<strdata code="41" name="в т.ч. выплачено другим предприятиям (организациям) за прием, хранение и уничтожение отходов">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">66841.000</column>
+</strdata>
+<strdata code="50" name="по рекультивации земель (из строки 10 )">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6684.000</column>
+</strdata>
+<strdata code="60" name="Затраты на капитальный ремонт основных производственных фондов по охране окружающей среды, всего">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">13897.000</column>
+</strdata>
+<strdata code="61" name="сооружений и установок для очистки сточных вод и рационального использования водных ресурсов">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">554.000</column>
+</strdata>
+<strdata code="62" name="сооружений, установок и оборудования для улавливания и обезвреживания вредных веществ, загрязняющих атмосферный воздух">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6745.000</column>
+</strdata>
+<strdata code="63" name="сооружений установок и оборудования для размещения и обезвреживания отходов">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6598.000</column>
+</strdata>
+<strdata code="70" name="Среднегодовая стоимость основных производственных фондов по охране окружающей природной среды.">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">88100.000</column>
+</strdata>
+<strdata code="71" name="по охране и рациональному использованию водных ресурсов">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">69412.000</column>
+</strdata>
+<strdata code="72" name="по охране атмосферного воздуха">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">6231.000</column>
+</strdata>
+<strdata code="74" name="по охране окружающей среды от отходов производства и потребления">
+ <column name="Фактически за год, тыс.руб" order="1" id="381" datatype="number" format="30.3">12457.000</column>
+</strdata>
+<strdata code="80" name="Плата за допустимые выбросы (сбросы), всего.">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">1718.000</column>
+</strdata>
+<strdata code="81" name="в водные объекты">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">458.000</column>
+</strdata>
+<strdata code="82" name="в атмосферный воздух">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">558.000</column>
+</strdata>
+<strdata code="83" name="за размещение отходов">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">487.000</column>
+</strdata>
+<strdata code="84" name="в подземные горизонты">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">215.000</column>
+</strdata>
+<strdata code="90" name="Плата за сверхнормативные выбросы (сбросы) загрязняющих веществ (размещение отходов), всего.">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">7437.000</column>
+</strdata>
+<strdata code="91" name="в водные объекты">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">258.000</column>
+</strdata>
+<strdata code="92" name="в атмосферный воздух">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">2454.000</column>
+</strdata>
+<strdata code="93" name="за размещение отходов">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">4238.000</column>
+</strdata>
+<strdata code="94" name="в подземные горизонты">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">487.000</column>
+</strdata>
+<strdata code="100" name="Плата за допустимые  и сверхнормативные выбросы (сбросы) загрязняющих веществ (размещение отходов).">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">9155.000</column>
+</strdata>
+<strdata code="110" name="Средства (иски) и штрафы, взысканные в возмещение ущерба, причиненного нарушением природоохранительного законодательства.">
+ <column name="Фактически за год, тыс.руб" order="1" id="382" datatype="number" format="30.3">287.000</column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="2049" datatype="text" format="50">Иванов</column>
+ <column name="Должность" order="2" id="2050" datatype="text" format="100">директор</column>
+ <column name="Контактный телефон" order="3" id="2051" datatype="text" format="50">322-00-45</column>
+ <column name="Электронный адрес" order="4" id="2052" datatype="text" format="50"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="2049" datatype="text" format="50">Петрова</column>
+ <column name="Должность" order="2" id="2050" datatype="text" format="100">бухгалтер</column>
+ <column name="Контактный телефон" order="3" id="2051" datatype="text" format="50">322-00-48</column>
+ <column name="Электронный адрес" order="4" id="2052" datatype="text" format="50"></column>
+</strdata>
+</document>
