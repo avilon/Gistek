@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Прибыль (убыток) до налогообложения за период  с начала отчетного года">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="Прибыль (убыток)  до налогообложения  за соответствующий период с начала предыдущего года">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="Дебиторская задолженность">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="Дебиторская задолженность покупателей и заказчиков за товары, работы и услуги">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="Дебиторская задолженность, обеспеченная векселями полученными">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="Дебиторская задолженность по государственным заказам и федеральным программам запоставленные товары, работы и услуги">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="Дебиторская задолженность за транспортные услуги">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="Дебиторская задолженность за поставку газа">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="Дебиторская задолженность за поставку электроэнергии">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="Дебиторская задолженность за поставку теплоэнергии">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="Краткосрочная дебиторская задолженность">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="Кредиторская задолженность">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="Кредиторская задолженность по платежам в бюджет">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="Кредиторская задолженность в федеральный бюджет">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="17" name="Кредиторская задолженность в бюджеты субъектов Федерации">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="18" name="Кредиторская задолженность по платежам в государственные внебюджетные фонды">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="19" name="Кредиторская задолженность поставщикам и подрядчикам за товары, работы и услуги">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="Кредиторская задолженность, обеспеченная векселями выданными">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="Кредиторская задолженность за транспортные услуги">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="Кредиторская задолженность за поставку газа">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="Кредиторская задолженность за поставку электроэнергии">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="24" name="Кредиторская задолженность за поставку теплоэнергии">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="25" name="Краткосрочная кредиторская задолженность">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="26" name="Кредиторская задолженность по полученным займам и  кредитам">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="27" name="Кредиторская задолженность по краткосрочным займам и кредитам">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="28" name="Списано кредиторской задолженности на прибыль">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="29" name="Списано дебиторской задолженности на убыток">
+ <column name="Факт на конец месяца" order="1" id="42" datatype="number" format="30.3"></column>
+ <column name="Факт на конец месяца, просроченная" order="2" id="43" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="46" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="47" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="48" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="49" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="46" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="47" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="48" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="49" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="62" datatype="text" format="500"></column>
+</strdata>
+</document>

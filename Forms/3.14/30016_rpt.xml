@@ -1,0 +1,36 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Средняя численность, чел." code="1" column1="" column2=""/>
+    <strdata name="-Персонал промышленных предприятий [по основному виду деятельности]" code="21" column1="11" column2="12"/>
+    <strdata name="-Персонал промышленных предприятий [непромышленный]" code="22" column1="21" column2="22"/>
+    <strdata name="-Персонал прочих хозяйств и организаций" code="23" column1="31" column2="32"/>
+    <strdata name="-Строительный персонал" code="24" column1="41" column2="42"/>
+    <strdata name="-Персонал проектно-изыскательских организаций" code="25" column1="51" column2="52"/>
+    <strdata name="Фонд начисленной заработной платы,  тыс. руб." code="2" column1="" column2=""/>
+    <strdata name="-Персонал промышленных предприятий [по основному виду деятельности]" code="31" column1="13" column2="14"/>
+    <strdata name="-Персонал промышленных предприятий [непромышленный]" code="32" column1="23" column2="24"/>
+    <strdata name="-Персонал прочих хозяйств и организаций" code="33" column1="33" column2="34"/>
+    <strdata name="-Строительный персонал" code="34" column1="43" column2="44"/>
+    <strdata name="-Персонал проектно-изыскательских организаций" code="35" column1="53" column2="54"/>
+    <strdata name="Выплаты социального характера, тыс. руб." code="3" column1="" column2=""/>
+    <strdata name="-Персонал промышленных предприятий [по основному виду деятельности]" code="41" column1="15" column2="16"/>
+    <strdata name="-Персонал промышленных предприятий [непромышленный]" code="42" column1="25" column2="26"/>
+    <strdata name="-Персонал прочих хозяйств и организаций" code="43" column1="35" column2="36"/>
+    <strdata name="-Строительный персонал" code="44" column1="45" column2="46"/>
+    <strdata name="-Персонал проектно-изыскательских организаций" code="45" column1="55" column2="56"/>
+  </flat>
+</document>

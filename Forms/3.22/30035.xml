@@ -1,0 +1,63 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata_010 name="Количество разрезов, включенных в отчет (структурных единиц)" code="1" column1=""/>
+    <strdata_010 name="Количество разрезов, включенных в отчет (технических единиц)" code="2" column1=""/>
+    <strdata_010 name="Номер лицензии на добычу угля" code="3" column1="F-19999"/>
+    <strdata_010 name="Дата выдачи лицензии на добычу угля" code="4" column1=""/>
+    <strdata_010 name="Дата начала действия лицензии на добычу угля" code="5" column1=""/>
+    <strdata_010 name="Дата окончания действия лицензии на добычу угля" code="6" column1=""/>
+    <strdata_010 name="2. Производственная мощность на конец отчетного года, тыс.тонн" code="7" column1=""/>
+    <strdata_010 name="Ввод мощности за отчетный период, тыс.тонн" code="8" column1=""/>
+    <strdata_010 name="Выбытие мощностей за отчетный период, тыс.тонн" code="9" column1=""/>
+    <strdata_010 name="Использование среднегодовой мощности, %" code="10" column1=""/>
+    <strdata_010 name="3. Год сдачи в эксплуатацию" code="11" column1=""/>
+    <strdata_010 name="Месяц сдачи в эксплуатацию" code="12" column1=""/>
+    <strdata_010 name="Год последней реконструкции" code="13" column1=""/>
+    <strdata_010 name="4. Месторождение" code="14" column1=""/>
+    <strdata_010 name="5. Максимальная глубина разработки на конец года, м" code="15" column1=""/>
+    <strdata_010 name="6. Приток воды нормальный, кубм/час" code="16" column1=""/>
+    <strdata_010 name="Приток воды максимальный сезонный, кубм/час" code="17" column1=""/>
+    <strdata_010 name="7. Число разрабатываемых пластов на конец года" code="18" column1=""/>
+    <strdata_010 name="8. Геологическая суммарная мощность пластов, м" code="19" column1=""/>
+    <strdata_010 name="Рабочая суммарная мощность пластов, м" code="20" column1=""/>
+    <strdata_010 name="9. Минимальный угол падения разрабатываемых пластов, град" code="21" column1=""/>
+    <strdata_010 name="Максимальный угол падения разрабатываемых пластов, град" code="22" column1=""/>
+    <strdata_010 name="10. Средний объемный вес угля, тонн/кубм" code="23" column1=""/>
+    <strdata_010 name="11. Мощность покрывающих (вмещающих) пород на конец года, м" code="24" column1=""/>
+    <strdata_010 name="12. Средний объемный вес вскрышных пород, тонн/кубм" code="25" column1=""/>
+    <strdata_011 name="13. Балансовые запасы угля (кат. А+В+С1) на конец отчетного года, тыс тонн" code="26" column1="66666"/>
+    <strdata_011 name="-1Б" code="1" column1="100"/>
+    <strdata_011 name="-2Б" code="2" column1="200"/>
+    <strdata_011 name="-3Б" code="3" column1="300"/>
+    <strdata_011 name="-Д" code="4" column1="400"/>
+    <strdata_011 name="-ДГ" code="5" column1=""/>
+    <strdata_011 name="-Г" code="6" column1=""/>
+    <strdata_011 name="-ГЖО" code="7" column1=""/>
+    <strdata_011 name="-ГЖ" code="8" column1=""/>
+    <strdata_011 name="-Ж" code="9" column1=""/>
+    <strdata_011 name="-КЖ" code="10" column1="333"/>
+    <strdata_011 name="-К" code="11" column1=""/>
+    <strdata_011 name="-КО" code="12" column1=""/>
+    <strdata_011 name="-КСН" code="13" column1=""/>
+    <strdata_011 name="-КС" code="14" column1=""/>
+    <strdata_011 name="-ОС" code="15" column1=""/>
+    <strdata_011 name="-ТС" code="16" column1=""/>
+    <strdata_011 name="-СС" code="17" column1=""/>
+    <strdata_011 name="-Т" code="18" column1=""/>
+    <strdata_011 name="-А" code="19" column1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Резервуары металлические стационарные для нефти и нефтепродуктов вместимостью от 3 куб. м и более">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="2" name="Резервуары металлические стационарные для сырой нефти">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="3" name="Резервуары металлические стационарные для бензинов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="4" name="Резервуары металлические стационарные для бензинов с понтонами">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="5" name="Резервуары металлические стационарные для прочих светлых нефтепродуктов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="6" name="Резервуары металлические стационарные для топочного мазута">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="7" name="Резервуары металлические стационарные для прочих темных нефтепродуктов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="8" name="Резервуары металлические стационарные для нефтемасел">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="9" name="Резервуары металлические стационарные для сжиженных углеводородных газов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="10" name="Резервуары железобетонные стационарные для нефти и нефтепродуктов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="11" name="Резервуары железобетонные для топочного мазута">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="12" name="Подземные хранилища для нефти и нефтепродуктов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="13" name="Подземные хранилища для сырой нефти">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="14" name="Подземные хранилища для бензинов">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="15" name="Подземные хранилища для дизельного топлива">
+ <column name="Количество резервуаров" order="1" id="24" datatype="number" format="30"></column>
+ <column name="Вместимость резервуаров, куб.м" order="2" id="25" datatype="number" format="30"></column>
+</strdata>
+<strdata code="211" name="Руководитель организации">
+ <column name="ФИО" order="1" id="28" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="29" datatype="text" format="100"></column>
+ <column name="Контактный телефон (с кодом города )" order="3" id="30" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="100"></column>
+</strdata>
+<strdata code="212" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="28" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="29" datatype="text" format="100"></column>
+ <column name="Контактный телефон (с кодом города )" order="3" id="30" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="100"></column>
+</strdata>
+<strdata code="321" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="322" name="Почтовый адрес">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="323" name="Код отчитывающейся организации по ОКПО">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="324" name="Код вида деятельности по ОКВЭД">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="325" name="Код территории по ОКАТО">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="326" name="Код министерства (ведомства), органа управления по ОКОГУ">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="327" name="Код организационно-правовой формы по ОКОПФ">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="328" name="Код формы собственности по ОКФС">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+<strdata code="329" name="Код формы по ОКУД">
+ <column name="Значение" order="1" id="41" datatype="text" format="500"></column>
+</strdata>
+</document>

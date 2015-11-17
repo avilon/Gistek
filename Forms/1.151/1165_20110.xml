@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="1">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2" name="2">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3" name="3">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4" name="4">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="5" name="5">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="6" name="6">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="7" name="7">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="8" name="8">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="9" name="9">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="10" name="10">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="11" name="11">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="12" name="12">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="13" name="13">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="14" name="14">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="15" name="15">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="16" name="16">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="17" name="17">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="18" name="18">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="19" name="19">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="20" name="20">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="21" name="21">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="22" name="22">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="23" name="23">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="24" name="24">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="25" name="25">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="26" name="26">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="27" name="27">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="28" name="28">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="29" name="29">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="30" name="30">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="31" name="31">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="32" name="32">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="33" name="33">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="34" name="34">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="35" name="35">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="36" name="36">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="37" name="37">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="38" name="38">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="39" name="39">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="40" name="40">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="41" name="41">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="42" name="42">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="43" name="43">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="44" name="44">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="45" name="45">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="46" name="46">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="47" name="47">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="48" name="48">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="49" name="49">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="50" name="50">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="51" name="51">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="52" name="52">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="53" name="53">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="54" name="54">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="55" name="55">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="56" name="56">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="57" name="57">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="58" name="58">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="59" name="59">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="60" name="60">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="61" name="61">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="62" name="62">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="63" name="63">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="64" name="64">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="65" name="65">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="66" name="66">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="67" name="67">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="68" name="68">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="69" name="69">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="70" name="70">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="71" name="71">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="72" name="72">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="73" name="73">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="74" name="74">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="75" name="75">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="76" name="76">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="77" name="77">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="78" name="78">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="79" name="79">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="80" name="80">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="81" name="81">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="82" name="82">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="83" name="83">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="84" name="84">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="85" name="85">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="86" name="86">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="87" name="87">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="88" name="88">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="89" name="89">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="90" name="90">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="91" name="91">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="92" name="92">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="93" name="93">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="94" name="94">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="95" name="95">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="96" name="96">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="97" name="97">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="98" name="98">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="99" name="99">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="100" name="100">
+ <column name="Субъект РФ" order="1" id="105" datatype="classifier" format="2048"></column>
+ <column name="Наименование сбытового предприятия" order="2" id="106" datatype="text" format="100"></column>
+ <column name="Вид продукции" order="3" id="107" datatype="classifier" format="2048"></column>
+ <column name="Средняя розничная цена (с учетом налогов), руб./литр" order="4" id="108" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="111">
+ <column name="ФИО руководителя организации" order="1" id="110" datatype="text" format="500"></column>
+ <column name="Должность руководителя организации" order="2" id="111" datatype="text" format="500"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="112" datatype="text" format="500"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="113" datatype="text" format="500"></column>
+ <column name="ФИО Ответственный ответственного за заполнение макета" order="5" id="114" datatype="text" format="500"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="115" datatype="text" format="500"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="116" datatype="text" format="500"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="117" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="121">
+ <column name="Наименование отчитывающейся организации" order="1" id="119" datatype="text" format="500"></column>
+ <column name="Почтовый адрес" order="2" id="120" datatype="text" format="500"></column>
+ <column name="Фактический адрес" order="3" id="121" datatype="text" format="500"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="122" datatype="text" format="500"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="123" datatype="text" format="500"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="124" datatype="text" format="500"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="125" datatype="text" format="500"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="126" datatype="text" format="500"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="127" datatype="text" format="500"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="128" datatype="text" format="500"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="129" datatype="text" format="500"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="130" datatype="text" format="500"></column>
+</strdata>
+</document>

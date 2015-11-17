@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+ <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="ОАО Алтай-Кокс [Алтайский КХЗ]" id="200001">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="ОАО Новолипецкий МК" id="200002">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="ОАО Кокс [Кемеровский КХЗ]" id="200003">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="ОАО Губахинский Кокс" id="200004">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="ОАО Западно-Сибирский МК" id="200005">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="ОАО Новокузнецкий МК" id="200006">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="ОАО Магнитогорский МК" id="200007">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="ОАО Московский КГЗ" id="200008">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="ОАО Нижнетагильский МК" id="200009">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="ОАО Мечел [Челябинский МК]" id="200010">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="ОАО Северсталь [Череповецкий МК]" id="200011">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="ООО Уральская Сталь [Орско-Халиловский МК]" id="200012">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="КХЗ\МК [без детализации]" id="200013">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="10" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="10" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+</document>

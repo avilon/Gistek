@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+ <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+</strdata>
+<strdata code="11" name="Поисково-оценочное бурение">
+ <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+ <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+</strdata>
+<strdata code="12" name="Разведочное бурение">
+ <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+ <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+</strdata>
+<strdata code="13" name="Эксплуатационное бурение">
+ <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+ <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+ <strclass code="1300001" name="Горизонтальное" id="1">
+  <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+  <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="1300002" name="Вертикальное" id="2">
+  <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+  <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="1300003" name="Наклонно-направленное" id="3">
+  <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+  <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+  <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+  <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+  <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="14" name="Прочее">
+ <column name="Количество скважин в стадии бурения за месяц, шт." order="1" id="17" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин за месяц, м" order="2" id="68" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин за месяц, м" order="3" id="69" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин за месяц, м" order="4" id="70" datatype="number" format="30"></column>
+ <column name="Количество скважин в стадии бурения с начала года, шт." order="5" id="71" datatype="number" format="30"></column>
+ <column name="Количество законченных строительством скважин с начала года, м" order="6" id="72" datatype="number" format="30"></column>
+ <column name="Суммарный фактический метраж законченных строительством скважин с начала года, м" order="7" id="73" datatype="number" format="30"></column>
+ <column name="Средняя глубина законченных строительством скважин с начала года, м" order="8" id="74" datatype="number" format="30"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="20" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="21" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="22" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="23" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="20" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="21" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="22" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="23" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+</document>

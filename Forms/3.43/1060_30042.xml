@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ <strclass code="100001" name="Д Р эн" id="112296">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100002" name="Д РОК1 эн" id="112300">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100003" name="Д РОК2 эн" id="112301">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100004" name="Д ПП н/р эн" id="112319">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100005" name="Д к-т эн" id="112297">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100006" name="Д П к-т эн" id="112372">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100007" name="Д ПК н/о эн" id="112299">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100008" name="Д ПК к-т эн" id="112609">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100009" name="Д ПКО н/о эн" id="112623">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100010" name="Д ПКО к-т эн" id="112670">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100011" name="Д ПКООК1 н/о эн" id="112291">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100012" name="Д ПКОМ н/о эн" id="112373">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100013" name="Д К н/о эн" id="112293">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100014" name="Д К к-т эн" id="112590">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100015" name="Д КО н/о эн" id="112321">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100016" name="Д КО к-т эн" id="112592">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100017" name="Д КООК1 н/о эн" id="112283">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100018" name="Д КОМ н\о эн" id="112322">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100019" name="Д КОМ к-т эн" id="112595">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100020" name="Д О н\о эн" id="112292">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100021" name="Д О к-т эн" id="112591">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100022" name="Д ОМ н\о эн" id="112323">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100023" name="Д ОМ к-т эн" id="112594">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100024" name="Д ОМСШ н\о эн" id="112324">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100025" name="Д ОМСШ к-т эн" id="112298">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100026" name="Д М н\о эн" id="112294">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100027" name="Д М к-т эн" id="112593">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100028" name="Д МС н\о эн" id="112303">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100029" name="Д МС к-т эн" id="112596">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100030" name="Д МСШ н\о эн" id="112325">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100031" name="Д МСШ к-т эн" id="112598">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100032" name="Д МСШОК1 н\о эн" id="112282">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100033" name="Д С н\о эн" id="112326">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100034" name="Д С к-т эн" id="112608">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100035" name="Д СШ н\о эн" id="112295">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100036" name="Д СШ к-т эн" id="112597">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100037" name="Д Шлам" id="112320">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100038" name="ДГ Р эн" id="114001">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100039" name="ДГ Р кокс" id="114041">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100040" name="ДГ РОК1 эн" id="114002">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100041" name="ДГ РОК2 эн" id="114003">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100042" name="ДГ ПП н\р эн" id="114039">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100043" name="ДГ к-т эн" id="114004">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100044" name="ДГ к-т кокс" id="114042">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100045" name="ДГ ПК н\о эн" id="114016">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100046" name="ДГ ПК к-т эн" id="114005">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100047" name="ДГ ПКО н\о эн" id="114019">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100048" name="ДГ ПКО к-т эн" id="114043">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100049" name="ДГ ПКОМ н\о эн" id="114026">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100050" name="ДГ К н\о эн" id="114017">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100051" name="ДГ К к-т эн" id="114006">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100052" name="ДГ КО н\о эн" id="114020">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100053" name="ДГ КО к-т эн" id="114008">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100054" name="ДГ КОМ н\о эн" id="114023">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100055" name="ДГ КОМ к-т эн" id="114011">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100056" name="ДГ О н\о эн" id="114018">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100057" name="ДГ О к-т эн" id="114007">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100058" name="ДГ ОМ н\о эн" id="114022">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100059" name="ДГ ОМ к-т эн" id="114010">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100060" name="ДГ ОМСШ н\о эн" id="114034">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100061" name="ДГ ОМСШ к-т эн" id="114044">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100062" name="ДГ М н\о эн" id="114021">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100063" name="ДГ М к-т эн" id="114009">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100064" name="ДГ М п\п эн" id="114049">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100065" name="ДГ МС н\о эн" id="114025">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100066" name="ДГ МС к-т эн" id="114013">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100067" name="ДГ МСШ н\о эн" id="114035">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100068" name="ДГ МСШ н\о кокс" id="114046">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100069" name="ДГ МСШ к-т эн" id="114014">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100070" name="ДГ МСШ к-т кокс" id="114048">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100071" name="ДГ С н\о эн" id="114024">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100072" name="ДГ С к-т эн" id="114012">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100073" name="ДГ СШ н\о эн" id="114036">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100074" name="ДГ СШ н\о кокс" id="114047">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100075" name="ДГ СШ к-т эн" id="114015">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100076" name="ДГ СШ к-т кокс" id="114045">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100077" name="ДГ СШ п\п эн" id="114050">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100078" name="ДГ Шлам" id="114040">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100079" name="Г Р эн" id="112264">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100080" name="Г Р кокс" id="112570">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100081" name="Г РОК1 эн" id="112316">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100082" name="Г РОК2 эн" id="112317">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100083" name="Г ПП н\р эн" id="112308">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100084" name="Г к-т эн" id="112307">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100085" name="Г к-т кокс" id="112306">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100086" name="Г ПК н\о эн" id="112279">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100087" name="Г ПКО н\о эн" id="112667">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100088" name="Г ПКО к-т эн" id="112669">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100089" name="Г ПКОМ н\о эн" id="112633">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100090" name="Г ПКОМ н\о кокс" id="112634">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100091" name="Г К н\о эн" id="112265">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100092" name="Г К к-т эн" id="112571">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100093" name="Г КО н\о эн" id="112313">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100094" name="Г КО к-т эн" id="112573">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100095" name="Г КО п\п эн" id="112309">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100096" name="Г КОМ н\о эн" id="112314">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100097" name="Г КОМ к-т эн" id="112576">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100098" name="Г О н\о эн" id="112266">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100099" name="Г О к-т эн" id="112572">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100100" name="Г ОМ н\о эн" id="112272">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100101" name="Г ОМ к-т эн" id="112575">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100102" name="Г ОМСШ н\о эн" id="112280">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100103" name="Г ОМСШ к-т эн" id="112588">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100104" name="Г М н\о эн" id="112267">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100105" name="Г М к-т эн" id="112574">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100106" name="Г М п\п эн" id="112310">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100107" name="Г МС н\о эн" id="112302">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100108" name="Г МС к-т эн" id="112577">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100109" name="Г МСШ н\о эн" id="112582">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100110" name="Г МСШ н\о кокс" id="112583">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100111" name="Г МСШ к-т эн" id="112315">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100112" name="Г МСШ к-т кокс" id="112580">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100113" name="Г С н\о эн" id="112318">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100114" name="Г С к-т эн" id="112587">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100115" name="Г СШ н\о эн" id="112268">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100116" name="Г СШ н\о кокс" id="112584">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100117" name="Г СШ к-т эн" id="112129">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100118" name="Г СШ к-т кокс" id="112581">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100119" name="Г СШ п\п эн" id="112311">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100120" name="Г Ш н\о эн" id="112269">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100121" name="Г Шлам" id="112312">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100122" name="Г Уголь гран., техн." id="112579">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100123" name="Г Уголь пыл., техн." id="112578">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100124" name="ГЖО Р эн" id="112201">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100125" name="ГЖО РОК1 эн" id="112222">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100126" name="ГЖО Р кокс" id="112206">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100127" name="ГЖО ПП н\р эн" id="112665">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100128" name="ГЖО к-т эн" id="112204">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100129" name="ГЖО к-т кокс" id="112207">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100130" name="ГЖО ПК н\о кокс" id="112200">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100131" name="ГЖО ПК н\о эн" id="112199">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100132" name="ГЖО К н\о эн" id="112202">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100133" name="ГЖО КО н\о эн" id="112660">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100134" name="ГЖО КО к-т эн" id="112178">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100135" name="ГЖО КОМ к-т эн" id="112672">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100136" name="ГЖО ОМС к-т кокс" id="112678">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100137" name="ГЖО ОМСШ н\о эн" id="112203">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100138" name="ГЖО ОМСШ н\о кокс" id="112180">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100139" name="ГЖО МСШ н\о эн" id="112663">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100140" name="ГЖО МСШ н\о кокс" id="112664">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100141" name="ГЖО МСШ к-т эн" id="112208">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100142" name="ГЖО МСШ к-т кокс" id="112209">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100143" name="ГЖО СШ н\о эн" id="112205">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100144" name="ГЖО СШ н\о кокс" id="112661">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100145" name="ГЖО СШ к-т эн" id="112210">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100146" name="ГЖО СШ к-т кокс" id="112211">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100147" name="ГЖО Ш н\о эн" id="112652">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100148" name="ГЖО Шлам" id="112666">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100149" name="ГЖ Р эн" id="112235">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100150" name="ГЖ Р кокс" id="112560">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100151" name="ГЖ ПП н\р эн" id="112499">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100152" name="ГЖ к-т эн" id="112399">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100153" name="ГЖ к-т кокс" id="112561">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100154" name="ГЖ КО н\о эн" id="112585">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100155" name="ГЖ КО к-т эн" id="112586">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100156" name="ГЖ КОМ н\о эн" id="112569">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100157" name="ГЖ КОМ к-т эн" id="112562">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100158" name="ГЖ МСШ к-т эн" id="112563">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100159" name="ГЖ МСШ к-т кокс" id="112564">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100160" name="ГЖ СШ н\о эн" id="112567">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100161" name="ГЖ СШ н\о кокс" id="112566">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100162" name="ГЖ СШ к-т эн" id="112131">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100163" name="ГЖ СШ к-т кокс" id="112565">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100164" name="ГЖ Шлам" id="112568">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100165" name="Ж Р эн" id="112216">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100166" name="Ж Р кокс" id="112520">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100167" name="Ж РОК2 эн" id="112221">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100168" name="Ж ПП н\р эн" id="112214">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100169" name="Ж к-т эн" id="112213">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100170" name="Ж к-т кокс" id="112212">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100171" name="Ж ПК к-т эн" id="112220">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100172" name="Ж К к-т эн" id="112528">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100173" name="Ж КОМ н\о эн" id="112526">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100174" name="Ж КОМ к-т кокс" id="112521">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100175" name="Ж ОМ к-т эн" id="112181">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100176" name="Ж ОМСШ н\о эн" id="112219">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100177" name="Ж ОМСШ н\о кокс" id="112527">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100178" name="Ж МСШ н\о эн" id="112525">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100179" name="Ж СШ н\о эн" id="112217">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100180" name="Ж СШ н\о кокс" id="112524">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100181" name="Ж СШ к-т эн" id="112522">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100182" name="Ж СШ к-т кокс" id="112523">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100183" name="Ж Ш н\о эн" id="112218">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100184" name="Ж Шлам" id="112215">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100185" name="КЖ Р эн" id="112289">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100186" name="КЖ Р кокс" id="112501">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100187" name="КЖ ПП н\р эн" id="112287">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100188" name="КЖ к-т эн" id="112285">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100189" name="КЖ к-т кокс" id="112286">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100190" name="КЖ КОМ н\о эн" id="112503">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100191" name="КЖ КОМ к-т эн" id="112899">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100192" name="КЖ ОМСШ н\о эн" id="112511">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100193" name="КЖ ОМСШ н\о кокс" id="112512">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100194" name="КЖ МСШ н\о эн" id="112509">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100195" name="КЖ МСШ н\о кокс" id="112510">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100196" name="КЖ МСШ к-т эн" id="112507">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100197" name="КЖ МСШ к-т кокс" id="112508">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100198" name="КЖ СШ н\о эн" id="112290">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100199" name="КЖ СШ н\о кокс" id="112506">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100200" name="КЖ СШ к-т эн" id="112504">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100201" name="КЖ СШ к-т кокс" id="112505">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100202" name="КЖ Шлам" id="112288">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100203" name="К Р эн" id="112253">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100204" name="К Р кокс" id="112530">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100205" name="К ПП н\р эн" id="112248">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100206" name="К к-т эн" id="112247">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100207" name="К к-т кокс" id="112246">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100208" name="К КО к-т эн" id="112539">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100209" name="К КОМ н\о эн" id="112254">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100210" name="К КОМ к-т кокс" id="112538">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100211" name="К ОМСШ н\о эн" id="112257">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100212" name="К ОМСШ к-т эн" id="112179">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100213" name="К МСШ н\о эн" id="112255">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100214" name="К МСШ н\о кокс" id="112534">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100215" name="К МСШ к-т эн" id="112535">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100216" name="К МСШ к-т кокс" id="112536">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100217" name="К СШ н\о эн" id="112256">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100218" name="К СШ н\о кокс" id="112252">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100219" name="К СШ к-т эн" id="112531">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100220" name="К СШ к-т кокс" id="112532">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100221" name="К Ш н\о эн" id="112537">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100222" name="К Шлам" id="112250">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100223" name="КО Р эн" id="112701">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100224" name="КО Р кокс" id="112702">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100225" name="КО ПП н\р эн" id="112729">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100226" name="КО к-т эн" id="112703">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100227" name="КО к-т кокс" id="112704">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100228" name="КО КО к-т эн" id="112705">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100229" name="КО КОМ н\о эн" id="112716">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100230" name="КО КОМ к-т эн" id="112706">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100231" name="КО ОМСШ н\о эн" id="112719">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100232" name="КО МСШ н\о эн" id="112720">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100233" name="КО МСШ н\о кокс" id="112721">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100234" name="КО МСШ к-т эн" id="112707">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100235" name="КО МСШ к-т кокс" id="112708">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100236" name="КО СШ н\о эн" id="112722">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100237" name="КО СШ н\о кокс" id="112723">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100238" name="КО СШ к-т эн" id="112714">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100239" name="КО СШ к-т кокс" id="112715">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100240" name="КО Ш н\о эн" id="112724">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100241" name="КО Шлам" id="112730">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100242" name="КСН Р эн" id="112275">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100243" name="КСН Р кокс" id="112650">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100244" name="КСН ПП н\р эн" id="112273">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100245" name="КСН к-т эн" id="112270">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100246" name="КСН к-т кокс" id="112271">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100247" name="КСН ПК к-т эн" id="112658">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100248" name="КСН ПК к-т кокс" id="112758">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100249" name="КСН ПКО н\о кокс" id="112377">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100250" name="КСН К н\о эн" id="112654">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100251" name="КСН КОМ н\о эн" id="112276">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100252" name="КСН КОМ к-т эн" id="112651">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100253" name="КСН ОМ н\о эн" id="112668">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100254" name="КСН ОМ н\о кокс" id="112376">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100255" name="КСН ОМ к-т эн" id="112553">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100256" name="КСН ОМ к-т кокс" id="112552">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100257" name="КСН ОМСШ н\о эн" id="112657">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100258" name="КСН МСШ н\о эн" id="112277">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100259" name="КСН МСШ н\о кокс" id="112375">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100260" name="КСН СШ н\о эн" id="112278">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100261" name="КСН СШ н\о кокс" id="112655">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100262" name="КСН СШ к-т эн" id="112659">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100263" name="КСН СШ к-т кокс" id="112653">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100264" name="КСН Ш н\о эн" id="112656">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100265" name="КСН Ш н\о кокс" id="112999">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100266" name="КСН Шлам" id="112274">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100267" name="КС Р эн" id="112801">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100268" name="КС РОК1 н\о эн" id="112813">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100269" name="КС Р кокс" id="112802">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100270" name="КС ПП н\р эн" id="112825">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100271" name="КС к-т эн" id="112803">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100272" name="КС к-т кокс" id="112804">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100273" name="КС КО н\о эн" id="112811">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100274" name="КС КО к-т зн" id="112805">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100275" name="КС КОМ н\о эн" id="112812">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100276" name="КС КОМ к-т эн" id="112806">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100277" name="КС ОМСШ н\о эн" id="112815">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100278" name="КС МСШ н\о эн" id="112816">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100279" name="КС МСШ н\о кокс" id="112817">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100280" name="КС МСШ к-т эн" id="112807">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100281" name="КС МСШ к-т кокс" id="112808">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100282" name="КС СШ н\о эн" id="112818">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100283" name="КС СШ н\о кокс" id="112819">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100284" name="КС СШ к-т эн" id="112809">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100285" name="КС СШ к-т кокс" id="112810">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100286" name="КС Ш н\о эн" id="112820">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100287" name="КС Шлам" id="112826">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100288" name="ОС Р эн" id="112241">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100289" name="ОС Р кокс" id="112540">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100290" name="ОС ПП н\р эн" id="112231">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100291" name="ОС к-т эн" id="112249">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100292" name="ОС к-т кокс" id="112230">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100293" name="ОС КО н\о эн" id="112599">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100294" name="ОС КО к-т эн" id="112548">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100295" name="ОС КОМ н\о эн" id="112551">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100296" name="ОС КОМ к-т эн" id="112541">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100297" name="ОС ОМСШ н\о эн" id="112550">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100298" name="ОС МСШ н\о эн" id="112544">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100299" name="ОС МСШ н\о кокс" id="112543">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100300" name="ОС МСШ к-т эн" id="112542">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100301" name="ОС МСШ к-т кокс" id="112699">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100302" name="ОС СШ н\о эн" id="112547">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100303" name="ОС СШ н\о кокс" id="112240">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100304" name="ОС СШ к-т эн" id="112545">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100305" name="ОС СШ к-т кокс" id="112546">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100306" name="ОС Ш н\о эн" id="112549">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100307" name="ОС Шлам" id="112232">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100308" name="ТС Р эн" id="115002">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100309" name="ТС Р кокс" id="115001">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100310" name="ТС РОК1 эн" id="115003">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100311" name="ТС РОК2 эн" id="115004">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100312" name="ТС ПП н\р эн" id="115029">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100313" name="ТС к-т эн" id="115006">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100314" name="ТС к-т кокс" id="115005">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100315" name="ТС ПК н\о эн" id="115013">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100316" name="ТС ПК к-т эн" id="115007">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100317" name="ТС ПКО к-т эн" id="115032">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100318" name="ТС К н\о эн" id="115014">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100319" name="ТС КО н\о эн" id="115016">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100320" name="ТС КО к-т эн" id="115033">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100321" name="ТС КОМ н\о эн" id="115019">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100322" name="ТС КОМ к-т эн" id="115009">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100323" name="ТС О к-т эн" id="115015">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100324" name="ТС ОМ н\о эн" id="115018">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100325" name="ТС ОМ к-т эн" id="115008">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100326" name="ТС ОМСШ н\о эн" id="115020">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100327" name="ТС М н\о эн" id="115017">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100328" name="ТС МСШ н\о эн" id="115021">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100329" name="ТС СШ н\о эн" id="115022">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100330" name="ТС СШ н\о кокс" id="115024">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100331" name="ТС СШ к-т эн" id="115011">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100332" name="ТС СШ к-т кокс" id="115010">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100333" name="ТС СШОК1 н\о эн" id="115023">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100334" name="ТС Ш н\о эн" id="115025">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100335" name="ТС Ш к-т эн" id="115012">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100336" name="ТС Шлам" id="115030">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100337" name="ТС Брикет" id="115031">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100338" name="СС Р эн" id="112350">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100339" name="СС Р кокс" id="112640">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100340" name="СС РОК1 эн" id="112360">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100341" name="СС РОК2 эн" id="112361">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100342" name="СС ПП н\р эн" id="112347">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100343" name="СС к-т эн" id="112346">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100344" name="СС к-т кокс" id="112641">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100345" name="СС ПК н\о эн" id="112365">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100346" name="СС ПК к-т эн" id="112711">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100347" name="СС ПКОК1 н\о эн" id="112369">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100348" name="СС ПКО н\о эн" id="112176">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100349" name="СС ПКО к-т эн" id="112174">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100350" name="СС ПКОМ н\о эн" id="112388">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100351" name="СС ПКОМ к-т эн" id="112378">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100352" name="СС К н\о эн" id="112351">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100353" name="СС К к-т эн" id="112371">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100354" name="СС КО н\о эн" id="112352">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100355" name="СС КО к-т эн" id="112646">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100356" name="СС КОМ н\о эн" id="112353">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100357" name="СС КОМ к-т эн" id="112642">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100358" name="СС КОК1 н\о эн" id="112362">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100359" name="СС КОМСШ н\о эн" id="112379">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100360" name="СС О н\о эн" id="112355">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100361" name="СС О к-т эн" id="112374">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100362" name="СС ООК1 н\о эн" id="112370">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100363" name="СС ОМ н\о эн" id="112356">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100364" name="СС ОМ к-т эн" id="112713">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100365" name="СС ОМОК1 н\о эн" id="112363">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100366" name="СС ОМСШ н\о эн" id="112357">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100367" name="СС ОМСШ к-т эн" id="112696">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100368" name="СС ОМСШОК1 н\о эн" id="112130">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100369" name="СС М н\о эн" id="112354">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100370" name="СС МОК1 н\о эн" id="112367">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100371" name="СС МСШ н\о эн" id="112366">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100372" name="СС МСШОК1 н\о эн" id="112396">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100373" name="СС МСШ н\о кокс" id="114102">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100374" name="СС МСШ к-т эн" id="112380">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100375" name="СС СШ н\о эн" id="112359">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100376" name="СС СШ н\о кокс" id="112645">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100377" name="СС СШ к-т эн" id="112643">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100378" name="СС СШ к-т кокс" id="112644">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100379" name="СС СШОК1 н\о эн" id="112175">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100380" name="СС Ш н\о эн" id="112358">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100381" name="СС Ш н\о кокс" id="112364">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100382" name="СС ШОК1 н\о эн" id="112368">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100383" name="СС Шлам" id="112349">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100384" name="СС Брикет" id="112348">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100385" name="Т Р эн" id="112331">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100386" name="Т Р кокс" id="112601">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100387" name="Т РОК1 эн" id="112340">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100388" name="Т РОК2 эн" id="112341">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100389" name="Т ПП н\р эн" id="112328">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100390" name="Т к-т эн" id="112327">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100391" name="Т к-т кокс" id="112602">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100392" name="Т ПК н\о эн" id="112342">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100393" name="Т ПК к-т эн" id="112710">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100394" name="Т ПКО н\о эн" id="112401">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100395" name="Т ПКО к-т эн" id="112629">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100396" name="Т ПКОМ н\о эн" id="112345">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100397" name="Т ПКОМ к-т эн" id="112385">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100398" name="Т К н\о эн" id="112332">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100399" name="Т К к-т эн" id="112628">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100400" name="Т КО н\о эн" id="112333">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100401" name="Т КО к-т эн" id="112402">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100402" name="Т КОМ н\о эн" id="112344">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100403" name="Т КОМ к-т эн" id="114101">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100404" name="Т О н\о эн" id="112334">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100405" name="Т О к-т эн" id="112630">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100406" name="Т ОМ н\о эн" id="112335">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100407" name="Т ОМ к-т эн" id="112712">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100408" name="Т ОМСШ н\о эн" id="112336">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100409" name="Т ОМСШ к-т эн" id="112697">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100410" name="Т М н\о эн" id="112337">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100411" name="Т М к-т эн" id="112631">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100412" name="Т МС к-т эн" id="112632">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100413" name="Т МСШ н\о эн" id="112338">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100414" name="Т МСШ к-т эн" id="112600">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100415" name="Т МСШ п\п эн" id="112698">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100416" name="Т СШ н\о эн" id="112339">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100417" name="Т СШ н\о кокс" id="112606">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100418" name="Т СШ к-т эн" id="112603">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100419" name="Т СШ к-т кокс" id="112604">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100420" name="Т СШОК1 н\о эн" id="112343">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100421" name="Т Ш н\о эн" id="112607">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100422" name="Т Ш к-т эн" id="112605">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100423" name="Т Шлам" id="112330">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100424" name="Т Брикет" id="112329">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100425" name="А Р эн" id="112171">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100426" name="А РОК1 эн" id="112172">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100427" name="А РОК2 эн" id="112173">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100428" name="А ПП н\р эн" id="112154">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100429" name="А к-т эн" id="112610">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100430" name="А П н\о эн" id="112122">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100431" name="А ПК н\о эн" id="112618">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100432" name="А ПК к-т эн" id="112625">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100433" name="А П к-т эн" id="112177">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100434" name="А ПКО н\о эн" id="112619">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100435" name="А ПКО к-т эн" id="112626">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100436" name="А К н\о эн" id="112611">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100437" name="А К к-т эн" id="112123">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100438" name="А К термо" id="112305">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100439" name="А КО н\о эн" id="112138">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100440" name="А КО к-т эн" id="112139">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100441" name="А КОМ н\о эн" id="112621">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100442" name="А КОМ к-т эн" id="112620">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100443" name="А КОМС н\о эн" id="112635">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100444" name="А КОМС к-т эн" id="112636">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100445" name="А О н\о эн" id="112612">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100446" name="А О к-т эн" id="112124">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100447" name="А О термо" id="112304">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100448" name="А ОМ н\о эн" id="112614">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100449" name="А ОМ к-т эн" id="112613">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100450" name="А ОМС к-т эн" id="112637">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100451" name="А ОМСШ н\о эн" id="112638">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100452" name="А М н\о эн" id="112125">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100453" name="А М к-т эн" id="112127">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100454" name="А МС н\о эн" id="112624">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100455" name="А МС к-т эн" id="112617">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100456" name="А МСШ н\о эн" id="112134">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100457" name="А МСШ к-т эн" id="112627">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100458" name="А С н\о эн" id="112616">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100459" name="А С к-т эн" id="112126">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100460" name="А СШ н\о эн" id="112152">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100461" name="А СШ к-т эн" id="112622">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100462" name="А З н\о эн" id="112615">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100463" name="А З к-т эн" id="112128">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100464" name="А Ш н\о эн" id="112153">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100465" name="А Ш к-т эн" id="112135">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100466" name="А Шлам" id="112136">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100467" name="А Брикет" id="112133">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100468" name="Б Р эн" id="113113">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100469" name="Б Р н\о техн" id="113129">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100470" name="Б к-т эн" id="113120">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100471" name="Б П н\о эн" id="113127">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100472" name="Б ПК н\о эн" id="113121">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100473" name="Б ПК к-т эн" id="113671">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100474" name="Б ПКО н\о эн" id="113128">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100475" name="Б К н\о эн" id="113112">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100476" name="Б К к-т эн" id="113123">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100477" name="Б КО н\о эн" id="113125">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100478" name="Б КО к-т эн" id="113635">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100479" name="Б КОМ н\о эн" id="113126">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100480" name="Б КОМ к-т эн" id="113634">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100481" name="Б КОМСШ к-т эн" id="113638">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100482" name="Б КОМСШ н\о эн" id="113639">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100483" name="Б О н\о эн" id="113114">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100484" name="Б О к-т эн" id="113633">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100485" name="Б ОМ н\о эн" id="113118">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100486" name="Б ОМ к-т эн" id="113636">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100487" name="Б ОМСШ н\о эн" id="113117">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100488" name="Б ОМСШ к-т эн" id="113637">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100489" name="Б М н\о эн" id="113115">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100490" name="Б МСШ н\о эн" id="113632">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100491" name="Б МСШ к-т эн" id="113116">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100492" name="Б СШ н\о эн" id="113119">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100493" name="Б СШ к-т эн" id="113630">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100494" name="Б Ш н\о эн" id="113631">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100495" name="Б Брикет" id="113122">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="100496" name="Б Брикетная крошка" id="113124">
+  <column name="Фактическая поставка угля за год, тонн" order="1" id="6" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="9" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="10" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="11" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="12" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="9" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="10" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="11" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="12" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="25" datatype="text" format="500"></column>
+</strdata>
+</document>

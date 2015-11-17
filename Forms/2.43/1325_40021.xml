@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strfree code="1">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="37">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="38">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="39">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="40">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="41">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="48">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="49">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="50">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="57" datatype="text" format="1000"></column>
+ <column name="Вид перерабатываемого/компримируемого сырья" order="2" id="58" datatype="classifier" format="2048"></column>
+ <column name="Вид установки/агрегата" order="3" id="59" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="60" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="61" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="62" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="63" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="101">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="102">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="103">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="104">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="105">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="106">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="107">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="108">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="109">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="110">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="112">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="113">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="114">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="115">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="116">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="117">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="118">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="119">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="120">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="122">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="123">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="124">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="125">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="126">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="127">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="128">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="129">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="130">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="131">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="132">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="133">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="134">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="135">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="136">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="137">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="138">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="139">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="140">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="141">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="142">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="143">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="144">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="145">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="146">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="147">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="148">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="149">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="150">
+ <entity></entity>
+ <column name="Наименование объекта" order="1" id="114" datatype="text" format="1000"></column>
+ <column name="Вид производимой продукции" order="2" id="115" datatype="text" format="500"></column>
+ <column name="Вид установки/агрегата" order="3" id="116" datatype="text" format="500"></column>
+ <column name="Наименование установки/агрегата" order="4" id="117" datatype="text" format="500"></column>
+ <column name="Год ввода в действие" order="5" id="118" datatype="number" format="30"></column>
+ <column name="Процент использования мощности в отчетном периоде, %" order="6" id="119" datatype="number" format="30.2"></column>
+ <column name="Установленная мощность по сырью на конец отчетного года, тыс. куб. м (т)" order="7" id="120" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="201">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="202">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="203">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="204">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="205">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="206">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="207">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="208">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="209">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="210">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="211">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="212">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="213">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="214">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="215">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="216">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="217">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="218">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="219">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="220">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="221">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="222">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="223">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="224">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="225">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="226">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="227">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="228">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="229">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="230">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="231">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="232">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="233">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="234">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="235">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="236">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="237">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="238">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="239">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="240">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="241">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="242">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="243">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="244">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="245">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="246">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="247">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="248">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="249">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="250">
+ <entity></entity>
+ <column name="Наименование компрессорной станции" order="1" id="171" datatype="text" format="1000"></column>
+ <column name="Субъект Российской Федерации" order="2" id="172" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="3" id="173" datatype="text" format="300"></column>
+ <column name="Градус с.ш." order="4" id="174" datatype="text" format="100"></column>
+ <column name="Минута с.ш." order="5" id="175" datatype="text" format="100"></column>
+ <column name="Секунда с.ш." order="6" id="176" datatype="text" format="100"></column>
+ <column name="Градус в.д." order="7" id="177" datatype="text" format="100"></column>
+ <column name="Минута в.д." order="8" id="178" datatype="text" format="100"></column>
+ <column name="Секунда в.д." order="9" id="179" datatype="text" format="100"></column>
+</strfree>
+<strfree code="1111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="181" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="182" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="183" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="184" datatype="text" format="100"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="185" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="186" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="187" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="188" datatype="text" format="100"></column>
+</strfree>
+<strfree code="1121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="190" datatype="text" format="300"></column>
+ <column name="Почтовый адрес" order="2" id="191" datatype="text" format="300"></column>
+ <column name="Фактический адрес" order="3" id="192" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="193" datatype="text" format="300"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="194" datatype="text" format="300"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="195" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="196" datatype="text" format="300"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="197" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="198" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="199" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="200" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="201" datatype="text" format="300"></column>
+</strfree>
+</document>

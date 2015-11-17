@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strServiceInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata_01" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:int"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+									<xs:attribute name="column2" use="required" type="xs:string"/>
+									<xs:attribute name="column3" use="required" type="xs:string"/>
+									<xs:attribute name="column4" use="required" type="xs:string"/>
+									<xs:attribute name="column5" use="required" type="xs:string"/>
+									<xs:attribute name="column6" use="required" type="xs:string"/>
+									<xs:attribute name="column7" use="required" type="xs:string"/>
+									<xs:attribute name="column8" use="required" type="xs:string"/>
+									<xs:attribute name="column9" use="required" type="xs:string"/>
+									<xs:attribute name="column10" use="required" type="xs:string"/>
+									<xs:attribute name="column11" use="required" type="xs:string"/>
+									<xs:attribute name="column12" use="required" type="xs:string"/>
+									<xs:attribute name="column13" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata_02" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:int"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+									<xs:attribute name="column2" use="required" type="xs:string"/>
+									<xs:attribute name="column3" use="required" type="xs:string"/>
+									<xs:attribute name="column4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

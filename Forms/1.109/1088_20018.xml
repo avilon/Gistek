@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Вид углеводородного сырья, продукта переработки">
+ <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+ <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+ <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+ <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="06.10.10.100 Нефть сырая" id="1061010100">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="06.10.10.110 Нефть сырая малосернистая" id="1061010110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="06.10.10.130 Нефть сырая сернистая" id="1061010130">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="06.10.10.150 Нефть сырая высокосернистая" id="1061010150">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="06.10.10.170 Нефть сырая особо высокосернистая" id="1061010170">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="06.10.10.200 Нефть товарная обезвоженная, обессоленная и стабилизированная" id="1061010200">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="06.10.10.220 Нефть обезвоженная, обессоленная и стабилизированная сернистая" id="1061010220">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="06.10.10.230 Нефть обезвоженная, обессоленная и стабилизированная высокосернистая" id="1061010230">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="06.10.10.240 Нефть обезвоженная, обессоленная и стабилизированная особо высокосернистая" id="1061010240">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="06.10.10.300 Нефть смесевая" id="1061010300">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="06.10.10.310 Нефть смесевая малосернистая" id="1061010310">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="06.10.10.320 Нефть смесевая сернистая" id="1061010320">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="06.10.10.330 Нефть смесевая высокосернистая" id="1061010330">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="06.10.10.340 Нефть смесевая особо высокосернистая" id="1061010340">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="06.10.10.400 Нефтепродукты, полученные из битуминозных пород" id="1061010400">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="06.10.10.410 Конденсат газовый нестабильный" id="1061010410">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="06.10.10.490 Нефтепродукты, полученные из битуминозных пород, прочие" id="1061010490">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="19.20.21 Топливо моторное, включая автомобильный и авиационный бензин" id="1192021000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="19.20.21.100 Бензин автомобильный" id="1192021100">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" id="1192021110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" id="1192021120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" id="1192021130">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" id="1192021140">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="19.20.21.200 Бензин авиационный" id="1192021200">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="19.20.21.300 Топливо дизельное" id="1192021300">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="19.20.21.310 Топливо дизельное летнее" id="1192021310">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="19.20.21.320 Топливо дизельное зимнее" id="1192021320">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="19.20.21.330 Топливо дизельное арктическое" id="1192021330">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="19.20.21.340 Топливо дизельное межсезонное" id="1192021340">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="19.20.21.400 Топливо судовое" id="1192021400">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="19.20.21.500 Топливо моторное этанольное" id="1192021500">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="19.20.21.510 Топливо моторное этанольное летнее" id="1192021510">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="19.20.21.520 Топливо моторное этанольное зимнее" id="1192021520">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="19.20.21.600 Бензин прямогонный" id="1192021600">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="19.20.22 Топливо реактивное бензинового типа" id="1192022000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="19.20.23 Топливо легкое нефтяное дистиллятное, дистилляты легкие, не включенные в другие группировки" id="1192023000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="19.20.24 Керосин" id="1192024000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="19.20.25 Топливо реактивное керосинового типа" id="1192025000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="19.20.26 Газойли" id="1192026000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="19.20.27 Топливо нефтяное дистиллятное прочее, дистилляты средние, не включенные в другие группировки" id="1192027000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="19.20.28 Топливо жидкое, не включенное в другие группировки" id="1192028000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="19.20.28.100 Мазут" id="1192028100">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="19.20.28.110 Мазут топочный" id="1192028110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="19.20.28.120 Мазут флотский" id="1192028120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="19.20.28.130 Топливо печное бытовое" id="1192028130">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="19.20.28.190 Топливо жидкое прочее, не включенное в другие группировки" id="1192028190">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="19.20.29 Масла нефтяные смазочные; дистилляты тяжелые, не включенные в другие группировки" id="1192029000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="19.20.29.110 Масла моторные" id="1192029110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="19.20.29.120 Масла гидравлические" id="1192029120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="19.20.29.130 Масла индустриальные" id="1192029130">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="19.20.29.140 Масла электроизоляционные" id="1192029140">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100052" name="19.20.29.150 Масла трансмиссионные для подвижной техники" id="1192029150">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100053" name="19.20.29.160 Масла компрессорные и турбинные" id="1192029160">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100054" name="19.20.29.170 Масла антикоррозионные" id="1192029170">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100055" name="19.20.29.180 Масла технологические" id="1192029180">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100056" name="19.20.29.190 Масла нефтяные смазочные прочие, не включенные в другие группировки" id="1192029190">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100057" name="19.20.29.210 Дистилляты тяжелые, не включенные в другие группировки" id="1192029210">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100058" name="19.20.3 Газы нефтяные и углеводороды газообразные прочие, кроме газа горючего природного" id="1192030000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100059" name="19.20.31 Пропан и бутан сжиженные" id="1192031000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100060" name="19.20.31.110 Пропан сжиженный" id="1192031110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100061" name="19.20.31.120 Бутан сжиженный" id="1192031120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100062" name="19.20.32 Этилен, пропилен, бутилен, бутадиен и прочие нефтяные газы или газообразные углеводороды, кроме природного газа" id="1192032000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100063" name="19.20.32.110 Газы нефтяные" id="1192032110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100064" name="19.20.32.111 Этилен" id="1192032111">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100065" name="19.20.32.112 Пропилен" id="1192032112">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100066" name="19.20.32.113 Бутилен" id="1192032113">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100067" name="19.20.32.114 Бутадиен" id="1192032114">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100068" name="19.20.32.115 Конденсат газовый стабильный" id="1192032115">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100069" name="19.20.32.119 Газы нефтяные прочие, не включенные в другие группировки" id="1192032119">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100070" name="19.20.32.190 Углеводороды газообразные, кроме природного газа" id="1192032190">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100071" name="19.20.4 Нефтепродукты прочие" id="1192040000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100072" name="19.20.41 Вазелин (петролатум); парафин; воск нефтяной прочий" id="1192041000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100073" name="19.20.41.110 Вазелин нефтяной (петролатум)" id="1192041110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100074" name="19.20.41.120 Парафины нефтяные" id="1192041120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100075" name="19.20.41.190 Воски нефтяные прочие" id="1192041190">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100076" name="19.20.42 Кокс нефтяной, битум нефтяной и прочие остатки нефтепереработки" id="1192042000">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100077" name="19.20.42.110 Кокс нефтяной" id="1192042110">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100078" name="19.20.42.120 Битумы нефтяные" id="1192042120">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100079" name="19.20.42.190 Остатки нефтепереработки прочие" id="1192042190">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100080" name="20.14.12.130 Бензолы" id="1201412130">
+  <column name="Расчетный объем потерь за месяц" order="1" id="4" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь за месяц" order="2" id="5" datatype="number" format="30.3"></column>
+  <column name="Расчетный объем потерь с начала года" order="3" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактический объем потерь с начала года" order="4" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="127" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="128" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="129" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="130" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="127" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="128" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="129" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="130" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="143" datatype="text" format="500"></column>
+</strdata>
+</document>

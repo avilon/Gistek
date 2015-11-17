@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Добыча нефти, тыс.тонн">
+ <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+ <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+ <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+ <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+ <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+ <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+ <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+ <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+ <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="Белгородская область" id="14">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="Брянская область" id="15">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="Владимирская область" id="17">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="Воронежская область" id="20">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="Ивановская область" id="24">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="Калужская область" id="29">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="Костромская область" id="34">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="Курская область" id="38">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="Липецкая область" id="42">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="Москва" id="45">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="Московская область" id="46">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="Орловская область" id="54">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="Рязанская область" id="61">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="Смоленская область" id="66">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="Тамбовская область" id="68">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="Тверская область" id="28">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="Тульская область" id="70">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="Ярославская область" id="78">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="Республика Карелия" id="86">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="Республика Коми" id="87">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="Архангельская область" id="11">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="Ненецкий АО [Архангельская область]" id="11100">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="Вологодская область" id="19">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="Калининградская область" id="27">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="Ленинградская область" id="41">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="Санкт-Петербург" id="40">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="Мурманская область" id="47">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="Новгородская область" id="49">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="Псковская область" id="58">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="Республика Адыгея" id="79">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="Республика Дагестан" id="82">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="Республика Ингушетия" id="26">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="Кабардино-Балкарская Республика" id="83">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="Республика Калмыкия" id="85">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="Карачаево-Черкесская Республика" id="91">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="Республика Северная Осетия-Алания" id="90">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="Чеченская Республика" id="96">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="Краснодарский край" id="3">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="Ставропольский край" id="7">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="Астраханская область" id="12">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="Волгоградская область" id="18">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="Ростовская область" id="60">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="Республика Башкортостан" id="80">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="Республика Марий Эл" id="88">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="Республика Мордовия" id="89">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="Республика Татарстан" id="92">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="Удмуртская Республика" id="94">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="Чувашская Республика" id="97">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="Кировская область" id="33">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="Нижегородская область" id="22">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="Оренбургская область" id="53">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100052" name="Пензенская область" id="56">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100053" name="Пермский край" id="57">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100054" name="Самарская область" id="36">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100055" name="Саратовская область" id="63">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100056" name="Ульяновская область" id="73">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100057" name="Курганская область" id="37">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100058" name="Свердловская область" id="65">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100059" name="Тюменская область" id="71">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100060" name="Ханты-Мансийский АО - Югра [Тюменская область]" id="71100">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100061" name="Ямало-Ненецкий АО [Тюменская область]" id="71140">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100062" name="Челябинская область" id="75">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100063" name="Республика Алтай" id="84">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100064" name="Республика Бурятия" id="81">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100065" name="Республика Тыва" id="93">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100066" name="Республика Хакасия" id="95">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100067" name="Алтайский край" id="1">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100068" name="Красноярский край" id="4">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100069" name="Иркутская область" id="25">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100070" name="Кемеровская область" id="32">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100071" name="Новосибирская область" id="50">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100072" name="Омская область" id="52">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100073" name="Томская область" id="69">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100074" name="Забайкальский край" id="76">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100075" name="Республика Саха [Якутия]" id="98">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100076" name="Приморский край" id="5">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100077" name="Хабаровский край" id="8">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100078" name="Амурская область" id="10">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100079" name="Камчатский край" id="30">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100080" name="Корякский АО [Камчатский край]" id="30100">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100081" name="Магаданская область" id="44">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100082" name="Сахалинская область" id="64">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100083" name="Еврейская АО" id="99">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100084" name="Чукотский АО" id="77">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100085" name="Республика Крым" id="35">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100086" name="Севастополь" id="67">
+  <column name="2015" order="1" id="5" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="6" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="7" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="8" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="9" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="10" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="11" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="12" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="13" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="2" name="Добыча газового конденсата, тыс.тонн">
+ <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+ <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+ <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+ <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+ <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+ <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+ <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+ <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+ <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ <strclass code="200001" name="Белгородская область" id="14">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200002" name="Брянская область" id="15">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200003" name="Владимирская область" id="17">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200004" name="Воронежская область" id="20">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200005" name="Ивановская область" id="24">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200006" name="Калужская область" id="29">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200007" name="Костромская область" id="34">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200008" name="Курская область" id="38">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200009" name="Липецкая область" id="42">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200010" name="Москва" id="45">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200011" name="Московская область" id="46">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200012" name="Орловская область" id="54">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200013" name="Рязанская область" id="61">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200014" name="Смоленская область" id="66">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200015" name="Тамбовская область" id="68">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200016" name="Тверская область" id="28">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200017" name="Тульская область" id="70">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200018" name="Ярославская область" id="78">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200019" name="Республика Карелия" id="86">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200020" name="Республика Коми" id="87">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200021" name="Архангельская область" id="11">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200022" name="Ненецкий АО [Архангельская область]" id="11100">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200023" name="Вологодская область" id="19">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200024" name="Калининградская область" id="27">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200025" name="Ленинградская область" id="41">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200026" name="Санкт-Петербург" id="40">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200027" name="Мурманская область" id="47">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200028" name="Новгородская область" id="49">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200029" name="Псковская область" id="58">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200030" name="Республика Адыгея" id="79">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200031" name="Республика Дагестан" id="82">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200032" name="Республика Ингушетия" id="26">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200033" name="Кабардино-Балкарская Республика" id="83">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200034" name="Республика Калмыкия" id="85">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200035" name="Карачаево-Черкесская Республика" id="91">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200036" name="Республика Северная Осетия-Алания" id="90">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200037" name="Чеченская Республика" id="96">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200038" name="Краснодарский край" id="3">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200039" name="Ставропольский край" id="7">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200040" name="Астраханская область" id="12">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200041" name="Волгоградская область" id="18">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200042" name="Ростовская область" id="60">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200043" name="Республика Башкортостан" id="80">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200044" name="Республика Марий Эл" id="88">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200045" name="Республика Мордовия" id="89">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200046" name="Республика Татарстан" id="92">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200047" name="Удмуртская Республика" id="94">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200048" name="Чувашская Республика" id="97">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200049" name="Кировская область" id="33">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200050" name="Нижегородская область" id="22">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200051" name="Оренбургская область" id="53">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200052" name="Пензенская область" id="56">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200053" name="Пермский край" id="57">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200054" name="Самарская область" id="36">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200055" name="Саратовская область" id="63">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200056" name="Ульяновская область" id="73">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200057" name="Курганская область" id="37">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200058" name="Свердловская область" id="65">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200059" name="Тюменская область" id="71">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200060" name="Ханты-Мансийский АО - Югра [Тюменская область]" id="71100">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200061" name="Ямало-Ненецкий АО [Тюменская область]" id="71140">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200062" name="Челябинская область" id="75">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200063" name="Республика Алтай" id="84">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200064" name="Республика Бурятия" id="81">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200065" name="Республика Тыва" id="93">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200066" name="Республика Хакасия" id="95">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200067" name="Алтайский край" id="1">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200068" name="Красноярский край" id="4">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200069" name="Иркутская область" id="25">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200070" name="Кемеровская область" id="32">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200071" name="Новосибирская область" id="50">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200072" name="Омская область" id="52">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200073" name="Томская область" id="69">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200074" name="Забайкальский край" id="76">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200075" name="Республика Саха [Якутия]" id="98">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200076" name="Приморский край" id="5">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200077" name="Хабаровский край" id="8">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200078" name="Амурская область" id="10">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200079" name="Камчатский край" id="30">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200080" name="Корякский АО [Камчатский край]" id="30100">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200081" name="Магаданская область" id="44">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200082" name="Сахалинская область" id="64">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200083" name="Еврейская АО" id="99">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200084" name="Чукотский АО" id="77">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200085" name="Республика Крым" id="35">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200086" name="Севастополь" id="67">
+  <column name="2015" order="1" id="15" datatype="number" format="30.3"></column>
+  <column name="2016" order="2" id="16" datatype="number" format="30.3"></column>
+  <column name="2017" order="3" id="17" datatype="number" format="30.3"></column>
+  <column name="2018" order="4" id="18" datatype="number" format="30.3"></column>
+  <column name="2019" order="5" id="19" datatype="number" format="30.3"></column>
+  <column name="2020" order="6" id="20" datatype="number" format="30.3"></column>
+  <column name="2025" order="7" id="21" datatype="number" format="30.3"></column>
+  <column name="2030" order="8" id="22" datatype="number" format="30.3"></column>
+  <column name="2035" order="9" id="23" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="28" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="29" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="30" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="28" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="29" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="30" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="31" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+</document>

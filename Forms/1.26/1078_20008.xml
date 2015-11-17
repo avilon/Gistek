@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Фонд газовых скважин, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="2" name="Действующий фонд газовых скважин, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="3" name="Фонд нагнетательных скважин, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="4" name="Действующий фонд нагнетательных скважин, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="5" name="Поглощающие скважины для сброса сточных вод, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="6" name="Водозаборные и дающие йодо-бромную и техническую воду скважины, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="7" name="Контрольные скважины, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="8" name="Ликвидированные нефтяные и газовые скважины после эксплуатации, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="9" name="Ликвидированные: нефтяные и газовые скважины после бурения, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="10" name="Скважины, ожидающие ликвидации, шт.">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="11" name="Скважины, находящиеся в консервации на балансе НГДУ, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="12" name="Нефтяные скважины, находящиеся в консервации на балансе НГДУ, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="13" name="Нефтяные скважины, находящиеся в консервации на балансе НГДУ на разведочных площадях, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="14" name="Нефтяные скважины, находящиеся в консервации на балансе НГДУ на разрабатываемых площадях, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="15" name="Газовые скважины, находящиеся в консервации на балансе НГДУ, шт">
+ <column name="Факт" order="1" id="23" datatype="number" format="30"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="26" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="27" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="28" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="29" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="26" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="27" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="28" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="29" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="42" datatype="text" format="500"></column>
+</strdata>
+</document>

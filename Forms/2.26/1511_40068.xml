@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strfree code="1">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="33" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="34" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="35" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="36" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="37" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="38" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="39" datatype="number" format="30.2"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="8" id="40" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="9" id="41" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="10" id="42" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="11" id="43" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="37">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="38">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="39">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="40">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="41">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="48">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="49">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="50">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="51">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="52">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="53">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="54">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="55">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="56">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="57">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="58">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="59">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="60">
+ <entity></entity>
+ <column name="Субъект РФ" order="1" id="75" datatype="classifier" format="2048"></column>
+ <column name="Месторождение" order="2" id="76" datatype="classifier" format="2048"></column>
+ <column name="Номер лицензии" order="3" id="77" datatype="text" format="100"></column>
+ <column name="Срок действия лицензии" order="4" id="78" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Залежь" order="5" id="79" datatype="text" format="500"></column>
+ <column name="Вид углеводородного сырья" order="6" id="80" datatype="classifier" format="2048"></column>
+ <column name="Степень выработанности участка, %" order="7" id="81" datatype="number" format="30.2"></column>
+ <column name="Категория льготы по ставке НДПИ: Величина запасов" order="8" id="82" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Глубина залегания" order="9" id="83" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Качество запасов" order="10" id="84" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Регион добычи (вкл. Новые месторождения)" order="11" id="85" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Степень выработанности" order="12" id="86" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Владение объектами ЕСГ" order="13" id="87" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Участки недр, принадлежащие к региональной системе газоснабжения" order="14" id="88" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Нормативные потери" order="15" id="89" datatype="classifier" format="2048"></column>
+ <column name="Категория льготы по ставке НДПИ: Добыча ПНГ" order="16" id="90" datatype="classifier" format="2048"></column>
+ <column name="Объем добычи за отчетный месяц, т (тыс. куб. м)" order="17" id="91" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала года, т (тыс. куб. м)" order="18" id="92" datatype="number" format="30.3"></column>
+ <column name="Объем добычи с начала разработки, т (тыс. куб. м)" order="19" id="93" datatype="number" format="30.3"></column>
+ <column name="Применяемая ставка НДПИ, руб./т (руб./тыс. куб. м)" order="20" id="94" datatype="number" format="30.3"></column>
+ <column name="НДПИ, тыс. руб." order="21" id="95" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="99" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="100" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="101" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="102" datatype="text" format="100"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="103" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="104" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="105" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="106" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="108" datatype="text" format="300"></column>
+ <column name="Почтовый адрес" order="2" id="109" datatype="text" format="300"></column>
+ <column name="Фактический адрес" order="3" id="110" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="111" datatype="text" format="300"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="112" datatype="text" format="300"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="113" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="114" datatype="text" format="300"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="115" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="116" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="117" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="118" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="119" datatype="text" format="300"></column>
+</strfree>
+</document>

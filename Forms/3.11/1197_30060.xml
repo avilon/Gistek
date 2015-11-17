@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="19" subject="999999" subject_variant="">
+<strdata code="1" name="Поставка - Всего">
+ <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+ <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="Березовская ГРЭС-1" id="357103">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="Смоленская ГРЭС" id="340802">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="Шатурская ГРЭС-5" id="310101">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="Яйвинская ГРЭС" id="338701">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="Рефтинская ГРЭС" id="338502">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="Верхнетагильская ГРЭС" id="338501">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="Каширская ГРЭС-4" id="310126">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="Гусиноозерская ГРЭС" id="356901">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="Харанорская ГРЭС" id="362309">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="Черепетская ГРЭС" id="310201">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="Южноуральская ГРЭС" id="338602">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="Омская ТЭЦ-4" id="357411">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="Омская ТЭЦ-5" id="357415">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="Томская ТЭЦ-1" id="687511">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="Томская ГРЭС-2" id="687510">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="ОАО &quot;ОмскРТС&quot;" id="757402">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="ОАО &quot;ТомскРТС&quot;" id="787502">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="Кумертауская ТЭЦ" id="339015">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="Ивановская ТЭЦ-3" id="310413">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="Ивановская ТЭЦ-2" id="310410">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="Кировская ТЭЦ-3" id="338926">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="Кировская ТЭЦ-4" id="338910">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="Кировская ТЭЦ-5" id="338912">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="Березниковская ТЭЦ-2" id="338727">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="Закамская ТЭЦ-5" id="338712">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="Чайковская ТЭЦ" id="338719">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="Тольяттинская ТЭЦ" id="316111">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="Красногорская ТЭЦ" id="338528">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="Нижнетуринская ГРЭС" id="338527">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="Ижевская ТЭЦ-2" id="338812">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="Воркутинская ТЭЦ-1" id="689410">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="Воркутинская ТЭЦ-2" id="689427">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="Интинская ТЭЦ" id="689429">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="Сыктывкарские ТС" id="689477">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="Серовская ГРЭС" id="338503">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="Троицкая ГРЭС" id="338601">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="Рязанская ГРЭС" id="313901">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="Новочеркасская ГРЭС" id="323201">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="Красноярская ГРЭС-2" id="357126">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="Череповецкая ГРЭС" id="341901">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="Апатитская ТЭЦ" id="349312">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="Дубровская ТЭЦ-8" id="345727">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="ТЭЦ-22 [Мосэнерго]" id="310110">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="ИРКУТСКЭНЕРГО" id="357000">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="Северодвинская ТЭЦ-1" id="349210">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="Ярославская ТЭЦ-2" id="340511">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="Новгородская ТЭЦ" id="341010">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="Тверская ТЭЦ-3" id="310715">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="Губкинская ТЭЦ" id="321426">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="Курская ТЭЦ-1" id="321110">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="Алексинская ТЭЦ" id="310227">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100052" name="Новомосковская ГРЭС" id="310226">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100053" name="Дорогобужская ТЭЦ" id="340826">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100054" name="ООО &quot;Щекинская ГРЭС&quot;" id="310202">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100055" name="Котельные ООО &quot;Курская ТСК&quot;" id="321133">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100056" name="Аргаяшская ТЭЦ" id="338627">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100057" name="Челябинская ТЭЦ-1" id="338626">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100058" name="Челябинская ТЭЦ-2" id="338610">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100059" name="Улан-Удэнская ТЭЦ-1" id="356926">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100060" name="Улан-Удэнская ТЭЦ-2" id="356984">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100061" name="Тимлюйская ТЭЦ" id="356910">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100062" name="Приаргунская ТЭЦ [ЮВЭ]" id="362327">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100063" name="Читинская ТЭЦ-1" id="362311">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100064" name="Читинская ТЭЦ-2" id="362310">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100065" name="Шерловогорская ТЭЦ" id="362328">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100066" name="Улан-Удэнский энергетический комплекс" id="4100">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100067" name="Читинский энергетический комплекс" id="362325">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100068" name="Беловская ГРЭС" id="357202">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100069" name="Томь-Усинская ГРЭС" id="357201">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100070" name="Кемеровская ГРЭС" id="357210">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100071" name="Кемеровская ТЭЦ" id="357212">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100072" name="ОАО Ново-Кемеровская ТЭЦ" id="357226">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100073" name="ОАО Кузнецкая ТЭЦ" id="357227">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100074" name="Барнаульская ТЭЦ-2" id="356810">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100075" name="ОАО Барнаульская ТЭЦ-3" id="356813">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100076" name="Красноярская ТЭЦ-3" id="357186">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100077" name="Красноярская ТЭЦ-2" id="357112">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100078" name="ОАО Красноярская ТЭЦ-1" id="357110">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100079" name="ОАО Назаровская ГРЭС" id="357101">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100080" name="ОАО Канская ТЭЦ" id="357111">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100081" name="Абаканская ТЭЦ" id="357135">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100082" name="Минусинская ТЭЦ" id="357113">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100083" name="Кызылская ТЭЦ" id="357143">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100084" name="Южно-Сибирская теплосетевая компания" id="357173">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100085" name="Нерюнгринская ГРЭС" id="362404">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100086" name="Чульманская ТЭЦ" id="362426">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100087" name="Приморская ГРЭС" id="361801">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100088" name="Амурская ТЭЦ-1" id="362212">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100089" name="Комсомольская ТЭЦ-2" id="362211">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100090" name="Майская ГРЭС" id="362227">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100091" name="Хабаровская ТЭЦ-1" id="362210">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100092" name="Хабаровская ТЭЦ-3" id="362217">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100093" name="Биробиджанская ТЭЦ" id="362213">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100094" name="Ургальская котельная" id="362203">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100095" name="Райчихинская ГРЭС" id="361726">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100096" name="Благовещенская ТЭЦ" id="361710">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100097" name="Артемовская ТЭЦ[Приморский край]" id="361826">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100098" name="Владивостокская ТЭЦ-2" id="361810">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100099" name="Партизанская ГРЭС" id="361827">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100100" name="Камчатсккоммунэнерго" id="361972">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100101" name="ОАО &quot;ЮЭСК&quot;,г. Петропавлоск-Камчатский" id="761952">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100102" name="Аркагалинская ГРЭС" id="362026">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100103" name="Магаданская ТЭЦ" id="362028">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100104" name="Сахалинская ГРЭС" id="362101">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100105" name="Южно-Сахалинская ТЭЦ-1" id="362110">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100106" name="Анадырская ТЭЦ" id="362011">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100107" name="Чаунская ТЭЦ" id="362029">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100108" name="Эгвекинотская ГРЭС" id="362001">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100109" name="САХАЭНЕРГО" id="362800">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100110" name="Теплоэнергосервис" id="362460">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100111" name="Курганская ТЭЦ" id="331011">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100112" name="ОАО СИБЭКО" id="757300">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100113" name="Бийская ТЭЦ-1" id="356811">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100114" name="Казанская ТЭЦ-2" id="686511">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100115" name="Богословская ТЭЦ" id="338529">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100116" name="Волгоградская ГРЭС" id="321627">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100117" name="Западно-Сибирская ТЭЦ" id="357211">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100118" name="Первомайская ТЭЦ" id="310210">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100119" name="Саровская ТЭЦ" id="310337">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100120" name="Южно-Кузбасская ГРЭС" id="357203">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100121" name="Приаргунское производственное горно-химическое объединение" id="900025">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100122" name="ОАО Туруханскэнерго" id="757125">
+  <column name="Факт за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Факт с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="10" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="10" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="300"></column>
+</strdata>
+</document>

@@ -1,0 +1,73 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="1. Остатки нефти на начало периода, всего" code="1" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.1. Остатки нефти на начало периода в нефтепроводах" code="11" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2. Остатки нефти на начало периода в резервуарах" code="12" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2.1 Остатки нефти на начало периода технологические" code="1210" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2.2 Временно вытесненная нефть на начало периода (собственная)" code="1220" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2.3 Товарные остатки нефти на начало периода" code="1230" column1="" column2="" column3="" column4=""/>
+    <strdata name="1 2.3.1 Товарные остатки нефти России  на начало периода" code="1231" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2.3.2 Товарные остатки нефти Казахстана  на начало периода" code="1232" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.2.3.3 Товарные остатки нефти Азербайджана  на начало периода" code="1233" column1="" column2="" column3="" column4=""/>
+    <strdata name="1.3. Нефть России в пути" code="13" column1="" column2="" column3="" column4=""/>
+    <strdata name="2. Прием нефти в систему" code="2" column1="" column2="" column3="" column4=""/>
+    <strdata name="2.1. Прием нефти России в систему" code="21" column1="" column2="" column3="" column4=""/>
+    <strdata name="2.2. Прием нефти стран СНГ в систему" code="22" column1="" column2="" column3="" column4=""/>
+    <strdata name="2.2.1 Прием нефти Казахстана в систему" code="221" column1="" column2="" column3="" column4=""/>
+    <strdata name="2.2.2 Прием нефти Азербайджана в систему" code="222" column1="" column2="" column3="" column4=""/>
+    <strdata name="4. Другие поступления нефти" code="4" column1="" column2="" column3="" column4=""/>
+    <strdata name="4.1 Слив нефти из железнодорожных цистерн" code="41" column1="" column2="" column3="" column4=""/>
+    <strdata name="4.1.1 Нефть, полученная в результате погрешности баланса принимаемой и сдаваемой массы нефти" code="411" column1="" column2="" column3="" column4=""/>
+    <strdata name="4.2 Возврат похищенной нефти" code="42" column1="" column2="" column3="" column4=""/>
+    <strdata name="5. Итого остатки и приход нефти" code="5" column1="" column2="" column3="" column4=""/>
+    <strdata name="6. Сдача нефти на НПЗ России" code="6" column1="" column2="" column3="" column4=""/>
+    <strdata name="6.1. Сдача нефти России на НПЗ России" code="61" column1="" column2="" column3="" column4=""/>
+    <strdata name="7. Сдача нефти на НПЗ стран СНГ" code="7" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.1 Сдача нефти России на НПЗ стран СНГ" code="71" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.1.1 Сдача нефти России на НПЗ Белоруссии" code="711" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.1.2 Сдача нефти России на НПЗ Украины" code="712" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.1.3 Сдача нефти России на НПЗ Казахстана" code="713" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.2. Сдача нефти стран СНГ на НПЗ стран СНГ" code="72" column1="" column2="" column3="" column4=""/>
+    <strdata name="7.2.1 Сдача нефти Казахстана на НПЗ стран СНГ" code="721" column1="" column2="" column3="" column4=""/>
+    <strdata name="8. Сдача нефти в Дальнее зарубежье" code="8" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.1 Сдача нефти России в Дальнее зарубежье" code="81" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.2 Сдача нефти стран СНГ в Дальнее зарубежье" code="82" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.2.1 Сдача нефти Казахстана в Дальнее зарубежье" code="821" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.2.2 Транзит нефти Казахстана в Дальнее зарубежье" code="822" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.2.3 Сдача нефти Азербайджана в Дальнее зарубежье" code="823" column1="" column2="" column3="" column4=""/>
+    <strdata name="8.2.4 Транзит нефти Азербайджана в Дальнее зарубежье" code="824" column1="" column2="" column3="" column4=""/>
+    <strdata name="10. Другие расходы нефти:" code="10" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.1. Расход нефти на прочие нужды" code="101" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.2 Потери нефти при транспортировке (естественная убыль)" code="102" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.3 Аварийные потери нефти" code="103" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.4 Налив нефти в железнодорожные цистерны" code="104" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.5 Перевалка нефти в систему КТК-Р" code="105" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.6 Потери нефти от хищений" code="106" column1="" column2="" column3="" column4=""/>
+    <strdata name="10.7 Расход нефти на топливо и технологические нужды" code="107" column1="" column2="" column3="" column4=""/>
+    <strdata name="11. Остатки на конец периода, всего" code="1111" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.1 Остатки на конец периода в нефтепроводах" code="1110" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2. Остатки нефти на конец периода в резервуарах" code="1120" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.1 Остатки нефти на конец периода технологические" code="1121" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.2 Временно вытесненная нефть на конец периода (собственная)" code="1122" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.3 Товарные остатки нефти на конец периода" code="1123" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.3.1 Товарные остатки нефти России  на конец периода" code="11231" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.3.2 Товарные остатки нефти Казахстана  на конец периода" code="11232" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.2.3.3 Товарные остатки нефти Азербайджана  на конец периода" code="11233" column1="" column2="" column3="" column4=""/>
+    <strdata name="11.3. Нефть России в пути" code="1130" column1="" column2="" column3="" column4=""/>
+    <strdata name="12. Итого расход и остатки нефти" code="120" column1="" column2="" column3="" column4=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="86" name="Республика Карелия">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="87" name="Республика Коми">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="11" name="Архангельская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="11100" name="Ненецкий автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="47" name="Мурманская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="57" name="Пермская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="57100" name="Коми-Пермяцкий автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="71" name="Тюменская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="71100" name="Ханты-Мансийский автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="71140" name="Ямало-Ненецкий автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="84" name="Республика Алтай">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="81" name="Республика Бурятия">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="93" name="Республика Тыва">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="4" name="Красноярский край">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="4100" name="Таймырский (Долгано-Ненецкий) автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="4130" name="Эвенкийский автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="25" name="Иркутская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="25100" name="Усть-Ордынский Бурятский автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="69" name="Томская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="76" name="Читинская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="98" name="Республика Саха (Якутия)">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="5" name="Приморский край">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="8" name="Хабаровский край">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="10" name="Амурская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="30" name="Камчатская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="30100" name="Корякский автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="44" name="Магаданская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="64" name="Сахалинская область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="99" name="Еврейская автономный область">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="77" name="Чукотский автономный округ">
+ <column name="Заключено договоров на поставку угля с начала года, тыс.тонн" order="1" id="39" datatype="number" format="30.1"></column>
+ <column name="Заключено договоров на поставку угля с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="2" id="40" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено угля с начала года, тыс.тонн" order="3" id="41" datatype="number" format="30.1"></column>
+ <column name="Фактически поставлено с начала года по районам с ограниченными сроками завоза грузов, тыс.тонн" order="4" id="42" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="47" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="48" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="49" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="50" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="47" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="48" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="49" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="50" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="63" datatype="text" format="500"></column>
+</strdata>
+</document>

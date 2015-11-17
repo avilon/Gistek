@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="3" name="Производство">
+ <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+ <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+ <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+ <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ <strclass code="300001" name="19.20.21.100 Бензин автомобильный" id="1192021100">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300002" name="19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" id="1192021110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300003" name="19.20.21.111 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу вне классов" id="1192021111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300004" name="19.20.21.112 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К2" id="1192021112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300005" name="19.20.21.113 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К3" id="1192021113">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300006" name="19.20.21.114 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К4" id="1192021114">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300007" name="19.20.21.115 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К5" id="1192021115">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300008" name="19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" id="1192021120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300009" name="19.20.21.121 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу вне классов" id="1192021121">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300010" name="19.20.21.122 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К2" id="1192021122">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300011" name="19.20.21.123 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К3" id="1192021123">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300012" name="19.20.21.124 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К4" id="1192021124">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300013" name="19.20.21.125 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К5" id="1192021125">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300014" name="19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" id="1192021130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300015" name="19.20.21.131 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу вне классов" id="1192021131">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300016" name="19.20.21.132 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К2" id="1192021132">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300017" name="19.20.21.133 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К3" id="1192021133">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300018" name="19.20.21.134 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К4" id="1192021134">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300019" name="19.20.21.135 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К5" id="1192021135">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300020" name="19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" id="1192021140">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300021" name="19.20.21.141 Бензин автомобильный с октановым числом более 98 по исследовательскому методу вне классов" id="1192021141">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300022" name="19.20.21.142 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К2" id="1192021142">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300023" name="19.20.21.143 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К3" id="1192021143">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300024" name="19.20.21.144 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К4" id="1192021144">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300025" name="19.20.21.145 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К5" id="1192021145">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300026" name="19.20.21.300 Топливо дизельное" id="1192021300">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300027" name="19.20.21.310 Топливо дизельное летнее" id="1192021310">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300028" name="19.20.21.311 Топливо дизельное летнее вне классов" id="1192021311">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300029" name="19.20.21.312 Топливо дизельное летнее экологического класса К2" id="1192021312">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300030" name="19.20.21.313 Топливо дизельное летнее экологического класса К3" id="1192021313">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300031" name="19.20.21.314 Топливо дизельное летнее экологического класса К4" id="1192021314">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300032" name="19.20.21.315 Топливо дизельное летнее экологического класса К5" id="1192021315">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300033" name="19.20.21.320 Топливо дизельное зимнее" id="1192021320">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300034" name="19.20.21.321 Топливо дизельное зимнее вне классов" id="1192021321">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300035" name="19.20.21.322 Топливо дизельное зимнее экологического класса К2" id="1192021322">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300036" name="19.20.21.323 Топливо дизельное зимнее экологического класса К3" id="1192021323">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300037" name="19.20.21.324 Топливо дизельное зимнее экологического класса К4" id="1192021324">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300038" name="19.20.21.325 Топливо дизельное зимнее экологического класса К5" id="1192021325">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300039" name="19.20.21.330 Топливо дизельное арктическое" id="1192021330">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300040" name="19.20.21.331 Топливо дизельное арктическое вне классов" id="1192021331">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300041" name="19.20.21.332 Топливо дизельное арктическое экологического класса К2" id="1192021332">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300042" name="19.20.21.333 Топливо дизельное арктическое экологического класса К3" id="1192021333">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300043" name="19.20.21.334 Топливо дизельное арктическое экологического класса К4" id="1192021334">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300044" name="19.20.21.335 Топливо дизельное арктическое экологического класса К5" id="1192021335">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300045" name="19.20.21.340 Топливо дизельное межсезонное" id="1192021340">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300046" name="19.20.21.341 Топливо дизельное межсезонное вне классов" id="1192021341">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300047" name="19.20.21.342 Топливо дизельное межсезонное экологического класса К2" id="1192021342">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300048" name="19.20.21.343 Топливо дизельное межсезонное экологического класса К3" id="1192021343">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300049" name="19.20.21.344 Топливо дизельное межсезонное экологического класса К4" id="1192021344">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300050" name="19.20.21.345 Топливо дизельное межсезонное экологического класса К5" id="1192021345">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300051" name="19.20.24 Керосин" id="1192024000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300052" name="19.20.25 Топливо реактивное керосинового типа" id="1192025000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300053" name="19.20.26 Газойли" id="1192026000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300054" name="19.20.27 Топливо нефтяное дистиллятное прочее, дистилляты средние, не включенные в другие группировки" id="1192027000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300055" name="19.20.28 Топливо жидкое, не включенное в другие группировки" id="1192028000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300056" name="19.20.28.100 Мазут" id="1192028100">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300057" name="19.20.28.110 Мазут топочный" id="1192028110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300058" name="19.20.28.120 Мазут флотский" id="1192028120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300059" name="19.20.28.130 Топливо печное бытовое" id="1192028130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300060" name="19.20.28.190 Топливо жидкое прочее, не включенное в другие группировки" id="1192028190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300061" name="19.20.29 Масла нефтяные смазочные; дистилляты тяжелые, не включенные в другие группировки" id="1192029000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300062" name="19.20.31 Пропан и бутан сжиженные" id="1192031000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300063" name="19.20.31.110 Пропан сжиженный" id="1192031110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300064" name="19.20.31.120 Бутан сжиженный" id="1192031120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300065" name="19.20.32 Этилен, пропилен, бутилен, бутадиен и прочие нефтяные газы или газообразные углеводороды, кроме природного газа" id="1192032000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300066" name="19.20.32.110 Газы нефтяные" id="1192032110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300067" name="19.20.32.111 Этилен" id="1192032111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300068" name="19.20.32.112 Пропилен" id="1192032112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300069" name="19.20.32.113 Бутилен" id="1192032113">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300070" name="19.20.32.114 Бутадиен" id="1192032114">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300071" name="19.20.32.115 Конденсат газовый стабильный" id="1192032115">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300072" name="19.20.32.119 Газы нефтяные прочие, не включенные в другие группировки" id="1192032119">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300073" name="19.20.32.190 Углеводороды газообразные, кроме природного газа" id="1192032190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300074" name="19.20.41 Вазелин (петролатум); парафин; воск нефтяной прочий" id="1192041000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300075" name="19.20.41.110 Вазелин нефтяной (петролатум)" id="1192041110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300076" name="19.20.41.120 Парафины нефтяные" id="1192041120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300077" name="19.20.41.190 Воски нефтяные прочие" id="1192041190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300078" name="19.20.42 Кокс нефтяной, битум нефтяной и прочие остатки нефтепереработки" id="1192042000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300079" name="19.20.42.110 Кокс нефтяной" id="1192042110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300080" name="19.20.42.111 Кокс нефтяной некальцинированный" id="1192042111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300081" name="19.20.42.112 Кокс нефтяной кальцинированный" id="1192042112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300082" name="19.20.42.120 Битумы нефтяные" id="1192042120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300083" name="19.20.42.121 Битумы нефтяные дорожные" id="1192042121">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300084" name="19.20.42.122 Битумы нефтяные изоляционные" id="1192042122">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300085" name="19.20.42.123 Битумы нефтяные кровельные" id="1192042123">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300086" name="19.20.42.124 Битумы нефтяные строительные" id="1192042124">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300087" name="19.20.42.125 Битумы нефтяные хрупкие" id="1192042125">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300088" name="19.20.42.190 Остатки нефтепереработки прочие" id="1192042190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300089" name="20.16.1 Полимеры этилена в первичных формах" id="1201610000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300090" name="20.16.10.110 Полиэтилен" id="1201610110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300091" name="20.16.10.111 Полиэтилен высокого давления" id="1201610111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300092" name="20.16.10.112 Полиэтилен среднего давления" id="1201610112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300093" name="20.16.10.113 Полиэтилен низкого давления" id="1201610113">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300094" name="20.16.10.114 Полиэтилен линейный низкой плотности" id="1201610114">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300095" name="20.16.10.119 Полиэтилен прочий" id="1201610119">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300096" name="20.16.10.120 Сополимеры этилена с винилацетатом в первичных формах" id="1201610120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300097" name="20.16.10.190 Полимеры этилена в первичных формах прочие" id="1201610190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300098" name="20.16.2 Полимеры стирола в первичных формах" id="1201620000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300099" name="20.16.20.110 Полистирол в первичных формах" id="1201620110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300100" name="20.16.20.111 Полистирол блочный" id="1201620111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300101" name="20.16.20.112 Полистирол эмульсионный" id="1201620112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300102" name="20.16.20.113 Полистирол суспензионный" id="1201620113">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300103" name="20.16.20.114 Полистирол изотактический [кристаллический]" id="1201620114">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300104" name="20.16.20.115 Полистирол модифицированный [ударопрочный]" id="1201620115">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300105" name="20.16.20.116 Полистирол вспенивающийся" id="1201620116">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300106" name="20.16.20.120 Сополимеры стирола в первичных формах" id="1201620120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300107" name="20.16.20.121 Сополимеры стирола с акрилонитрилом [САН] в первичных формах" id="1201620121">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300108" name="20.16.20.122 Сополимеры акрилонитрилбутадиенстирольные [АБС-пластик] в первичных формах" id="1201620122">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300109" name="20.16.20.129 Сополимеры стирола в первичных формах прочие" id="1201620129">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300110" name="20.16.20.190 Полимеры стирола в первичных формах прочие" id="1201620190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300111" name="20.16.3 Полимеры винилхлорида или прочих галогенированных олефинов в первичных формах" id="1201630000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300112" name="20.16.30.110 Полимеры винилхлорида в первичных формах" id="1201630110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300113" name="20.16.30.111 Поливинилхлорид эмульсионный" id="1201630111">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300114" name="20.16.30.112 Поливинилхлорид суспензионный" id="1201630112">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300115" name="20.16.30.113 Сополимеры винилхлорида в первичных формах" id="1201630113">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300116" name="20.16.30.119 Полимеры винилхлорида в первичных формах прочие" id="1201630119">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300117" name="20.16.30.190 Полимеры прочих галогенированных олефинов в первичных формах" id="1201630190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300118" name="20.16.4 Полиацетали, прочие полимеры простых эфиров и эпоксидные смолы в первичных формах; поликарбонаты, алкидные смолы, полимеры сложных эфиров аллилового спирта и прочие полимеры сложных эфиров в первичных формах" id="1201640000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300119" name="20.16.40.110 Полиацетали в первичных формах" id="1201640110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300120" name="20.16.40.120 Полиэфиры в первичных формах" id="1201640120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300121" name="20.16.40.130 Смолы эпоксидные в первичных формах" id="1201640130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300122" name="20.16.40.140 Поликарбонаты в первичных формах" id="1201640140">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300123" name="20.16.40.150 Смолы алкидные в первичных формах" id="1201640150">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300124" name="20.16.40.160 Полимеры сложных эфиров аллилового спирта в первичных формах" id="1201640160">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300125" name="20.16.40.170 Полиэтилентерефталат в первичных формах" id="1201640170">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300126" name="20.16.40.190 Полиэфиры прочие в первичных формах" id="1201640190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300127" name="20.16.51 Полимеры пропилена и прочих олефинов в первичных формах" id="1201651000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300128" name="20.16.51.110 Полимеры пропилена в первичных формах" id="1201651110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300129" name="20.16.51.190 Полимеры прочих олефинов в первичных формах" id="1201651190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300130" name="20.16.52 Полимеры винилацетата или прочих сложных виниловых эфиров и прочие виниловые полимеры в первичных формах" id="1201652000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300131" name="20.16.52.110 Полимеры винилацетата в первичных формах" id="1201652110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300132" name="20.16.52.120 Полимеры прочих сложных виниловых эфиров в первичных формах" id="1201652120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300133" name="20.16.52.190 Полимеры виниловые прочие в первичных формах" id="1201652190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300134" name="20.16.53 Полиакрилаты в первичных формах" id="1201653000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300135" name="20.16.54 Полиамиды в первичных формах" id="1201654000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300136" name="20.16.55 Смолы карбамидоформальдегидные, тиокарбамидоформальдегидные и меламиноформальдегидные смолы в первичных формах" id="1201655000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300137" name="20.16.55.110 Смолы аминоформальдегидные в первичных формах" id="1201655110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300138" name="20.16.55.120 Смолы карбамидоформальдегидные в первичных формах" id="1201655120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300139" name="20.16.55.130 Смолы тиокарбамидоформальдегидные в первичных формах" id="1201655130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300140" name="20.16.55.140 Смолы меламиноформальдегидные в первичных формах" id="1201655140">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300141" name="20.16.56 Смолы аминоальдегидные, смолы фенолоальдегидные и прочие полиуретановые смолы в первичных формах" id="1201656000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300142" name="20.16.56.110 Смолы аминоальдегидные прочие в первичных формах" id="1201656110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300143" name="20.16.56.120 Смолы фенолоальдегидные прочие в первичных формах" id="1201656120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300144" name="20.16.56.190 Смолы полиуретановые прочие в первичных формах" id="1201656190">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300145" name="20.16.57 Полимеры кремнийорганические [силиконы] в первичных формах" id="1201657000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300146" name="20.16.57.110 Смолы кремнийорганические в первичных формах" id="1201657110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300147" name="20.16.57.120 Жидкости кремнийорганические" id="1201657120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300148" name="20.16.57.130 Эластомеры кремнийорганические [каучуки]" id="1201657130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300149" name="20.16.59 Пластмассы в первичных формах прочие, не включенные в другие группировки" id="1201659000">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300150" name="20.16.59.110 Смолы и политерпены нефтяные, кумароновые, инденовые и кумарон-инденовые в первичных формах" id="1201659110">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300151" name="20.16.59.120 Полисульфоны, полисульфиды, гидрополисульфаны в первичных формах" id="1201659120">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300152" name="20.16.59.130 Смолы карбинольные в первичных формах" id="1201659130">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300153" name="20.16.59.140 Смолы масляно-стирольные в первичных формах" id="1201659140">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300154" name="20.16.59.150 Полимеры винилнафталина в первичных формах" id="1201659150">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300155" name="20.16.59.160 Полимеры диметилфенола в первичных формах" id="1201659160">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300156" name="20.16.59.170 Полимеры акриловой кислоты в первичных формах" id="1201659170">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300157" name="20.16.59.180 Смолы поликсилоловые, полиэтиленимины и прочие синтетические полимеры в первичных формах" id="1201659180">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300158" name="20.16.59.210 Массы пластические, смолы синтетические микробиологического синтеза в первичных формах" id="1201659210">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300159" name="20.16.59.220 Ацетаты целлюлозы в первичных формах" id="1201659220">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300160" name="20.16.59.230 Нитраты целлюлозы [нитроцеллюлоза], включая коллодии, в первичных формах" id="1201659230">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300161" name="20.16.59.240 Карбоксиметилцеллюлоза и ее соли, в первичных формах" id="1201659240">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300162" name="20.16.59.250 Этилцеллюлоза в первичных формах" id="1201659250">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300163" name="20.16.59.260 Метилцеллюлоза в первичных формах" id="1201659260">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300164" name="20.16.59.270 Оксиэтилцеллюлоза в первичных формах" id="1201659270">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300165" name="20.16.59.280 Эфиры целлюлозы прочие в первичных формах" id="1201659280">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300166" name="20.16.59.310 Полимеры природные и полимеры модифицированные природные в первичных формах, не включенные в другие группировки" id="1201659310">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300167" name="20.16.59.320 Смолы ионообменные на основе синтетических или природных полимеров в первичных формах" id="1201659320">
+  <column name="План на месяц, тыс.тонн" order="1" id="415" datatype="number" format="30.3"></column>
+  <column name="Факт за месяц, тыс.тонн" order="2" id="416" datatype="number" format="30.3"></column>
+  <column name="План с начала года, тыс.тонн" order="3" id="417" datatype="number" format="30.3"></column>
+  <column name="Факт  с начала года, тыс.тонн" order="4" id="418" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="421" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="422" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="423" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="424" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="421" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="422" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="423" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="424" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="437" datatype="text" format="500"></column>
+</strdata>
+</document>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Бензин автомобильный и ДТ, всего">
+ <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+ <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+ <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="19.20.21.100 Бензин автомобильный" id="1192021100">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" id="1192021110">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="19.20.21.111 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу вне классов" id="1192021111">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="19.20.21.112 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К2" id="1192021112">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="19.20.21.113 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К3" id="1192021113">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="19.20.21.114 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К4" id="1192021114">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="19.20.21.115 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К5" id="1192021115">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" id="1192021120">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="19.20.21.121 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу вне классов" id="1192021121">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="19.20.21.122 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К2" id="1192021122">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="19.20.21.123 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К3" id="1192021123">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="19.20.21.124 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К4" id="1192021124">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="19.20.21.125 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К5" id="1192021125">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" id="1192021130">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="19.20.21.131 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу вне классов" id="1192021131">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="19.20.21.132 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К2" id="1192021132">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="19.20.21.133 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К3" id="1192021133">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="19.20.21.134 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К4" id="1192021134">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="19.20.21.135 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К5" id="1192021135">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" id="1192021140">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="19.20.21.141 Бензин автомобильный с октановым числом более 98 по исследовательскому методу вне классов" id="1192021141">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="19.20.21.142 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К2" id="1192021142">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="19.20.21.143 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К3" id="1192021143">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="19.20.21.144 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К4" id="1192021144">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="19.20.21.145 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К5" id="1192021145">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="19.20.21.200 Бензин авиационный" id="1192021200">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="19.20.21.300 Топливо дизельное" id="1192021300">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="19.20.21.310 Топливо дизельное летнее" id="1192021310">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="19.20.21.311 Топливо дизельное летнее вне классов" id="1192021311">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="19.20.21.312 Топливо дизельное летнее экологического класса К2" id="1192021312">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="19.20.21.313 Топливо дизельное летнее экологического класса К3" id="1192021313">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="19.20.21.314 Топливо дизельное летнее экологического класса К4" id="1192021314">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="19.20.21.315 Топливо дизельное летнее экологического класса К5" id="1192021315">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="19.20.21.320 Топливо дизельное зимнее" id="1192021320">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="19.20.21.321 Топливо дизельное зимнее вне классов" id="1192021321">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="19.20.21.322 Топливо дизельное зимнее экологического класса К2" id="1192021322">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="19.20.21.323 Топливо дизельное зимнее экологического класса К3" id="1192021323">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="19.20.21.324 Топливо дизельное зимнее экологического класса К4" id="1192021324">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="19.20.21.325 Топливо дизельное зимнее экологического класса К5" id="1192021325">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="19.20.21.330 Топливо дизельное арктическое" id="1192021330">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="19.20.21.331 Топливо дизельное арктическое вне классов" id="1192021331">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="19.20.21.332 Топливо дизельное арктическое экологического класса К2" id="1192021332">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="19.20.21.333 Топливо дизельное арктическое экологического класса К3" id="1192021333">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="19.20.21.334 Топливо дизельное арктическое экологического класса К4" id="1192021334">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="19.20.21.335 Топливо дизельное арктическое экологического класса К5" id="1192021335">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="19.20.21.340 Топливо дизельное межсезонное" id="1192021340">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="19.20.21.341 Топливо дизельное межсезонное вне классов" id="1192021341">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="19.20.21.342 Топливо дизельное межсезонное экологического класса К2" id="1192021342">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="19.20.21.343 Топливо дизельное межсезонное экологического класса К3" id="1192021343">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="19.20.21.344 Топливо дизельное межсезонное экологического класса К4" id="1192021344">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="19.20.21.345 Топливо дизельное межсезонное экологического класса К5" id="1192021345">
+  <column name="Отгрузка продукции на внутренний рынок за сутки, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на внутренний рынок с начала месяца, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт за сутки, тонн" order="3" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгрузка продукции на экспорт с начала месяца, тонн" order="4" id="9" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="12" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="13" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="14" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="15" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="12" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="13" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="14" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="15" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="28" datatype="text" format="500"></column>
+</strdata>
+</document>

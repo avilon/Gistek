@@ -1,0 +1,46 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Валовое производство" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Валовое производство (давальцы)" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Товарное производство из общего объема сырья" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Товарное производство  (давальцы)" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Расход на собственные нужды" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Внутризаводская переработка" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Отгрузка, всего" code="40" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Отгрузка (давальцы)" code="41" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Отгрузка для бытовых нужд населения" code="50" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Железнодорожным транспортом" code="5.000001E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Автомобильным транспортом" code="5.000002E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Трубопроводным транспортом" code="5.000003E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Отгрузка для нужд промышленности" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Железнодорожным транспортом" code="6.000001E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Автомобильным транспортом" code="6.000002E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Трубопроводным транспортом" code="6.000003E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Отгрузка для нужд автотранспорта" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Железнодорожным транспортом" code="7.000001E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Автомобильным транспортом" code="7.000002E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Трубопроводным транспортом" code="7.000003E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Сырье на нефтехимию" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Железнодорожным транспортом" code="8.000001E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Автомобильным транспортом" code="8.000002E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Трубопроводным транспортом" code="8.000003E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="Экспорт" code="90" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Железнодорожным транспортом" code="9.000001E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Автомобильным транспортом" code="9.000002E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata name="-Трубопроводным транспортом" code="9.000003E6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+  </flat>
+</document>

@@ -1,0 +1,79 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Отгрузка угольной продукции на экспорт" code="1" column1="" column2="" column3="" column4=""/>
+    <strdata name="-АБХАЗИЯ" code="1" column1="" column2="" column3="" column4=""/>
+    <strdata name="-АЗЕРБАЙДЖАН" code="2" column1="" column2="" column3="" column4=""/>
+    <strdata name="-АЛБАНИЯ" code="3" column1="" column2="" column3="" column4=""/>
+    <strdata name="-БЕЛЬГИЯ" code="4" column1="" column2="" column3="" column4=""/>
+    <strdata name="-БОЛГАРИЯ" code="5" column1="" column2="" column3="" column4=""/>
+    <strdata name="-БРАЗИЛИЯ" code="6" column1="" column2="" column3="" column4=""/>
+    <strdata name="-СОЕДИНЕННОЕ КОРОЛЕВСТВО" code="7" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ВЕНГРИЯ" code="8" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ВИРГИНСКИЕ ОСТРОВА, БРИТАНСКИЕ" code="9" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ВЬЕТНАМ" code="10" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ГЕРМАНИЯ" code="11" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ГОНКОНГ" code="12" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ГРЕЦИЯ" code="13" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ГРУЗИЯ" code="14" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ДАНИЯ" code="15" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЕГИПЕТ" code="16" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИЗРАИЛЬ" code="17" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИНДИЯ" code="18" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИНДОНЕЗИЯ" code="19" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИРАН, ИСЛАМСКАЯ РЕСПУБЛИКА" code="20" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИРЛАНДИЯ" code="21" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИСПАНИЯ" code="22" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ИТАЛИЯ" code="23" column1="" column2="" column3="" column4=""/>
+    <strdata name="-КИПР" code="24" column1="" column2="" column3="" column4=""/>
+    <strdata name="-КИРГИЗИЯ" code="25" column1="" column2="" column3="" column4=""/>
+    <strdata name="-КИТАЙ" code="26" column1="" column2="" column3="" column4=""/>
+    <strdata name="-КОРЕЯ, НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА" code="27" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЛАТВИЯ" code="28" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЛИВАН" code="29" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЛИТВА" code="30" column1="" column2="" column3="" column4=""/>
+    <strdata name="-МАЛАЙЗИЯ" code="31" column1="" column2="" column3="" column4=""/>
+    <strdata name="-МАЛЬТА" code="32" column1="" column2="" column3="" column4=""/>
+    <strdata name="-МАРОККО" code="33" column1="" column2="" column3="" column4=""/>
+    <strdata name="-МОЛДОВА, РЕСПУБЛИКА" code="34" column1="" column2="" column3="" column4=""/>
+    <strdata name="-НИДЕРЛАНДЫ" code="35" column1="" column2="" column3="" column4=""/>
+    <strdata name="-НОРВЕГИЯ" code="36" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ" code="37" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ПЕРУ" code="38" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ПОЛЬША" code="39" column1="" column2="" column3="" column4=""/>
+    <strdata name="-КОРЕЯ, РЕСПУБЛИКА" code="40" column1="" column2="" column3="" column4=""/>
+    <strdata name="-РУМЫНИЯ" code="41" column1="" column2="" column3="" column4=""/>
+    <strdata name="-СЕРБИЯ" code="42" column1="" column2="" column3="" column4=""/>
+    <strdata name="-СЛОВАКИЯ" code="43" column1="" column2="" column3="" column4=""/>
+    <strdata name="-СЛОВЕНИЯ" code="44" column1="" column2="" column3="" column4=""/>
+    <strdata name="-СОЕДИНЕННЫЕ ШТАТЫ" code="45" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ТАДЖИКИСТАН" code="46" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ТАЙВАНЬ [КИТАЙ]" code="47" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ТУРКМЕНИСТАН" code="48" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ТУРЦИЯ" code="49" column1="" column2="" column3="" column4=""/>
+    <strdata name="-УЗБЕКИСТАН" code="50" column1="" column2="" column3="" column4=""/>
+    <strdata name="-УКРАИНА" code="51" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ФИЛИППИНЫ" code="52" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ФИНЛЯНДИЯ" code="53" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ФРАНЦИЯ" code="54" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ХОРВАТИЯ" code="55" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЧЕШСКАЯ РЕСПУБЛИКА" code="56" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ШВЕЦИЯ" code="57" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ШРИ-ЛАНКА" code="58" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЭСТОНИЯ" code="59" column1="" column2="" column3="" column4=""/>
+    <strdata name="-ЯПОНИЯ" code="60" column1="" column2="" column3="" column4=""/>
+  </flat>
+</document>

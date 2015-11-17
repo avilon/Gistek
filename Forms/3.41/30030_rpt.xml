@@ -1,0 +1,48 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Республика Карелия" code="86" column1="" column2="" column3="" column4=""/>
+    <strdata name="Республика Коми" code="87" column1="" column2="" column3="" column4=""/>
+    <strdata name="Архангельская область" code="11" column1="" column2="" column3="" column4=""/>
+    <strdata name="Ненецкий автономный округ" code="11100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Мурманская область" code="47" column1="" column2="" column3="" column4=""/>
+    <strdata name="Пермская область" code="57" column1="" column2="" column3="" column4=""/>
+    <strdata name="Коми-Пермяцкий автономный округ" code="57100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Тюменская область" code="71" column1="" column2="" column3="" column4=""/>
+    <strdata name="Ханты-Мансийский автономный округ" code="71100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Ямало-Ненецкий автономный округ" code="71140" column1="" column2="" column3="" column4=""/>
+    <strdata name="Республика Алтай" code="84" column1="" column2="" column3="" column4=""/>
+    <strdata name="Республика Бурятия" code="81" column1="" column2="" column3="" column4=""/>
+    <strdata name="Республика Тыва" code="93" column1="" column2="" column3="" column4=""/>
+    <strdata name="Красноярский край" code="4" column1="" column2="" column3="" column4=""/>
+    <strdata name="Таймырский (Долгано-Ненецкий) автономный округ" code="4100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Эвенкийский автономный округ" code="4130" column1="" column2="" column3="" column4=""/>
+    <strdata name="Иркутская область" code="25" column1="" column2="" column3="" column4=""/>
+    <strdata name="Усть-Ордынский Бурятский автономный округ" code="25100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Томская область" code="69" column1="" column2="" column3="" column4=""/>
+    <strdata name="Читинская область" code="76" column1="" column2="" column3="" column4=""/>
+    <strdata name="Республика Саха (Якутия)" code="98" column1="" column2="" column3="" column4=""/>
+    <strdata name="Приморский край" code="5" column1="" column2="" column3="" column4=""/>
+    <strdata name="Хабаровский край" code="8" column1="" column2="" column3="" column4=""/>
+    <strdata name="Амурская область" code="10" column1="" column2="" column3="" column4=""/>
+    <strdata name="Камчатская область" code="30" column1="" column2="" column3="" column4=""/>
+    <strdata name="Корякский автономный округ" code="30100" column1="" column2="" column3="" column4=""/>
+    <strdata name="Магаданская область" code="44" column1="" column2="" column3="" column4=""/>
+    <strdata name="Сахалинская область" code="64" column1="" column2="" column3="" column4=""/>
+    <strdata name="Еврейская автономный область" code="99" column1="" column2="" column3="" column4=""/>
+    <strdata name="Чукотский автономный округ" code="77" column1="" column2="" column3="" column4=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

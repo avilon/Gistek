@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Остатки на начало периода">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="Прием в систему">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="200001" name="Алашанькоу, НПС" id="1">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200002" name="Павлодар, ГНПС" id="10">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200003" name="Терминал Самотлор" id="100">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200004" name="Терминал Северная нефть" id="101">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200005" name="Терминал Северное сияние" id="102">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200006" name="Северокамск" id="103">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200007" name="Серные воды" id="104">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200008" name="Смоленская" id="105">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200009" name="Соболиное" id="106">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200010" name="Субханкулово" id="107">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200011" name="Сургут" id="108">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200012" name="Сургут [СИКН 1100]" id="109">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200013" name="Пивдэнный, МНТ порта &quot;Южный&quot;" id="11">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200014" name="Талакан" id="110">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200015" name="Тарасовская" id="111">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200016" name="Терминал &quot;ЛУКОЙЛ-Коми&quot;" id="112">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200017" name="Тихорецкая, ПНБ" id="113">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200018" name="Уральская" id="114">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200019" name="Урманское" id="115">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200020" name="Урьевские" id="116">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200021" name="Ухта" id="117">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200022" name="Хадыженская" id="118">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200023" name="Хмелевка" id="119">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200024" name="Речица" id="12">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200025" name="Холмогоры" id="120">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200026" name="Хохряковское" id="121">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200027" name="Чекмагуш" id="122">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200028" name="Черновское" id="123">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200029" name="Чернушка" id="124">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200030" name="Чикшино" id="125">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200031" name="Шаим" id="126">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200032" name="Шесхарис, ПНБ" id="127">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200033" name="Шкапово" id="128">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200034" name="Юган" id="129">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200035" name="Херсон" id="13">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200036" name="Южный Балык" id="130">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200037" name="Южный Ягун" id="131">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200038" name="Языково" id="132">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200039" name="Терминал Ангарская нефтехимическая компания" id="133">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200040" name="Терминал Анжерская нефтегазовая компания" id="134">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200041" name="Терминал Антипинский НПЗ" id="135">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200042" name="Терминал Афипский НПЗ" id="136">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200043" name="Терминал Ачинский НПЗ" id="137">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200044" name="Терминал Башнефть-Новойл" id="138">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200045" name="Терминал Башнефть-УНПЗ" id="139">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200046" name="Ширвановка" id="14">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200047" name="Терминал Башнефть-Уфанефтехим" id="140">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200048" name="Терминал Газпром нефтехим Салават" id="141">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200049" name="Терминал Газпромнефть-МНПЗ" id="142">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200050" name="Терминал Газпромнефть-ОНПЗ" id="143">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200051" name="Итера-Самара терминал" id="144">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200052" name="Терминал Каргопольский завод нефрасов" id="145">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200053" name="Терминал Киришинефтеоргсинтез" id="146">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200054" name="Терминал КИНЕФ" id="147">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200055" name="Терминал КНПЗ - КЭН" id="148">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200056" name="Терминал Куйбышевский НПЗ" id="149">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200057" name="Адамова Застава" id="15">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200058" name="Терминал ЛУКОЙЛ -  Волгограднефтепереработка" id="150">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200059" name="Терминал ЛУКОЙЛ-Нижегороднефтеоргсинтез" id="151">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200060" name="Терминал ЛУКОЙЛ-Пермнефтеоргсинтез" id="152">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200061" name="Терминал ЛУКОЙЛ-Ухтанефтепереработка" id="153">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200062" name="Терминал Марийский НПЗ" id="154">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200063" name="Мегет, АУНН" id="155">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200064" name="Терминал НефтеХимСервис" id="156">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200065" name="Терминал Новокуйбышевский НПЗ" id="157">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200066" name="Терминал Новошахтинский ЗНП" id="158">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200067" name="Терминал Орскнефтеоргсинтез" id="159">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200068" name="Будковце" id="16">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200069" name="Приводино, ЖННК" id="160">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200070" name="Терминал Ново-Уфимский НПЗ" id="161">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200071" name="Терминал Новороссийск, Порт" id="162">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200072" name="Терминал РН-Комсомольский НПЗ" id="163">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200073" name="Терминал РН-Туапсинский НПЗ" id="164">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200074" name="Терминал Русснефть-Брянск" id="165">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200075" name="Терминал Рязанская нефтеперерабатывающая компания" id="166">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200076" name="Терминал Саратовский НПЗ" id="167">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200077" name="Сковородино, Комплекс перевалки нефти" id="168">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200078" name="Терминал Славнефть-ЯНОС" id="169">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200079" name="Терминал Мозырский НПЗ" id="17">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200080" name="Спецморнефтепорт Козьмино" id="170">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200081" name="Спецморнефтепорт Приморск" id="171">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200082" name="Спецморнефтепорт Усть-Луга" id="172">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200083" name="Терминал Сызранский НПЗ" id="173">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200084" name="Терминал ТАИФ-НК" id="174">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200085" name="Терминал ТАНЕКО" id="175">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200086" name="Терминал Томскнефтепереработка" id="176">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200087" name="Трансбункер" id="177">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200088" name="Терминал Уфанефтехим" id="178">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200089" name="Уяр, Комплекс перевалки нефти" id="179">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200090" name="Терминал Нафтан" id="18">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200091" name="Терминал Хабароский НПЗ" id="180">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200092" name="Терминал Одесский НПЗ" id="19">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200093" name="Атасу, НПС" id="2">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200094" name="Терминал Петро-Казахстан Ойл Продактс НПЗ" id="20">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200095" name="Терминал Одесский морской торговый порт" id="21">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200096" name="Свовородино" id="22">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200097" name="Фенешлитке" id="23">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200098" name="117 км" id="24">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200099" name="508 км н\пр Ярославль - Кириши-1" id="25">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200100" name="68 км н\пр Тарасовское-Муравленковское" id="26">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200101" name="915 км н\пр Куйбышев-Лисичанск" id="27">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200102" name="Азнакаево" id="28">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200103" name="Александровское" id="29">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200104" name="Бутинге" id="3">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200105" name="Альметьевск" id="30">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200106" name="Апрельская" id="31">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200107" name="Астраханская, НПС" id="32">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200108" name="Б. Черниговка" id="33">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200109" name="Бавлы" id="34">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200110" name="Байтуган" id="35">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200111" name="Барабинск" id="36">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200112" name="Барсуковская" id="37">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200113" name="Бахиловское" id="38">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200114" name="Ватьеган" id="39">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200115" name="Вентспилс" id="4">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200116" name="Вынгояха" id="40">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200117" name="Высокое, НПС" id="41">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200118" name="Герасимовское" id="42">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200119" name="Грушовая, ПНБ" id="43">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200120" name="Грязовец" id="44">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200121" name="Дебесы" id="45">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200122" name="Демьянское" id="46">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200123" name="Енисей" id="47">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200124" name="Ефимовка" id="48">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200125" name="Завьялово" id="49">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200126" name="Долина" id="5">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200127" name="Западный Могутлор" id="50">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200128" name="Зеленоборск" id="51">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200129" name="Игольское" id="52">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200130" name="Калейкино" id="53">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200131" name="Калиновый Ключ" id="54">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200132" name="Калтасы" id="55">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200133" name="Каменный Лог" id="56">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200134" name="Карабаш" id="57">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200135" name="Каркатеевы" id="58">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200136" name="Карская" id="59">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200137" name="Дрогобыч" id="6">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200138" name="Киенгоп" id="60">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200139" name="Киренск" id="61">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200140" name="Клин" id="62">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200141" name="Красноленинск" id="63">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200142" name="Кротовка" id="64">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200143" name="Крымск" id="65">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200144" name="Кулешовка" id="66">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200145" name="Лопатино" id="67">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200146" name="Лугинецкое" id="68">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200147" name="Луговое" id="69">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200148" name="Кременчуг" id="7">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200149" name="Малая Пурга" id="70">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200150" name="Марковское" id="71">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200151" name="Махачкала" id="72">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200152" name="Мегион" id="73">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200153" name="Медведево" id="74">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200154" name="Михайловка" id="75">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200155" name="Мишкино" id="76">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200156" name="Муханово" id="77">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200157" name="Набережные Челны" id="78">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200158" name="Невель" id="79">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200159" name="Лисичанск" id="8">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200160" name="Нефтус" id="80">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200161" name="Нижневартовск" id="81">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200162" name="Никольское, НПС" id="82">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200163" name="Ножовка" id="83">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200164" name="Омск, НПС" id="84">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200165" name="Орск" id="85">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200166" name="Оса" id="86">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200167" name="Остров" id="87">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200168" name="Повх" id="88">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200169" name="Покачи" id="89">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200170" name="Мажейкяй" id="9">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200171" name="Покровка" id="90">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200172" name="Похвистнево" id="91">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200173" name="Прием нефти с месторождений Восточной Сибири" id="92">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200174" name="Просвет" id="93">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200175" name="Просвет мс" id="94">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200176" name="Псекупская" id="95">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200177" name="Пур-Пе" id="96">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200178" name="Пур-Пе [Ванкорское месторождение]" id="97">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200179" name="Раскино" id="98">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200180" name="Самара, НПС" id="99">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="5" name="Сдано грузополучателям">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="Сдано на НПЗ России">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="600001" name="Терминал Самотлор" id="100">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600002" name="Терминал Северная нефть" id="101">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600003" name="Терминал Северное сияние" id="102">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600004" name="Северокамск" id="103">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600005" name="Серные воды" id="104">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600006" name="Смоленская" id="105">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600007" name="Соболиное" id="106">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600008" name="Субханкулово" id="107">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600009" name="Сургут" id="108">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600010" name="Сургут [СИКН 1100]" id="109">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600011" name="Талакан" id="110">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600012" name="Тарасовская" id="111">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600013" name="Терминал &quot;ЛУКОЙЛ-Коми&quot;" id="112">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600014" name="Тихорецкая, ПНБ" id="113">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600015" name="Уральская" id="114">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600016" name="Урманское" id="115">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600017" name="Урьевские" id="116">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600018" name="Ухта" id="117">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600019" name="Хадыженская" id="118">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600020" name="Хмелевка" id="119">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600021" name="Холмогоры" id="120">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600022" name="Хохряковское" id="121">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600023" name="Чекмагуш" id="122">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600024" name="Черновское" id="123">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600025" name="Чернушка" id="124">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600026" name="Чикшино" id="125">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600027" name="Шаим" id="126">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600028" name="Шесхарис, ПНБ" id="127">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600029" name="Шкапово" id="128">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600030" name="Юган" id="129">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600031" name="Южный Балык" id="130">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600032" name="Южный Ягун" id="131">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600033" name="Языково" id="132">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600034" name="Терминал Ангарская нефтехимическая компания" id="133">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600035" name="Терминал Анжерская нефтегазовая компания" id="134">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600036" name="Терминал Антипинский НПЗ" id="135">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600037" name="Терминал Афипский НПЗ" id="136">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600038" name="Терминал Ачинский НПЗ" id="137">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600039" name="Терминал Башнефть-Новойл" id="138">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600040" name="Терминал Башнефть-УНПЗ" id="139">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600041" name="Терминал Башнефть-Уфанефтехим" id="140">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600042" name="Терминал Газпром нефтехим Салават" id="141">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600043" name="Терминал Газпромнефть-МНПЗ" id="142">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600044" name="Терминал Газпромнефть-ОНПЗ" id="143">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600045" name="Итера-Самара терминал" id="144">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600046" name="Терминал Каргопольский завод нефрасов" id="145">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600047" name="Терминал Киришинефтеоргсинтез" id="146">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600048" name="Терминал КИНЕФ" id="147">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600049" name="Терминал КНПЗ - КЭН" id="148">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600050" name="Терминал Куйбышевский НПЗ" id="149">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600051" name="Терминал ЛУКОЙЛ -  Волгограднефтепереработка" id="150">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600052" name="Терминал ЛУКОЙЛ-Нижегороднефтеоргсинтез" id="151">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600053" name="Терминал ЛУКОЙЛ-Пермнефтеоргсинтез" id="152">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600054" name="Терминал ЛУКОЙЛ-Ухтанефтепереработка" id="153">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600055" name="Терминал Марийский НПЗ" id="154">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600056" name="Мегет, АУНН" id="155">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600057" name="Терминал НефтеХимСервис" id="156">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600058" name="Терминал Новокуйбышевский НПЗ" id="157">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600059" name="Терминал Новошахтинский ЗНП" id="158">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600060" name="Терминал Орскнефтеоргсинтез" id="159">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600061" name="Приводино, ЖННК" id="160">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600062" name="Терминал Ново-Уфимский НПЗ" id="161">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600063" name="Терминал Новороссийск, Порт" id="162">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600064" name="Терминал РН-Комсомольский НПЗ" id="163">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600065" name="Терминал РН-Туапсинский НПЗ" id="164">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600066" name="Терминал Русснефть-Брянск" id="165">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600067" name="Терминал Рязанская нефтеперерабатывающая компания" id="166">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600068" name="Терминал Саратовский НПЗ" id="167">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600069" name="Сковородино, Комплекс перевалки нефти" id="168">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600070" name="Терминал Славнефть-ЯНОС" id="169">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600071" name="Спецморнефтепорт Козьмино" id="170">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600072" name="Спецморнефтепорт Приморск" id="171">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600073" name="Спецморнефтепорт Усть-Луга" id="172">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600074" name="Терминал Сызранский НПЗ" id="173">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600075" name="Терминал ТАИФ-НК" id="174">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600076" name="Терминал ТАНЕКО" id="175">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600077" name="Терминал Томскнефтепереработка" id="176">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600078" name="Трансбункер" id="177">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600079" name="Терминал Уфанефтехим" id="178">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600080" name="Уяр, Комплекс перевалки нефти" id="179">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600081" name="Терминал Хабароский НПЗ" id="180">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600082" name="117 км" id="24">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600083" name="508 км н\пр Ярославль - Кириши-1" id="25">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600084" name="68 км н\пр Тарасовское-Муравленковское" id="26">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600085" name="915 км н\пр Куйбышев-Лисичанск" id="27">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600086" name="Азнакаево" id="28">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600087" name="Александровское" id="29">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600088" name="Альметьевск" id="30">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600089" name="Апрельская" id="31">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600090" name="Астраханская, НПС" id="32">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600091" name="Б. Черниговка" id="33">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600092" name="Бавлы" id="34">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600093" name="Байтуган" id="35">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600094" name="Барабинск" id="36">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600095" name="Барсуковская" id="37">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600096" name="Бахиловское" id="38">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600097" name="Ватьеган" id="39">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600098" name="Вынгояха" id="40">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600099" name="Высокое, НПС" id="41">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600100" name="Герасимовское" id="42">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600101" name="Грушовая, ПНБ" id="43">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600102" name="Грязовец" id="44">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600103" name="Дебесы" id="45">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600104" name="Демьянское" id="46">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600105" name="Енисей" id="47">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600106" name="Ефимовка" id="48">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600107" name="Завьялово" id="49">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600108" name="Западный Могутлор" id="50">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600109" name="Зеленоборск" id="51">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600110" name="Игольское" id="52">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600111" name="Калейкино" id="53">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600112" name="Калиновый Ключ" id="54">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600113" name="Калтасы" id="55">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600114" name="Каменный Лог" id="56">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600115" name="Карабаш" id="57">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600116" name="Каркатеевы" id="58">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600117" name="Карская" id="59">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600118" name="Киенгоп" id="60">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600119" name="Киренск" id="61">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600120" name="Клин" id="62">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600121" name="Красноленинск" id="63">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600122" name="Кротовка" id="64">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600123" name="Крымск" id="65">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600124" name="Кулешовка" id="66">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600125" name="Лопатино" id="67">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600126" name="Лугинецкое" id="68">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600127" name="Луговое" id="69">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600128" name="Малая Пурга" id="70">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600129" name="Марковское" id="71">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600130" name="Махачкала" id="72">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600131" name="Мегион" id="73">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600132" name="Медведево" id="74">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600133" name="Михайловка" id="75">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600134" name="Мишкино" id="76">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600135" name="Муханово" id="77">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600136" name="Набережные Челны" id="78">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600137" name="Невель" id="79">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600138" name="Нефтус" id="80">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600139" name="Нижневартовск" id="81">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600140" name="Никольское, НПС" id="82">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600141" name="Ножовка" id="83">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600142" name="Омск, НПС" id="84">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600143" name="Орск" id="85">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600144" name="Оса" id="86">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600145" name="Остров" id="87">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600146" name="Повх" id="88">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600147" name="Покачи" id="89">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600148" name="Покровка" id="90">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600149" name="Похвистнево" id="91">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600150" name="Прием нефти с месторождений Восточной Сибири" id="92">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600151" name="Просвет" id="93">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600152" name="Просвет мс" id="94">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600153" name="Псекупская" id="95">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600154" name="Пур-Пе" id="96">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600155" name="Пур-Пе [Ванкорское месторождение]" id="97">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600156" name="Раскино" id="98">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600157" name="Самара, НПС" id="99">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="9" name="Сдано на ППС Ближнего зарубежья">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="Сдано на ППС Белоруссии">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="1000001" name="Речица" id="12">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1000002" name="Терминал Мозырский НПЗ" id="17">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1000003" name="Терминал Нафтан" id="18">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="13" name="Сдано на ППС Казахстана">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="1300001" name="Алашанькоу, НПС" id="1">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1300002" name="Павлодар, ГНПС" id="10">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1300003" name="Атасу, НПС" id="2">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1300004" name="Терминал Петро-Казахстан Ойл Продактс НПЗ" id="20">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="16" name="Сдано на ППС Украины">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="1600001" name="Пивдэнный, МНТ порта &quot;Южный&quot;" id="11">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600002" name="Херсон" id="13">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600003" name="Терминал Одесский НПЗ" id="19">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600004" name="Терминал Одесский морской торговый порт" id="21">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600005" name="Долина" id="5">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600006" name="Дрогобыч" id="6">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600007" name="Кременчуг" id="7">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1600008" name="Лисичанск" id="8">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="19" name="Сдано на ППС Дальнего зарубежья">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ <strclass code="1900001" name="Адамова Застава" id="15">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900002" name="Будковце" id="16">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900003" name="Свовородино" id="22">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900004" name="Фенешлитке" id="23">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900005" name="Бутинге" id="3">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900006" name="Вентспилс" id="4">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="1900007" name="Мажейкяй" id="9">
+  <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="22" name="Топливо и технологические нужды">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+<strdetail code="2200001">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200002">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200003">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200004">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200005">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200006">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200007">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200008">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200009">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200010">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200011">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200012">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200013">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200014">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200015">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200016">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200017">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200018">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200019">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200020">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200021">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200022">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200023">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200024">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200025">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200026">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200027">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200028">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200029">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200030">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200031">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200032">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200033">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200034">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200035">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200036">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200037">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200038">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200039">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200040">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200041">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200042">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200043">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200044">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200045">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200046">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200047">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200048">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200049">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200050">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200051">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200052">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200053">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200054">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200055">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200056">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200057">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200058">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200059">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200060">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200061">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200062">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200063">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200064">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200065">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200066">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200067">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200068">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200069">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200070">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200071">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200072">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200073">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200074">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200075">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200076">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200077">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200078">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200079">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200080">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200081">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200082">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200083">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200084">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200085">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200086">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200087">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200088">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200089">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200090">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200091">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200092">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200093">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200094">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200095">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200096">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200097">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200098">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200099">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200100">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+<strdetail code="2200101">
+ <entity></entity>
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdetail>
+</strdata>
+<strdata code="25" name="Потери">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="26" name="Остатки на конец периода">
+ <column name="Нефть и газовый конденсат, тонн" order="1" id="18" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="21" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="22" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="23" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="24" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="21" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="22" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="23" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="24" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="37" datatype="text" format="500"></column>
+</strdata>
+</document>

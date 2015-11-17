@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata2" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata3" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata4" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata5" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata61" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata62" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata71" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata72" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata8" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata9" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata10" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata11" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata12" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata13" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata14" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata15" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strServiceInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

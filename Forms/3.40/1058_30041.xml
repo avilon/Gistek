@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+ <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="ЭЛЕКТРОЭНЕРГЕТИКА РФ" id="900000">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="ОГК-1" id="4001">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="Каширская ГРЭС-4" id="310126">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="ОГК-3" id="4003">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="Гусиноозерская ГРЭС" id="356901">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="Костромская ГРЭС" id="310601">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="Печорская ГРЭС" id="689401">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="Харанорская ГРЭС" id="362309">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="Черепетская ГРЭС" id="310201">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="Южноуральская ГРЭС" id="338602">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="Энел [ОГК-5]" id="4005">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="Рефтинская ГРЭС" id="338502">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="ОГК-2" id="4002">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="Псковская ГРЭС" id="340601">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="Ставропольская ГРЭС" id="322601">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="Серовская ГРЭС" id="338503">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="Троицкая ГРЭС" id="338601">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="Сургутская ГРЭС-1" id="684901">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="Адлерская ТЭС" id="322516">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="Рязанская ГРЭС" id="313901">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="Новочеркасская ГРЭС" id="323201">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="Киришская ГРЭС" id="345726">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="Красноярская ГРЭС-2" id="357126">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="ГРЭС-24 [Москва]" id="313912">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="Череповецкая ГРЭС" id="341901">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="ТГК-1" id="4051">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="Апатитская ТЭЦ" id="349312">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="ТГК-2" id="4052">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="Северодвинская ТЭЦ-1" id="349210">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="МОСЭНЕРГО ГК" id="310107">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="ТЭЦ-27 [Мосэнерго]" id="310120">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="ВОЛЖСКАЯ ТГК" id="4057">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="Кировская ТЭЦ-4" id="338910">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="Кировская ТЭЦ-5" id="338912">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="Кировская ТЭЦ-1" id="338911">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="Кировская ТЭЦ-3" id="338926">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="Ижевская ТЭЦ-2" id="338812">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="Ивановская ТЭЦ-1" id="310414">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="Ивановская ТЭЦ-3" id="310413">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="Ивановская ТЭЦ-2" id="310410">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="Интинская ТЭЦ" id="689429">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="Воркутинская ТЭЦ-1" id="689410">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="Воркутинская ТЭЦ-2" id="689427">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="Фортум [ТГК-10]" id="4060">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="Челябинская ТЭЦ-1" id="338626">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="Челябинская ТЭЦ-2" id="338610">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="Аргаяшская ТЭЦ" id="338627">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="ОАО &quot;Интер РАО&quot;" id="868006">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="Омская ТЭЦ-2 [Котельная]" id="357412">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="Томская ГРЭС-2" id="687510">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="Кумертауская ТЭЦ" id="339015">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100052" name="ООО Сибирская Генерирующая Компания" id="757100">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100053" name="Кемеровская ГРЭС" id="357210">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100054" name="Кемеровская ТЭЦ" id="357212">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100055" name="ОАО Ново-Кемеровская ТЭЦ" id="357226">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100056" name="ОАО Кузнецкая ТЭЦ" id="357227">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100057" name="Томь-Усинская ГРЭС" id="357201">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100058" name="Беловская ГРЭС" id="357202">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100059" name="ОАО Барнаульская ТЭЦ-3" id="356813">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100060" name="ОАО Барнаульская генерация" id="756809">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100061" name="Красноярский филиал СГК" id="757102">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100062" name="Абаканская ТЭЦ" id="357135">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100063" name="Минусинская ТЭЦ" id="357113">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100064" name="Кызылская ТЭЦ" id="357143">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100065" name="ТГК-14" id="4064">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100066" name="ГЕНЕРАЦИЯ БУРЯТИИ" id="356936">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100067" name="Приаргунская ТЭЦ [ЮВЭ]" id="362327">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100068" name="Читинская ТЭЦ-1" id="362311">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100069" name="Читинская ТЭЦ-2" id="362310">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100070" name="Шерловогорская ТЭЦ" id="362328">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100071" name="ОАО СИБЭКО" id="757300">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100072" name="Барабинская ТЭЦ" id="357326">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100073" name="Новосибирская ТЭЦ-2" id="357312">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100074" name="Новосибирская ТЭЦ-3" id="357311">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100075" name="Новосибирская ТЭЦ-4" id="357310">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100076" name="Новосибирская ТЭЦ-5" id="357313">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100077" name="БИЙСКЭНЕРГО" id="900074">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100078" name="Бийская ТЭЦ-1" id="356811">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100079" name="ИРКУТСКЭНЕРГО" id="357000">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100080" name="Иркутская ТЭЦ-5" id="357015">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100081" name="ЦРГК Центрального р-на ТИ и ТС ТЭЦ-6" id="357078">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100082" name="Иркутская ТЭЦ-9" id="357012">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100083" name="Иркутская ТЭЦ-10" id="357026">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100084" name="Иркутская ТЭЦ-11" id="357010">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100085" name="Иркутская ТЭЦ-12" id="357019">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100086" name="Иркутская ТЭЦ-16" id="357016">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100087" name="Ново-Иркутская ТЭЦ" id="357020">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100088" name="Усть-Илимская ТЭЦ" id="357021">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100089" name="Ново-Зиминская ТЭЦ" id="357022">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100090" name="ДАЛЬНЕВОСТОЧНАЯ ГК" id="362230">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100091" name="Нерюнгринская ГРЭС" id="362404">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100092" name="Чульманская ТЭЦ" id="362426">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100093" name="Благовещенская ТЭЦ" id="361710">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100094" name="Райчихинская ГРЭС" id="361726">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100095" name="Хабаровская ТЭЦ-1" id="362210">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100096" name="Хабаровская ТЭЦ-3" id="362217">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100097" name="Комсомольская ТЭЦ-2" id="362211">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100098" name="Майская ГРЭС" id="362227">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100099" name="Биробиджанская ТЭЦ" id="362213">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100100" name="ХАБАРОВСКАЯ ГЕНЕРАЦИЯ" id="762210">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100101" name="Приморская ГРЭС" id="361801">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100102" name="Партизанская ГРЭС" id="361827">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100103" name="Артемовская ТЭЦ[Приморский край]" id="361826">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100104" name="ПРИМОРСКАЯ ГЕНЕРАЦИЯ" id="761801">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100105" name="РАО ЭНЕРГЕТИЧЕСКИЕ СИСТЕМЫ ВОСТОКА" id="360000">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100106" name="Теплоэнергосервис" id="362460">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100107" name="Магаданская ТЭЦ" id="362028">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100108" name="Аркагалинская ГРЭС" id="362026">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100109" name="Эгвекинотская ГРЭС" id="362001">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100110" name="Анадырская ТЭЦ" id="362011">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100111" name="Сахалинская ГРЭС" id="362101">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100112" name="Южно-Сахалинская ТЭЦ-1" id="362110">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100113" name="ДРУГИЕ КОМПАНИИ, СТАНЦИИ" id="10002000">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100114" name="Богословская ТЭЦ" id="338529">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100115" name="Западно-Сибирская ТЭЦ" id="357211">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100116" name="Южно-Кузбасская ГРЭС" id="357203">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100117" name="ТЭЦ ППГХО" id="900025">
+  <column name="Фактическая поставка угля за месяц, тонн" order="1" id="6" datatype="number" format="30.3"></column>
+  <column name="Фактическая поставка угля с начала года, тонн" order="2" id="7" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="10" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="10" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="11" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="12" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="13" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="26" datatype="text" format="500"></column>
+</strdata>
+</document>

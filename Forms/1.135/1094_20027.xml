@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Нефтепродукты">
+ <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+ <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+ <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+ <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+ <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+ <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+ <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="19.2 Нефтепродукты" id="1192000000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="19.20.21 Топливо моторное, включая автомобильный и авиационный бензин" id="1192021000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="19.20.21.100 Бензин автомобильный" id="1192021100">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" id="1192021110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="19.20.21.111 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу вне классов" id="1192021111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="19.20.21.112 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К2" id="1192021112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="19.20.21.113 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К3" id="1192021113">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="19.20.21.114 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К4" id="1192021114">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="19.20.21.115 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К5" id="1192021115">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" id="1192021120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="19.20.21.121 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу вне классов" id="1192021121">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="19.20.21.122 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К2" id="1192021122">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="19.20.21.123 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К3" id="1192021123">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="19.20.21.124 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К4" id="1192021124">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="19.20.21.125 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К5" id="1192021125">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" id="1192021130">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="19.20.21.131 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу вне классов" id="1192021131">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="19.20.21.132 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К2" id="1192021132">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="19.20.21.133 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К3" id="1192021133">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="19.20.21.134 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К4" id="1192021134">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="19.20.21.135 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К5" id="1192021135">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" id="1192021140">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="19.20.21.141 Бензин автомобильный с октановым числом более 98 по исследовательскому методу вне классов" id="1192021141">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="19.20.21.142 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К2" id="1192021142">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="19.20.21.143 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К3" id="1192021143">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="19.20.21.144 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К4" id="1192021144">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="19.20.21.145 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К5" id="1192021145">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="19.20.21.200 Бензин авиационный" id="1192021200">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="19.20.21.300 Топливо дизельное" id="1192021300">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="19.20.21.310 Топливо дизельное летнее" id="1192021310">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="19.20.21.311 Топливо дизельное летнее вне классов" id="1192021311">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="19.20.21.312 Топливо дизельное летнее экологического класса К2" id="1192021312">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="19.20.21.313 Топливо дизельное летнее экологического класса К3" id="1192021313">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="19.20.21.314 Топливо дизельное летнее экологического класса К4" id="1192021314">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="19.20.21.315 Топливо дизельное летнее экологического класса К5" id="1192021315">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="19.20.21.320 Топливо дизельное зимнее" id="1192021320">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="19.20.21.321 Топливо дизельное зимнее вне классов" id="1192021321">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="19.20.21.322 Топливо дизельное зимнее экологического класса К2" id="1192021322">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100039" name="19.20.21.323 Топливо дизельное зимнее экологического класса К3" id="1192021323">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100040" name="19.20.21.324 Топливо дизельное зимнее экологического класса К4" id="1192021324">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100041" name="19.20.21.325 Топливо дизельное зимнее экологического класса К5" id="1192021325">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100042" name="19.20.21.330 Топливо дизельное арктическое" id="1192021330">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100043" name="19.20.21.331 Топливо дизельное арктическое вне классов" id="1192021331">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100044" name="19.20.21.332 Топливо дизельное арктическое экологического класса К2" id="1192021332">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100045" name="19.20.21.333 Топливо дизельное арктическое экологического класса К3" id="1192021333">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100046" name="19.20.21.334 Топливо дизельное арктическое экологического класса К4" id="1192021334">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100047" name="19.20.21.335 Топливо дизельное арктическое экологического класса К5" id="1192021335">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100048" name="19.20.21.340 Топливо дизельное межсезонное" id="1192021340">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100049" name="19.20.21.341 Топливо дизельное межсезонное вне классов" id="1192021341">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100050" name="19.20.21.342 Топливо дизельное межсезонное экологического класса К2" id="1192021342">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100051" name="19.20.21.343 Топливо дизельное межсезонное экологического класса К3" id="1192021343">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100052" name="19.20.21.344 Топливо дизельное межсезонное экологического класса К4" id="1192021344">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100053" name="19.20.21.345 Топливо дизельное межсезонное экологического класса К5" id="1192021345">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100054" name="19.20.21.400 Топливо судовое" id="1192021400">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100055" name="19.20.21.410 Топливо судовое с массовой долей серы 2 - 3,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" id="1192021410">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100056" name="19.20.21.420 Топливо судовое с массовой долей серы 1,5 - 2% с температурой вспышки в закрытом тигле не ниже 61 ?C" id="1192021420">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100057" name="19.20.21.430 Топливо судовое с массовой долей серы 0,5 - 1,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" id="1192021430">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100058" name="19.20.21.440 Топливо судовое с массовой долей серы не более 0,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" id="1192021440">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100059" name="19.20.21.500 Топливо моторное этанольное" id="1192021500">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100060" name="19.20.21.510 Топливо моторное этанольное летнее" id="1192021510">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100061" name="19.20.21.520 Топливо моторное этанольное зимнее" id="1192021520">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100062" name="19.20.21.600 Бензин прямогонный" id="1192021600">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100063" name="19.20.22 Топливо реактивное бензинового типа" id="1192022000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100064" name="19.20.23 Топливо легкое нефтяное дистиллятное, дистилляты легкие, не включенные в другие группировки" id="1192023000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100065" name="19.20.23.110 Топливо легкое нефтяное дистиллятное прочее" id="1192023110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100066" name="19.20.23.190 Дистилляты легкие, не включенные в другие группировки" id="1192023190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100067" name="19.20.24 Керосин" id="1192024000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100068" name="19.20.24.110 Керосины технические" id="1192024110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100069" name="19.20.24.120 Керосины осветительные" id="1192024120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100070" name="19.20.25 Топливо реактивное керосинового типа" id="1192025000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100071" name="19.20.25.110 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета" id="1192025110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100072" name="19.20.25.111 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки Джет-А1" id="1192025111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100073" name="19.20.25.112 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки ТС-1" id="1192025112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100074" name="19.20.25.119 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью прочее" id="1192025119">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100075" name="19.20.25.120 Топливо для реактивных двигателей летательных аппаратов со сверхзвуковой скоростью полета" id="1192025120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100076" name="19.20.26 Газойли" id="1192026000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100077" name="19.20.27 Топливо нефтяное дистиллятное прочее, дистилляты средние, не включенные в другие группировки" id="1192027000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100078" name="19.20.27.110 Топливо нефтяное дистиллятное прочее" id="1192027110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100079" name="19.20.27.190 Дистилляты средние, не включенные в другие группировки" id="1192027190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100080" name="19.20.28 Топливо жидкое, не включенное в другие группировки" id="1192028000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100081" name="19.20.28.100 Мазут" id="1192028100">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100082" name="19.20.28.110 Мазут топочный" id="1192028110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100083" name="19.20.28.111 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 30 ppm, но более 20 ppm" id="1192028111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100084" name="19.20.28.112 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 20 ppm, но более 10 ppm" id="1192028112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100085" name="19.20.28.113 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 10 ppm" id="1192028113">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100086" name="19.20.28.120 Мазут флотский" id="1192028120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100087" name="19.20.28.130 Топливо печное бытовое" id="1192028130">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100088" name="19.20.28.190 Топливо жидкое прочее, не включенное в другие группировки" id="1192028190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100089" name="19.20.29 Масла нефтяные смазочные; дистилляты тяжелые, не включенные в другие группировки" id="1192029000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100090" name="19.20.29.110 Масла моторные" id="1192029110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100091" name="19.20.29.111 Масла моторные авиационные" id="1192029111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100092" name="19.20.29.112 Масла моторные для карбюраторных двигателей" id="1192029112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100093" name="19.20.29.113 Масла моторные дизельные" id="1192029113">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100094" name="19.20.29.114 Масла моторные для карбюраторных и дизельных двигателей" id="1192029114">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100095" name="19.20.29.119 Масла моторные прочие, не включенные в другие группировки" id="1192029119">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100096" name="19.20.29.120 Масла гидравлические" id="1192029120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100097" name="19.20.29.130 Масла индустриальные" id="1192029130">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100098" name="19.20.29.140 Масла электроизоляционные" id="1192029140">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100099" name="19.20.29.150 Масла трансмиссионные для подвижной техники" id="1192029150">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100100" name="19.20.29.160 Масла компрессорные и турбинные" id="1192029160">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100101" name="19.20.29.170 Масла антикоррозионные" id="1192029170">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100102" name="19.20.29.180 Масла технологические" id="1192029180">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100103" name="19.20.29.190 Масла нефтяные смазочные прочие, не включенные в другие группировки" id="1192029190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100104" name="19.20.29.210 Дистилляты тяжелые, не включенные в другие группировки" id="1192029210">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100105" name="19.20.29.211 Смазки пластичные" id="1192029211">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100106" name="19.20.29.212 Суспензии для нанесения твердых смазочных покрытий" id="1192029212">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100107" name="19.20.29.213 Нефтепродукты смазочно-охлаждающие" id="1192029213">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100108" name="19.20.29.219 Дистилляты тяжелые прочие, не включенные в другие группировки" id="1192029219">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100109" name="19.20.3 Газы нефтяные и углеводороды газообразные прочие, кроме газа горючего природного" id="1192030000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100110" name="19.20.31 Пропан и бутан сжиженные" id="1192031000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100111" name="19.20.31.110 Пропан сжиженный" id="1192031110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100112" name="19.20.31.120 Бутан сжиженный" id="1192031120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100113" name="19.20.32 Этилен, пропилен, бутилен, бутадиен и прочие нефтяные газы или газообразные углеводороды, кроме природного газа" id="1192032000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100114" name="19.20.32.110 Газы нефтяные" id="1192032110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100115" name="19.20.32.111 Этилен" id="1192032111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100116" name="19.20.32.112 Пропилен" id="1192032112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100117" name="19.20.32.113 Бутилен" id="1192032113">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100118" name="19.20.32.114 Бутадиен" id="1192032114">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100119" name="19.20.32.115 Конденсат газовый стабильный" id="1192032115">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100120" name="19.20.32.119 Газы нефтяные прочие, не включенные в другие группировки" id="1192032119">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100121" name="19.20.32.190 Углеводороды газообразные, кроме природного газа" id="1192032190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100122" name="19.20.4 Нефтепродукты прочие" id="1192040000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100123" name="19.20.41 Вазелин (петролатум); парафин; воск нефтяной прочий" id="1192041000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100124" name="19.20.41.110 Вазелин нефтяной (петролатум)" id="1192041110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100125" name="19.20.41.120 Парафины нефтяные" id="1192041120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100126" name="19.20.41.190 Воски нефтяные прочие" id="1192041190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100127" name="19.20.42 Кокс нефтяной, битум нефтяной и прочие остатки нефтепереработки" id="1192042000">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100128" name="19.20.42.110 Кокс нефтяной" id="1192042110">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100129" name="19.20.42.111 Кокс нефтяной некальцинированный" id="1192042111">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100130" name="19.20.42.112 Кокс нефтяной кальцинированный" id="1192042112">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100131" name="19.20.42.120 Битумы нефтяные" id="1192042120">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100132" name="19.20.42.121 Битумы нефтяные дорожные" id="1192042121">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100133" name="19.20.42.122 Битумы нефтяные изоляционные" id="1192042122">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100134" name="19.20.42.123 Битумы нефтяные кровельные" id="1192042123">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100135" name="19.20.42.124 Битумы нефтяные строительные" id="1192042124">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100136" name="19.20.42.125 Битумы нефтяные хрупкие" id="1192042125">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100137" name="19.20.42.190 Остатки нефтепереработки прочие" id="1192042190">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100138" name="20.14.12.130 Бензолы" id="1201412130">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100139" name="20.14.12.131 Бензол каменноугольный" id="1201412131">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100140" name="20.14.12.132 Бензол сланцевый" id="1201412132">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100141" name="20.14.12.133 Бензол нефтяной" id="1201412133">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100142" name="20.14.12.140 Толуолы" id="1201412140">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100143" name="20.14.12.141 Толуол нефтяной" id="1201412141">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100144" name="20.14.12.142 Толуол каменноугольный" id="1201412142">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100145" name="20.14.12.143 Толуол сланцевый" id="1201412143">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100146" name="20.14.12.150 Ксилолы" id="1201412150">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100147" name="20.14.12.151 О-ксилол" id="1201412151">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100148" name="20.14.12.152 П-ксилол" id="1201412152">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100149" name="20.14.12.153 М-ксилол" id="1201412153">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100150" name="20.14.12.154 Ксилол каменноугольный" id="1201412154">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100151" name="20.14.12.155 Ксилол нефтяной" id="1201412155">
+  <column name="Отгружено - всего за месяц, тонн (тыс.куб.м)" order="1" id="8" datatype="number" format="30.3"></column>
+  <column name="Отгружено - всего с начала года, тонн (тыс.куб.м)" order="2" id="9" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок за месяц, тонн (тыс.куб.м)" order="3" id="10" datatype="number" format="30.3"></column>
+  <column name="Отгружено на внутренний рынок с начала года, тонн (тыс.куб.м)" order="4" id="11" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт за месяц, тонн (тыс.куб.м)" order="5" id="12" datatype="number" format="30.3"></column>
+  <column name="Отгружено на экспорт с начала года, тонн (тыс.куб.м)" order="6" id="13" datatype="number" format="30.3"></column>
+  <column name="Остаток на конец месяца, тонн (тыс.куб.м)" order="7" id="14" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="17" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="18" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="19" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="20" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="17" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="18" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="19" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="20" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="33" datatype="text" format="500"></column>
+</strdata>
+</document>

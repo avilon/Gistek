@@ -1,0 +1,96 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Крупнотоннажные пластмассы" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.16.10.111 Полиэтилен высокого давления" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.16.10.113 Полиэтилен низкого давления" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.16.10.114 Полиэтилен линейный низкой плотности" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.16.10.120 Сополимеры этилена с винилацетатом в первичных формах" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.16.51.111 Гомополимер пропилена" code="5" column1="" column2="" column3=""/>
+    <strdata name="-20.16.51.112 Сополимеры пропилена" code="6" column1="" column2="" column3=""/>
+    <strdata name="-20.16.30.111 Поливинилхлорид эмульсионный" code="7" column1="" column2="" column3=""/>
+    <strdata name="-20.16.30.112 Поливинилхлорид суспензионный" code="8" column1="" column2="" column3=""/>
+    <strdata name="-20.16.30.113 Сополимеры винилхлорида в первичных формах" code="9" column1="" column2="" column3=""/>
+    <strdata name="-20.16.30.191 Микросуспензионный поливинилхлорид и прочие смолы винилхлорида [экстендер]" code="10" column1="" column2="" column3=""/>
+    <strdata name="-20.16.20.115 Полистирол модифицированный [ударопрочный]" code="11" column1="" column2="" column3=""/>
+    <strdata name="-20.16.20.116 Полистирол вспенивающийся" code="12" column1="" column2="" column3=""/>
+    <strdata name="-20.16.20.121 Сополимеры стирола с акрилонитрилом [САН] в первичных формах" code="13" column1="" column2="" column3=""/>
+    <strdata name="-20.16.40.170 Полиэтилентерефталат в первичных формах" code="14" column1="" column2="" column3=""/>
+    <strdata name="Среднетоннажные пластмассы" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.16.40.140 Поликарбонаты в первичных формах" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.16.54 Полиамиды в первичных формах" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.16.20.122 Сополимеры акрилонитрилбутадиенстирольные [АБС-пластик] в первичных формах" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.16.56.190 Смолы полиуретановые прочие в первичных формах" code="4" column1="" column2="" column3=""/>
+    <strdata name="Синтетические каучуки" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.120 Каучуки изопреновые и сополимеры изопрена" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.130 Каучуки бутадиенстирольные и бутадиенметилстирольные [СКС-СКМС]" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.171 Каучуки изобутиленизопреновые [бутилкаучуки]" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.173 Каучуки этиленпропилендиеновые" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.141 Каучуки бутадиеннитрильные" code="5" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.110 Каучуки бутадиеновые" code="6" column1="" column2="" column3=""/>
+    <strdata name="-20.17.10.190 Каучуки синтетические прочие" code="7" column1="" column2="" column3=""/>
+    <strdata name="Продукция органического синтеза" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.14.63.131 Окись этилена" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.14.63.132 Окись пропилена" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.14.23.111 Этиленгликоль [этандиол]" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.14.22.114 Спирт н-бутиловый [бутан-1-ол]" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.14.22.115 Спирт третбутиловый спирт [2-метилпропан-2-ол]" code="5" column1="" column2="" column3=""/>
+    <strdata name="-20.14.22.116 Бутанолы прочие" code="6" column1="" column2="" column3=""/>
+    <strdata name="-20.14.62.111 Ацетон" code="7" column1="" column2="" column3=""/>
+    <strdata name="Мономеры и сырьевые полупродукты" code="5" column1="" column2="" column3=""/>
+    <strdata name="-20.16.1 Полимеры этилена в первичных формах" code="1" column1="" column2="" column3=""/>
+    <strdata name="-19.20.32.112 Пропилен" code="2" column1="" column2="" column3=""/>
+    <strdata name="-19.20.32.114 Бутадиен" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.14.11.125 Изопрен" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.133 Бензол нефтяной" code="5" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.160 Стирол" code="6" column1="" column2="" column3=""/>
+    <strdata name="-20.14.34.121 Кислота терефталевая" code="7" column1="" column2="" column3=""/>
+    <strdata name="-20.14.24.112 Фенол синтетический технический" code="8" column1="" column2="" column3=""/>
+    <strdata name="-19.20.42.121 Битумы нефтяные дорожные" code="9" column1="" column2="" column3=""/>
+    <strdata name="-19.20.42.126 Битумы нефтяные вязкие" code="10" column1="" column2="" column3=""/>
+    <strdata name="-20.14.62.111 Ацетон" code="11" column1="" column2="" column3=""/>
+    <strdata name="Широкая фракция легких углеводородов (ШФЛУ) и ее отдельные фракции (бутан, пропан, пентан)" code="6" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.131 Пропановая фракция" code="1" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.132 Пропан-пропиленовая фракция" code="2" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.133 Фракция нормального бутана" code="3" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.134 Изобутановая фракция" code="4" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.135 Бутан-бутиленовая фракция" code="5" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.136 Пропан-бутановая фракция [кондиция для быта]" code="6" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.137 Пропан-бутан-пентановая фракция" code="7" column1="" column2="" column3=""/>
+    <strdata name="-19.30.11.138 Бутилен-бутадиеновая фракция" code="8" column1="" column2="" column3=""/>
+    <strdata name="-19.20.32.121 Пентан-гексановая фракция" code="9" column1="" column2="" column3=""/>
+    <strdata name="Ароматические углеводороды" code="7" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.141 Толуол нефтяной" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.151 О-ксилол" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.152 П-ксилол" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.153 М-ксилол" code="4" column1="" column2="" column3=""/>
+    <strdata name="Сжиженные углеводородные газы" code="8" column1="" column2="" column3=""/>
+    <strdata name="-Пропан [пропановая фракция, включая обработанную пропан-пропиленовую фракцию]" code="1" column1="" column2="" column3=""/>
+    <strdata name="-Фракция пропан-пропиленовая" code="2" column1="" column2="" column3=""/>
+    <strdata name="-Бутан нормальный [включая отработанную бутан- бутиленовую фракцию]" code="3" column1="" column2="" column3=""/>
+    <strdata name="-Изобутан [фракция изобутановая]" code="4" column1="" column2="" column3=""/>
+    <strdata name="-Фракция бутан-бутиленовая" code="5" column1="" column2="" column3=""/>
+    <strdata name="-Фракция пропан-бутановая [кондиция для быта]" code="6" column1="" column2="" column3=""/>
+    <strdata name="-Газы углеводородные сжиженные прочие" code="7" column1="" column2="" column3=""/>
+    <strdata name="-Пентан" code="8" column1="" column2="" column3=""/>
+    <strdata name="Прочие" code="9" column1="" column2="" column3=""/>
+    <strdata name="-19.20.32.117 Бензин газовый стабильный" code="1" column1="" column2="" column3=""/>
+    <strdata name="-20.14.22.111 Спирт метиловый [метанол]" code="2" column1="" column2="" column3=""/>
+    <strdata name="-20.14.22.113 Спирт изопропиловый [пропан-2-ол]" code="3" column1="" column2="" column3=""/>
+    <strdata name="-20.14.12.170 Этилбензолы" code="4" column1="" column2="" column3=""/>
+    <strdata name="-20.14.41.141 Анилин" code="5" column1="" column2="" column3=""/>
+  </flat>
+</document>

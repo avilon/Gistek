@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strfree code="1">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="18" datatype="classifier" format="2048"></column>
+ <column name="Поставщик" order="2" id="19" datatype="classifier" format="2048"></column>
+ <column name="Импорт (Да / Нет)" order="3" id="20" datatype="classifier" format="2048"></column>
+ <column name="Поставка за месяц, тыс. куб. м, план" order="4" id="21" datatype="number" format="30.3"></column>
+ <column name="Поставка за месяц, тыс. куб. м, факт" order="5" id="22" datatype="number" format="30.3"></column>
+ <column name="Поставка с начала года, тыс. куб. м, факт" order="6" id="23" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Вид сырья" order="1" id="40" datatype="classifier" format="2048"></column>
+ <column name="Направление использования сырья на заводе" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Использование сырья, тыс. куб. м" order="3" id="42" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Тип завода" order="1" id="49" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="2" id="50" datatype="text" format="1000"></column>
+ <column name="Градус СШ завода" order="3" id="51" datatype="number" format="30"></column>
+ <column name="Минута СШ завода" order="4" id="52" datatype="number" format="30"></column>
+ <column name="Секунда СШ завода" order="5" id="53" datatype="number" format="30"></column>
+ <column name="Градус ВД завода" order="6" id="54" datatype="number" format="30"></column>
+ <column name="Минута ВД завода" order="7" id="55" datatype="number" format="30"></column>
+ <column name="Секунда ВД завода" order="8" id="56" datatype="number" format="30"></column>
+ <column name="Производственная мощность, т/год" order="9" id="57" datatype="number" format="30.3"></column>
+ <column name="Количество технологических линий, шт." order="10" id="58" datatype="number" format="30"></column>
+ <column name="Капитальные затраты за месяц - План, тыс. руб." order="11" id="59" datatype="number" format="30.5"></column>
+ <column name="Капитальные затраты за месяц - Факт, тыс. руб." order="12" id="60" datatype="number" format="30.5"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Тип завода" order="1" id="49" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="2" id="50" datatype="text" format="1000"></column>
+ <column name="Градус СШ завода" order="3" id="51" datatype="number" format="30"></column>
+ <column name="Минута СШ завода" order="4" id="52" datatype="number" format="30"></column>
+ <column name="Секунда СШ завода" order="5" id="53" datatype="number" format="30"></column>
+ <column name="Градус ВД завода" order="6" id="54" datatype="number" format="30"></column>
+ <column name="Минута ВД завода" order="7" id="55" datatype="number" format="30"></column>
+ <column name="Секунда ВД завода" order="8" id="56" datatype="number" format="30"></column>
+ <column name="Производственная мощность, т/год" order="9" id="57" datatype="number" format="30.3"></column>
+ <column name="Количество технологических линий, шт." order="10" id="58" datatype="number" format="30"></column>
+ <column name="Капитальные затраты за месяц - План, тыс. руб." order="11" id="59" datatype="number" format="30.5"></column>
+ <column name="Капитальные затраты за месяц - Факт, тыс. руб." order="12" id="60" datatype="number" format="30.5"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Тип завода" order="1" id="49" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="2" id="50" datatype="text" format="1000"></column>
+ <column name="Градус СШ завода" order="3" id="51" datatype="number" format="30"></column>
+ <column name="Минута СШ завода" order="4" id="52" datatype="number" format="30"></column>
+ <column name="Секунда СШ завода" order="5" id="53" datatype="number" format="30"></column>
+ <column name="Градус ВД завода" order="6" id="54" datatype="number" format="30"></column>
+ <column name="Минута ВД завода" order="7" id="55" datatype="number" format="30"></column>
+ <column name="Секунда ВД завода" order="8" id="56" datatype="number" format="30"></column>
+ <column name="Производственная мощность, т/год" order="9" id="57" datatype="number" format="30.3"></column>
+ <column name="Количество технологических линий, шт." order="10" id="58" datatype="number" format="30"></column>
+ <column name="Капитальные затраты за месяц - План, тыс. руб." order="11" id="59" datatype="number" format="30.5"></column>
+ <column name="Капитальные затраты за месяц - Факт, тыс. руб." order="12" id="60" datatype="number" format="30.5"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Тип завода" order="1" id="49" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="2" id="50" datatype="text" format="1000"></column>
+ <column name="Градус СШ завода" order="3" id="51" datatype="number" format="30"></column>
+ <column name="Минута СШ завода" order="4" id="52" datatype="number" format="30"></column>
+ <column name="Секунда СШ завода" order="5" id="53" datatype="number" format="30"></column>
+ <column name="Градус ВД завода" order="6" id="54" datatype="number" format="30"></column>
+ <column name="Минута ВД завода" order="7" id="55" datatype="number" format="30"></column>
+ <column name="Секунда ВД завода" order="8" id="56" datatype="number" format="30"></column>
+ <column name="Производственная мощность, т/год" order="9" id="57" datatype="number" format="30.3"></column>
+ <column name="Количество технологических линий, шт." order="10" id="58" datatype="number" format="30"></column>
+ <column name="Капитальные затраты за месяц - План, тыс. руб." order="11" id="59" datatype="number" format="30.5"></column>
+ <column name="Капитальные затраты за месяц - Факт, тыс. руб." order="12" id="60" datatype="number" format="30.5"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Тип завода" order="1" id="49" datatype="classifier" format="2048"></column>
+ <column name="Адрес" order="2" id="50" datatype="text" format="1000"></column>
+ <column name="Градус СШ завода" order="3" id="51" datatype="number" format="30"></column>
+ <column name="Минута СШ завода" order="4" id="52" datatype="number" format="30"></column>
+ <column name="Секунда СШ завода" order="5" id="53" datatype="number" format="30"></column>
+ <column name="Градус ВД завода" order="6" id="54" datatype="number" format="30"></column>
+ <column name="Минута ВД завода" order="7" id="55" datatype="number" format="30"></column>
+ <column name="Секунда ВД завода" order="8" id="56" datatype="number" format="30"></column>
+ <column name="Производственная мощность, т/год" order="9" id="57" datatype="number" format="30.3"></column>
+ <column name="Количество технологических линий, шт." order="10" id="58" datatype="number" format="30"></column>
+ <column name="Капитальные затраты за месяц - План, тыс. руб." order="11" id="59" datatype="number" format="30.5"></column>
+ <column name="Капитальные затраты за месяц - Факт, тыс. руб." order="12" id="60" datatype="number" format="30.5"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="112" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="113" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="114" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="115" datatype="text" format="100"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="116" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="117" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="118" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="119" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="122" datatype="text" format="300"></column>
+ <column name="Почтовый адрес" order="2" id="123" datatype="text" format="300"></column>
+ <column name="Фактический адрес" order="3" id="124" datatype="text" format="300"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="125" datatype="text" format="300"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="126" datatype="text" format="300"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="127" datatype="text" format="300"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="128" datatype="text" format="300"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="129" datatype="text" format="300"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="130" datatype="text" format="300"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="131" datatype="text" format="300"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="132" datatype="text" format="300"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="133" datatype="text" format="300"></column>
+</strfree>
+</document>

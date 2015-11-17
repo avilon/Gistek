@@ -1,0 +1,46 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Эксплуатационный фонд скважин, шт." code="1" column1=""/>
+    <strdata name="-Фонтан" code="1" column1=""/>
+    <strdata name="-УЭЦН" code="2" column1=""/>
+    <strdata name="-ШГН" code="3" column1=""/>
+    <strdata name="-Газлифт" code="4" column1=""/>
+    <strdata name="-Прочие" code="5" column1=""/>
+    <strdata name="Эксплуатационный фонд скважин, дающих продукцию, шт." code="7" column1=""/>
+    <strdata name="-Фонтан" code="1" column1=""/>
+    <strdata name="-УЭЦН" code="2" column1=""/>
+    <strdata name="-ШГН" code="3" column1=""/>
+    <strdata name="-Газлифт" code="4" column1=""/>
+    <strdata name="-Прочие" code="5" column1=""/>
+    <strdata name="Эксплуатационный фонд скважин, дающих продукцию, по категориям, шт." code="8" column1=""/>
+    <strdata name="-новые" code="1" column1=""/>
+    <strdata name="-старые" code="2" column1=""/>
+    <strdata name="Фонд скважин в ожидании и производстве технологических работ и ППР (остановленные в текущем месяце), шт." code="15" column1=""/>
+    <strdata name="-новые" code="1" column1=""/>
+    <strdata name="-старые" code="2" column1=""/>
+    <strdata name="Действующие скважины в ремонте, шт." code="18" column1=""/>
+    <strdata name="Фонд бездействующих скважин, всего:" code="19" column1=""/>
+    <strdata name="-новые" code="1" column1=""/>
+    <strdata name="-старые" code="2" column1=""/>
+    <strdata name="Количество скважин в обустройстве, освоении и ожидании освоения, шт." code="22" column1=""/>
+    <strdata name="Количество скважин в в работах по обустройству, шт." code="23" column1=""/>
+    <strdata name="Количество скважин в в работах по по вызову притока, шт." code="24" column1=""/>
+    <strdata name="Введено в эксплуатацию новых нефтяных скважин, шт" code="25" column1=""/>
+    <strdata name="Введено в эксплуатацию новых нефтяных скважин из бурения, шт" code="26" column1=""/>
+    <strdata name="Введено в эксплуатацию из бездействующих на начало года, шт." code="27" column1=""/>
+  </flat>
+</document>

@@ -1,0 +1,389 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Остатки на начало периода" code="1" column1=""/>
+    <strdata name="Прием в систему" code="2" column1=""/>
+    <strdata name="-Алашанькоу, НПС" code="100001" column1=""/>
+    <strdata name="-Павлодар, ГНПС" code="100002" column1=""/>
+    <strdata name="-Терминал Самотлор" code="100003" column1=""/>
+    <strdata name="-Терминал Северная нефть" code="100004" column1=""/>
+    <strdata name="-Терминал Северное сияние" code="100005" column1=""/>
+    <strdata name="-Северокамск" code="100006" column1=""/>
+    <strdata name="-Серные воды" code="100007" column1=""/>
+    <strdata name="-Смоленская" code="100008" column1=""/>
+    <strdata name="-Соболиное" code="100009" column1=""/>
+    <strdata name="-Субханкулово" code="100010" column1=""/>
+    <strdata name="-Сургут" code="100011" column1=""/>
+    <strdata name="-Сургут [СИКН 1100]" code="100012" column1=""/>
+    <strdata name="-Пивдэнный, МНТ порта &quot;Южный&quot;" code="100013" column1=""/>
+    <strdata name="-Талакан" code="100014" column1=""/>
+    <strdata name="-Тарасовская" code="100015" column1=""/>
+    <strdata name="-Терминал &quot;ЛУКОЙЛ-Коми&quot;" code="100016" column1=""/>
+    <strdata name="-Тихорецкая, ПНБ" code="100017" column1=""/>
+    <strdata name="-Уральская" code="100018" column1=""/>
+    <strdata name="-Урманское" code="100019" column1=""/>
+    <strdata name="-Урьевские" code="100020" column1=""/>
+    <strdata name="-Ухта" code="100021" column1=""/>
+    <strdata name="-Хадыженская" code="100022" column1=""/>
+    <strdata name="-Хмелевка" code="100023" column1=""/>
+    <strdata name="-Речица" code="100024" column1=""/>
+    <strdata name="-Холмогоры" code="100025" column1=""/>
+    <strdata name="-Хохряковское" code="100026" column1=""/>
+    <strdata name="-Чекмагуш" code="100027" column1=""/>
+    <strdata name="-Черновское" code="100028" column1=""/>
+    <strdata name="-Чернушка" code="100029" column1=""/>
+    <strdata name="-Чикшино" code="100030" column1=""/>
+    <strdata name="-Шаим" code="100031" column1=""/>
+    <strdata name="-Шесхарис, ПНБ" code="100032" column1=""/>
+    <strdata name="-Шкапово" code="100033" column1=""/>
+    <strdata name="-Юган" code="100034" column1=""/>
+    <strdata name="-Херсон" code="100035" column1=""/>
+    <strdata name="-Южный Балык" code="100036" column1=""/>
+    <strdata name="-Южный Ягун" code="100037" column1=""/>
+    <strdata name="-Языково" code="100038" column1=""/>
+    <strdata name="-Терминал Ангарская нефтехимическая компания" code="100039" column1=""/>
+    <strdata name="-Терминал Анжерская нефтегазовая компания" code="100040" column1=""/>
+    <strdata name="-Терминал Антипинский НПЗ" code="100041" column1=""/>
+    <strdata name="-Терминал Афипский НПЗ" code="100042" column1=""/>
+    <strdata name="-Терминал Ачинский НПЗ" code="100043" column1=""/>
+    <strdata name="-Терминал Башнефть-Новойл" code="100044" column1=""/>
+    <strdata name="-Терминал Башнефть-УНПЗ" code="100045" column1=""/>
+    <strdata name="-Ширвановка" code="100046" column1=""/>
+    <strdata name="-Терминал Башнефть-Уфанефтехим" code="100047" column1=""/>
+    <strdata name="-Терминал Газпром нефтехим Салават" code="100048" column1=""/>
+    <strdata name="-Терминал Газпромнефть-МНПЗ" code="100049" column1=""/>
+    <strdata name="-Терминал Газпромнефть-ОНПЗ" code="100050" column1=""/>
+    <strdata name="-Итера-Самара терминал" code="100051" column1=""/>
+    <strdata name="-Терминал Каргопольский завод нефрасов" code="100052" column1=""/>
+    <strdata name="-Терминал Киришинефтеоргсинтез" code="100053" column1=""/>
+    <strdata name="-Терминал КИНЕФ" code="100054" column1=""/>
+    <strdata name="-Терминал КНПЗ - КЭН" code="100055" column1=""/>
+    <strdata name="-Терминал Куйбышевский НПЗ" code="100056" column1=""/>
+    <strdata name="-Адамова Застава" code="100057" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ -  Волгограднефтепереработка" code="100058" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Нижегороднефтеоргсинтез" code="100059" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Пермнефтеоргсинтез" code="100060" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Ухтанефтепереработка" code="100061" column1=""/>
+    <strdata name="-Терминал Марийский НПЗ" code="100062" column1=""/>
+    <strdata name="-Мегет, АУНН" code="100063" column1=""/>
+    <strdata name="-Терминал НефтеХимСервис" code="100064" column1=""/>
+    <strdata name="-Терминал Новокуйбышевский НПЗ" code="100065" column1=""/>
+    <strdata name="-Терминал Новошахтинский ЗНП" code="100066" column1=""/>
+    <strdata name="-Терминал Орскнефтеоргсинтез" code="100067" column1=""/>
+    <strdata name="-Будковце" code="100068" column1=""/>
+    <strdata name="-Приводино, ЖННК" code="100069" column1=""/>
+    <strdata name="-Терминал Ново-Уфимский НПЗ" code="100070" column1=""/>
+    <strdata name="-Терминал Новороссийск, Порт" code="100071" column1=""/>
+    <strdata name="-Терминал РН-Комсомольский НПЗ" code="100072" column1=""/>
+    <strdata name="-Терминал РН-Туапсинский НПЗ" code="100073" column1=""/>
+    <strdata name="-Терминал Русснефть-Брянск" code="100074" column1=""/>
+    <strdata name="-Терминал Рязанская нефтеперерабатывающая компания" code="100075" column1=""/>
+    <strdata name="-Терминал Саратовский НПЗ" code="100076" column1=""/>
+    <strdata name="-Сковородино, Комплекс перевалки нефти" code="100077" column1=""/>
+    <strdata name="-Терминал Славнефть-ЯНОС" code="100078" column1=""/>
+    <strdata name="-Терминал Мозырский НПЗ" code="100079" column1=""/>
+    <strdata name="-Спецморнефтепорт Козьмино" code="100080" column1=""/>
+    <strdata name="-Спецморнефтепорт Приморск" code="100081" column1=""/>
+    <strdata name="-Спецморнефтепорт Усть-Луга" code="100082" column1=""/>
+    <strdata name="-Терминал Сызранский НПЗ" code="100083" column1=""/>
+    <strdata name="-Терминал ТАИФ-НК" code="100084" column1=""/>
+    <strdata name="-Терминал ТАНЕКО" code="100085" column1=""/>
+    <strdata name="-Терминал Томскнефтепереработка" code="100086" column1=""/>
+    <strdata name="-Трансбункер" code="100087" column1=""/>
+    <strdata name="-Терминал Уфанефтехим" code="100088" column1=""/>
+    <strdata name="-Уяр, Комплекс перевалки нефти" code="100089" column1=""/>
+    <strdata name="-Терминал Нафтан" code="100090" column1=""/>
+    <strdata name="-Терминал Хабароский НПЗ" code="100091" column1=""/>
+    <strdata name="-Терминал Одесский НПЗ" code="100092" column1=""/>
+    <strdata name="-Атасу, НПС" code="100093" column1=""/>
+    <strdata name="-Терминал Петро-Казахстан Ойл Продактс НПЗ" code="100094" column1=""/>
+    <strdata name="-Терминал Одесский морской торговый порт" code="100095" column1=""/>
+    <strdata name="-Свовородино" code="100096" column1=""/>
+    <strdata name="-Фенешлитке" code="100097" column1=""/>
+    <strdata name="-117 км" code="100098" column1=""/>
+    <strdata name="-508 км н\пр Ярославль - Кириши-1" code="100099" column1=""/>
+    <strdata name="-68 км н\пр Тарасовское-Муравленковское" code="100100" column1=""/>
+    <strdata name="-915 км н\пр Куйбышев-Лисичанск" code="100101" column1=""/>
+    <strdata name="-Азнакаево" code="100102" column1=""/>
+    <strdata name="-Александровское" code="100103" column1=""/>
+    <strdata name="-Бутинге" code="100104" column1=""/>
+    <strdata name="-Альметьевск" code="100105" column1=""/>
+    <strdata name="-Апрельская" code="100106" column1=""/>
+    <strdata name="-Астраханская, НПС" code="100107" column1=""/>
+    <strdata name="-Б. Черниговка" code="100108" column1=""/>
+    <strdata name="-Бавлы" code="100109" column1=""/>
+    <strdata name="-Байтуган" code="100110" column1=""/>
+    <strdata name="-Барабинск" code="100111" column1=""/>
+    <strdata name="-Барсуковская" code="100112" column1=""/>
+    <strdata name="-Бахиловское" code="100113" column1=""/>
+    <strdata name="-Ватьеган" code="100114" column1=""/>
+    <strdata name="-Вентспилс" code="100115" column1=""/>
+    <strdata name="-Вынгояха" code="100116" column1=""/>
+    <strdata name="-Высокое, НПС" code="100117" column1=""/>
+    <strdata name="-Герасимовское" code="100118" column1=""/>
+    <strdata name="-Грушовая, ПНБ" code="100119" column1=""/>
+    <strdata name="-Грязовец" code="100120" column1=""/>
+    <strdata name="-Дебесы" code="100121" column1=""/>
+    <strdata name="-Демьянское" code="100122" column1=""/>
+    <strdata name="-Енисей" code="100123" column1=""/>
+    <strdata name="-Ефимовка" code="100124" column1=""/>
+    <strdata name="-Завьялово" code="100125" column1=""/>
+    <strdata name="-Долина" code="100126" column1=""/>
+    <strdata name="-Западный Могутлор" code="100127" column1=""/>
+    <strdata name="-Зеленоборск" code="100128" column1=""/>
+    <strdata name="-Игольское" code="100129" column1=""/>
+    <strdata name="-Калейкино" code="100130" column1=""/>
+    <strdata name="-Калиновый Ключ" code="100131" column1=""/>
+    <strdata name="-Калтасы" code="100132" column1=""/>
+    <strdata name="-Каменный Лог" code="100133" column1=""/>
+    <strdata name="-Карабаш" code="100134" column1=""/>
+    <strdata name="-Каркатеевы" code="100135" column1=""/>
+    <strdata name="-Карская" code="100136" column1=""/>
+    <strdata name="-Дрогобыч" code="100137" column1=""/>
+    <strdata name="-Киенгоп" code="100138" column1=""/>
+    <strdata name="-Киренск" code="100139" column1=""/>
+    <strdata name="-Клин" code="100140" column1=""/>
+    <strdata name="-Красноленинск" code="100141" column1=""/>
+    <strdata name="-Кротовка" code="100142" column1=""/>
+    <strdata name="-Крымск" code="100143" column1=""/>
+    <strdata name="-Кулешовка" code="100144" column1=""/>
+    <strdata name="-Лопатино" code="100145" column1=""/>
+    <strdata name="-Лугинецкое" code="100146" column1=""/>
+    <strdata name="-Луговое" code="100147" column1=""/>
+    <strdata name="-Кременчуг" code="100148" column1=""/>
+    <strdata name="-Малая Пурга" code="100149" column1=""/>
+    <strdata name="-Марковское" code="100150" column1=""/>
+    <strdata name="-Махачкала" code="100151" column1=""/>
+    <strdata name="-Мегион" code="100152" column1=""/>
+    <strdata name="-Медведево" code="100153" column1=""/>
+    <strdata name="-Михайловка" code="100154" column1=""/>
+    <strdata name="-Мишкино" code="100155" column1=""/>
+    <strdata name="-Муханово" code="100156" column1=""/>
+    <strdata name="-Набережные Челны" code="100157" column1=""/>
+    <strdata name="-Невель" code="100158" column1=""/>
+    <strdata name="-Лисичанск" code="100159" column1=""/>
+    <strdata name="-Нефтус" code="100160" column1=""/>
+    <strdata name="-Нижневартовск" code="100161" column1=""/>
+    <strdata name="-Никольское, НПС" code="100162" column1=""/>
+    <strdata name="-Ножовка" code="100163" column1=""/>
+    <strdata name="-Омск, НПС" code="100164" column1=""/>
+    <strdata name="-Орск" code="100165" column1=""/>
+    <strdata name="-Оса" code="100166" column1=""/>
+    <strdata name="-Остров" code="100167" column1=""/>
+    <strdata name="-Повх" code="100168" column1=""/>
+    <strdata name="-Покачи" code="100169" column1=""/>
+    <strdata name="-Мажейкяй" code="100170" column1=""/>
+    <strdata name="-Покровка" code="100171" column1=""/>
+    <strdata name="-Похвистнево" code="100172" column1=""/>
+    <strdata name="-Прием нефти с месторождений Восточной Сибири" code="100173" column1=""/>
+    <strdata name="-Просвет" code="100174" column1=""/>
+    <strdata name="-Просвет мс" code="100175" column1=""/>
+    <strdata name="-Псекупская" code="100176" column1=""/>
+    <strdata name="-Пур-Пе" code="100177" column1=""/>
+    <strdata name="-Пур-Пе [Ванкорское месторождение]" code="100178" column1=""/>
+    <strdata name="-Раскино" code="100179" column1=""/>
+    <strdata name="-Самара, НПС" code="100180" column1=""/>
+    <strdata name="Сдано грузополучателям" code="5" column1=""/>
+    <strdata name="Сдано на НПЗ России" code="6" column1=""/>
+    <strdata name="-Терминал Самотлор" code="500001" column1=""/>
+    <strdata name="-Терминал Северная нефть" code="500002" column1=""/>
+    <strdata name="-Терминал Северное сияние" code="500003" column1=""/>
+    <strdata name="-Северокамск" code="500004" column1=""/>
+    <strdata name="-Серные воды" code="500005" column1=""/>
+    <strdata name="-Смоленская" code="500006" column1=""/>
+    <strdata name="-Соболиное" code="500007" column1=""/>
+    <strdata name="-Субханкулово" code="500008" column1=""/>
+    <strdata name="-Сургут" code="500009" column1=""/>
+    <strdata name="-Сургут [СИКН 1100]" code="500010" column1=""/>
+    <strdata name="-Талакан" code="500011" column1=""/>
+    <strdata name="-Тарасовская" code="500012" column1=""/>
+    <strdata name="-Терминал &quot;ЛУКОЙЛ-Коми&quot;" code="500013" column1=""/>
+    <strdata name="-Тихорецкая, ПНБ" code="500014" column1=""/>
+    <strdata name="-Уральская" code="500015" column1=""/>
+    <strdata name="-Урманское" code="500016" column1=""/>
+    <strdata name="-Урьевские" code="500017" column1=""/>
+    <strdata name="-Ухта" code="500018" column1=""/>
+    <strdata name="-Хадыженская" code="500019" column1=""/>
+    <strdata name="-Хмелевка" code="500020" column1=""/>
+    <strdata name="-Холмогоры" code="500021" column1=""/>
+    <strdata name="-Хохряковское" code="500022" column1=""/>
+    <strdata name="-Чекмагуш" code="500023" column1=""/>
+    <strdata name="-Черновское" code="500024" column1=""/>
+    <strdata name="-Чернушка" code="500025" column1=""/>
+    <strdata name="-Чикшино" code="500026" column1=""/>
+    <strdata name="-Шаим" code="500027" column1=""/>
+    <strdata name="-Шесхарис, ПНБ" code="500028" column1=""/>
+    <strdata name="-Шкапово" code="500029" column1=""/>
+    <strdata name="-Юган" code="500030" column1=""/>
+    <strdata name="-Южный Балык" code="500031" column1=""/>
+    <strdata name="-Южный Ягун" code="500032" column1=""/>
+    <strdata name="-Языково" code="500033" column1=""/>
+    <strdata name="-Терминал Ангарская нефтехимическая компания" code="500034" column1=""/>
+    <strdata name="-Терминал Анжерская нефтегазовая компания" code="500035" column1=""/>
+    <strdata name="-Терминал Антипинский НПЗ" code="500036" column1=""/>
+    <strdata name="-Терминал Афипский НПЗ" code="500037" column1=""/>
+    <strdata name="-Терминал Ачинский НПЗ" code="500038" column1=""/>
+    <strdata name="-Терминал Башнефть-Новойл" code="500039" column1=""/>
+    <strdata name="-Терминал Башнефть-УНПЗ" code="500040" column1=""/>
+    <strdata name="-Терминал Башнефть-Уфанефтехим" code="500041" column1=""/>
+    <strdata name="-Терминал Газпром нефтехим Салават" code="500042" column1=""/>
+    <strdata name="-Терминал Газпромнефть-МНПЗ" code="500043" column1=""/>
+    <strdata name="-Терминал Газпромнефть-ОНПЗ" code="500044" column1=""/>
+    <strdata name="-Итера-Самара терминал" code="500045" column1=""/>
+    <strdata name="-Терминал Каргопольский завод нефрасов" code="500046" column1=""/>
+    <strdata name="-Терминал Киришинефтеоргсинтез" code="500047" column1=""/>
+    <strdata name="-Терминал КИНЕФ" code="500048" column1=""/>
+    <strdata name="-Терминал КНПЗ - КЭН" code="500049" column1=""/>
+    <strdata name="-Терминал Куйбышевский НПЗ" code="500050" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ -  Волгограднефтепереработка" code="500051" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Нижегороднефтеоргсинтез" code="500052" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Пермнефтеоргсинтез" code="500053" column1=""/>
+    <strdata name="-Терминал ЛУКОЙЛ-Ухтанефтепереработка" code="500054" column1=""/>
+    <strdata name="-Терминал Марийский НПЗ" code="500055" column1=""/>
+    <strdata name="-Мегет, АУНН" code="500056" column1=""/>
+    <strdata name="-Терминал НефтеХимСервис" code="500057" column1=""/>
+    <strdata name="-Терминал Новокуйбышевский НПЗ" code="500058" column1=""/>
+    <strdata name="-Терминал Новошахтинский ЗНП" code="500059" column1=""/>
+    <strdata name="-Терминал Орскнефтеоргсинтез" code="500060" column1=""/>
+    <strdata name="-Приводино, ЖННК" code="500061" column1=""/>
+    <strdata name="-Терминал Ново-Уфимский НПЗ" code="500062" column1=""/>
+    <strdata name="-Терминал Новороссийск, Порт" code="500063" column1=""/>
+    <strdata name="-Терминал РН-Комсомольский НПЗ" code="500064" column1=""/>
+    <strdata name="-Терминал РН-Туапсинский НПЗ" code="500065" column1=""/>
+    <strdata name="-Терминал Русснефть-Брянск" code="500066" column1=""/>
+    <strdata name="-Терминал Рязанская нефтеперерабатывающая компания" code="500067" column1=""/>
+    <strdata name="-Терминал Саратовский НПЗ" code="500068" column1=""/>
+    <strdata name="-Сковородино, Комплекс перевалки нефти" code="500069" column1=""/>
+    <strdata name="-Терминал Славнефть-ЯНОС" code="500070" column1=""/>
+    <strdata name="-Спецморнефтепорт Козьмино" code="500071" column1=""/>
+    <strdata name="-Спецморнефтепорт Приморск" code="500072" column1=""/>
+    <strdata name="-Спецморнефтепорт Усть-Луга" code="500073" column1=""/>
+    <strdata name="-Терминал Сызранский НПЗ" code="500074" column1=""/>
+    <strdata name="-Терминал ТАИФ-НК" code="500075" column1=""/>
+    <strdata name="-Терминал ТАНЕКО" code="500076" column1=""/>
+    <strdata name="-Терминал Томскнефтепереработка" code="500077" column1=""/>
+    <strdata name="-Трансбункер" code="500078" column1=""/>
+    <strdata name="-Терминал Уфанефтехим" code="500079" column1=""/>
+    <strdata name="-Уяр, Комплекс перевалки нефти" code="500080" column1=""/>
+    <strdata name="-Терминал Хабароский НПЗ" code="500081" column1=""/>
+    <strdata name="-117 км" code="500082" column1=""/>
+    <strdata name="-508 км н\пр Ярославль - Кириши-1" code="500083" column1=""/>
+    <strdata name="-68 км н\пр Тарасовское-Муравленковское" code="500084" column1=""/>
+    <strdata name="-915 км н\пр Куйбышев-Лисичанск" code="500085" column1=""/>
+    <strdata name="-Азнакаево" code="500086" column1=""/>
+    <strdata name="-Александровское" code="500087" column1=""/>
+    <strdata name="-Альметьевск" code="500088" column1=""/>
+    <strdata name="-Апрельская" code="500089" column1=""/>
+    <strdata name="-Астраханская, НПС" code="500090" column1=""/>
+    <strdata name="-Б. Черниговка" code="500091" column1=""/>
+    <strdata name="-Бавлы" code="500092" column1=""/>
+    <strdata name="-Байтуган" code="500093" column1=""/>
+    <strdata name="-Барабинск" code="500094" column1=""/>
+    <strdata name="-Барсуковская" code="500095" column1=""/>
+    <strdata name="-Бахиловское" code="500096" column1=""/>
+    <strdata name="-Ватьеган" code="500097" column1=""/>
+    <strdata name="-Вынгояха" code="500098" column1=""/>
+    <strdata name="-Высокое, НПС" code="500099" column1=""/>
+    <strdata name="-Герасимовское" code="500100" column1=""/>
+    <strdata name="-Грушовая, ПНБ" code="500101" column1=""/>
+    <strdata name="-Грязовец" code="500102" column1=""/>
+    <strdata name="-Дебесы" code="500103" column1=""/>
+    <strdata name="-Демьянское" code="500104" column1=""/>
+    <strdata name="-Енисей" code="500105" column1=""/>
+    <strdata name="-Ефимовка" code="500106" column1=""/>
+    <strdata name="-Завьялово" code="500107" column1=""/>
+    <strdata name="-Западный Могутлор" code="500108" column1=""/>
+    <strdata name="-Зеленоборск" code="500109" column1=""/>
+    <strdata name="-Игольское" code="500110" column1=""/>
+    <strdata name="-Калейкино" code="500111" column1=""/>
+    <strdata name="-Калиновый Ключ" code="500112" column1=""/>
+    <strdata name="-Калтасы" code="500113" column1=""/>
+    <strdata name="-Каменный Лог" code="500114" column1=""/>
+    <strdata name="-Карабаш" code="500115" column1=""/>
+    <strdata name="-Каркатеевы" code="500116" column1=""/>
+    <strdata name="-Карская" code="500117" column1=""/>
+    <strdata name="-Киенгоп" code="500118" column1=""/>
+    <strdata name="-Киренск" code="500119" column1=""/>
+    <strdata name="-Клин" code="500120" column1=""/>
+    <strdata name="-Красноленинск" code="500121" column1=""/>
+    <strdata name="-Кротовка" code="500122" column1=""/>
+    <strdata name="-Крымск" code="500123" column1=""/>
+    <strdata name="-Кулешовка" code="500124" column1=""/>
+    <strdata name="-Лопатино" code="500125" column1=""/>
+    <strdata name="-Лугинецкое" code="500126" column1=""/>
+    <strdata name="-Луговое" code="500127" column1=""/>
+    <strdata name="-Малая Пурга" code="500128" column1=""/>
+    <strdata name="-Марковское" code="500129" column1=""/>
+    <strdata name="-Махачкала" code="500130" column1=""/>
+    <strdata name="-Мегион" code="500131" column1=""/>
+    <strdata name="-Медведево" code="500132" column1=""/>
+    <strdata name="-Михайловка" code="500133" column1=""/>
+    <strdata name="-Мишкино" code="500134" column1=""/>
+    <strdata name="-Муханово" code="500135" column1=""/>
+    <strdata name="-Набережные Челны" code="500136" column1=""/>
+    <strdata name="-Невель" code="500137" column1=""/>
+    <strdata name="-Нефтус" code="500138" column1=""/>
+    <strdata name="-Нижневартовск" code="500139" column1=""/>
+    <strdata name="-Никольское, НПС" code="500140" column1=""/>
+    <strdata name="-Ножовка" code="500141" column1=""/>
+    <strdata name="-Омск, НПС" code="500142" column1=""/>
+    <strdata name="-Орск" code="500143" column1=""/>
+    <strdata name="-Оса" code="500144" column1=""/>
+    <strdata name="-Остров" code="500145" column1=""/>
+    <strdata name="-Повх" code="500146" column1=""/>
+    <strdata name="-Покачи" code="500147" column1=""/>
+    <strdata name="-Покровка" code="500148" column1=""/>
+    <strdata name="-Похвистнево" code="500149" column1=""/>
+    <strdata name="-Прием нефти с месторождений Восточной Сибири" code="500150" column1=""/>
+    <strdata name="-Просвет" code="500151" column1=""/>
+    <strdata name="-Просвет мс" code="500152" column1=""/>
+    <strdata name="-Псекупская" code="500153" column1=""/>
+    <strdata name="-Пур-Пе" code="500154" column1=""/>
+    <strdata name="-Пур-Пе [Ванкорское месторождение]" code="500155" column1=""/>
+    <strdata name="-Раскино" code="500156" column1=""/>
+    <strdata name="-Самара, НПС" code="500157" column1=""/>
+    <strdata name="Сдано на ППС Ближнего зарубежья" code="9" column1=""/>
+    <strdata name="Сдано на ППС Белоруссии" code="10" column1=""/>
+    <strdata name="-Речица" code="900001" column1=""/>
+    <strdata name="-Терминал Мозырский НПЗ" code="900002" column1=""/>
+    <strdata name="-Терминал Нафтан" code="900003" column1=""/>
+    <strdata name="Сдано на ППС Казахстана" code="13" column1=""/>
+    <strdata name="-Алашанькоу, НПС" code="1.200001E6" column1=""/>
+    <strdata name="-Павлодар, ГНПС" code="1.200002E6" column1=""/>
+    <strdata name="-Атасу, НПС" code="1.200003E6" column1=""/>
+    <strdata name="-Терминал Петро-Казахстан Ойл Продактс НПЗ" code="1.200004E6" column1=""/>
+    <strdata name="Сдано на ППС Украины" code="16" column1=""/>
+    <strdata name="-Пивдэнный, МНТ порта &quot;Южный&quot;" code="1.500001E6" column1=""/>
+    <strdata name="-Херсон" code="1.500002E6" column1=""/>
+    <strdata name="-Терминал Одесский НПЗ" code="1.500003E6" column1=""/>
+    <strdata name="-Терминал Одесский морской торговый порт" code="1.500004E6" column1=""/>
+    <strdata name="-Долина" code="1.500005E6" column1=""/>
+    <strdata name="-Дрогобыч" code="1.500006E6" column1=""/>
+    <strdata name="-Кременчуг" code="1.500007E6" column1=""/>
+    <strdata name="-Лисичанск" code="1.500008E6" column1=""/>
+    <strdata name="Сдано на ППС Дальнего зарубежья" code="19" column1=""/>
+    <strdata name="-Адамова Застава" code="1.800001E6" column1=""/>
+    <strdata name="-Будковце" code="1.800002E6" column1=""/>
+    <strdata name="-Свовородино" code="1.800003E6" column1=""/>
+    <strdata name="-Фенешлитке" code="1.800004E6" column1=""/>
+    <strdata name="-Бутинге" code="1.800005E6" column1=""/>
+    <strdata name="-Вентспилс" code="1.800006E6" column1=""/>
+    <strdata name="-Мажейкяй" code="1.800007E6" column1=""/>
+    <strdata name="Топливо и технологические нужды" code="22" column1=""/>
+    <strdata name="Потери" code="25" column1=""/>
+    <strdata name="Остатки на конец периода" code="26" column1=""/>
+  </flat>
+</document>

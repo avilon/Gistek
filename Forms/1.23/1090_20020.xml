@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+ <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="Блоки Ипати и Акийо [20%]" id="1">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="Блок Асеро [22.5%]" id="2">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="Бассейн Солимойнс [45%]" id="3">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="Блок Урумако-1 [100%]" id="4">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="месторождение Робало [возможность создания СП]" id="5">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="Petrozamora [40%]" id="6">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="Petromonagas [17%]" id="7">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="Petroperija [40%]" id="8">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="PetroVictoria [40%]" id="9">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="Boqueron [27%]" id="10">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="Petromiranda [Роснефть 24%]" id="11">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="Petromiranda [Газпром нефть 8%]" id="12">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="Petromiranda [ЛУКОЙЛ 8%]" id="13">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="Харматтан [30%]" id="14">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100015" name="Блок L" id="15">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100016" name="проект La Escalere и блоки в Мексиканском заливе [30%]" id="16">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100017" name="Dune Energy [контрольный пакет]" id="17">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100018" name="СП с Queil Energy" id="18">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100019" name="Вьетгазпром [50%]" id="19">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100020" name="Блоки 05-2, 05-3 [49%]" id="20">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100021" name="Блок Hanoi Trough-02 [50%]" id="21">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100022" name="СРП по блоку 12\11" id="22">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100023" name="Вьетсовпетро [49%]" id="23">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100024" name="Блок 06-1 [35%]" id="24">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100025" name="СРП по блоку 05-3 \11" id="25">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100026" name="Berkine [49%]" id="26">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100027" name="Блок 245 - Юг [Роснефть 30%]" id="27">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100028" name="Блок 245 - Юг [Стройтрансгаз 30%]" id="28">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100029" name="Блок 3 \ 05 [4%]" id="29">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100030" name="Блок 3 \ 91 [5%]" id="30">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100031" name="Блок 3 \ 05а [4%]" id="31">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100032" name="Cape Three Points Deep Water [56.66%]" id="32">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100033" name="Me ley a [24%]" id="33">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100034" name="WEEM [50%]" id="34">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100035" name="WEEM Extension [50%]" id="35">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100036" name="Участки 19, 64" id="36">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100037" name="C96 и C97 [49%]" id="37">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100038" name="СРП по блокам 821, 691, 2, 3, 4, 982, 4" id="38">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="7" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="8" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц, тыс. тонн" order="3" id="9" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="10" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период c начала прошлого года, тыс. тонн" order="5" id="11" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="2" name="Всего">
+ <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+ <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ <strclass code="200001" name="Блоки Ипати и Акийо [20%]" id="1">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200002" name="Блок Асеро [22.5%]" id="2">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200003" name="Бассейн Солимойнс [45%]" id="3">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200004" name="Блок Урумако-1 [100%]" id="4">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200005" name="месторождение Робало [возможность создания СП]" id="5">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200006" name="Petrozamora [40%]" id="6">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200007" name="Petromonagas [17%]" id="7">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200008" name="Petroperija [40%]" id="8">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200009" name="PetroVictoria [40%]" id="9">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200010" name="Boqueron [27%]" id="10">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200011" name="Petromiranda [Роснефть 24%]" id="11">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200012" name="Petromiranda [Газпром нефть 8%]" id="12">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200013" name="Petromiranda [ЛУКОЙЛ 8%]" id="13">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200014" name="Харматтан [30%]" id="14">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200015" name="Блок L" id="15">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200016" name="проект La Escalere и блоки в Мексиканском заливе [30%]" id="16">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200017" name="Dune Energy [контрольный пакет]" id="17">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200018" name="СП с Queil Energy" id="18">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200019" name="Вьетгазпром [50%]" id="19">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200020" name="Блоки 05-2, 05-3 [49%]" id="20">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200021" name="Блок Hanoi Trough-02 [50%]" id="21">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200022" name="СРП по блоку 12\11" id="22">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200023" name="Вьетсовпетро [49%]" id="23">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200024" name="Блок 06-1 [35%]" id="24">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200025" name="СРП по блоку 05-3 \11" id="25">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200026" name="Berkine [49%]" id="26">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200027" name="Блок 245 - Юг [Роснефть 30%]" id="27">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200028" name="Блок 245 - Юг [Стройтрансгаз 30%]" id="28">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200029" name="Блок 3 \ 05 [4%]" id="29">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200030" name="Блок 3 \ 91 [5%]" id="30">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200031" name="Блок 3 \ 05а [4%]" id="31">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200032" name="Cape Three Points Deep Water [56.66%]" id="32">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200033" name="Me ley a [24%]" id="33">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200034" name="WEEM [50%]" id="34">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200035" name="WEEM Extension [50%]" id="35">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200036" name="Участки 19, 64" id="36">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200037" name="C96 и C97 [49%]" id="37">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200038" name="СРП по блокам 821, 691, 2, 3, 4, 982, 4" id="38">
+  <column name="Доля участия ВИНК в уставном  капитале, %" order="1" id="13" datatype="number" format="30.2"></column>
+  <column name="Долевая добыча за месяц, тыс.тонн" order="2" id="14" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за предыдущий месяц , тыс. тонн" order="3" id="15" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча с начала года, тыс. тонн" order="4" id="16" datatype="number" format="30.3"></column>
+  <column name="Долевая добыча за аналогичный период с начала прошлого года, тыс. тонн" order="5" id="17" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="20" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="21" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="22" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="23" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="20" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="21" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="22" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="23" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="36" datatype="text" format="500"></column>
+</strdata>
+</document>

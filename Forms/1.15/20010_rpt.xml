@@ -1,0 +1,366 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Нефть, тонн" code="1" column1="" column2=""/>
+    <strdata name="-Белгородская область" code="1" column1="" column2=""/>
+    <strdata name="-Брянская область" code="2" column1="" column2=""/>
+    <strdata name="-Владимирская область" code="3" column1="" column2=""/>
+    <strdata name="-Воронежская область" code="4" column1="" column2=""/>
+    <strdata name="-Ивановская область" code="5" column1="" column2=""/>
+    <strdata name="-Калужская область" code="6" column1="" column2=""/>
+    <strdata name="-Костромская область" code="7" column1="" column2=""/>
+    <strdata name="-Курская область" code="8" column1="" column2=""/>
+    <strdata name="-Липецкая область" code="9" column1="" column2=""/>
+    <strdata name="-Москва" code="10" column1="" column2=""/>
+    <strdata name="-Московская область" code="11" column1="" column2=""/>
+    <strdata name="-Орловская область" code="12" column1="" column2=""/>
+    <strdata name="-Рязанская область" code="13" column1="" column2=""/>
+    <strdata name="-Смоленская область" code="14" column1="" column2=""/>
+    <strdata name="-Тамбовская область" code="15" column1="" column2=""/>
+    <strdata name="-Тверская область" code="16" column1="" column2=""/>
+    <strdata name="-Тульская область" code="17" column1="" column2=""/>
+    <strdata name="-Ярославская область" code="18" column1="" column2=""/>
+    <strdata name="-Республика Карелия" code="19" column1="" column2=""/>
+    <strdata name="-Республика Коми" code="20" column1="" column2=""/>
+    <strdata name="-Архангельская область" code="21" column1="" column2=""/>
+    <strdata name="-Ненецкий АО [Архангельская область]" code="22" column1="" column2=""/>
+    <strdata name="-Вологодская область" code="23" column1="" column2=""/>
+    <strdata name="-Калининградская область" code="24" column1="" column2=""/>
+    <strdata name="-Ленинградская область" code="25" column1="" column2=""/>
+    <strdata name="-Санкт-Петербург" code="26" column1="" column2=""/>
+    <strdata name="-Мурманская область" code="27" column1="" column2=""/>
+    <strdata name="-Новгородская область" code="28" column1="" column2=""/>
+    <strdata name="-Псковская область" code="29" column1="" column2=""/>
+    <strdata name="-Республика Адыгея" code="30" column1="" column2=""/>
+    <strdata name="-Республика Дагестан" code="31" column1="" column2=""/>
+    <strdata name="-Республика Ингушетия" code="32" column1="" column2=""/>
+    <strdata name="-Кабардино-Балкарская Республика" code="33" column1="" column2=""/>
+    <strdata name="-Республика Калмыкия" code="34" column1="" column2=""/>
+    <strdata name="-Карачаево-Черкесская Республика" code="35" column1="" column2=""/>
+    <strdata name="-Республика Северная Осетия-Алания" code="36" column1="" column2=""/>
+    <strdata name="-Чеченская Республика" code="37" column1="" column2=""/>
+    <strdata name="-Краснодарский край" code="38" column1="" column2=""/>
+    <strdata name="-Ставропольский край" code="39" column1="" column2=""/>
+    <strdata name="-Астраханская область" code="40" column1="" column2=""/>
+    <strdata name="-Волгоградская область" code="41" column1="" column2=""/>
+    <strdata name="-Ростовская область" code="42" column1="" column2=""/>
+    <strdata name="-Республика Башкортостан" code="43" column1="" column2=""/>
+    <strdata name="-Республика Марий Эл" code="44" column1="" column2=""/>
+    <strdata name="-Республика Мордовия" code="45" column1="" column2=""/>
+    <strdata name="-Республика Татарстан" code="46" column1="" column2=""/>
+    <strdata name="-Удмуртская Республика" code="47" column1="" column2=""/>
+    <strdata name="-Чувашская Республика" code="48" column1="" column2=""/>
+    <strdata name="-Кировская область" code="49" column1="" column2=""/>
+    <strdata name="-Нижегородская область" code="50" column1="" column2=""/>
+    <strdata name="-Оренбургская область" code="51" column1="" column2=""/>
+    <strdata name="-Пензенская область" code="52" column1="" column2=""/>
+    <strdata name="-Пермский край" code="53" column1="" column2=""/>
+    <strdata name="-Самарская область" code="54" column1="" column2=""/>
+    <strdata name="-Саратовская область" code="55" column1="" column2=""/>
+    <strdata name="-Ульяновская область" code="56" column1="" column2=""/>
+    <strdata name="-Курганская область" code="57" column1="" column2=""/>
+    <strdata name="-Свердловская область" code="58" column1="" column2=""/>
+    <strdata name="-Тюменская область" code="59" column1="" column2=""/>
+    <strdata name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="60" column1="" column2=""/>
+    <strdata name="-Ямало-Ненецкий АО [Тюменская область]" code="61" column1="" column2=""/>
+    <strdata name="-Челябинская область" code="62" column1="" column2=""/>
+    <strdata name="-Республика Алтай" code="63" column1="" column2=""/>
+    <strdata name="-Республика Бурятия" code="64" column1="" column2=""/>
+    <strdata name="-Республика Тыва" code="65" column1="" column2=""/>
+    <strdata name="-Республика Хакасия" code="66" column1="" column2=""/>
+    <strdata name="-Алтайский край" code="67" column1="" column2=""/>
+    <strdata name="-Красноярский край" code="68" column1="" column2=""/>
+    <strdata name="-Иркутская область" code="69" column1="" column2=""/>
+    <strdata name="-Кемеровская область" code="70" column1="" column2=""/>
+    <strdata name="-Новосибирская область" code="71" column1="" column2=""/>
+    <strdata name="-Омская область" code="72" column1="" column2=""/>
+    <strdata name="-Томская область" code="73" column1="" column2=""/>
+    <strdata name="-Забайкальский край" code="74" column1="" column2=""/>
+    <strdata name="-Республика Саха [Якутия]" code="75" column1="" column2=""/>
+    <strdata name="-Приморский край" code="76" column1="" column2=""/>
+    <strdata name="-Хабаровский край" code="77" column1="" column2=""/>
+    <strdata name="-Амурская область" code="78" column1="" column2=""/>
+    <strdata name="-Камчатский край" code="79" column1="" column2=""/>
+    <strdata name="-Корякский АО [Камчатский край]" code="80" column1="" column2=""/>
+    <strdata name="-Магаданская область" code="81" column1="" column2=""/>
+    <strdata name="-Сахалинская область" code="82" column1="" column2=""/>
+    <strdata name="-Еврейская АО" code="83" column1="" column2=""/>
+    <strdata name="-Чукотский АО" code="84" column1="" column2=""/>
+    <strdata name="-Республика Крым" code="85" column1="" column2=""/>
+    <strdata name="-Севастополь" code="86" column1="" column2=""/>
+    <strdata name="Газовый конденсат, тонн" code="2" column1="" column2=""/>
+    <strdata name="-Белгородская область" code="100001" column1="" column2=""/>
+    <strdata name="-Брянская область" code="100002" column1="" column2=""/>
+    <strdata name="-Владимирская область" code="100003" column1="" column2=""/>
+    <strdata name="-Воронежская область" code="100004" column1="" column2=""/>
+    <strdata name="-Ивановская область" code="100005" column1="" column2=""/>
+    <strdata name="-Калужская область" code="100006" column1="" column2=""/>
+    <strdata name="-Костромская область" code="100007" column1="" column2=""/>
+    <strdata name="-Курская область" code="100008" column1="" column2=""/>
+    <strdata name="-Липецкая область" code="100009" column1="" column2=""/>
+    <strdata name="-Москва" code="100010" column1="" column2=""/>
+    <strdata name="-Московская область" code="100011" column1="" column2=""/>
+    <strdata name="-Орловская область" code="100012" column1="" column2=""/>
+    <strdata name="-Рязанская область" code="100013" column1="" column2=""/>
+    <strdata name="-Смоленская область" code="100014" column1="" column2=""/>
+    <strdata name="-Тамбовская область" code="100015" column1="" column2=""/>
+    <strdata name="-Тверская область" code="100016" column1="" column2=""/>
+    <strdata name="-Тульская область" code="100017" column1="" column2=""/>
+    <strdata name="-Ярославская область" code="100018" column1="" column2=""/>
+    <strdata name="-Республика Карелия" code="100019" column1="" column2=""/>
+    <strdata name="-Республика Коми" code="100020" column1="" column2=""/>
+    <strdata name="-Архангельская область" code="100021" column1="" column2=""/>
+    <strdata name="-Ненецкий АО [Архангельская область]" code="100022" column1="" column2=""/>
+    <strdata name="-Вологодская область" code="100023" column1="" column2=""/>
+    <strdata name="-Калининградская область" code="100024" column1="" column2=""/>
+    <strdata name="-Ленинградская область" code="100025" column1="" column2=""/>
+    <strdata name="-Санкт-Петербург" code="100026" column1="" column2=""/>
+    <strdata name="-Мурманская область" code="100027" column1="" column2=""/>
+    <strdata name="-Новгородская область" code="100028" column1="" column2=""/>
+    <strdata name="-Псковская область" code="100029" column1="" column2=""/>
+    <strdata name="-Республика Адыгея" code="100030" column1="" column2=""/>
+    <strdata name="-Республика Дагестан" code="100031" column1="" column2=""/>
+    <strdata name="-Республика Ингушетия" code="100032" column1="" column2=""/>
+    <strdata name="-Кабардино-Балкарская Республика" code="100033" column1="" column2=""/>
+    <strdata name="-Республика Калмыкия" code="100034" column1="" column2=""/>
+    <strdata name="-Карачаево-Черкесская Республика" code="100035" column1="" column2=""/>
+    <strdata name="-Республика Северная Осетия-Алания" code="100036" column1="" column2=""/>
+    <strdata name="-Чеченская Республика" code="100037" column1="" column2=""/>
+    <strdata name="-Краснодарский край" code="100038" column1="" column2=""/>
+    <strdata name="-Ставропольский край" code="100039" column1="" column2=""/>
+    <strdata name="-Астраханская область" code="100040" column1="" column2=""/>
+    <strdata name="-Волгоградская область" code="100041" column1="" column2=""/>
+    <strdata name="-Ростовская область" code="100042" column1="" column2=""/>
+    <strdata name="-Республика Башкортостан" code="100043" column1="" column2=""/>
+    <strdata name="-Республика Марий Эл" code="100044" column1="" column2=""/>
+    <strdata name="-Республика Мордовия" code="100045" column1="" column2=""/>
+    <strdata name="-Республика Татарстан" code="100046" column1="" column2=""/>
+    <strdata name="-Удмуртская Республика" code="100047" column1="" column2=""/>
+    <strdata name="-Чувашская Республика" code="100048" column1="" column2=""/>
+    <strdata name="-Кировская область" code="100049" column1="" column2=""/>
+    <strdata name="-Нижегородская область" code="100050" column1="" column2=""/>
+    <strdata name="-Оренбургская область" code="100051" column1="" column2=""/>
+    <strdata name="-Пензенская область" code="100052" column1="" column2=""/>
+    <strdata name="-Пермский край" code="100053" column1="" column2=""/>
+    <strdata name="-Самарская область" code="100054" column1="" column2=""/>
+    <strdata name="-Саратовская область" code="100055" column1="" column2=""/>
+    <strdata name="-Ульяновская область" code="100056" column1="" column2=""/>
+    <strdata name="-Курганская область" code="100057" column1="" column2=""/>
+    <strdata name="-Свердловская область" code="100058" column1="" column2=""/>
+    <strdata name="-Тюменская область" code="100059" column1="" column2=""/>
+    <strdata name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="100060" column1="" column2=""/>
+    <strdata name="-Ямало-Ненецкий АО [Тюменская область]" code="100061" column1="" column2=""/>
+    <strdata name="-Челябинская область" code="100062" column1="" column2=""/>
+    <strdata name="-Республика Алтай" code="100063" column1="" column2=""/>
+    <strdata name="-Республика Бурятия" code="100064" column1="" column2=""/>
+    <strdata name="-Республика Тыва" code="100065" column1="" column2=""/>
+    <strdata name="-Республика Хакасия" code="100066" column1="" column2=""/>
+    <strdata name="-Алтайский край" code="100067" column1="" column2=""/>
+    <strdata name="-Красноярский край" code="100068" column1="" column2=""/>
+    <strdata name="-Иркутская область" code="100069" column1="" column2=""/>
+    <strdata name="-Кемеровская область" code="100070" column1="" column2=""/>
+    <strdata name="-Новосибирская область" code="100071" column1="" column2=""/>
+    <strdata name="-Омская область" code="100072" column1="" column2=""/>
+    <strdata name="-Томская область" code="100073" column1="" column2=""/>
+    <strdata name="-Забайкальский край" code="100074" column1="" column2=""/>
+    <strdata name="-Республика Саха [Якутия]" code="100075" column1="" column2=""/>
+    <strdata name="-Приморский край" code="100076" column1="" column2=""/>
+    <strdata name="-Хабаровский край" code="100077" column1="" column2=""/>
+    <strdata name="-Амурская область" code="100078" column1="" column2=""/>
+    <strdata name="-Камчатский край" code="100079" column1="" column2=""/>
+    <strdata name="-Корякский АО [Камчатский край]" code="100080" column1="" column2=""/>
+    <strdata name="-Магаданская область" code="100081" column1="" column2=""/>
+    <strdata name="-Сахалинская область" code="100082" column1="" column2=""/>
+    <strdata name="-Еврейская АО" code="100083" column1="" column2=""/>
+    <strdata name="-Чукотский АО" code="100084" column1="" column2=""/>
+    <strdata name="-Республика Крым" code="100085" column1="" column2=""/>
+    <strdata name="-Севастополь" code="100086" column1="" column2=""/>
+    <strdata name="Природный газ, тыс.куб.м" code="3" column1="" column2=""/>
+    <strdata name="-Белгородская область" code="200001" column1="" column2=""/>
+    <strdata name="-Брянская область" code="200002" column1="" column2=""/>
+    <strdata name="-Владимирская область" code="200003" column1="" column2=""/>
+    <strdata name="-Воронежская область" code="200004" column1="" column2=""/>
+    <strdata name="-Ивановская область" code="200005" column1="" column2=""/>
+    <strdata name="-Калужская область" code="200006" column1="" column2=""/>
+    <strdata name="-Костромская область" code="200007" column1="" column2=""/>
+    <strdata name="-Курская область" code="200008" column1="" column2=""/>
+    <strdata name="-Липецкая область" code="200009" column1="" column2=""/>
+    <strdata name="-Москва" code="200010" column1="" column2=""/>
+    <strdata name="-Московская область" code="200011" column1="" column2=""/>
+    <strdata name="-Орловская область" code="200012" column1="" column2=""/>
+    <strdata name="-Рязанская область" code="200013" column1="" column2=""/>
+    <strdata name="-Смоленская область" code="200014" column1="" column2=""/>
+    <strdata name="-Тамбовская область" code="200015" column1="" column2=""/>
+    <strdata name="-Тверская область" code="200016" column1="" column2=""/>
+    <strdata name="-Тульская область" code="200017" column1="" column2=""/>
+    <strdata name="-Ярославская область" code="200018" column1="" column2=""/>
+    <strdata name="-Республика Карелия" code="200019" column1="" column2=""/>
+    <strdata name="-Республика Коми" code="200020" column1="" column2=""/>
+    <strdata name="-Архангельская область" code="200021" column1="" column2=""/>
+    <strdata name="-Ненецкий АО [Архангельская область]" code="200022" column1="" column2=""/>
+    <strdata name="-Вологодская область" code="200023" column1="" column2=""/>
+    <strdata name="-Калининградская область" code="200024" column1="" column2=""/>
+    <strdata name="-Ленинградская область" code="200025" column1="" column2=""/>
+    <strdata name="-Санкт-Петербург" code="200026" column1="" column2=""/>
+    <strdata name="-Мурманская область" code="200027" column1="" column2=""/>
+    <strdata name="-Новгородская область" code="200028" column1="" column2=""/>
+    <strdata name="-Псковская область" code="200029" column1="" column2=""/>
+    <strdata name="-Республика Адыгея" code="200030" column1="" column2=""/>
+    <strdata name="-Республика Дагестан" code="200031" column1="" column2=""/>
+    <strdata name="-Республика Ингушетия" code="200032" column1="" column2=""/>
+    <strdata name="-Кабардино-Балкарская Республика" code="200033" column1="" column2=""/>
+    <strdata name="-Республика Калмыкия" code="200034" column1="" column2=""/>
+    <strdata name="-Карачаево-Черкесская Республика" code="200035" column1="" column2=""/>
+    <strdata name="-Республика Северная Осетия-Алания" code="200036" column1="" column2=""/>
+    <strdata name="-Чеченская Республика" code="200037" column1="" column2=""/>
+    <strdata name="-Краснодарский край" code="200038" column1="" column2=""/>
+    <strdata name="-Ставропольский край" code="200039" column1="" column2=""/>
+    <strdata name="-Астраханская область" code="200040" column1="" column2=""/>
+    <strdata name="-Волгоградская область" code="200041" column1="" column2=""/>
+    <strdata name="-Ростовская область" code="200042" column1="" column2=""/>
+    <strdata name="-Республика Башкортостан" code="200043" column1="" column2=""/>
+    <strdata name="-Республика Марий Эл" code="200044" column1="" column2=""/>
+    <strdata name="-Республика Мордовия" code="200045" column1="" column2=""/>
+    <strdata name="-Республика Татарстан" code="200046" column1="" column2=""/>
+    <strdata name="-Удмуртская Республика" code="200047" column1="" column2=""/>
+    <strdata name="-Чувашская Республика" code="200048" column1="" column2=""/>
+    <strdata name="-Кировская область" code="200049" column1="" column2=""/>
+    <strdata name="-Нижегородская область" code="200050" column1="" column2=""/>
+    <strdata name="-Оренбургская область" code="200051" column1="" column2=""/>
+    <strdata name="-Пензенская область" code="200052" column1="" column2=""/>
+    <strdata name="-Пермский край" code="200053" column1="" column2=""/>
+    <strdata name="-Самарская область" code="200054" column1="" column2=""/>
+    <strdata name="-Саратовская область" code="200055" column1="" column2=""/>
+    <strdata name="-Ульяновская область" code="200056" column1="" column2=""/>
+    <strdata name="-Курганская область" code="200057" column1="" column2=""/>
+    <strdata name="-Свердловская область" code="200058" column1="" column2=""/>
+    <strdata name="-Тюменская область" code="200059" column1="" column2=""/>
+    <strdata name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="200060" column1="" column2=""/>
+    <strdata name="-Ямало-Ненецкий АО [Тюменская область]" code="200061" column1="" column2=""/>
+    <strdata name="-Челябинская область" code="200062" column1="" column2=""/>
+    <strdata name="-Республика Алтай" code="200063" column1="" column2=""/>
+    <strdata name="-Республика Бурятия" code="200064" column1="" column2=""/>
+    <strdata name="-Республика Тыва" code="200065" column1="" column2=""/>
+    <strdata name="-Республика Хакасия" code="200066" column1="" column2=""/>
+    <strdata name="-Алтайский край" code="200067" column1="" column2=""/>
+    <strdata name="-Красноярский край" code="200068" column1="" column2=""/>
+    <strdata name="-Иркутская область" code="200069" column1="" column2=""/>
+    <strdata name="-Кемеровская область" code="200070" column1="" column2=""/>
+    <strdata name="-Новосибирская область" code="200071" column1="" column2=""/>
+    <strdata name="-Омская область" code="200072" column1="" column2=""/>
+    <strdata name="-Томская область" code="200073" column1="" column2=""/>
+    <strdata name="-Забайкальский край" code="200074" column1="" column2=""/>
+    <strdata name="-Республика Саха [Якутия]" code="200075" column1="" column2=""/>
+    <strdata name="-Приморский край" code="200076" column1="" column2=""/>
+    <strdata name="-Хабаровский край" code="200077" column1="" column2=""/>
+    <strdata name="-Амурская область" code="200078" column1="" column2=""/>
+    <strdata name="-Камчатский край" code="200079" column1="" column2=""/>
+    <strdata name="-Корякский АО [Камчатский край]" code="200080" column1="" column2=""/>
+    <strdata name="-Магаданская область" code="200081" column1="" column2=""/>
+    <strdata name="-Сахалинская область" code="200082" column1="" column2=""/>
+    <strdata name="-Еврейская АО" code="200083" column1="" column2=""/>
+    <strdata name="-Чукотский АО" code="200084" column1="" column2=""/>
+    <strdata name="-Республика Крым" code="200085" column1="" column2=""/>
+    <strdata name="-Севастополь" code="200086" column1="" column2=""/>
+    <strdata name="Попутный газ, тыс.куб.м" code="4" column1="" column2=""/>
+    <strdata name="-Белгородская область" code="300001" column1="" column2=""/>
+    <strdata name="-Брянская область" code="300002" column1="" column2=""/>
+    <strdata name="-Владимирская область" code="300003" column1="" column2=""/>
+    <strdata name="-Воронежская область" code="300004" column1="" column2=""/>
+    <strdata name="-Ивановская область" code="300005" column1="" column2=""/>
+    <strdata name="-Калужская область" code="300006" column1="" column2=""/>
+    <strdata name="-Костромская область" code="300007" column1="" column2=""/>
+    <strdata name="-Курская область" code="300008" column1="" column2=""/>
+    <strdata name="-Липецкая область" code="300009" column1="" column2=""/>
+    <strdata name="-Москва" code="300010" column1="" column2=""/>
+    <strdata name="-Московская область" code="300011" column1="" column2=""/>
+    <strdata name="-Орловская область" code="300012" column1="" column2=""/>
+    <strdata name="-Рязанская область" code="300013" column1="" column2=""/>
+    <strdata name="-Смоленская область" code="300014" column1="" column2=""/>
+    <strdata name="-Тамбовская область" code="300015" column1="" column2=""/>
+    <strdata name="-Тверская область" code="300016" column1="" column2=""/>
+    <strdata name="-Тульская область" code="300017" column1="" column2=""/>
+    <strdata name="-Ярославская область" code="300018" column1="" column2=""/>
+    <strdata name="-Республика Карелия" code="300019" column1="" column2=""/>
+    <strdata name="-Республика Коми" code="300020" column1="" column2=""/>
+    <strdata name="-Архангельская область" code="300021" column1="" column2=""/>
+    <strdata name="-Ненецкий АО [Архангельская область]" code="300022" column1="" column2=""/>
+    <strdata name="-Вологодская область" code="300023" column1="" column2=""/>
+    <strdata name="-Калининградская область" code="300024" column1="" column2=""/>
+    <strdata name="-Ленинградская область" code="300025" column1="" column2=""/>
+    <strdata name="-Санкт-Петербург" code="300026" column1="" column2=""/>
+    <strdata name="-Мурманская область" code="300027" column1="" column2=""/>
+    <strdata name="-Новгородская область" code="300028" column1="" column2=""/>
+    <strdata name="-Псковская область" code="300029" column1="" column2=""/>
+    <strdata name="-Республика Адыгея" code="300030" column1="" column2=""/>
+    <strdata name="-Республика Дагестан" code="300031" column1="" column2=""/>
+    <strdata name="-Республика Ингушетия" code="300032" column1="" column2=""/>
+    <strdata name="-Кабардино-Балкарская Республика" code="300033" column1="" column2=""/>
+    <strdata name="-Республика Калмыкия" code="300034" column1="" column2=""/>
+    <strdata name="-Карачаево-Черкесская Республика" code="300035" column1="" column2=""/>
+    <strdata name="-Республика Северная Осетия-Алания" code="300036" column1="" column2=""/>
+    <strdata name="-Чеченская Республика" code="300037" column1="" column2=""/>
+    <strdata name="-Краснодарский край" code="300038" column1="" column2=""/>
+    <strdata name="-Ставропольский край" code="300039" column1="" column2=""/>
+    <strdata name="-Астраханская область" code="300040" column1="" column2=""/>
+    <strdata name="-Волгоградская область" code="300041" column1="" column2=""/>
+    <strdata name="-Ростовская область" code="300042" column1="" column2=""/>
+    <strdata name="-Республика Башкортостан" code="300043" column1="" column2=""/>
+    <strdata name="-Республика Марий Эл" code="300044" column1="" column2=""/>
+    <strdata name="-Республика Мордовия" code="300045" column1="" column2=""/>
+    <strdata name="-Республика Татарстан" code="300046" column1="" column2=""/>
+    <strdata name="-Удмуртская Республика" code="300047" column1="" column2=""/>
+    <strdata name="-Чувашская Республика" code="300048" column1="" column2=""/>
+    <strdata name="-Кировская область" code="300049" column1="" column2=""/>
+    <strdata name="-Нижегородская область" code="300050" column1="" column2=""/>
+    <strdata name="-Оренбургская область" code="300051" column1="" column2=""/>
+    <strdata name="-Пензенская область" code="300052" column1="" column2=""/>
+    <strdata name="-Пермский край" code="300053" column1="" column2=""/>
+    <strdata name="-Самарская область" code="300054" column1="" column2=""/>
+    <strdata name="-Саратовская область" code="300055" column1="" column2=""/>
+    <strdata name="-Ульяновская область" code="300056" column1="" column2=""/>
+    <strdata name="-Курганская область" code="300057" column1="" column2=""/>
+    <strdata name="-Свердловская область" code="300058" column1="" column2=""/>
+    <strdata name="-Тюменская область" code="300059" column1="" column2=""/>
+    <strdata name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="300060" column1="" column2=""/>
+    <strdata name="-Ямало-Ненецкий АО [Тюменская область]" code="300061" column1="" column2=""/>
+    <strdata name="-Челябинская область" code="300062" column1="" column2=""/>
+    <strdata name="-Республика Алтай" code="300063" column1="" column2=""/>
+    <strdata name="-Республика Бурятия" code="300064" column1="" column2=""/>
+    <strdata name="-Республика Тыва" code="300065" column1="" column2=""/>
+    <strdata name="-Республика Хакасия" code="300066" column1="" column2=""/>
+    <strdata name="-Алтайский край" code="300067" column1="" column2=""/>
+    <strdata name="-Красноярский край" code="300068" column1="" column2=""/>
+    <strdata name="-Иркутская область" code="300069" column1="" column2=""/>
+    <strdata name="-Кемеровская область" code="300070" column1="" column2=""/>
+    <strdata name="-Новосибирская область" code="300071" column1="" column2=""/>
+    <strdata name="-Омская область" code="300072" column1="" column2=""/>
+    <strdata name="-Томская область" code="300073" column1="" column2=""/>
+    <strdata name="-Забайкальский край" code="300074" column1="" column2=""/>
+    <strdata name="-Республика Саха [Якутия]" code="300075" column1="" column2=""/>
+    <strdata name="-Приморский край" code="300076" column1="" column2=""/>
+    <strdata name="-Хабаровский край" code="300077" column1="" column2=""/>
+    <strdata name="-Амурская область" code="300078" column1="" column2=""/>
+    <strdata name="-Камчатский край" code="300079" column1="" column2=""/>
+    <strdata name="-Корякский АО [Камчатский край]" code="300080" column1="" column2=""/>
+    <strdata name="-Магаданская область" code="300081" column1="" column2=""/>
+    <strdata name="-Сахалинская область" code="300082" column1="" column2=""/>
+    <strdata name="-Еврейская АО" code="300083" column1="" column2=""/>
+    <strdata name="-Чукотский АО" code="300084" column1="" column2=""/>
+    <strdata name="-Республика Крым" code="300085" column1="" column2=""/>
+    <strdata name="-Севастополь" code="300086" column1="" column2=""/>
+  </flat>
+</document>

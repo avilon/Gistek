@@ -1,0 +1,32 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Всего" code="1" column1="" column2=""/>
+    <strdata name="-ОАО Алтай-Кокс [Алтайский КХЗ]" code="2" column1="" column2=""/>
+    <strdata name="-ОАО Новолипецкий МК" code="3" column1="" column2=""/>
+    <strdata name="-ОАО Кокс [Кемеровский КХЗ]" code="4" column1="" column2=""/>
+    <strdata name="-ОАО Губахинский Кокс" code="5" column1="" column2=""/>
+    <strdata name="-ОАО Западно-Сибирский МК" code="6" column1="" column2=""/>
+    <strdata name="-ОАО Новокузнецкий МК" code="7" column1="" column2=""/>
+    <strdata name="-ОАО Магнитогорский МК" code="8" column1="" column2=""/>
+    <strdata name="-ОАО Московский КГЗ" code="9" column1="" column2=""/>
+    <strdata name="-ОАО Нижнетагильский МК" code="10" column1="" column2=""/>
+    <strdata name="-ОАО Мечел [Челябинский МК]" code="11" column1="" column2=""/>
+    <strdata name="-ОАО Северсталь [Череповецкий МК]" code="12" column1="" column2=""/>
+    <strdata name="-ООО Уральская Сталь [Орско-Халиловский МК]" code="13" column1="" column2=""/>
+    <strdata name="-КХЗ\МК [без детализации]" code="14" column1="" column2=""/>
+  </flat>
+</document>

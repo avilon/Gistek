@@ -1,0 +1,192 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata_1 name="Добыча нефти, тыс.тонн" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Белгородская область" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Брянская область" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Владимирская область" code="3" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Воронежская область" code="4" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ивановская область" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Калужская область" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Костромская область" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Курская область" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Липецкая область" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Москва" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Московская область" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Орловская область" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Рязанская область" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Смоленская область" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Тамбовская область" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Тверская область" code="16" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Тульская область" code="17" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ярославская область" code="18" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Карелия" code="19" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Коми" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Архангельская область" code="21" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ненецкий АО [Архангельская область]" code="22" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Вологодская область" code="23" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Калининградская область" code="24" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ленинградская область" code="25" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Санкт-Петербург" code="26" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Мурманская область" code="27" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Новгородская область" code="28" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Псковская область" code="29" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Адыгея" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Дагестан" code="31" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Ингушетия" code="32" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Кабардино-Балкарская Республика" code="33" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Калмыкия" code="34" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Карачаево-Черкесская Республика" code="35" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Северная Осетия-Алания" code="36" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Чеченская Республика" code="37" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Краснодарский край" code="38" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ставропольский край" code="39" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Астраханская область" code="40" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Волгоградская область" code="41" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ростовская область" code="42" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Башкортостан" code="43" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Марий Эл" code="44" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Мордовия" code="45" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Татарстан" code="46" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Удмуртская Республика" code="47" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Чувашская Республика" code="48" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Кировская область" code="49" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Нижегородская область" code="50" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Оренбургская область" code="51" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Пензенская область" code="52" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Пермский край" code="53" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Самарская область" code="54" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Саратовская область" code="55" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ульяновская область" code="56" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Курганская область" code="57" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Свердловская область" code="58" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Тюменская область" code="59" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Ямало-Ненецкий АО [Тюменская область]" code="61" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Челябинская область" code="62" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Алтай" code="63" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Бурятия" code="64" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Тыва" code="65" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Хакасия" code="66" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Алтайский край" code="67" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Красноярский край" code="68" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Иркутская область" code="69" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Кемеровская область" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Новосибирская область" code="71" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Омская область" code="72" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Томская область" code="73" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Забайкальский край" code="74" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Саха [Якутия]" code="75" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Приморский край" code="76" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Хабаровский край" code="77" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Амурская область" code="78" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Камчатский край" code="79" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Корякский АО [Камчатский край]" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Магаданская область" code="81" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Сахалинская область" code="82" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Еврейская АО" code="83" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Чукотский АО" code="84" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Республика Крым" code="85" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_1 name="-Севастополь" code="86" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="Добыча нефти, тыс.тонн" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Белгородская область" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Брянская область" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Владимирская область" code="3" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Воронежская область" code="4" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ивановская область" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Калужская область" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Костромская область" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Курская область" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Липецкая область" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Москва" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Московская область" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Орловская область" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Рязанская область" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Смоленская область" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Тамбовская область" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Тверская область" code="16" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Тульская область" code="17" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ярославская область" code="18" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Карелия" code="19" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Коми" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Архангельская область" code="21" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ненецкий АО [Архангельская область]" code="22" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Вологодская область" code="23" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Калининградская область" code="24" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ленинградская область" code="25" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Санкт-Петербург" code="26" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Мурманская область" code="27" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Новгородская область" code="28" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Псковская область" code="29" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Адыгея" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Дагестан" code="31" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Ингушетия" code="32" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Кабардино-Балкарская Республика" code="33" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Калмыкия" code="34" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Карачаево-Черкесская Республика" code="35" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Северная Осетия-Алания" code="36" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Чеченская Республика" code="37" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Краснодарский край" code="38" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ставропольский край" code="39" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Астраханская область" code="40" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Волгоградская область" code="41" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ростовская область" code="42" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Башкортостан" code="43" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Марий Эл" code="44" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Мордовия" code="45" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Татарстан" code="46" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Удмуртская Республика" code="47" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Чувашская Республика" code="48" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Кировская область" code="49" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Нижегородская область" code="50" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Оренбургская область" code="51" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Пензенская область" code="52" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Пермский край" code="53" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Самарская область" code="54" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Саратовская область" code="55" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ульяновская область" code="56" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Курганская область" code="57" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Свердловская область" code="58" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Тюменская область" code="59" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ханты-Мансийский АО - Югра [Тюменская область]" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Ямало-Ненецкий АО [Тюменская область]" code="61" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Челябинская область" code="62" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Алтай" code="63" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Бурятия" code="64" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Тыва" code="65" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Хакасия" code="66" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Алтайский край" code="67" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Красноярский край" code="68" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Иркутская область" code="69" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Кемеровская область" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Новосибирская область" code="71" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Омская область" code="72" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Томская область" code="73" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Забайкальский край" code="74" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Саха [Якутия]" code="75" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Приморский край" code="76" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Хабаровский край" code="77" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Амурская область" code="78" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Камчатский край" code="79" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Корякский АО [Камчатский край]" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Магаданская область" code="81" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Сахалинская область" code="82" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Еврейская АО" code="83" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Чукотский АО" code="84" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Республика Крым" code="85" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+    <strdata_2 name="-Севастополь" code="86" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9=""/>
+  </flat>
+</document>

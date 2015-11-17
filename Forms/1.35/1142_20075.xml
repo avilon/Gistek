@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="1" name="1. Остаток на начало периода">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="1.1 Остаток на начало периода у производителя">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="1.2 Остаток на начало периода в системе АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="4" name="2. Добыча">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="3. Технологические потери при добыче">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="4. Расход до сдачи в транспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="4.1 Расход до сдачи в транспортировку по направлениям использования до сдачи в траспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="4.1 Расход до сдачи в транспортировку по направлениям использования до сдачи в траспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="4.1 Расход до сдачи в транспортировку по направлениям использования до сдачи в траспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="4.1 Расход до сдачи в транспортировку по направлениям использования до сдачи в траспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="4.1 Расход до сдачи в транспортировку по направлениям использования до сдачи в траспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="5. Сдача в транспортировку">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="5.1 Сдача в транспортировку по системе АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="14" name="5.1.1 Технологические потери при транспортировке по системе АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="5.2 Сдача в транспортировку минуя систему АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="5.2.1 Технологические потери при транспортировке минуя систему АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="17" name="6. Отгрузка">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="18" name="6.1 Отгрузка по системе АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1910" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1911" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1912" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1913" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1914" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1915" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1916" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1917" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1918" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1919" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1920" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1921" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1922" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1923" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1924" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1925" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1926" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1927" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1928" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1929" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1930" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1931" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1932" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1933" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1934" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1935" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1936" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1937" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1938" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1939" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1940" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1941" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1942" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1943" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1944" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1945" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1946" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1947" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1948" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1949" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1950" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1951" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1952" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1953" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1954" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1955" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1956" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1957" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1958" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="1959" name="6.1.1 Отгрузка по системе АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="6.2 Отгрузка минуя систему АК &quot;Транснефть&quot;">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2210" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2211" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2212" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2213" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2214" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2215" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2216" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2217" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2218" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2219" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2220" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2221" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2222" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2223" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2224" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2225" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2226" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2227" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2228" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2229" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2230" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2231" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2232" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2233" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2234" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2235" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2236" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2237" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2238" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2239" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2240" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2241" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2242" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2243" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2244" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2245" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2246" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2247" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2248" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2249" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2250" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2251" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2252" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2253" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2254" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2255" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2256" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2257" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2258" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2259" name="6.2.1 Отгрузка минуя систему АК &quot;Транснефть&quot; по Субъектам РФ , Странам и объектам">
+ <column name="Страна" order="1" id="180" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="2" id="181" datatype="classifier" format="2048"></column>
+ <column name="Направления использования до сдачи в транспортировку" order="3" id="182" datatype="classifier" format="2048"></column>
+ <column name="Объекты" order="4" id="183" datatype="text" format="100"></column>
+ <column name="План на квартал, т" order="5" id="184" datatype="number" format="30.3"></column>
+ <column name="План на 1-ый месяц  квартала, т" order="6" id="185" datatype="number" format="30.3"></column>
+ <column name="План на 2-ой месяц квартала, т" order="7" id="186" datatype="number" format="30.3"></column>
+ <column name="План на 3-ий месяц квартала, т" order="8" id="187" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="37" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="38" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="39" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="40" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="37" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="38" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="39" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="40" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="53" datatype="text" format="500"></column>
+</strdata>
+</document>

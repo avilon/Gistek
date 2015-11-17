@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Углеводородное сырье">
+ <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+ <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="06.10.10.100 Нефть сырая" id="1061010100">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="19.20.32.115 Конденсат газовый стабильный" id="1192032115">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="06.20.10.110 Газ горючий природный [газ естественный]" id="1062010110">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="06.20.10.120 Газ нефтяной попутный [газ горючий природный нефтяных месторождений]" id="1062010120">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="20.14.11.111 Этан" id="1201411111">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="19.20.31 Пропан и бутан сжиженные" id="1192031000">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="20.14.71.184 Нафта древесная" id="1201471184">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="20.15.10.130 Аммиак" id="1201510130">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="20.15.10.110 Кислота азотная" id="1201510110">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="19.20.32.116 Деэтанизированный конденсат" id="1192032116">
+  <column name="Полезный остаток, тонн (тыс.куб.м)" order="1" id="7" datatype="number" format="30.3"></column>
+  <column name="Свободные емкости, тонн (тыс.куб.м)" order="2" id="8" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="2" name="Нефтепродукты">
+ <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+ <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ <strclass code="200001" name="20.16.10.111 Полиэтилен высокого давления" id="1201610111">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200002" name="20.16.10.112 Полиэтилен среднего давления" id="1201610112">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200003" name="20.16.10.113 Полиэтилен низкого давления" id="1201610113">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200004" name="20.16.10.114 Полиэтилен линейный низкой плотности" id="1201610114">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200005" name="20.16.10.119 Полиэтилен прочий" id="1201610119">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200006" name="20.16.10.120 Сополимеры этилена с винилацетатом в первичных формах" id="1201610120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200007" name="20.16.10.190 Полимеры этилена в первичных формах прочие" id="1201610190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200008" name="20.16.20.111 Полистирол блочный" id="1201620111">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200009" name="20.16.20.112 Полистирол эмульсионный" id="1201620112">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200010" name="20.16.20.113 Полистирол суспензионный" id="1201620113">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200011" name="20.16.20.114 Полистирол изотактический [кристаллический]" id="1201620114">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200012" name="20.16.20.115 Полистирол модифицированный [ударопрочный]" id="1201620115">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200013" name="20.16.20.116 Полистирол вспенивающийся" id="1201620116">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200014" name="20.16.20.121 Сополимеры стирола с акрилонитрилом [САН] в первичных формах" id="1201620121">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200015" name="20.16.20.122 Сополимеры акрилонитрилбутадиенстирольные [АБС-пластик] в первичных формах" id="1201620122">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200016" name="20.16.20.129 Сополимеры стирола в первичных формах прочие" id="1201620129">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200017" name="20.16.20.190 Полимеры стирола в первичных формах прочие" id="1201620190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200018" name="20.16.30.111 Поливинилхлорид эмульсионный" id="1201630111">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200019" name="20.16.30.112 Поливинилхлорид суспензионный" id="1201630112">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200020" name="20.16.30.113 Сополимеры винилхлорида в первичных формах" id="1201630113">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200021" name="20.16.30.119 Полимеры винилхлорида в первичных формах прочие" id="1201630119">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200022" name="20.16.30.190 Полимеры прочих галогенированных олефинов в первичных формах" id="1201630190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200023" name="20.16.40.110 Полиацетали в первичных формах" id="1201640110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200024" name="20.16.40.120 Полиэфиры в первичных формах" id="1201640120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200025" name="20.16.40.130 Смолы эпоксидные в первичных формах" id="1201640130">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200026" name="20.16.40.140 Поликарбонаты в первичных формах" id="1201640140">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200027" name="20.16.40.150 Смолы алкидные в первичных формах" id="1201640150">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200028" name="20.16.40.160 Полимеры сложных эфиров аллилового спирта в первичных формах" id="1201640160">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200029" name="20.16.40.170 Полиэтилентерефталат в первичных формах" id="1201640170">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200030" name="20.16.40.190 Полиэфиры прочие в первичных формах" id="1201640190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200031" name="20.16.51.110 Полимеры пропилена в первичных формах" id="1201651110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200032" name="20.16.51.190 Полимеры прочих олефинов в первичных формах" id="1201651190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200033" name="20.16.52.110 Полимеры винилацетата в первичных формах" id="1201652110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200034" name="20.16.52.120 Полимеры прочих сложных виниловых эфиров в первичных формах" id="1201652120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200035" name="20.16.52.190 Полимеры виниловые прочие в первичных формах" id="1201652190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200036" name="20.16.53 Полиакрилаты в первичных формах" id="1201653000">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200037" name="20.16.54 Полиамиды в первичных формах" id="1201654000">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200038" name="20.16.55.110 Смолы аминоформальдегидные в первичных формах" id="1201655110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200039" name="20.16.55.120 Смолы карбамидоформальдегидные в первичных формах" id="1201655120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200040" name="20.16.55.130 Смолы тиокарбамидоформальдегидные в первичных формах" id="1201655130">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200041" name="20.16.55.140 Смолы меламиноформальдегидные в первичных формах" id="1201655140">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200042" name="20.16.56.110 Смолы аминоальдегидные прочие в первичных формах" id="1201656110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200043" name="20.16.56.120 Смолы фенолоальдегидные прочие в первичных формах" id="1201656120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200044" name="20.16.56.190 Смолы полиуретановые прочие в первичных формах" id="1201656190">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200045" name="20.16.57.110 Смолы кремнийорганические в первичных формах" id="1201657110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200046" name="20.16.57.120 Жидкости кремнийорганические" id="1201657120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200047" name="20.16.57.130 Эластомеры кремнийорганические [каучуки]" id="1201657130">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200048" name="20.16.59.110 Смолы и политерпены нефтяные, кумароновые, инденовые и кумарон-инденовые в первичных формах" id="1201659110">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200049" name="20.16.59.120 Полисульфоны, полисульфиды, гидрополисульфаны в первичных формах" id="1201659120">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200050" name="20.16.59.130 Смолы карбинольные в первичных формах" id="1201659130">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200051" name="20.16.59.140 Смолы масляно-стирольные в первичных формах" id="1201659140">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200052" name="20.16.59.150 Полимеры винилнафталина в первичных формах" id="1201659150">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200053" name="20.16.59.160 Полимеры диметилфенола в первичных формах" id="1201659160">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200054" name="20.16.59.170 Полимеры акриловой кислоты в первичных формах" id="1201659170">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200055" name="20.16.59.180 Смолы поликсилоловые, полиэтиленимины и прочие синтетические полимеры в первичных формах" id="1201659180">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200056" name="20.16.59.210 Массы пластические, смолы синтетические микробиологического синтеза в первичных формах" id="1201659210">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200057" name="20.16.59.220 Ацетаты целлюлозы в первичных формах" id="1201659220">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200058" name="20.16.59.230 Нитраты целлюлозы [нитроцеллюлоза], включая коллодии, в первичных формах" id="1201659230">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200059" name="20.16.59.240 Карбоксиметилцеллюлоза и ее соли, в первичных формах" id="1201659240">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200060" name="20.16.59.250 Этилцеллюлоза в первичных формах" id="1201659250">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200061" name="20.16.59.260 Метилцеллюлоза в первичных формах" id="1201659260">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200062" name="20.16.59.270 Оксиэтилцеллюлоза в первичных формах" id="1201659270">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200063" name="20.16.59.280 Эфиры целлюлозы прочие в первичных формах" id="1201659280">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200064" name="20.16.59.310 Полимеры природные и полимеры модифицированные природные в первичных формах, не включенные в другие группировки" id="1201659310">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200065" name="20.16.59.320 Смолы ионообменные на основе синтетических или природных полимеров в первичных формах" id="1201659320">
+  <column name="Объем остатков товара, тонн (тыс.куб.м)" order="1" id="9" datatype="number" format="30.3"></column>
+  <column name="Объем остатков компонент продуктов, тонн (тыс.куб.м)" order="2" id="10" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="154" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="155" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="156" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="157" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="154" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="155" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="156" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="157" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="170" datatype="text" format="500"></column>
+</strdata>
+</document>

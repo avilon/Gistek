@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Прибыль (убыток) до налогообложения за период с начала отчетного года, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="Прибыль (убыток) до налогообложения за соответствующий период с начала предыдущего года, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="1. Дебиторская задолженность, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="1.2 Дебиторская задолженность покупателей и заказчиков за товары, работы и услуги, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="1.2.1 Дебиторская задолженность покупателей и заказчиков за товары, работы и услуги, обеспеченная векселями полученными, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="1.2.2  Дебиторская задолженность покупателей и заказчиков за товары, работы и услуги по государственным заказам и федеральным программам, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="1.2.3  Дебиторская задолженность покупателей и заказчиков за железнодорожные перевозки, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="1.2.4  Дебиторская задолженность покупателей и заказчиков за товары, работы и услуги за поставку газа, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="1.2.5  Дебиторская задолженность покупателей и заказчиков за поставку электроэнергии, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="1.2.6  Дебиторская задолженность покупателей и заказчиков за поставку теплоэнергии, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="1.3 Краткосрочная дебиторская задолженность, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="2. Кредиторская задолженность, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="2.1 Кредиторская задолженность по платежам в бюджет, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="2.1.1 Кредиторская задолженность по платежам в федеральный бюджет, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="17" name="2.1.2 Кредиторская задолженность по платежам в бюджеты субъектов Федерации, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="18" name="2.2 Кредиторская задолженность по платежам в государственные внебюджетные фонды, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="19" name="2.3 Кредиторская задолженность поставщикам и подрядчикам за товары, работы и услуги, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="2.3.1 Кредиторская задолженность поставщикам и подрядчикам за товары, работы и услуги, обеспеченная векселями выданными, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="2.3.2 Кредиторская  задолженность поставщикам и подрядчикам за железнодорожные перевозки, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="2.3.3 Кредиторская  задолженность поставщикам и подрядчикам за  поставку газа, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="2.3.4 Кредиторская  задолженность поставщикам и подрядчикам за  поставку электроэнергии, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="24" name="2.3.5 Кредиторская  задолженность поставщикам и подрядчикам за  поставку теплоэнергии, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="25" name="2.4 Краткосрочная кредиторская задолженность, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="26" name="2.5 Задолженность по полученным займам и  кредитам, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="27" name="2.5.1 Задолженность по краткосрочным займам и кредитам, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="28" name="Списано кредиторской задолженности на прибыль, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="29" name="Списано дебиторской задолженности на убыток, тыс.руб.">
+ <column name="Всего" order="1" id="40" datatype="number" format="30.3"></column>
+ <column name="Просроченная" order="2" id="41" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="44" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="45" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="46" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="47" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="44" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="45" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="46" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="47" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="60" datatype="text" format="500"></column>
+</strdata>
+</document>

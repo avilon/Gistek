@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="1" name="1. Остаток СПГ на начало периода">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="2. Прием СПГ от других организаций">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="2.1. Прием СПГ от других организаций по организациям">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="2.1. Прием СПГ от других организаций по организациям">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="2.1. Прием СПГ от других организаций по организациям">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="24" name="2.1. Прием СПГ от других организаций по организациям">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="25" name="2.1. Прием СПГ от других организаций по организациям">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="3. Производство СПГ">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="4" name="4. Отгрузка СПГ">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="41" name="4.1. Отгрузка СПГ на внутренний рынок">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="42" name="4.2. Отгрузка СПГ на экспорт">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="421" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="422" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="423" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="424" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="425" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="426" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="427" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="428" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="429" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="430" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="431" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="432" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="433" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="434" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="435" name="4.2.1. Отгрузка СПГ на экспорт по странам и видам транспорта">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="5. Расход на собственные нужды">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="6. Потери">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="7. Остаток на конец периода">
+ <column name="Организации" order="1" id="93" datatype="classifier" format="2048"></column>
+ <column name="Виды транспорта" order="2" id="94" datatype="classifier" format="2048"></column>
+ <column name="Страны" order="3" id="95" datatype="classifier" format="2048"></column>
+ <column name="План за отчетный месяц, т" order="4" id="96" datatype="number" format="30.3"></column>
+ <column name="Факт за отчетный месяц, т" order="5" id="97" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, т" order="6" id="98" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="Химический состав СПГ">
+ <column name="Содержание азота, %" order="1" id="101" datatype="number" format="30.3"></column>
+ <column name="Содержание метана, %" order="2" id="102" datatype="number" format="30.3"></column>
+ <column name="Содержание этана, %" order="3" id="103" datatype="number" format="30.3"></column>
+ <column name="Содержание пропана, %" order="4" id="104" datatype="number" format="30.3"></column>
+ <column name="Содержание других углеводородных газов, %" order="5" id="105" datatype="number" format="30.3"></column>
+ <column name="Исходная плотность газов, кг/куб. м" order="6" id="106" datatype="number" format="30.3"></column>
+ <column name="Плотность производимых сжиженных природных газов, кг/л" order="7" id="107" datatype="number" format="30.3"></column>
+ <column name="Коэффициент расширения газа, %" order="8" id="108" datatype="number" format="30.3"></column>
+ <column name="Теплотворная способность, МДж/кг" order="9" id="109" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="137" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="138" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="139" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="140" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="137" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="138" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="139" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="140" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="168" datatype="text" format="300"></column>
+</strdata>
+</document>

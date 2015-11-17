@@ -1,0 +1,27 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Добыча угля" code="1" column1="" column2=""/>
+    <strdata name="Шахты и разрезы" code="2" column1="" column2=""/>
+    <strdata name="Обогащение угля" code="3" column1="" column2=""/>
+    <strdata name="Сланцевая промышленность" code="5" column1="" column2=""/>
+    <strdata name="Машиностроение" code="6" column1="" column2=""/>
+    <strdata name="Промышленность стройматериалов" code="7" column1="" column2=""/>
+    <strdata name="Деревообрабатывающая промышленность" code="8" column1="" column2=""/>
+    <strdata name="Другие отрасли" code="9" column1="" column2=""/>
+    <strdata name="Всего основной вид  деятельности" code="10" column1="" column2=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

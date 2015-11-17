@@ -1,0 +1,96 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata_1 name="Всего" code="1" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блоки Ипати и Акийо [20%]" code="1" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок Асеро [22.5%]" code="2" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Бассейн Солимойнс [45%]" code="3" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок Урумако-1 [100%]" code="4" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-месторождение Робало [возможность создания СП]" code="5" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petrozamora [40%]" code="6" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petromonagas [17%]" code="7" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petroperija [40%]" code="8" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-PetroVictoria [40%]" code="9" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Boqueron [27%]" code="10" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petromiranda [Роснефть 24%]" code="11" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petromiranda [Газпром нефть 8%]" code="12" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Petromiranda [ЛУКОЙЛ 8%]" code="13" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Харматтан [30%]" code="14" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок L" code="15" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-проект La Escalere и блоки в Мексиканском заливе [30%]" code="16" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Dune Energy [контрольный пакет]" code="17" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-СП с Queil Energy" code="18" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Вьетгазпром [50%]" code="19" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блоки 05-2, 05-3 [49%]" code="20" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок Hanoi Trough-02 [50%]" code="21" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-СРП по блоку 12\11" code="22" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Вьетсовпетро [49%]" code="23" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 06-1 [35%]" code="24" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-СРП по блоку 05-3 \11" code="25" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Berkine [49%]" code="26" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 245 - Юг [Роснефть 30%]" code="27" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 245 - Юг [Стройтрансгаз 30%]" code="28" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 3 \ 05 [4%]" code="29" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 3 \ 91 [5%]" code="30" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Блок 3 \ 05а [4%]" code="31" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Cape Three Points Deep Water [56.66%]" code="32" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Me ley a [24%]" code="33" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-WEEM [50%]" code="34" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-WEEM Extension [50%]" code="35" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-Участки 19, 64" code="36" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-C96 и C97 [49%]" code="37" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_1 name="-СРП по блокам 821, 691, 2, 3, 4, 982, 4" code="38" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="Всего" code="1" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блоки Ипати и Акийо [20%]" code="1" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок Асеро [22.5%]" code="2" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Бассейн Солимойнс [45%]" code="3" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок Урумако-1 [100%]" code="4" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-месторождение Робало [возможность создания СП]" code="5" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petrozamora [40%]" code="6" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petromonagas [17%]" code="7" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petroperija [40%]" code="8" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-PetroVictoria [40%]" code="9" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Boqueron [27%]" code="10" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petromiranda [Роснефть 24%]" code="11" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petromiranda [Газпром нефть 8%]" code="12" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Petromiranda [ЛУКОЙЛ 8%]" code="13" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Харматтан [30%]" code="14" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок L" code="15" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-проект La Escalere и блоки в Мексиканском заливе [30%]" code="16" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Dune Energy [контрольный пакет]" code="17" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-СП с Queil Energy" code="18" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Вьетгазпром [50%]" code="19" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блоки 05-2, 05-3 [49%]" code="20" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок Hanoi Trough-02 [50%]" code="21" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-СРП по блоку 12\11" code="22" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Вьетсовпетро [49%]" code="23" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 06-1 [35%]" code="24" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-СРП по блоку 05-3 \11" code="25" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Berkine [49%]" code="26" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 245 - Юг [Роснефть 30%]" code="27" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 245 - Юг [Стройтрансгаз 30%]" code="28" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 3 \ 05 [4%]" code="29" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 3 \ 91 [5%]" code="30" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Блок 3 \ 05а [4%]" code="31" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Cape Three Points Deep Water [56.66%]" code="32" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Me ley a [24%]" code="33" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-WEEM [50%]" code="34" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-WEEM Extension [50%]" code="35" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-Участки 19, 64" code="36" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-C96 и C97 [49%]" code="37" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_2 name="-СРП по блокам 821, 691, 2, 3, 4, 982, 4" code="38" column1="" column2="" column3="" column4="" column5=""/>
+  </flat>
+</document>

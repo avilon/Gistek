@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="999999" subject_variant="">
+<strdata code="1" name="Средняя численность, чел.">
+ <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+ <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ <strclass code="100001" name="Персонал промышленных предприятий [по основному виду деятельности]" id="10">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100002" name="Персонал промышленных предприятий [непромышленный]" id="20">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100003" name="Персонал прочих хозяйств и организаций" id="30">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100004" name="Строительный персонал" id="40">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100005" name="Персонал проектно-изыскательских организаций" id="50">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+</strdata>
+<strdata code="2" name="Фонд начисленной заработной платы,  тыс. руб.">
+ <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+ <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ <strclass code="200001" name="Персонал промышленных предприятий [по основному виду деятельности]" id="10">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="200002" name="Персонал промышленных предприятий [непромышленный]" id="20">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="200003" name="Персонал прочих хозяйств и организаций" id="30">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="200004" name="Строительный персонал" id="40">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="200005" name="Персонал проектно-изыскательских организаций" id="50">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+</strdata>
+<strdata code="3" name="Выплаты социального характера, тыс. руб.">
+ <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+ <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ <strclass code="300001" name="Персонал промышленных предприятий [по основному виду деятельности]" id="10">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="300002" name="Персонал промышленных предприятий [непромышленный]" id="20">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="300003" name="Персонал прочих хозяйств и организаций" id="30">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="300004" name="Строительный персонал" id="40">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="300005" name="Персонал проектно-изыскательских организаций" id="50">
+  <column name="Факт с начала года" order="1" id="8" datatype="number" format="30.2"></column>
+  <column name="Факт за соответствующий период прошлого года" order="2" id="9" datatype="number" format="30.2"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="27" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="28" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="29" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="30" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="27" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="28" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="29" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="30" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="43" datatype="text" format="500"></column>
+</strdata>
+</document>

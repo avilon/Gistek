@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strfree code="1">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="37">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="38">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="39">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="40">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="41">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="48">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="49">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="50">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="51">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="52">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="53">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="54">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="55">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="56">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="57">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="58">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="59">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="60">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="61">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="62">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="63">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="64">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="65">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="66">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="67">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="68">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="69">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="70">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="71">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="72">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="73">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="74">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="75">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="76">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="77">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="78">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="79">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="80">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="81">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="82">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="83">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="84">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="85">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="86">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="87">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="88">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="89">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="90">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="91">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="92">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="93">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="94">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="95">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="96">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="97">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="98">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="99">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="100">
+ <entity></entity>
+ <column name="Название производителя" order="1" id="103" datatype="classifier" format="2048"></column>
+ <column name="Нефтепродукт" order="2" id="104" datatype="classifier" format="2048"></column>
+ <column name="Субъект РФ" order="3" id="105" datatype="classifier" format="2048"></column>
+ <column name="Вид поставки" order="4" id="106" datatype="classifier" format="2048"></column>
+ <column name="Цена, тыс.руб/тонну (тыс.руб/тыс. куб.м)" order="5" id="107" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="111" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="112" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="113" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="114" datatype="text" format="100"></column>
+ <column name="ФИО Ответственный ответственного за заполнение макета" order="5" id="115" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="116" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="117" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="118" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="120" datatype="text" format="500"></column>
+ <column name="Почтовый адрес" order="2" id="121" datatype="text" format="500"></column>
+ <column name="Фактический адрес" order="3" id="122" datatype="text" format="500"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="123" datatype="text" format="500"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="124" datatype="text" format="500"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="125" datatype="text" format="500"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="126" datatype="text" format="500"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="127" datatype="text" format="500"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="128" datatype="text" format="500"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="129" datatype="text" format="500"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="130" datatype="text" format="500"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="131" datatype="text" format="500"></column>
+</strfree>
+</document>

@@ -1,0 +1,322 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata_02 name="Нефтепродукты" code="100" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.2 Нефтепродукты" code="1" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21 Топливо моторное, включая автомобильный и авиационный бензин" code="2" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.100 Бензин автомобильный" code="3" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" code="4" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.111 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу вне классов" code="5" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.112 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К2" code="6" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.113 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К3" code="7" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.114 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К4" code="8" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.115 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К5" code="9" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" code="10" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.121 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу вне классов" code="11" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.122 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К2" code="12" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.123 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К3" code="13" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.124 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К4" code="14" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.125 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К5" code="15" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" code="16" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.131 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу вне классов" code="17" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.132 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К2" code="18" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.133 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К3" code="19" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.134 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К4" code="20" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.135 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К5" code="21" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" code="22" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.141 Бензин автомобильный с октановым числом более 98 по исследовательскому методу вне классов" code="23" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.142 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К2" code="24" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.143 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К3" code="25" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.144 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К4" code="26" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.145 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К5" code="27" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.200 Бензин авиационный" code="28" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.300 Топливо дизельное" code="29" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.310 Топливо дизельное летнее" code="30" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.311 Топливо дизельное летнее вне классов" code="31" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.312 Топливо дизельное летнее экологического класса К2" code="32" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.313 Топливо дизельное летнее экологического класса К3" code="33" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.314 Топливо дизельное летнее экологического класса К4" code="34" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.315 Топливо дизельное летнее экологического класса К5" code="35" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.320 Топливо дизельное зимнее" code="36" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.321 Топливо дизельное зимнее вне классов" code="37" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.322 Топливо дизельное зимнее экологического класса К2" code="38" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.323 Топливо дизельное зимнее экологического класса К3" code="39" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.324 Топливо дизельное зимнее экологического класса К4" code="40" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.325 Топливо дизельное зимнее экологического класса К5" code="41" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.330 Топливо дизельное арктическое" code="42" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.331 Топливо дизельное арктическое вне классов" code="43" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.332 Топливо дизельное арктическое экологического класса К2" code="44" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.333 Топливо дизельное арктическое экологического класса К3" code="45" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.334 Топливо дизельное арктическое экологического класса К4" code="46" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.335 Топливо дизельное арктическое экологического класса К5" code="47" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.340 Топливо дизельное межсезонное" code="48" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.341 Топливо дизельное межсезонное вне классов" code="49" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.342 Топливо дизельное межсезонное экологического класса К2" code="50" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.343 Топливо дизельное межсезонное экологического класса К3" code="51" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.344 Топливо дизельное межсезонное экологического класса К4" code="52" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.345 Топливо дизельное межсезонное экологического класса К5" code="53" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.400 Топливо судовое" code="54" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.410 Топливо судовое с массовой долей серы 2 - 3,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="55" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.420 Топливо судовое с массовой долей серы 1,5 - 2% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="56" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.430 Топливо судовое с массовой долей серы 0,5 - 1,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="57" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.440 Топливо судовое с массовой долей серы не более 0,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="58" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.500 Топливо моторное этанольное" code="59" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.510 Топливо моторное этанольное летнее" code="60" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.520 Топливо моторное этанольное зимнее" code="61" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.21.600 Бензин прямогонный" code="62" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.22 Топливо реактивное бензинового типа" code="63" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.23 Топливо легкое нефтяное дистиллятное, дистилляты легкие, не включенные в другие группировки" code="64" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.23.110 Топливо легкое нефтяное дистиллятное прочее" code="65" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.23.190 Дистилляты легкие, не включенные в другие группировки" code="66" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.24 Керосин" code="67" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.24.110 Керосины технические" code="68" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.24.120 Керосины осветительные" code="69" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25 Топливо реактивное керосинового типа" code="70" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25.110 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета" code="71" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25.111 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки Джет-А1" code="72" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25.112 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки ТС-1" code="73" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25.119 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью прочее" code="74" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.25.120 Топливо для реактивных двигателей летательных аппаратов со сверхзвуковой скоростью полета" code="75" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.26 Газойли" code="76" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.27 Топливо нефтяное дистиллятное прочее, дистилляты средние, не включенные в другие группировки" code="77" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.27.110 Топливо нефтяное дистиллятное прочее" code="78" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.27.190 Дистилляты средние, не включенные в другие группировки" code="79" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28 Топливо жидкое, не включенное в другие группировки" code="80" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.100 Мазут" code="81" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.110 Мазут топочный" code="82" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.111 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 30 ppm, но более 20 ppm" code="83" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.112 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 20 ppm, но более 10 ppm" code="84" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.113 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 10 ppm" code="85" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.120 Мазут флотский" code="86" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.130 Топливо печное бытовое" code="87" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.28.190 Топливо жидкое прочее, не включенное в другие группировки" code="88" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29 Масла нефтяные смазочные; дистилляты тяжелые, не включенные в другие группировки" code="89" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.110 Масла моторные" code="90" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.111 Масла моторные авиационные" code="91" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.112 Масла моторные для карбюраторных двигателей" code="92" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.113 Масла моторные дизельные" code="93" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.114 Масла моторные для карбюраторных и дизельных двигателей" code="94" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.119 Масла моторные прочие, не включенные в другие группировки" code="95" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.120 Масла гидравлические" code="96" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.130 Масла индустриальные" code="97" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.140 Масла электроизоляционные" code="98" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.150 Масла трансмиссионные для подвижной техники" code="99" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.160 Масла компрессорные и турбинные" code="100" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.170 Масла антикоррозионные" code="101" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.180 Масла технологические" code="102" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.190 Масла нефтяные смазочные прочие, не включенные в другие группировки" code="103" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.210 Дистилляты тяжелые, не включенные в другие группировки" code="104" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.211 Смазки пластичные" code="105" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.212 Суспензии для нанесения твердых смазочных покрытий" code="106" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.213 Нефтепродукты смазочно-охлаждающие" code="107" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.29.219 Дистилляты тяжелые прочие, не включенные в другие группировки" code="108" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.3 Газы нефтяные и углеводороды газообразные прочие, кроме газа горючего природного" code="109" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.31 Пропан и бутан сжиженные" code="110" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.31.110 Пропан сжиженный" code="111" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.31.120 Бутан сжиженный" code="112" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32 Этилен, пропилен, бутилен, бутадиен и прочие нефтяные газы или газообразные углеводороды, кроме природного газа" code="113" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.110 Газы нефтяные" code="114" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.111 Этилен" code="115" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.112 Пропилен" code="116" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.113 Бутилен" code="117" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.114 Бутадиен" code="118" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.115 Конденсат газовый стабильный" code="119" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.119 Газы нефтяные прочие, не включенные в другие группировки" code="120" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.32.190 Углеводороды газообразные, кроме природного газа" code="121" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.4 Нефтепродукты прочие" code="122" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.41 Вазелин (петролатум); парафин; воск нефтяной прочий" code="123" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.41.110 Вазелин нефтяной (петролатум)" code="124" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.41.120 Парафины нефтяные" code="125" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.41.190 Воски нефтяные прочие" code="126" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42 Кокс нефтяной, битум нефтяной и прочие остатки нефтепереработки" code="127" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.110 Кокс нефтяной" code="128" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.111 Кокс нефтяной некальцинированный" code="129" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.112 Кокс нефтяной кальцинированный" code="130" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.120 Битумы нефтяные" code="131" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.121 Битумы нефтяные дорожные" code="132" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.122 Битумы нефтяные изоляционные" code="133" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.123 Битумы нефтяные кровельные" code="134" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.124 Битумы нефтяные строительные" code="135" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.125 Битумы нефтяные хрупкие" code="136" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-19.20.42.190 Остатки нефтепереработки прочие" code="137" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.130 Бензолы" code="138" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.131 Бензол каменноугольный" code="139" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.132 Бензол сланцевый" code="140" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.133 Бензол нефтяной" code="141" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.140 Толуолы" code="142" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.141 Толуол нефтяной" code="143" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.142 Толуол каменноугольный" code="144" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.143 Толуол сланцевый" code="145" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.150 Ксилолы" code="146" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.151 О-ксилол" code="147" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.152 П-ксилол" code="148" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.153 М-ксилол" code="149" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.154 Ксилол каменноугольный" code="150" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="-20.14.12.155 Ксилол нефтяной" code="151" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_01 name="Нефтепродукты" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.2 Нефтепродукты" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21 Топливо моторное, включая автомобильный и авиационный бензин" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.100 Бензин автомобильный" code="3" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.110 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу" code="4" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.111 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу вне классов" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.112 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К2" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.113 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К3" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.114 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К4" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.115 Бензин автомобильный с октановым числом более 80, но не более 92 по исследовательскому методу экологического класса К5" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.120 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.121 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу вне классов" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.122 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К2" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.123 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К3" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.124 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К4" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.125 Бензин автомобильный с октановым числом более 92, но не более 95 по исследовательскому методу экологического класса К5" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.130 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу" code="16" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.131 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу вне классов" code="17" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.132 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К2" code="18" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.133 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К3" code="19" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.134 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К4" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.135 Бензин автомобильный с октановым числом более 95, но не более 98 по исследовательскому методу экологического класса К5" code="21" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.140 Бензин автомобильный с октановым числом более 98 по исследовательскому методу" code="22" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.141 Бензин автомобильный с октановым числом более 98 по исследовательскому методу вне классов" code="23" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.142 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К2" code="24" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.143 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К3" code="25" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.144 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К4" code="26" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.145 Бензин автомобильный с октановым числом более 98 по исследовательскому методу экологического класса К5" code="27" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.200 Бензин авиационный" code="28" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.300 Топливо дизельное" code="29" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.310 Топливо дизельное летнее" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.311 Топливо дизельное летнее вне классов" code="31" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.312 Топливо дизельное летнее экологического класса К2" code="32" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.313 Топливо дизельное летнее экологического класса К3" code="33" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.314 Топливо дизельное летнее экологического класса К4" code="34" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.315 Топливо дизельное летнее экологического класса К5" code="35" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.320 Топливо дизельное зимнее" code="36" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.321 Топливо дизельное зимнее вне классов" code="37" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.322 Топливо дизельное зимнее экологического класса К2" code="38" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.323 Топливо дизельное зимнее экологического класса К3" code="39" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.324 Топливо дизельное зимнее экологического класса К4" code="40" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.325 Топливо дизельное зимнее экологического класса К5" code="41" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.330 Топливо дизельное арктическое" code="42" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.331 Топливо дизельное арктическое вне классов" code="43" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.332 Топливо дизельное арктическое экологического класса К2" code="44" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.333 Топливо дизельное арктическое экологического класса К3" code="45" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.334 Топливо дизельное арктическое экологического класса К4" code="46" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.335 Топливо дизельное арктическое экологического класса К5" code="47" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.340 Топливо дизельное межсезонное" code="48" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.341 Топливо дизельное межсезонное вне классов" code="49" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.342 Топливо дизельное межсезонное экологического класса К2" code="50" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.343 Топливо дизельное межсезонное экологического класса К3" code="51" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.344 Топливо дизельное межсезонное экологического класса К4" code="52" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.345 Топливо дизельное межсезонное экологического класса К5" code="53" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.400 Топливо судовое" code="54" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.410 Топливо судовое с массовой долей серы 2 - 3,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="55" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.420 Топливо судовое с массовой долей серы 1,5 - 2% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="56" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.430 Топливо судовое с массовой долей серы 0,5 - 1,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="57" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.440 Топливо судовое с массовой долей серы не более 0,5% с температурой вспышки в закрытом тигле не ниже 61 ?C" code="58" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.500 Топливо моторное этанольное" code="59" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.510 Топливо моторное этанольное летнее" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.520 Топливо моторное этанольное зимнее" code="61" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.21.600 Бензин прямогонный" code="62" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.22 Топливо реактивное бензинового типа" code="63" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.23 Топливо легкое нефтяное дистиллятное, дистилляты легкие, не включенные в другие группировки" code="64" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.23.110 Топливо легкое нефтяное дистиллятное прочее" code="65" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.23.190 Дистилляты легкие, не включенные в другие группировки" code="66" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.24 Керосин" code="67" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.24.110 Керосины технические" code="68" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.24.120 Керосины осветительные" code="69" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25 Топливо реактивное керосинового типа" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25.110 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета" code="71" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25.111 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки Джет-А1" code="72" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25.112 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью полета марки ТС-1" code="73" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25.119 Топливо для реактивных двигателей летательных аппаратов с дозвуковой скоростью прочее" code="74" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.25.120 Топливо для реактивных двигателей летательных аппаратов со сверхзвуковой скоростью полета" code="75" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.26 Газойли" code="76" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.27 Топливо нефтяное дистиллятное прочее, дистилляты средние, не включенные в другие группировки" code="77" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.27.110 Топливо нефтяное дистиллятное прочее" code="78" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.27.190 Дистилляты средние, не включенные в другие группировки" code="79" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28 Топливо жидкое, не включенное в другие группировки" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.100 Мазут" code="81" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.110 Мазут топочный" code="82" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.111 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 30 ppm, но более 20 ppm" code="83" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.112 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 20 ppm, но более 10 ppm" code="84" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.113 Мазут с массовой долей серы не более 3,5% с температурой вспышки в открытом тигле не ниже 90 ?C, с содержанием сероводорода не более 10 ppm" code="85" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.120 Мазут флотский" code="86" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.130 Топливо печное бытовое" code="87" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.28.190 Топливо жидкое прочее, не включенное в другие группировки" code="88" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29 Масла нефтяные смазочные; дистилляты тяжелые, не включенные в другие группировки" code="89" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.110 Масла моторные" code="90" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.111 Масла моторные авиационные" code="91" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.112 Масла моторные для карбюраторных двигателей" code="92" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.113 Масла моторные дизельные" code="93" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.114 Масла моторные для карбюраторных и дизельных двигателей" code="94" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.119 Масла моторные прочие, не включенные в другие группировки" code="95" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.120 Масла гидравлические" code="96" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.130 Масла индустриальные" code="97" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.140 Масла электроизоляционные" code="98" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.150 Масла трансмиссионные для подвижной техники" code="99" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.160 Масла компрессорные и турбинные" code="100" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.170 Масла антикоррозионные" code="101" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.180 Масла технологические" code="102" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.190 Масла нефтяные смазочные прочие, не включенные в другие группировки" code="103" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.210 Дистилляты тяжелые, не включенные в другие группировки" code="104" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.211 Смазки пластичные" code="105" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.212 Суспензии для нанесения твердых смазочных покрытий" code="106" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.213 Нефтепродукты смазочно-охлаждающие" code="107" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.29.219 Дистилляты тяжелые прочие, не включенные в другие группировки" code="108" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.3 Газы нефтяные и углеводороды газообразные прочие, кроме газа горючего природного" code="109" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.31 Пропан и бутан сжиженные" code="110" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.31.110 Пропан сжиженный" code="111" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.31.120 Бутан сжиженный" code="112" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32 Этилен, пропилен, бутилен, бутадиен и прочие нефтяные газы или газообразные углеводороды, кроме природного газа" code="113" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.110 Газы нефтяные" code="114" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.111 Этилен" code="115" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.112 Пропилен" code="116" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.113 Бутилен" code="117" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.114 Бутадиен" code="118" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.115 Конденсат газовый стабильный" code="119" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.119 Газы нефтяные прочие, не включенные в другие группировки" code="120" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.32.190 Углеводороды газообразные, кроме природного газа" code="121" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.4 Нефтепродукты прочие" code="122" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.41 Вазелин (петролатум); парафин; воск нефтяной прочий" code="123" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.41.110 Вазелин нефтяной (петролатум)" code="124" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.41.120 Парафины нефтяные" code="125" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.41.190 Воски нефтяные прочие" code="126" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42 Кокс нефтяной, битум нефтяной и прочие остатки нефтепереработки" code="127" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.110 Кокс нефтяной" code="128" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.111 Кокс нефтяной некальцинированный" code="129" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.112 Кокс нефтяной кальцинированный" code="130" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.120 Битумы нефтяные" code="131" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.121 Битумы нефтяные дорожные" code="132" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.122 Битумы нефтяные изоляционные" code="133" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.123 Битумы нефтяные кровельные" code="134" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.124 Битумы нефтяные строительные" code="135" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.125 Битумы нефтяные хрупкие" code="136" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-19.20.42.190 Остатки нефтепереработки прочие" code="137" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.130 Бензолы" code="138" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.131 Бензол каменноугольный" code="139" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.132 Бензол сланцевый" code="140" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.133 Бензол нефтяной" code="141" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.140 Толуолы" code="142" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.141 Толуол нефтяной" code="143" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.142 Толуол каменноугольный" code="144" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.143 Толуол сланцевый" code="145" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.150 Ксилолы" code="146" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.151 О-ксилол" code="147" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.152 П-ксилол" code="148" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.153 М-ксилол" code="149" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.154 Ксилол каменноугольный" code="150" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <strdata_01 name="-20.14.12.155 Ксилол нефтяной" code="151" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+  </flat>
+</document>

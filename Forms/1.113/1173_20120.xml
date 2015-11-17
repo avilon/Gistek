@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Крупнотоннажные пластмассы">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="100001" name="20.16.10.111 Полиэтилен высокого давления" id="1201610111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100002" name="20.16.10.113 Полиэтилен низкого давления" id="1201610113">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100003" name="20.16.10.114 Полиэтилен линейный низкой плотности" id="1201610114">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100004" name="20.16.10.120 Сополимеры этилена с винилацетатом в первичных формах" id="1201610120">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100005" name="20.16.51.111 Гомополимер пропилена" id="1201651111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100006" name="20.16.51.112 Сополимеры пропилена" id="1201651112">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100007" name="20.16.30.111 Поливинилхлорид эмульсионный" id="1201630111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100008" name="20.16.30.112 Поливинилхлорид суспензионный" id="1201630112">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100009" name="20.16.30.113 Сополимеры винилхлорида в первичных формах" id="1201630113">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100010" name="20.16.30.191 Микросуспензионный поливинилхлорид и прочие смолы винилхлорида [экстендер]" id="1201630191">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100011" name="20.16.20.115 Полистирол модифицированный [ударопрочный]" id="1201620115">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100012" name="20.16.20.116 Полистирол вспенивающийся" id="1201620116">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100013" name="20.16.20.121 Сополимеры стирола с акрилонитрилом [САН] в первичных формах" id="1201620121">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="100014" name="20.16.40.170 Полиэтилентерефталат в первичных формах" id="1201640170">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="2" name="Среднетоннажные пластмассы">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="200001" name="20.16.40.140 Поликарбонаты в первичных формах" id="1201640140">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200002" name="20.16.54 Полиамиды в первичных формах" id="1201654000">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200003" name="20.16.20.122 Сополимеры акрилонитрилбутадиенстирольные [АБС-пластик] в первичных формах" id="1201620122">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="200004" name="20.16.56.190 Смолы полиуретановые прочие в первичных формах" id="1201656190">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="3" name="Синтетические каучуки">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="300001" name="20.17.10.120 Каучуки изопреновые и сополимеры изопрена" id="1201710120">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300002" name="20.17.10.130 Каучуки бутадиенстирольные и бутадиенметилстирольные [СКС-СКМС]" id="1201710130">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300003" name="20.17.10.171 Каучуки изобутиленизопреновые [бутилкаучуки]" id="1201710171">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300004" name="20.17.10.173 Каучуки этиленпропилендиеновые" id="1201710173">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300005" name="20.17.10.141 Каучуки бутадиеннитрильные" id="1201710141">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300006" name="20.17.10.110 Каучуки бутадиеновые" id="1201710110">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="300007" name="20.17.10.190 Каучуки синтетические прочие" id="1201710190">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="4" name="Продукция органического синтеза">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="400001" name="20.14.63.131 Окись этилена" id="1201463131">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400002" name="20.14.63.132 Окись пропилена" id="1201463132">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400003" name="20.14.23.111 Этиленгликоль [этандиол]" id="1201423111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400004" name="20.14.22.114 Спирт н-бутиловый [бутан-1-ол]" id="1201422114">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400005" name="20.14.22.115 Спирт третбутиловый спирт [2-метилпропан-2-ол]" id="1201422115">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400006" name="20.14.22.116 Бутанолы прочие" id="1201422116">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="400007" name="20.14.62.111 Ацетон" id="1201462111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="5" name="Мономеры и сырьевые полупродукты">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="500001" name="20.16.1 Полимеры этилена в первичных формах" id="1201610000">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500002" name="19.20.32.112 Пропилен" id="1192032112">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500003" name="19.20.32.114 Бутадиен" id="1192032114">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500004" name="20.14.11.125 Изопрен" id="1201411125">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500005" name="20.14.12.133 Бензол нефтяной" id="1201412133">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500006" name="20.14.12.160 Стирол" id="1201412160">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500007" name="20.14.34.121 Кислота терефталевая" id="1201434121">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500008" name="20.14.24.112 Фенол синтетический технический" id="1201424112">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500009" name="19.20.42.121 Битумы нефтяные дорожные" id="1192042121">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500010" name="19.20.42.126 Битумы нефтяные вязкие" id="1192042126">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="500011" name="20.14.62.111 Ацетон" id="1201462111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="6" name="Широкая фракция легких углеводородов (ШФЛУ) и ее отдельные фракции (бутан, пропан, пентан)">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="600001" name="19.30.11.131 Пропановая фракция" id="1193011131">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600002" name="19.30.11.132 Пропан-пропиленовая фракция" id="1193011132">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600003" name="19.30.11.133 Фракция нормального бутана" id="1193011133">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600004" name="19.30.11.134 Изобутановая фракция" id="1193011134">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600005" name="19.30.11.135 Бутан-бутиленовая фракция" id="1193011135">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600006" name="19.30.11.136 Пропан-бутановая фракция [кондиция для быта]" id="1193011136">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600007" name="19.30.11.137 Пропан-бутан-пентановая фракция" id="1193011137">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600008" name="19.30.11.138 Бутилен-бутадиеновая фракция" id="1193011138">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="600009" name="19.20.32.121 Пентан-гексановая фракция" id="1192032121">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="7" name="Ароматические углеводороды">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="700001" name="20.14.12.141 Толуол нефтяной" id="1201412141">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="700002" name="20.14.12.151 О-ксилол" id="1201412151">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="700003" name="20.14.12.152 П-ксилол" id="1201412152">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="700004" name="20.14.12.153 М-ксилол" id="1201412153">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="8" name="Сжиженные углеводородные газы">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="800001" name="Пропан [пропановая фракция, включая обработанную пропан-пропиленовую фракцию]" id="231">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800002" name="Фракция пропан-пропиленовая" id="232">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800003" name="Бутан нормальный [включая отработанную бутан- бутиленовую фракцию]" id="233">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800004" name="Изобутан [фракция изобутановая]" id="234">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800005" name="Фракция бутан-бутиленовая" id="235">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800006" name="Фракция пропан-бутановая [кондиция для быта]" id="236">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800007" name="Газы углеводородные сжиженные прочие" id="239">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="800008" name="Пентан" id="240">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="9" name="Прочие">
+ <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+ <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+ <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ <strclass code="900001" name="19.20.32.117 Бензин газовый стабильный" id="1192032117">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="900002" name="20.14.22.111 Спирт метиловый [метанол]" id="1201422111">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="900003" name="20.14.22.113 Спирт изопропиловый [пропан-2-ол]" id="1201422113">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="900004" name="20.14.12.170 Этилбензолы" id="1201412170">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="900005" name="20.14.41.141 Анилин" id="1201441141">
+  <column name="Произведено за отчетный месяц, тонн (тыс.куб.м)" order="1" id="14" datatype="number" format="30.3"></column>
+  <column name="Произведено с начала года, тонн (тыс.куб.м)" order="2" id="15" datatype="number" format="30.3"></column>
+  <column name="За соответствующий период прошлого года, тонн (тыс.куб.м)" order="3" id="16" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="19" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="20" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="21" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="22" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="19" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="20" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="21" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="22" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="35" datatype="text" format="500"></column>
+</strdata>
+</document>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Валовое производство">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="Валовое производство (давальцы)">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="Товарное производство из общего объема сырья">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="Товарное производство  (давальцы)">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="Расход на собственные нужды">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="30" name="Внутризаводская переработка">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="40" name="Отгрузка, всего">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="41" name="Отгрузка (давальцы)">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="50" name="Отгрузка для бытовых нужд населения">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ <strclass code="5000001" name="Железнодорожным транспортом" id="3">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5000002" name="Автомобильным транспортом" id="5">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="5000003" name="Трубопроводным транспортом" id="7">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="60" name="Отгрузка для нужд промышленности">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ <strclass code="6000001" name="Железнодорожным транспортом" id="3">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="6000002" name="Автомобильным транспортом" id="5">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="6000003" name="Трубопроводным транспортом" id="7">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="70" name="Отгрузка для нужд автотранспорта">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ <strclass code="7000001" name="Железнодорожным транспортом" id="3">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="7000002" name="Автомобильным транспортом" id="5">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="7000003" name="Трубопроводным транспортом" id="7">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="80" name="Сырье на нефтехимию">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ <strclass code="8000001" name="Железнодорожным транспортом" id="3">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="8000002" name="Автомобильным транспортом" id="5">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="8000003" name="Трубопроводным транспортом" id="7">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="90" name="Экспорт">
+ <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+ <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+ <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+ <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+ <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+ <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+ <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+ <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+ <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ <strclass code="9000001" name="Железнодорожным транспортом" id="3">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="9000002" name="Автомобильным транспортом" id="5">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+ <strclass code="9000003" name="Трубопроводным транспортом" id="7">
+  <column name="СУГ -  всего, тонн" order="1" id="23" datatype="number" format="30.3"></column>
+  <column name="Пропановая фракция, тонн" order="2" id="24" datatype="number" format="30.3"></column>
+  <column name="Пропан-пропиленовая фракция, тонн" order="3" id="25" datatype="number" format="30.3"></column>
+  <column name="Бутан нормальный, тонн" order="4" id="26" datatype="number" format="30.3"></column>
+  <column name="Изобутановая фракция, тонн" order="5" id="27" datatype="number" format="30.3"></column>
+  <column name="Бутан-бутиленовая фракция, тонн" order="6" id="28" datatype="number" format="30.3"></column>
+  <column name="Пропан-бутановая фракция, тонн" order="7" id="29" datatype="number" format="30.3"></column>
+  <column name="Пентан, тонн" order="8" id="30" datatype="number" format="30.3"></column>
+  <column name="Прочие фракции СУГ, тонн" order="9" id="31" datatype="number" format="30.3"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="34" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="35" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="36" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="34" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="35" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="36" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="37" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="50" datatype="text" format="500"></column>
+</strdata>
+</document>

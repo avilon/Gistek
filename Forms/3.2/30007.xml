@@ -1,0 +1,35 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata1 name="Всего" code="1" column1=""/>
+    <strdata2 name="Пенсионеры" code="2" column1=""/>
+    <strdata3 name="Всего" code="3" column1=""/>
+    <strdata4 name="Руководители и специалисты" code="4" column1=""/>
+    <strdata5 name="Рабочие по добыче" code="5" column1=""/>
+    <strdata61 name="Горнорабочие очистного забоя" code="61" column1=""/>
+    <strdata62 name="Рабочие по добыче на разрезе" code="62" column1=""/>
+    <strdata71 name="Проходчики" code="71" column1=""/>
+    <strdata72 name="Рабочие на вскрыше" code="72" column1=""/>
+    <strdata8 name="Рабочие других профессий" code="8" column1=""/>
+    <strdata9 name="Принято Всего" code="9" column1=""/>
+    <strdata10 name="Уволено Всего" code="10" column1=""/>
+    <strdata11 name="Уволено на пенсию" code="11" column1=""/>
+    <strdata12 name="Уволено по сокращению и в связи с ликвидацией" code="12" column1=""/>
+    <strdata13 name="Уволено по переводу" code="13" column1=""/>
+    <strdata14 name="Уволено по собственному желанию" code="14" column1=""/>
+    <strdata15 name="Уволено по другим причинам" code="15" column1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

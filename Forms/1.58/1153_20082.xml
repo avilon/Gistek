@@ -1,0 +1,2329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strfree code="1">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="37">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="38">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="39">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="40">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="41">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="48">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="49">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="50">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="51">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="52">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="53">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="54">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="55">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="56">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="57">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="58">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="59">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="60">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="61">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="62">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="63">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="64">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="65">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="66">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="67">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="68">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="69">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="70">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="71">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="72">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="73">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="74">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="75">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="76">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="77">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="78">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="79">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="80">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="81">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="82">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="83">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="84">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="85">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="86">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="87">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="88">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="89">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="90">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="91">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="92">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="93">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="94">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="95">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="96">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="97">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="98">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="99">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="100">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="7" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="8" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="9" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="4" id="10" datatype="classifier" format="2048"></column>
+ <column name="Пункт назначения" order="5" id="11" datatype="classifier" format="2048"></column>
+ <column name="Объем сдачи, план, тонн" order="6" id="12" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="7" id="13" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="8" id="14" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="201">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="202">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="203">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="204">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="205">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="206">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="207">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="208">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="209">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="210">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="211">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="212">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="213">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="214">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="215">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="216">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="217">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="218">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="219">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="220">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="221">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="222">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="223">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="224">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="225">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="226">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="227">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="228">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="229">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="230">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="231">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="232">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="233">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="234">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="235">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="236">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="237">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="238">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="239">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="240">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="241">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="242">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="243">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="244">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="245">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="246">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="247">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="248">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="249">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="250">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="251">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="252">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="253">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="254">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="255">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="256">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="257">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="258">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="259">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="260">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="261">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="262">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="263">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="264">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="265">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="266">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="267">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="268">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="269">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="270">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="271">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="272">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="273">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="274">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="275">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="276">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="277">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="278">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="279">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="280">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="281">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="282">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="283">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="284">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="285">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="286">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="287">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="288">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="289">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="290">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="291">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="292">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="293">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="294">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="295">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="296">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="297">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="298">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="299">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="300">
+ <entity></entity>
+ <column name="Грузоотправитель" order="1" id="114" datatype="text" format="100"></column>
+ <column name="Импорт продукта" order="2" id="115" datatype="classifier" format="2048"></column>
+ <column name="Направление использования продукта" order="3" id="116" datatype="classifier" format="2048"></column>
+ <column name="Вид транспортировки" order="4" id="117" datatype="classifier" format="2048"></column>
+ <column name="Грузополучатель / Объект потребления" order="5" id="118" datatype="text" format="100"></column>
+ <column name="Пункт назначения" order="6" id="119" datatype="text" format="100"></column>
+ <column name="Объем сдачи, план, тонн" order="7" id="120" datatype="number" format="30.3"></column>
+ <column name="Объем сдачи, факт, тонн" order="8" id="121" datatype="number" format="30.3"></column>
+ <column name="Стоимость отгруженного продукта, тыс. руб." order="9" id="122" datatype="number" format="30.3"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="324" datatype="text" format="100"></column>
+ <column name="Должность руководителя организации" order="2" id="325" datatype="text" format="100"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="326" datatype="text" format="100"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="327" datatype="text" format="100"></column>
+ <column name="ФИО Ответственный ответственного за заполнение макета" order="5" id="328" datatype="text" format="100"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="329" datatype="text" format="100"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="330" datatype="text" format="100"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="331" datatype="text" format="100"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="333" datatype="text" format="500"></column>
+ <column name="Почтовый адрес" order="2" id="334" datatype="text" format="500"></column>
+ <column name="Фактический адрес" order="3" id="335" datatype="text" format="500"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="336" datatype="text" format="500"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="337" datatype="text" format="500"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="338" datatype="text" format="500"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="339" datatype="text" format="500"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="340" datatype="text" format="500"></column>
+ <column name="ОКАТО (Код территории)" order="9" id="341" datatype="text" format="500"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="342" datatype="text" format="500"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="343" datatype="text" format="500"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="344" datatype="text" format="500"></column>
+</strfree>
+</document>

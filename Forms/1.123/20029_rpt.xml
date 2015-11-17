@@ -1,0 +1,30 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Резервуары металлические стационарные для нефти и нефтепродуктов вместимостью от 3 куб. м и более" code="1" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для сырой нефти" code="2" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для бензинов" code="3" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для бензинов с понтонами" code="4" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для прочих светлых нефтепродуктов" code="5" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для топочного мазута" code="6" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для прочих темных нефтепродуктов" code="7" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для нефтемасел" code="8" column1="" column2=""/>
+    <strdata name="Резервуары металлические стационарные для сжиженных углеводородных газов" code="9" column1="" column2=""/>
+    <strdata name="Резервуары железобетонные стационарные для нефти и нефтепродуктов" code="10" column1="" column2=""/>
+    <strdata name="Резервуары железобетонные для топочного мазута" code="11" column1="" column2=""/>
+    <strdata name="Подземные хранилища для нефти и нефтепродуктов" code="12" column1="" column2=""/>
+    <strdata name="Подземные хранилища для сырой нефти" code="13" column1="" column2=""/>
+    <strdata name="Подземные хранилища для бензинов" code="14" column1="" column2=""/>
+    <strdata name="Подземные хранилища для дизельного топлива" code="15" column1="" column2=""/>
+    <strContactInf name="Руководитель организации" code="211" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="212" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="321" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="322" col1=""/>
+    <strServiceInf name="Код отчитывающейся организации по ОКПО" code="323" col1=""/>
+    <strServiceInf name="Код вида деятельности по ОКВЭД" code="324" col1=""/>
+    <strServiceInf name="Код территории по ОКАТО" code="325" col1=""/>
+    <strServiceInf name="Код министерства (ведомства), органа управления по ОКОГУ" code="326" col1=""/>
+    <strServiceInf name="Код организационно-правовой формы по ОКОПФ" code="327" col1=""/>
+    <strServiceInf name="Код формы собственности по ОКФС" code="328" col1=""/>
+    <strServiceInf name="Код формы по ОКУД" code="329" col1=""/>
+  </flat>
+</document>

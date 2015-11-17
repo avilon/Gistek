@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="1. Остатки на начало года, всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="1.1 Остатки на начало года в нефтепроводах">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="1.2 Остатки на начало года в резервуарах">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="4" name="1.2.1 Остатки на начало года в резервуарах &quot;мертвые&quot;">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="1.2.2 Остатки на начало года в резервуарах технологические">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="1.2.3 Остатки на начало года в резервуарах товарные">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="1.2.3.1  На ответственном хранении нефть сторонних организаций">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="1.3 Остатки на начало года в амбарах очистных сооружений">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="2. Добыча нефти">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="3. Добыча газового конденсата">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="4. Поступление нефти и газового конденсата со стороны">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="5. Вовлечение нефти из остатков">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="6. Расход на собственные нужды промыслов (включая сбор и подготовку нефти)">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="14" name="6.1 Расход на собственные нужды промыслов на топливо">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="7. Расход на собственные нужды транспорта">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="7.1  Расход на собственные нужды транспорта на топливо">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="17" name="8. Поставка нефти и газового конденсата буровым предприятиям">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="18" name="8.1 Поставка нефти и газового конденсата буровым предприятиям на топливо">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="19" name="9. Поставка нефти и газового конденсата прочим своим предприятиям">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="9.1 Поставка нефти и газового конденсата прочим своим предприятиям на топливо">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="9.2 Поставка нефти и газового конденсата прочим своим предприятиям на производство нефтебитума">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="10. Расход нефти на заполнение трубопроводов и емкостей">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="11. Расход нефти на выработку широкой фракции, нестабильного газового бензина (без учета потерь)">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="24" name="12. Потери нефти и газового конденсата при сборе и подготовке">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="25" name="13. Потери нефти и газового конденсата при стабилизации">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="26" name="14. Потери нефти и газового конденсата при хранении и транспортировке до потребителя магистральным транспортом">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="27" name="15. Поставка нефти на топливо потребителям вне объединения, всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="28" name="16. Сдача собственной нефти транспортным организациям (кроме нефти, поставляемой на топливо), всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="29" name="16.1 Сдача нефти транспортным организациям для поставки на НПЗ России и экспорт, всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="30" name="16.1.1 Сдача нефти транспортным организациям в счет господдержки на НПЗ России и Казахстана">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="31" name="16.1.2 Сдача нефти для поставки на НПЗ стран ближнего зарубежья (без Казахстана)">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="32" name="16.1.3 Сдача нефти в счет государственных нужд, всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="33" name="16.1.3 .1 Сдача нефти в счет государственных нужд для экспорта в страны дальнего зарубежья">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="34" name="16.1.4 Сдача нефти транспортным организациям для поставки на экспорт в страны дальнего зарубежья">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="35" name="17. Сдано транспортным организациям нефти других организаций (включая АО, СП, а также нефть, принятую от других организаций для подготовки)">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="36" name="18. Остатки на конец года, всего">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="37" name="18.1 Остатки на конец года в нефтепроводах">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="38" name="18.2 Остатки на конец года в резервуарах">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="39" name="18.2.1 Остатки на конец года в резервуарах &quot;мертвые&quot;">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="40" name="18.2.2 Остатки на конец года в резервуарах технологические">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="41" name="18.2.3 Остатки на конец года в резервуарах товарные">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="42" name="18.2.3.1  На ответственном хранении нефть сторонних организаций">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="43" name="18.3 Остатки на конец года в амбарах очистных сооружений">
+ <column name="Факт за квартал, тонн" order="1" id="61" datatype="number" format="30.3"></column>
+ <column name="Факт с начала года, тонн" order="2" id="62" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="65" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="66" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="67" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="68" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="65" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="66" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="67" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="68" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="81" datatype="text" format="500"></column>
+</strdata>
+</document>

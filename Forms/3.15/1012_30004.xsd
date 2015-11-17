@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="strdata" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="column" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="order" use="required" type="xs:byte"/>
+									<xs:attribute name="id" use="required" type="xs:byte"/>
+									<xs:attribute name="datatype" use="required" type="xs:string"/>
+									<xs:attribute name="format" use="required" type="xs:decimal"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="code" use="required" type="xs:short"/>
+						<xs:attribute name="name" use="required" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+			<xs:attribute name="year" use="required" type="xs:short"/>
+			<xs:attribute name="month" use="required" type="xs:byte"/>
+			<xs:attribute name="day" use="required" type="xs:string"/>
+			<xs:attribute name="subject" use="required" type="xs:int"/>
+			<xs:attribute name="subject_variant" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
