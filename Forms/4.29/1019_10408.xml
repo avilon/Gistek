@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strfree code="1">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="2">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="3">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="4">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="5">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="6">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="7">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="8">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="9">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="10">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="11">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="12">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="13">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="14">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="15">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="16">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="17">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="18">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="19">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="20">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="21">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="22">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="23">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="24">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="25">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="26">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="27">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="28">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="29">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="30">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="37">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="38">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="39">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="40">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="41">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="48">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="49">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="50">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="51">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="52">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="53">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="54">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="55">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="56">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="57">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="58">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="59">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="60">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="61">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="62">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="63">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="64">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="65">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="66">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="67">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="68">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="69">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="70">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="71">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="72">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="73">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="74">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="75">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="76">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="77">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="78">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="79">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="80">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="81">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="82">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="83">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="84">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="85">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="86">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="87">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="88">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="89">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="90">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="91">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="92">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="93">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="94">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="95">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="96">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="97">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="98">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="99">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="100">
+ <entity></entity>
+ <column name="Наименование объекта генерации" order="1" id="235" datatype="text" format="500"></column>
+ <column name="Вид ВИЭ" order="2" id="236" datatype="classifier" format="2048"></column>
+ <column name="Наименование оборудования" order="3" id="237" datatype="text" format="500"></column>
+ <column name="Тип и марка оборудования" order="4" id="238" datatype="text" format="500"></column>
+ <column name="установленная электрическая мощность, Квт" order="5" id="239" datatype="number" format="30.2"></column>
+ <column name="тепловая мощность, Гкал" order="6" id="240" datatype="number" format="30.3"></column>
+ <column name="Страна производитель" order="7" id="241" datatype="classifier" format="2048"></column>
+ <column name="Производитель оборудования" order="8" id="242" datatype="text" format="500"></column>
+ <column name="дата ввода в эксплуатацию" order="9" id="243" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата модернизации (план)" order="10" id="244" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата последней модернизации (факт)" order="11" id="245" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (план)" order="12" id="246" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата консервации (факт)" order="13" id="247" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (план)" order="14" id="248" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="дата вывода из эксплуатации (факт)" order="15" id="249" datatype="date" format="dd.mm.yyyy"></column>
+</strfree>
+<strfree code="111">
+ <entity></entity>
+ <column name="ФИО руководителя организации" order="1" id="253" datatype="text" format="500"></column>
+ <column name="Должность руководителя организации" order="2" id="254" datatype="text" format="500"></column>
+ <column name="Контактный телефон руководителя организации" order="3" id="255" datatype="text" format="500"></column>
+ <column name="Электронный адрес руководителя организации" order="4" id="256" datatype="text" format="500"></column>
+ <column name="ФИО ответственного за заполнение макета" order="5" id="257" datatype="text" format="500"></column>
+ <column name="Должность ответственного за заполнение макета" order="6" id="258" datatype="text" format="500"></column>
+ <column name="Контактный телефон ответственного за заполнение макета" order="7" id="259" datatype="text" format="500"></column>
+ <column name="Электронный адрес ответственного за заполнение макета" order="8" id="260" datatype="text" format="500"></column>
+</strfree>
+<strfree code="121">
+ <entity></entity>
+ <column name="Наименование отчитывающейся организации" order="1" id="262" datatype="text" format="500"></column>
+ <column name="Почтовый адрес" order="2" id="263" datatype="text" format="500"></column>
+ <column name="Фактический адрес" order="3" id="264" datatype="text" format="500"></column>
+ <column name="ОГРН (Основной государственный регистрационный номер)" order="4" id="265" datatype="text" format="500"></column>
+ <column name="ИНН (Идентификационный номер налогоплательщика)" order="5" id="266" datatype="text" format="500"></column>
+ <column name="КПП (Код причины постановки на учет)" order="6" id="267" datatype="text" format="500"></column>
+ <column name="ОКПО (Общероссийский классификатор предприятий и организаций)" order="7" id="268" datatype="text" format="500"></column>
+ <column name="ОКВЭД (Код вида деятельности)" order="8" id="269" datatype="text" format="500"></column>
+ <column name="ОКТМО (Код территории)" order="9" id="270" datatype="text" format="500"></column>
+ <column name="ОКОГУ (Код министерства (ведомства), органа управления)" order="10" id="271" datatype="text" format="500"></column>
+ <column name="ОКОПФ (Код организационно-правовой формы)" order="11" id="272" datatype="text" format="500"></column>
+ <column name="ОКФС (Код формы собственности)" order="12" id="273" datatype="text" format="500"></column>
+</strfree>
+</document>

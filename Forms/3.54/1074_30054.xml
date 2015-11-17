@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="1. Поступило в переработку кондиционных углей">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="2" name="1.1 Поступило в переработку кондиционных углей по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="3" name="2.1 Выпуск концентрата">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="4" name="2.1.1 Выпуск концентрата по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="7" name="2.2 Выпуск промпродукта">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="8" name="2.2.1 Выпуск промпродукта по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="9" name="2.3 Выпуск шлама">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="10" name="2.3.1 Выпуск шлама по договорам  услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="11" name="2.4 Выпуск отсева">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="12" name="2.4.1 Выпуск отсева по договорам  услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="13" name="3. Выпуск угольной продукции - всего">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="14" name="3.1 Выпуск угольной продукции по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="15" name="4. Выпуск породы">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="16" name="4.1 Выпуск породы из сырья, поставляемого по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="17" name="5. Потери">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="18" name="5.1 Потери из сырья, поставляемого по договорам на услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="19" name="6. Всего израсходовано углей, поступивших в переработку">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="20" name="6.1 Всего израсходовано углей, поставляемых по договорам услуги">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="21" name="7. Нестандартная продукция">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="22" name="8. Количество горной массы">
+ <column name="Обогащение - План на квартал, тыс.тонн" order="1" id="35" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт за квартал, тыс.тонн" order="2" id="36" datatype="number" format="30.1"></column>
+ <column name="Зольность - План на квартал,  %" order="3" id="37" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт за квартал,  %" order="4" id="38" datatype="number" format="30.1"></column>
+ <column name="Обогащение - План с начала года, тыс.тонн" order="5" id="39" datatype="number" format="30.1"></column>
+ <column name="Обогащение - Факт с начала года, тыс.тонн" order="6" id="40" datatype="number" format="30.1"></column>
+ <column name="Зольность - План с начала года,  %" order="7" id="41" datatype="number" format="30.1"></column>
+ <column name="Зольность - Факт с начала года,  %" order="8" id="42" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт плангр.1 * гр.3" order="9" id="43" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.зт фактгр.2 * гр.4" order="10" id="44" datatype="number" format="30.1"></column>
+ <column name="досчетная гр.ннг гр.9 зт план" order="11" id="45" datatype="number" format="30.1"></column>
+ <column name="расчетная гр.ннг гр.10 зт факт" order="12" id="46" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="49" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="50" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="51" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="52" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="49" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="50" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="51" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="52" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="65" datatype="text" format="500"></column>
+</strdata>
+</document>

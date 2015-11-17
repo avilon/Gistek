@@ -1,0 +1,140 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata_01 name="Наименование генерирующего объекта" code="1" column1=""/>
+    <strdata_01 name="Место расположения" code="2" column1=""/>
+    <strdata_01 name="Наименование юридического лица - владельца генерирующего объекта" code="3" column1=""/>
+    <strdata_01 name="Дата ввода в эксплуатацию" code="4" column1=""/>
+    <strdata_01 name="Реквизиты свидетельства о квалификации (номер, дата квалификации)" code="5" column1=""/>
+    <strdata_01 name="Категория квалификации" code="6" column1=""/>
+    <strdata_01 name="Степень локализации, %" code="7" column1=""/>
+    <strdata_01 name="Установленная электрическая мощность, МВт" code="8" column1=""/>
+    <strdata_01 name="Установленая тепловая мощность, Гкал" code="9" column1=""/>
+    <strdata_01 name="Ценовая зона" code="10" column1=""/>
+    <strdata_01 name="Отношение к ЕЭС" code="11" column1=""/>
+    <strdata_01 name="Работа на рынках ЭЭ" code="12" column1=""/>
+    <strdata_01 name="Размер инвестированного капитала (на конец отчетного периода), млн.руб." code="15" column1=""/>
+    <strdata_01 name="Величина эксплуатационных затрат (за отчетный период), млн.руб." code="16" column1=""/>
+    <strdata_02 name="Всего" code="20" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="С использованием ВИЭ" code="21" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="С использованием ВИЭ, подтвержденной сертификатами" code="22" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="С использованием иных видов топлива" code="23" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_03 name="Всего" code="30" column1="" column2="" column3="" column4=""/>
+    <strdata_04 name="Биоресурсы" code="40" column1=""/>
+    <strdata_04 name="Пеллеты" code="41" column1=""/>
+    <strdata_04 name="Иные виды топлива" code="42" column1=""/>
+    <strdata_05 name="" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="3" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="4" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="16" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="17" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="18" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="19" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="21" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="22" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="23" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="24" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="25" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="26" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="27" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="28" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="29" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="31" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="32" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="33" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="34" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="35" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="36" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="37" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="38" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="39" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="40" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="41" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="42" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="43" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="44" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="45" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="46" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="47" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="48" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="49" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="50" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="51" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="52" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="53" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="54" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="55" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="56" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="57" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="58" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="59" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="61" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="62" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="63" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="64" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="65" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="66" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="67" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="68" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="69" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="71" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="72" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="73" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="74" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="75" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="76" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="77" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="78" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="79" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="81" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="82" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="83" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="84" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="85" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="86" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="87" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="88" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="89" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="90" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="91" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="92" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="93" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="94" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="95" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="96" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="97" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="98" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="99" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strdata_05 name="" code="100" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

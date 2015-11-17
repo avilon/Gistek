@@ -1,0 +1,96 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strdata name="Всего" code="1" column1="" column2="" column3=""/>
+    <strdata name="Марка Б" code="2" column1="" column2="" column3=""/>
+    <strdata name="-Б рядовой [0-300]" code="1" id="10" column1="" column2="" column3=""/>
+    <strdata name="-БПК [50-200 [300]]" code="2" id="20" column1="" column2="" column3=""/>
+    <strdata name="Марка Д" code="5" column1="" column2="" column3=""/>
+    <strdata name="-Д рядовой [0-300]" code="1" id="30" column1="" column2="" column3=""/>
+    <strdata name="-ДРОК1 [0-300]" code="2" id="40" column1="" column2="" column3=""/>
+    <strdata name="-ДПК 50-200 [300]" code="3" id="50" column1="" column2="" column3=""/>
+    <strdata name="-ДПКО [25-300]" code="4" id="60" column1="" column2="" column3=""/>
+    <strdata name="-ДКО [25-100]" code="5" id="70" column1="" column2="" column3=""/>
+    <strdata name="-ДКОМ [13-100]" code="6" id="80" column1="" column2="" column3=""/>
+    <strdata name="-ДО [25-50]" code="7" id="90" column1="" column2="" column3=""/>
+    <strdata name="-ДОМ [13-50]" code="8" id="100" column1="" column2="" column3=""/>
+    <strdata name="-ДОМСШ [0-50]" code="9" id="110" column1="" column2="" column3=""/>
+    <strdata name="-ДМСШ [0-25]" code="10" id="120" column1="" column2="" column3=""/>
+    <strdata name="-ДСШ [0-13]" code="11" id="130" column1="" column2="" column3=""/>
+    <strdata name="-Д смесь[рядовой&amp;Г шлам]" code="12" id="140" column1="" column2="" column3=""/>
+    <strdata name="Марка ДГ" code="18" column1="" column2="" column3=""/>
+    <strdata name="-ДГ рядовой [0-300]" code="1" id="150" column1="" column2="" column3=""/>
+    <strdata name="-ДГ концентрат" code="2" id="160" column1="" column2="" column3=""/>
+    <strdata name="-ДГРОК1 [0-300]" code="3" id="170" column1="" column2="" column3=""/>
+    <strdata name="-ДГПКОМ [13-200]" code="4" id="180" column1="" column2="" column3=""/>
+    <strdata name="-ДГОМСШ [0-50]" code="5" id="190" column1="" column2="" column3=""/>
+    <strdata name="Марка Г" code="24" column1="" column2="" column3=""/>
+    <strdata name="-Г рядовой [0-300]" code="1" id="200" column1="" column2="" column3=""/>
+    <strdata name="-Г концентрат кокс" code="2" id="210" column1="" column2="" column3=""/>
+    <strdata name="-ГПК [50-200]" code="3" id="220" column1="" column2="" column3=""/>
+    <strdata name="-ГОМСШ [0-50]" code="4" id="230" column1="" column2="" column3=""/>
+    <strdata name="-ГМСШ [0-25]" code="5" id="240" column1="" column2="" column3=""/>
+    <strdata name="-Гсмесь [отсев&amp;шлам]" code="6" id="250" column1="" column2="" column3=""/>
+    <strdata name="-Гсмесь [рядовой&amp;шлам]" code="7" id="260" column1="" column2="" column3=""/>
+    <strdata name="-Гшлам" code="8" id="270" column1="" column2="" column3=""/>
+    <strdata name="Марка ГЖО" code="33" column1="" column2="" column3=""/>
+    <strdata name="-ГЖО рядовой [0-300]" code="1" id="280" column1="" column2="" column3=""/>
+    <strdata name="-ГЖОСШ" code="2" id="290" column1="" column2="" column3=""/>
+    <strdata name="-ГЖО концентрат" code="3" id="300" column1="" column2="" column3=""/>
+    <strdata name="Марка Ж" code="37" column1="" column2="" column3=""/>
+    <strdata name="-Ж рядовой кокс [0-300]" code="1" id="310" column1="" column2="" column3=""/>
+    <strdata name="-Ж рядовой энерг [0-300]" code="2" id="320" column1="" column2="" column3=""/>
+    <strdata name="-Ж концентрат кокс" code="3" id="330" column1="" column2="" column3=""/>
+    <strdata name="Марка К" code="41" column1="" column2="" column3=""/>
+    <strdata name="-К рядовой [0-300]" code="1" id="340" column1="" column2="" column3=""/>
+    <strdata name="-К концентрат" code="2" id="350" column1="" column2="" column3=""/>
+    <strdata name="Марка КО" code="44" column1="" column2="" column3=""/>
+    <strdata name="-КО рядовой [0-300]" code="1" id="360" column1="" column2="" column3=""/>
+    <strdata name="-КО концентрат" code="2" id="370" column1="" column2="" column3=""/>
+    <strdata name="Марка ОС" code="50" column1="" column2="" column3=""/>
+    <strdata name="-ОС рядовой [0-300]" code="1" id="400" column1="" column2="" column3=""/>
+    <strdata name="Марка CС" code="54" column1="" column2="" column3=""/>
+    <strdata name="-CС рядовой [0-300]" code="1" id="420" column1="" column2="" column3=""/>
+    <strdata name="-CСПК [50-200]" code="2" id="430" column1="" column2="" column3=""/>
+    <strdata name="-CСОМ [13-50]" code="3" id="440" column1="" column2="" column3=""/>
+    <strdata name="-CСОМСШ [0-70]" code="4" id="450" column1="" column2="" column3=""/>
+    <strdata name="-CСОМСШ [0-50]" code="5" id="460" column1="" column2="" column3=""/>
+    <strdata name="-ССМСШ [0-25]" code="6" id="470" column1="" column2="" column3=""/>
+    <strdata name="-CССШ [0-13]" code="7" id="480" column1="" column2="" column3=""/>
+    <strdata name="Марка Т" code="62" column1="" column2="" column3=""/>
+    <strdata name="-Т рядовой [0-300]" code="1" id="490" column1="" column2="" column3=""/>
+    <strdata name="-ТРОК1 [0-300]" code="2" id="500" column1="" column2="" column3=""/>
+    <strdata name="-Т концентрат [ &gt; 13]" code="3" id="510" column1="" column2="" column3=""/>
+    <strdata name="-ТПК [50-200]" code="4" id="520" column1="" column2="" column3=""/>
+    <strdata name="-ТПКО [25-200]" code="5" id="530" column1="" column2="" column3=""/>
+    <strdata name="-ТКОМ" code="6" id="540" column1="" column2="" column3=""/>
+    <strdata name="-ТО [25-50]" code="7" id="550" column1="" column2="" column3=""/>
+    <strdata name="-ТОМ [13-50]" code="8" id="560" column1="" column2="" column3=""/>
+    <strdata name="-ТОМСШ [0-50]" code="9" id="570" column1="" column2="" column3=""/>
+    <strdata name="-ТМСШ [0-25]" code="10" id="580" column1="" column2="" column3=""/>
+    <strdata name="Марка А" code="73" column1="" column2="" column3=""/>
+    <strdata name="-А рядовой [0-300]" code="1" id="590" column1="" column2="" column3=""/>
+    <strdata name="-АК концентрат [50-100]" code="2" id="600" column1="" column2="" column3=""/>
+    <strdata name="-АКО концентрат" code="3" id="610" column1="" column2="" column3=""/>
+    <strdata name="-АО концентрат [25-50]" code="4" id="620" column1="" column2="" column3=""/>
+    <strdata name="-АМ концентрат [13-25]" code="5" id="630" column1="" column2="" column3=""/>
+    <strdata name="-АС концентрат [6-13]" code="6" id="640" column1="" column2="" column3=""/>
+    <strdata name="-АСШ [0-13]" code="7" id="650" column1="" column2="" column3=""/>
+    <strdata name="-АШ [0-6]" code="8" id="660" column1="" column2="" column3=""/>
+    <strdata name="-АШ концентрат [0-6]" code="9" id="670" column1="" column2="" column3=""/>
+    <strdata name="-А шлам" code="10" id="680" column1="" column2="" column3=""/>
+  </flat>
+</document>

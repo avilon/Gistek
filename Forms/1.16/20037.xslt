@@ -13,7 +13,7 @@
 	<xsl:param name="SV_GeneratedFileNamePrefix" select="if ( $SV_BaseOutputFileName ) then $SV_BaseOutputFileName else &apos;20037&apos;" as="xs:string?"/>
 	<xsl:variable name="XML" select="/"/>
 	<xsl:variable name="altova:nPxPerIn" select="96"/>
-	<xsl:import-schema schema-location="20037_rpt.xsd" use-when="system-property('xsl:is-schema-aware')='yes'"/>
+	<xsl:import-schema schema-location="20037.xsd" use-when="system-property('xsl:is-schema-aware')='yes'"/>
 	<xsl:variable name="altova:CssImages" select="()"/>
 	<xsl:template match="/">
 		<xsl:call-template name="altova:Root"/>
@@ -26,29 +26,193 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 				<xsl:comment>[if IE]&gt;&lt;STYLE type=&quot;text/css&quot;&gt;.altova-rotate-left-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)} .altova-rotate-right-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)} &lt;/STYLE&gt;&lt;![endif]</xsl:comment>
 				<xsl:comment>[if !IE]&gt;&lt;!</xsl:comment>
-				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
-				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">
 					<xsl:value-of select="document('style.css')" disable-output-escaping="yes" />
 				</style>
+				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
+				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
 			</head>
 			<body>
-				<span style="font-size:16pt; ">
-					<xsl:text>Сведения о добыче нефти и газового конденсата на месторождениях</xsl:text>
-				</span>
+				<pre style="text-align:right; ">
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>Приложение № 1.16.1</xsl:text>
+					</span>
+					<br/>
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>к приказу Минэнерго России</xsl:text>
+					</span>
+					<br/>
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>от «__» ______ 2015 г. №___</xsl:text>
+					</span>
+				</pre>
 				<br/>
-				<hr/>
+				<center>
+					<span style="font-family:Times New Roman; font-size:12pt; font-weight:bold; ">
+						<xsl:text>ГОСУДАРСТВЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА ТОПЛИВНО-ЭНЕРГЕТИЧЕСКОГО КОМПЛЕКСА</xsl:text>
+					</span>
+				</center>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_0" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td>
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>ПРЕДОСТАВЛЯЕТСЯ В ЭЛЕКТРОННОМ ВИДЕ </xsl:text>
+										</span>
+										<br/>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>В МИНИСТЕРСТВО ЭНЕРГЕТИКИ РОССИЙСКОЙ ФЕДЕРАЦИИ</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td>
+									<center>
+										<span style="font-weight:bold; ">
+											<xsl:text>Сведения о добыче нефти и газового конденсата на месторождениях</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td width="50%">
+									<center>
+										<span>
+											<xsl:text>Сегмент в области нефтедобывающей промышленности, нефтеперерабатывающей промышленности, нефтехимической промышленности, транспортировки по магистральным трубопроводам нефти и нефтепродуктов</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td>
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Шифр формы: 1.16.</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_3" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td width="50%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Представляют:</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td width="25%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Сроки представления:</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td width="25%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Периодичность предоставления:</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+							<tr style="height:0.43in; ">
+								<td width="50%">
+									<span>
+										<xsl:text>организации, осуществляющие деятельность по добыче нефти и газового конденсата</xsl:text>
+									</span>
+								</td>
+								<td width="25%">
+									<span>
+										<xsl:text>До 10-го числа месяца, следующего за отчетным</xsl:text>
+									</span>
+								</td>
+								<td width="25%">
+									<center>
+										<span>
+											<xsl:text>ежемесячно</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br class="altova-page-break" clear="all"/>
+				<center/>
+				<br/>
+				<br/>
 				<span>
-					<xsl:text>Раздел 1 Сведения о добыче нефти и газового конденсата на месторождениях</xsl:text>
+					<xsl:text>Раздел 1. Сведения о добыче нефти и газового конденсата, облагаемой по полной ставке НДПИ</xsl:text>
 				</span>
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_0" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_4" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Субъект РФ</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Предприятие</xsl:text>
+									</span>
+								</th>
 								<th rowspan="2">
 									<span>
 										<xsl:text>Месторождение</xsl:text>
@@ -56,7 +220,17 @@
 								</th>
 								<th rowspan="2">
 									<span>
-										<xsl:text>Номер лицензии</xsl:text>
+										<xsl:text>Номер лицензмм</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Срок действия лицензии</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Вид углеводородного сырья</xsl:text>
 									</span>
 								</th>
 								<th rowspan="2">
@@ -66,22 +240,27 @@
 								</th>
 								<th>
 									<span>
-										<xsl:text>С начала эксплуатации</xsl:text>
+										<xsl:text>Степень выработанности месторождения, %</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>С начала года</xsl:text>
+										<xsl:text>Объем добычи за отчетный месяц, т (тыс. куб. м)</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>За отчетный месяц</xsl:text>
+										<xsl:text>Объем добычи с начала года, т (тыс. куб. м)</xsl:text>
 									</span>
 								</th>
-								<th rowspan="2">
+								<th>
 									<span>
-										<xsl:text>Примечание</xsl:text>
+										<xsl:text>Объем добычи с начала разработ-ки, т (тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>НДПИ, тыс. руб.</xsl:text>
 									</span>
 								</th>
 							</tr>
@@ -101,16 +280,56 @@
 										<xsl:text>3</xsl:text>
 									</span>
 								</th>
+								<th>
+									<span>
+										<xsl:text>4</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>5</xsl:text>
+									</span>
+								</th>
 							</tr>
 						</thead>
 						<tbody>
 							<xsl:for-each select="$XML">
 								<xsl:for-each select="document">
 									<xsl:for-each select="flat">
-										<xsl:for-each select="strfree">
+										<xsl:for-each select="strdata_01">
 											<tr>
+												<td/>
+												<td/>
 												<td>
 													<xsl:for-each select="@column1">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column2">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column3">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column4">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@code">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -124,7 +343,276 @@
 													</xsl:for-each>
 												</td>
 												<td>
+													<xsl:for-each select="@column6">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column7">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column8">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column9">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+											</tr>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:for-each>
+							</xsl:for-each>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<span>
+					<xsl:text>Раздел 2. Сведения о добыче нефти и газового конденсата, облагаемой по льготной ставке НДПИ</xsl:text>
+				</span>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1">
+						<xsl:variable name="altova:CurrContextGrid_5" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<thead>
+							<tr>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Субъект РФ</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Предприятие</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Место-рождение</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Номер лицензии</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Срок действия лицензии</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Вид углеводородного сырья</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Код строки</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Степень выработанности месторождения, %</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Объем добычи за отчетный месяц, т (тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Объем добычи с начала года, т (тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Объем добычи с начала разработки, т (тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>При-меняе-мая ставка НДПИ, руб./т (руб./ тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>НДПИ, тыс. руб.</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Кате-гория 1 льготы по ставке НДПИ</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Кате-гория 2 льготы по ставке НДПИ</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Кате-гория 3 льготы по ставке НДПИ</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Кате-гория 4 льго-ты по ставке НДПИ</xsl:text>
+									</span>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<span>
+										<xsl:text>1</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>2</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>3</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>4</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>5</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>6</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>7</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>8</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>9</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>10</xsl:text>
+									</span>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<xsl:for-each select="$XML">
+								<xsl:for-each select="document">
+									<xsl:for-each select="flat">
+										<xsl:for-each select="strdata_02">
+											<tr>
+												<td/>
+												<td/>
+												<td>
+													<xsl:for-each select="@column1">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column2">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column3">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column4">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
 													<xsl:for-each select="@code">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column5">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column6">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column7">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column8">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column9">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column10">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -173,33 +661,312 @@
 				</xsl:apply-templates>
 				<br/>
 				<span>
-					<xsl:text>С</xsl:text>
+					<xsl:text>Раздел 3. Сведения о реализации нефти и газового конденсата на экспорт, облагаемой по льготной экспортной пошлине</xsl:text>
 				</span>
-				<span style="font-size:larger; ">
-					<xsl:text>лужебный раздел</xsl:text>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1">
+						<xsl:variable name="altova:CurrContextGrid_6" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<thead>
+							<tr>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Субъект РФ</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Предприятие</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Код строки</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Месторождение</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Номер лицензии</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Срок действия лицензии</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Вид углеводородного сырья</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>Код по ТН ВЭД ТС</xsl:text>
+									</span>
+								</th>
+								<th colspan="2">
+									<span>
+										<xsl:text>Объем реализации на экспорт, т </xsl:text>
+									</span>
+									<br/>
+									<span>
+										<xsl:text>(тыс. куб. м)</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th colspan="2">
+									<span>
+										<xsl:text>Применяемая ставка вывозной таможенной пошлины</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Вывозная таможенная пошлина, тыс. руб.</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Категория льготы по экспортной пошлине</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Категория льготы по экспортной пошлине</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Категория льготы по экспортной пошлине</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Кате-гория льготы по экспортной пошлине</xsl:text>
+									</span>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<span>
+										<xsl:text>Всего</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>Страна-импортер</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>руб./т (руб./тыс. куб. м)</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>%</xsl:text>
+									</span>
+								</th>
+							</tr>
+							<tr>
+								<th>
+									<span>
+										<xsl:text>1</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>2</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>3</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>4</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>5</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>6</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>7</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>8</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>9</xsl:text>
+									</span>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<xsl:for-each select="$XML">
+								<xsl:for-each select="document">
+									<xsl:for-each select="flat">
+										<xsl:for-each select="strdata_03">
+											<tr>
+												<td/>
+												<td/>
+												<td>
+													<xsl:for-each select="@code">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column1">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column2">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column3">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column4">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column5">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column6">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column7">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column8">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column9">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column10">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column11">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column12">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column13">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column14">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+											</tr>
+										</xsl:for-each>
+									</xsl:for-each>
+								</xsl:for-each>
+							</xsl:for-each>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<br/>
+				<span style="font-size:16pt; ">
+					<xsl:text>Служебный раздел</xsl:text>
 				</span>
 				<br/>
 				<hr/>
+				<br/>
+				<span>
+					<xsl:text>Сведения о Субъекте ТЭК, предоставившем информацию</xsl:text>
+				</span>
+				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1" width="100%">
-						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_7" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<tbody>
 							<tr>
-								<td>
+								<td style="width:4.16in; ">
 									<span style="font-weight:bold; ">
-										<xsl:text>Служебная информация</xsl:text>
-									</span>
-								</td>
-								<td>
-									<span style="font-weight:bold; ">
-										<xsl:text>Значение 1</xsl:text>
-									</span>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<span>
 										<xsl:text>Наименование отчитывающейся организации</xsl:text>
 									</span>
 								</td>
@@ -208,7 +975,7 @@
 										<xsl:for-each select="document">
 											<xsl:for-each select="flat">
 												<xsl:for-each select="strServiceInf">
-													<xsl:for-each select="@col1">
+													<xsl:for-each select="@col11">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -220,8 +987,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>Почтовый адрес</xsl:text>
 									</span>
 								</td>
@@ -230,7 +997,7 @@
 										<xsl:for-each select="document">
 											<xsl:for-each select="flat">
 												<xsl:for-each select="strServiceInf">
-													<xsl:for-each select="@col2">
+													<xsl:for-each select="@col12">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -242,8 +1009,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>Фактический адрес</xsl:text>
 									</span>
 								</td>
@@ -264,8 +1031,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОГРН (Основной государственный регистрационный номер)</xsl:text>
 									</span>
 								</td>
@@ -286,8 +1053,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ИНН (Идентификационный номер налогоплательщика)</xsl:text>
 									</span>
 								</td>
@@ -308,8 +1075,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>КПП (Код причины постановки на учет)</xsl:text>
 									</span>
 								</td>
@@ -329,9 +1096,9 @@
 									</xsl:for-each>
 								</td>
 							</tr>
-							<tr style="height:0.24in; ">
-								<td>
-									<span>
+							<tr>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОКПО (Общероссийский классификатор предприятий и организаций)</xsl:text>
 									</span>
 								</td>
@@ -352,8 +1119,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОКВЭД (Код вида деятельности)</xsl:text>
 									</span>
 								</td>
@@ -374,9 +1141,9 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
-										<xsl:text>ОКАТО (Код территории)</xsl:text>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
+										<xsl:text>ОКТМО (Код территории)</xsl:text>
 									</span>
 								</td>
 								<td>
@@ -396,8 +1163,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОКОГУ (Код министерства (ведомства), органа управления)</xsl:text>
 									</span>
 								</td>
@@ -418,8 +1185,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОКОПФ (Код организационно-правовой формы)</xsl:text>
 									</span>
 								</td>
@@ -440,8 +1207,8 @@
 								</td>
 							</tr>
 							<tr>
-								<td>
-									<span>
+								<td style="width:4.16in; ">
+									<span style="font-weight:bold; ">
 										<xsl:text>ОКФС (Код формы собственности)</xsl:text>
 									</span>
 								</td>
@@ -470,91 +1237,31 @@
 					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
 				</xsl:apply-templates>
 				<br/>
-				<br/>
-				<span style="font-size:larger; ">
-					<xsl:text>Контактная информация</xsl:text>
+				<span>
+					<xsl:text>Сведения о времени поступления информации</xsl:text>
 				</span>
 				<br/>
-				<br/>
 				<xsl:variable name="altova:table">
-					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_8" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
-						<thead>
-							<tr>
-								<th>
-									<span>
-										<xsl:text>Контактная информация</xsl:text>
-									</span>
-								</th>
-								<th style="width:4in; ">
-									<span>
-										<xsl:text>Ф.И.О</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Должность</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Контактный телефон (с кодом города)</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Электронный адрес</xsl:text>
-									</span>
-								</th>
-							</tr>
-						</thead>
 						<tbody>
-							<xsl:for-each select="$XML">
-								<xsl:for-each select="document">
-									<xsl:for-each select="flat">
-										<xsl:for-each select="strContactInf">
-											<tr>
-												<td>
-													<xsl:for-each select="@name">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td style="width:4in; ">
-													<xsl:for-each select="@col1">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@col2">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@col3">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@col4">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-											</tr>
-										</xsl:for-each>
-									</xsl:for-each>
-								</xsl:for-each>
-							</xsl:for-each>
+							<tr>
+								<td style="width:4.13in; ">
+									<span style="font-weight:bold; ">
+										<xsl:text>Дата формирования отчета техническими средствами ГИС ТЭК</xsl:text>
+									</span>
+								</td>
+								<td/>
+							</tr>
+							<tr>
+								<td style="width:4.13in; ">
+									<span style="font-weight:bold; ">
+										<xsl:text>Дата получения последнего электронного документа, необходимого для формирования отчета</xsl:text>
+									</span>
+								</td>
+								<td/>
+							</tr>
 						</tbody>
 					</table>
 				</xsl:variable>
@@ -563,8 +1270,6 @@
 				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
 					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
 				</xsl:apply-templates>
-				<br/>
-				<br/>
 				<br/>
 			</body>
 		</html>

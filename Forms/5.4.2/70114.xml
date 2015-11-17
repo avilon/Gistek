@@ -1,0 +1,43 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Программа 01" code="1">
+      <src_01 name="федеральный бюджет" code="2" plan="1000.00" fact="990.00" dx="-10.00"/>
+      <src_02 name="бюджет субъекта Российской Федерации" code="3" plan="500.00" fact="490.00" dx="-10.00"/>
+      <src_03 name="местные бюджеты" code="4" plan="300.00" fact="290.00" dx="-10.00"/>
+      <src_04 name="внебюджетные средства" code="5" plan="9999.00" fact="10000.00" dx="1.00"/>
+      <econ code="1" vid_topl="Электрическая энергия" measure="кВт.ч" econ_plan_natur="9.00" econ_fact_natur="9.00" econ_dx_natur="0.00" econ_plan_cost="10.00" econ_fact_cost="10.00" econ_dx_cost="0.00"/>
+      <econ code="1" vid_topl="Уголь" measure="т" econ_plan_natur="19.00" econ_fact_natur="19.00" econ_dx_natur="0.00" econ_plan_cost="20.00" econ_fact_cost="20.00" econ_dx_cost="0.00"/>
+      <total name="Итого по мероприятию" code="6" plan="2000.00" fact="2000.00" dx="0.00"/>
+    </strdata>
+    <strdata name="Программа 02" code="7">
+      <src_01 name="федеральный бюджет" code="8" plan="0.00" fact="0.00" dx="0.00"/>
+      <src_02 name="бюджет субъекта Российской Федерации" code="9" plan="0.00" fact="0.00" dx="0.00"/>
+      <src_03 name="местные бюджеты" code="10" plan="0.00" fact="0.00" dx="0.00"/>
+      <src_04 name="внебюджетные средства" code="11" plan="0.00" fact="0.00" dx="0.00"/>
+      <econ code="7" vid_topl="Топливо печное бытовое" measure="т" econ_plan_natur="0.00" econ_fact_natur="0.00" econ_dx_natur="0.00" econ_plan_cost="0.00" econ_fact_cost="0.00" econ_dx_cost="0.00"/>
+      <total name="Итого по мероприятию" code="12" plan="0.00" fact="0.00" dx="0.00"/>
+    </strdata>
+    <strdata name="Прочие" code="1195">
+      <src_01 name="федеральный бюджет" code="1196" plan="1000.00" fact="1000.00" dx="0.00"/>
+      <src_02 name="бюджет субъекта Российской Федерации" code="1197" plan="1000.00" fact="1000.00" dx="0.00"/>
+      <src_03 name="местные бюджеты" code="1198" plan="1000.00" fact="1000.00" dx="0.00"/>
+      <src_04 name="внебюджетные средства" code="1199" plan="1000.00" fact="1000.00" dx="0.00"/>
+      <total name="Итого по мероприятию" code="1200" plan="4000.00" fact="4000.00" dx="0.00"/>
+    </strdata>
+    <strdata name="Всего с начала года реализации программы" code="30" plan="3000.00" fact="3000.00" dx="0.00" econ_plan_cost="2000.00" econ_fact_cost="2000.00" econ_dx_cost="0.00"/>
+    <strContactInf name="Руководитель организации" code="111" col1="Баранов" col2="баран" col3="+1234567890" col4="baran@mail.ru"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Козлов" col2="козел" col3="+7123456789" col4="kozel@mail.ru"/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="121"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="122"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+  </flat>
+</document>

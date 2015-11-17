@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Всего">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+</strdata>
+<strdata code="2" name="Марка Б">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="200001" name="Б рядовой [0-300]" id="10">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="200002" name="БПК [50-200 [300]]" id="20">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="5" name="Марка Д">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="500001" name="Д рядовой [0-300]" id="30">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500002" name="ДРОК1 [0-300]" id="40">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500003" name="ДПК 50-200 [300]" id="50">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500004" name="ДПКО [25-300]" id="60">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500005" name="ДКО [25-100]" id="70">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500006" name="ДКОМ [13-100]" id="80">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500007" name="ДО [25-50]" id="90">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500008" name="ДОМ [13-50]" id="100">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500009" name="ДОМСШ [0-50]" id="110">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500010" name="ДМСШ [0-25]" id="120">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500011" name="ДСШ [0-13]" id="130">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="500012" name="Д смесь[рядовой&amp;Г шлам]" id="140">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="18" name="Марка ДГ">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="1800001" name="ДГ рядовой [0-300]" id="150">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="1800002" name="ДГ концентрат" id="160">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="1800003" name="ДГРОК1 [0-300]" id="170">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="1800004" name="ДГПКОМ [13-200]" id="180">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="1800005" name="ДГОМСШ [0-50]" id="190">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="24" name="Марка Г">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="2400001" name="Г рядовой [0-300]" id="200">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400002" name="Г концентрат кокс" id="210">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400003" name="ГПК [50-200]" id="220">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400004" name="ГОМСШ [0-50]" id="230">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400005" name="ГМСШ [0-25]" id="240">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400006" name="Гсмесь [отсев&amp;шлам]" id="250">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400007" name="Гсмесь [рядовой&amp;шлам]" id="260">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="2400008" name="Гшлам" id="270">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="33" name="Марка ГЖО">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="3300001" name="ГЖО рядовой [0-300]" id="280">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="3300002" name="ГЖОСШ" id="290">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="3300003" name="ГЖО концентрат" id="300">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="37" name="Марка Ж">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="3700001" name="Ж рядовой кокс [0-300]" id="310">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="3700002" name="Ж рядовой энерг [0-300]" id="320">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="3700003" name="Ж концентрат кокс" id="330">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="41" name="Марка К">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="4100001" name="К рядовой [0-300]" id="340">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="4100002" name="К концентрат" id="350">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="44" name="Марка КО">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="4400001" name="КО рядовой [0-300]" id="360">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="4400002" name="КО концентрат" id="370">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="50" name="Марка ОС">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="5000001" name="ОС рядовой [0-300]" id="400">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="54" name="Марка CС">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="5400001" name="CС рядовой [0-300]" id="420">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400002" name="CСПК [50-200]" id="430">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400003" name="CСОМ [13-50]" id="440">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400004" name="CСОМСШ [0-70]" id="450">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400005" name="CСОМСШ [0-50]" id="460">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400006" name="ССМСШ [0-25]" id="470">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="5400007" name="CССШ [0-13]" id="480">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="62" name="Марка Т">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="6200001" name="Т рядовой [0-300]" id="490">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200002" name="ТРОК1 [0-300]" id="500">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200003" name="Т концентрат [ &gt; 13]" id="510">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200004" name="ТПК [50-200]" id="520">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200005" name="ТПКО [25-200]" id="530">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200006" name="ТКОМ" id="540">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200007" name="ТО [25-50]" id="550">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200008" name="ТОМ [13-50]" id="560">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200009" name="ТОМСШ [0-50]" id="570">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="6200010" name="ТМСШ [0-25]" id="580">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="73" name="Марка А">
+ <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ <strclass code="7300001" name="А рядовой [0-300]" id="590">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300002" name="АК концентрат [50-100]" id="600">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300003" name="АКО концентрат" id="610">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300004" name="АО концентрат [25-50]" id="620">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300005" name="АМ концентрат [13-25]" id="630">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300006" name="АС концентрат [6-13]" id="640">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300007" name="АСШ [0-13]" id="650">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300008" name="АШ [0-6]" id="660">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300009" name="АШ концентрат [0-6]" id="670">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="7300010" name="А шлам" id="680">
+  <column name="Объем поставок угольной продукции за месяц, тыс.тонн" order="1" id="16" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная цена на угольную продукцию за месяц, руб./тонну" order="2" id="17" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок за месяц, тыс.руб." order="3" id="18" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="88" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="89" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="90" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="91" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="88" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="89" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="90" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="91" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="104" datatype="text" format="500"></column>
+</strdata>
+</document>

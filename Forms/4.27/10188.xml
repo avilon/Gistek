@@ -1,0 +1,38 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="3 квартал текущего года" code="30" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="июль" code="31" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="август" code="32" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="сентябрь" code="33" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="4 квартал текущего года" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="октябрь" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="ноябоь" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="декабрь" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="1 квартал следующего года" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="январь" code="21" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="февраль" code="22" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="март" code="23" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11="" column12="" column13="" column14="" column15="" column16="" column17="" column18="" column19="" column20="" column21="" column22="" column23="" column24="" column25="" column26="" column27="" column28=""/>
+    <strdata name="Руководитель организации" code="310" column1="" column2="" column3="" column4=""/>
+    <strdata name="Ответственный за заполнение макета" code="320" column1="" column2="" column3="" column4=""/>
+    <strdata name="Наименование отчитывающейся организации" code="321" column1=""/>
+    <strdata name="Почтовый адрес" code="322" column1=""/>
+    <strdata name="Код отчитывающейся организации по ОКПО" code="323" column1=""/>
+    <strdata name="Код вида деятельности по ОКВЭД" code="324" column1=""/>
+    <strdata name="Код территории по ОКАТО" code="325" column1=""/>
+    <strdata name="Код министерства (ведомства), органа управления по ОКОГУ" code="326" column1=""/>
+    <strdata name="Код организационно-правовой формы по ОКОПФ" code="327" column1=""/>
+    <strdata name="Код формы собственности по ОКФС" code="328" column1=""/>
+    <strdata name="Код формы по ОКУД" code="329" column1=""/>
+    <strContactInf name="Руководитель организации" code="310" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="320" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="321" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="322" col1=""/>
+    <strServiceInf name="Код отчитывающейся организации по ОКПО" code="323" col1=""/>
+    <strServiceInf name="Код вида деятельности по ОКВЭД" code="324" col1=""/>
+    <strServiceInf name="Код территории по ОКАТО" code="325" col1=""/>
+    <strServiceInf name="Код министерства (ведомства), органа управления по ОКОГУ" code="326" col1=""/>
+    <strServiceInf name="Код организационно-правовой формы по ОКОПФ" code="327" col1=""/>
+    <strServiceInf name="Код формы собственности по ОКФС" code="328" col1=""/>
+    <strServiceInf name="Код формы по ОКУД" code="329" col1=""/>
+  </flat>
+</document>

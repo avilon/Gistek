@@ -1,0 +1,24 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <param name="params" version="1.0" year="2013" month="12" day=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="121"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="122"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+    <strContactInf name="Руководитель организации" code="111" col1="Баранов" col2="баран" col3="+1234567890" col4="baram@mail.ru"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Козлов" col2="козел" col3="+7654321890" col4="kozel@mail.ru"/>
+    <strdata name="Эпический" code="1" measure="млн. куб. м" plan_downto_3="100.00" plan_downto_2="101.00" plan_downto_1="102.00" plan="103.00" plan_to_1="104.00" plan_to_2="105.00" plan_to_3="106.00"/>
+    <strdata name="Беспонтовый" code="2" measure="кг" plan_downto_3="200.00" plan_downto_2="201.00" plan_downto_1="202.00" plan="203.00" plan_to_1="204.00" plan_to_2="205.00" plan_to_3="206.00"/>
+    <strdata name="Суперский" code="3" measure="млн. кВт. ч" plan_downto_3="300.00" plan_downto_2="302.00" plan_downto_1="304.00" plan="306.00" plan_to_1="308.00" plan_to_2="310.00" plan_to_3="312.00"/>
+    <strdata name="Мутный" code="4" measure="%" plan_downto_3="400.00" plan_downto_2="399.00" plan_downto_1="398.00" plan="397.00" plan_to_1="396.00" plan_to_2="395.00" plan_to_3="394.00"/>
+    <strdata name="Загадочный" code="5" measure="МВт.ч" plan_downto_3="111.00" plan_downto_2="222.00" plan_downto_1="333.00" plan="444.00" plan_to_1="555.00" plan_to_2="666.00" plan_to_3="777.00"/>
+  </flat>
+</document>

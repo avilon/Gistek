@@ -1,0 +1,22 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="опа"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="жопа"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+    <strContactInf name="Руководитель организации" code="111" col1="Баранов" col2="баран" col3="+1234567890" col4="baran@mail.ru"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Козлов" col2="козел" col3="+7654321890" col4="koxel@mail.ru"/>
+    <strdata name="Показали раз" code="1" measure="млн. куб. м" plan_val="100.00" plan_fact="100.00" div_val="0.00"/>
+    <strdata name="Показали два" code="2" measure="кг" plan_val="200.00" plan_fact="201.00" div_val="1.00"/>
+    <strdata name="Показали три" code="3" measure="млн. кВт. ч" plan_val="300.00" plan_fact="299.00" div_val="-1.00"/>
+    <strdata name="Показали четыре" code="4" measure="%" plan_val="400.00" plan_fact="400.00" div_val="0.00"/>
+  </flat>
+</document>

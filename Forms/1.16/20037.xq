@@ -1,11 +1,28 @@
-import module namespace fnx = "http://www.functx.com" at "functx.xq";
-let $oldXML:=fn:doc("20037\\1102_20037.xml")/* 
+(: ------------------------------------------------------------------------------ :)
+(: --------------------- 1.16 maket 1102 - 20037 ---------------------------------- :)
+(: ------------------------------------------------------------------------------ :)
 
+declare function util:pre20037($doc) {
+ 
+let $oldXML := $doc  
 
-let $data := for $strCls in $oldXML//strfree[number(@code) < 111 or number(@code) > 132]
+let $parm := for $prm in $oldXML
+  return (
+       element { xs:QName("param") } {
+       attribute name {"params"},  
+       attribute version {$prm/@version},
+       attribute year {$prm/@year},
+       attribute month {$prm/@month},
+       attribute day {$prm/@day},       
+       attribute predpr {$prm/@subject_name},
+       attribute subject {$prm/@subject_variant_name}
+     }
+  )   
+  
+let $data_01 := for $strCls in $oldXML//strfree[number(@code) >= 1 and number(@code) <= 25]
               let $columns:=$strCls/column             
               return
-              element {xs:QName("strfree") }{
+              element {xs:QName("strdata_01") }{
                 attribute name {$strCls/@name},
                 attribute code {$strCls/@code},
                 (for $c in $columns
@@ -13,7 +30,33 @@ let $data := for $strCls in $oldXML//strfree[number(@code) < 111 or number(@code
                 attribute {xs:QName(concat("column", string($c/@order)))}{
                   $c/text()
                 })
-              }
+              } 
+
+let $data_02 := for $strCls in $oldXML//strfree[number(@code) >= 26 and number(@code) <= 50]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata_02") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              } 
+                
+let $data_03 := for $strCls in $oldXML//strfree[number(@code) >= 51 and number(@code) <= 75]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata_03") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }                 
 
 let $flattenContactData:=
               for $strCls in $oldXML//strfree[number(@code)=111 or number(@code)=112] 
@@ -49,7 +92,10 @@ let $columnNames:=distinct-values($oldXML//column/@order)
 
 
 let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
-let $flatten:= insert-before($flatten, 0, $data)
+let $flatten:= insert-before($flatten, 0, $parm)
+let $flatten:= insert-before($flatten, 0, $data_03)
+let $flatten:= insert-before($flatten, 0, $data_02)
+let $flatten:= insert-before($flatten, 0, $data_01)
 
 let $newXML := for $item in $flatten
               return $item
@@ -57,3 +103,5 @@ let $newXML := for $item in $flatten
           
                
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+};
+                

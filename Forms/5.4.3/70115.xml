@@ -1,0 +1,28 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Полное наименование организации" code="10" column1=""/>
+    <strdata name="Основание для разработки программы" code="20" column1=""/>
+    <strdata name="Полное наименование исполнителей и (или) соисполнителей программы" code="30" column1=""/>
+    <strdata name="Полное наименование разработчиков программы" code="40" column1=""/>
+    <strdata name="Цели программы" code="50" column1=""/>
+    <strdata name="Задачи программы" code="60" column1=""/>
+    <strdata name="Целевые показатели программы" code="70" column1=""/>
+    <strdata name="Сроки реализации программы" code="80" column1=""/>
+    <strdata name="Источники и объемы финансового обеспечения реализации программы" code="90" column1=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strServiceInf name="ОКТМО" code="133" col1=""/>
+  </flat>
+</document>

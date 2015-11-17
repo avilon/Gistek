@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="30" name="3 квартал текущего года">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="31" name="июль">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="32" name="август">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="33" name="сентябрь">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="4 квартал текущего года">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="октябрь">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="ноябоь">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="декабрь">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="1 квартал следующего года">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="январь">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="февраль">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="март">
+ <column name="Выработка ЭЭ     млн.кВтч" order="1" id="13" datatype="number" format="30.3"></column>
+ <column name="Отпуск ТЭ, тыс.Гкал" order="2" id="14" datatype="number" format="30.3"></column>
+ <column name="Поставка угля, тыс.тонн" order="3" id="15" datatype="number" format="30.3"></column>
+ <column name="Поставка мазута, тыс.тонн" order="4" id="16" datatype="number" format="30.3"></column>
+ <column name="Поставка газа, млн.куб.м" order="5" id="17" datatype="number" format="30.3"></column>
+ <column name="Поставка торфа, тыс.тонн" order="6" id="93" datatype="number" format="30.3"></column>
+ <column name="Поставка дизельного топлива, тыс.тонн" order="7" id="94" datatype="number" format="30.3"></column>
+ <column name="Расход угля, тыс.тонн" order="8" id="18" datatype="number" format="30.3"></column>
+ <column name="Расход  мазута, тыс.тонн" order="9" id="19" datatype="number" format="30.3"></column>
+ <column name="Расход  газа, млн.куб.м" order="10" id="20" datatype="number" format="30.3"></column>
+ <column name="Расход торфа, тыс.тонн" order="11" id="95" datatype="number" format="30.3"></column>
+ <column name="Расход дизельного топлива, тыс.тонн" order="12" id="96" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на начало периода, тыс.тонн" order="13" id="21" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на начало периода, тыс.тонн" order="14" id="22" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на начало периода, тыс.тонн" order="15" id="97" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на начало периода, тыс.тонн" order="16" id="98" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  угля на начало периода, тыс.тонн" order="17" id="23" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.)  мазута на начало периода, тыс.тонн" order="18" id="24" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) торфа на начало периода, тыс.тонн" order="19" id="99" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.,ожид.,факт.) дизельного топлива на начало периода, тыс.тонн" order="20" id="100" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас угля на конец периода, тыс.тонн" order="21" id="25" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас мазута на конец периода, тыс.тонн" order="22" id="26" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас торфа на конец периода, тыс.тонн" order="23" id="101" datatype="number" format="30.3"></column>
+ <column name="Нормативный запас дизельного топлива на конец периода, тыс.тонн" order="24" id="102" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  угля на конец периода, тыс.тонн" order="25" id="27" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.)  мазута на конец периода, тыс.тонн" order="26" id="28" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) торфа на конец периода, тыс.тонн" order="27" id="103" datatype="number" format="30.3"></column>
+ <column name="Запас (расч.) дизельного топлива на конец периода, тыс.тонн" order="28" id="104" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="310" name="Руководитель организации">
+ <column name="ФИО" order="1" id="40" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="41" datatype="text" format="100"></column>
+ <column name="Контактный телефон (с кодом города)" order="3" id="42" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="43" datatype="text" format="50"></column>
+</strdata>
+<strdata code="320" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="40" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="41" datatype="text" format="100"></column>
+ <column name="Контактный телефон (с кодом города)" order="3" id="42" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="43" datatype="text" format="50"></column>
+</strdata>
+<strdata code="321" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="322" name="Почтовый адрес">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="323" name="Код отчитывающейся организации по ОКПО">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="324" name="Код вида деятельности по ОКВЭД">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="325" name="Код территории по ОКАТО">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="326" name="Код министерства (ведомства), органа управления по ОКОГУ">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="327" name="Код организационно-правовой формы по ОКОПФ">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="328" name="Код формы собственности по ОКФС">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+<strdata code="329" name="Код формы по ОКУД">
+ <column name="Значение" order="1" id="44" datatype="text" format="500"></column>
+</strdata>
+</document>

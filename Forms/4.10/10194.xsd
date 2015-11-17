@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strServiceInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strdata_01" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+									<xs:attribute name="column2" type="xs:string"/>
+									<xs:attribute name="column3" type="xs:string"/>
+									<xs:attribute name="column4" type="xs:string"/>
+									<xs:attribute name="column5" type="xs:string"/>
+									<xs:attribute name="column6" type="xs:string"/>
+									<xs:attribute name="column7" type="xs:string"/>
+									<xs:attribute name="column8" type="xs:string"/>
+									<xs:attribute name="column9" type="xs:string"/>
+									<xs:attribute name="column10" type="xs:string"/>
+									<xs:attribute name="column11" type="xs:string"/>
+									<xs:attribute name="column12" type="xs:string"/>
+									<xs:attribute name="column13" type="xs:string"/>
+									<xs:attribute name="column14" type="xs:string"/>
+									<xs:attribute name="column15" type="xs:string"/>
+									<xs:attribute name="column16" type="xs:string"/>
+									<xs:attribute name="column17" type="xs:string"/>
+									<xs:attribute name="column18" type="xs:string"/>
+									<xs:attribute name="column19" type="xs:string"/>
+									<xs:attribute name="column20" type="xs:string"/>
+									<xs:attribute name="column21" type="xs:string"/>
+									<xs:attribute name="column22" type="xs:string"/>
+									<xs:attribute name="column23" type="xs:string"/>
+									<xs:attribute name="column24" type="xs:string"/>
+									<xs:attribute name="column25" type="xs:string"/>
+									<xs:attribute name="column26" type="xs:string"/>
+									<xs:attribute name="column27" type="xs:string"/>
+									<xs:attribute name="column28" type="xs:string"/>
+									<xs:attribute name="column29" type="xs:string"/>
+									<xs:attribute name="column30" type="xs:string"/>
+									<xs:attribute name="column31" type="xs:string"/>
+									<xs:attribute name="column32" type="xs:string"/>
+									<xs:attribute name="column33" type="xs:string"/>
+									<xs:attribute name="column34" type="xs:string"/>
+									<xs:attribute name="column35" type="xs:string"/>
+									<xs:attribute name="column36" type="xs:string"/>
+									<xs:attribute name="column37" type="xs:string"/>
+									<xs:attribute name="column38" type="xs:string"/>
+									<xs:attribute name="column39" type="xs:string"/>
+									<xs:attribute name="column40" type="xs:string"/>
+									<xs:attribute name="column41" type="xs:string"/>
+									<xs:attribute name="column42" type="xs:string"/>
+									<xs:attribute name="column43" type="xs:string"/>
+									<xs:attribute name="column44" type="xs:string"/>
+									<xs:attribute name="column45" type="xs:string"/>
+									<xs:attribute name="column46" type="xs:string"/>
+									<xs:attribute name="column47" type="xs:string"/>
+									<xs:attribute name="column48" type="xs:string"/>
+									<xs:attribute name="column49" type="xs:string"/>
+									<xs:attribute name="column50" type="xs:string"/>
+									<xs:attribute name="column51" type="xs:string"/>
+									<xs:attribute name="column52" type="xs:string"/>
+									<xs:attribute name="column53" type="xs:string"/>
+									<xs:attribute name="column54" type="xs:string"/>
+									<xs:attribute name="column55" type="xs:string"/>
+									<xs:attribute name="column56" type="xs:string"/>
+									<xs:attribute name="column57" type="xs:string"/>
+									<xs:attribute name="column58" type="xs:string"/>
+									<xs:attribute name="column59" type="xs:string"/>
+									<xs:attribute name="column60" type="xs:string"/>
+									<xs:attribute name="column61" type="xs:string"/>
+									<xs:attribute name="column62" type="xs:string"/>
+									<xs:attribute name="column63" type="xs:string"/>
+									<xs:attribute name="column64" type="xs:string"/>
+									<xs:attribute name="column65" type="xs:string"/>
+									<xs:attribute name="column66" type="xs:string"/>
+									<xs:attribute name="column67" type="xs:string"/>
+									<xs:attribute name="column68" type="xs:string"/>
+									<xs:attribute name="column69" type="xs:string"/>
+									<xs:attribute name="column70" type="xs:string"/>
+									<xs:attribute name="column71" type="xs:string"/>
+									<xs:attribute name="column72" type="xs:string"/>
+									<xs:attribute name="column73" type="xs:string"/>
+									<xs:attribute name="column74" type="xs:string"/>
+									<xs:attribute name="column75" type="xs:string"/>
+									<xs:attribute name="column76" type="xs:string"/>
+									<xs:attribute name="column77" type="xs:string"/>
+									<xs:attribute name="column78" type="xs:string"/>
+									<xs:attribute name="column79" type="xs:string"/>
+									<xs:attribute name="column80" type="xs:string"/>
+									<xs:attribute name="column81" type="xs:string"/>
+									<xs:attribute name="column82" type="xs:string"/>
+									<xs:attribute name="column83" type="xs:string"/>
+									<xs:attribute name="column84" type="xs:string"/>
+									<xs:attribute name="column85" type="xs:string"/>
+									<xs:attribute name="column86" type="xs:string"/>
+									<xs:attribute name="column87" type="xs:string"/>
+									<xs:attribute name="column88" type="xs:string"/>
+									<xs:attribute name="column89" type="xs:string"/>
+									<xs:attribute name="column90" type="xs:string"/>
+									<xs:attribute name="column91" type="xs:string"/>
+									<xs:attribute name="column92" type="xs:string"/>
+									<xs:attribute name="column93" type="xs:string"/>
+									<xs:attribute name="column94" type="xs:string"/>
+									<xs:attribute name="column95" type="xs:string"/>
+									<xs:attribute name="column96" type="xs:string"/>
+									<xs:attribute name="column97" type="xs:string"/>
+									<xs:attribute name="column98" type="xs:string"/>
+									<xs:attribute name="column99" type="xs:string"/>
+									<xs:attribute name="column100" type="xs:string"/>
+									<xs:attribute name="column101" type="xs:string"/>
+									<xs:attribute name="column102" type="xs:string"/>
+									<xs:attribute name="column103" type="xs:string"/>
+									<xs:attribute name="column104" type="xs:string"/>
+									<xs:attribute name="column105" type="xs:string"/>
+									<xs:attribute name="column106" type="xs:string"/>
+									<xs:attribute name="column107" type="xs:string"/>
+									<xs:attribute name="column108" type="xs:string"/>
+									<xs:attribute name="column109" type="xs:string"/>
+									<xs:attribute name="column110" type="xs:string"/>
+									<xs:attribute name="column111" type="xs:string"/>
+									<xs:attribute name="column112" type="xs:string"/>
+									<xs:attribute name="column113" type="xs:string"/>
+									<xs:attribute name="column114" type="xs:string"/>
+									<xs:attribute name="column115" type="xs:string"/>
+									<xs:attribute name="column116" type="xs:string"/>
+									<xs:attribute name="column117" type="xs:string"/>
+									<xs:attribute name="column118" type="xs:string"/>
+									<xs:attribute name="column119" type="xs:string"/>
+									<xs:attribute name="column120" type="xs:string"/>
+									<xs:attribute name="column121" type="xs:string"/>
+									<xs:attribute name="column122" type="xs:string"/>
+									<xs:attribute name="column123" type="xs:string"/>
+									<xs:attribute name="column124" type="xs:string"/>
+									<xs:attribute name="column125" type="xs:string"/>
+									<xs:attribute name="column126" type="xs:string"/>
+									<xs:attribute name="column127" type="xs:string"/>
+									<xs:attribute name="column128" type="xs:string"/>
+									<xs:attribute name="column129" type="xs:string"/>
+									<xs:attribute name="column130" type="xs:string"/>
+									<xs:attribute name="column131" type="xs:string"/>
+									<xs:attribute name="column132" type="xs:string"/>
+									<xs:attribute name="column133" type="xs:string"/>
+									<xs:attribute name="column134" type="xs:string"/>
+									<xs:attribute name="column135" type="xs:string"/>
+									<xs:attribute name="column136" type="xs:string"/>
+									<xs:attribute name="column137" type="xs:string"/>
+									<xs:attribute name="column138" type="xs:string"/>
+									<xs:attribute name="column139" type="xs:string"/>
+									<xs:attribute name="column140" type="xs:string"/>
+									<xs:attribute name="column141" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

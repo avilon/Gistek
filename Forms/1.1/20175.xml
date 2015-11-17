@@ -1,0 +1,410 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata_01 name="Организационно-правовая форма" code="1" column1="" column2="" column3=""/>
+    <strdata_01 name="Полное наименование" code="2" column1="" column2="" column3=""/>
+    <strdata_01 name="Краткое наименование" code="3" column1="" column2="" column3=""/>
+    <strdata_01 name="Свидетельство о внесении в Единый государственный реестр юридических лиц (дата, номер, кем выдано)" code="7" column1="" column2="" column3=""/>
+    <strdata_01 name="Наименование органа государственной регистрации" code="8" column1="" column2="" column3=""/>
+    <strdata_01 name="ИНН / КПП" code="12" column1="" column2="" column3=""/>
+    <strdata_01 name="ОКПО" code="13" column1="" column2="" column3=""/>
+    <strdata_01 name="ОКВЭД" code="14" column1="" column2="" column3=""/>
+    <strdata_01 name="ОГРН" code="15" column1="" column2="" column3=""/>
+    <strdata_01 name="Юридический адрес" code="16" column1="" column2="" column3=""/>
+    <strdata_01 name="Фактический адрес" code="17" column1="" column2="" column3=""/>
+    <strdata_01 name="Почтовый адрес" code="18" column1="" column2="" column3=""/>
+    <strdata_01 name="Банковские реквизиты (наименование и адрес банка, номер расчетного счета предприятия в банке, телефоны банка, прочие банковские реквизиты)" code="19" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Канцелярия" code="20" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Отдел документооборота" code="21" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Отдел по работе с государственными органами" code="22" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Приемная директора" code="23" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Директор" code="24" column1="" column2="" column3=""/>
+    <strdata_01 name="Контактные телефоны - Прочие контактные телефоны предприятия" code="25" column1="" column2="" column3=""/>
+    <strdata_01 name="Факс" code="26" column1="" column2="" column3=""/>
+    <strdata_01 name="Основные виды деятельности" code="27" column1="" column2="" column3=""/>
+    <strdata_01 name="Присутствие в списках компаний" code="28" column1="" column2="" column3=""/>
+    <strdata_01 name="Адрес электронной почты" code="29" column1="" column2="" column3=""/>
+    <strdata_01 name="Сайт в сети Интернет" code="30" column1="" column2="" column3=""/>
+    <strdata_01 name="Способ образования" code="6" column1="" column2="" column3=""/>
+    <strdata_01 name="Дата регистрации (последней перерегистрации)" code="9" column1="" column2="" column3=""/>
+    <strdata_01 name="Дата начала хозяйственной деятельности" code="10" column1="" column2="" column3=""/>
+    <strdata_01 name="Сведения о реорганизации" code="11" column1="" column2="" column3=""/>
+    <strdata_01 name="Уставный капитал - Объявленный уставный капитал, тыс. руб." code="4" column1="" column2="" column3=""/>
+    <strdata_01 name="Уставный капитал - Оплаченный уставный капитал, тыс. руб." code="5" column1="" column2="" column3=""/>
+    <data_02 name="" code="1" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="2" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="3" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="4" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_02 name="" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="16" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="17" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="18" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="19" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_03 name="" code="20" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_04 name="" code="21" column1="Генеральный директор" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="22" column1="Главный бухгалтер" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="23" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="24" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="25" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="26" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="27" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="28" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="29" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="30" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="31" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="32" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="33" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="34" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="35" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="36" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="37" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="38" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="39" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="40" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="41" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="42" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="43" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="44" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="45" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="46" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="47" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="48" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="49" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_04 name="" code="50" column1="Состав Совета директоров" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_05 name="" code="51" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="52" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="53" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="54" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="55" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="56" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="57" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="58" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="59" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="60" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="61" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="62" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="63" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="64" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="65" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="66" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="67" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="68" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="69" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="70" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="71" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="72" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="73" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="74" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="75" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="76" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="77" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="78" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="79" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="80" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="81" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="82" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="83" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="84" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="85" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="86" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="87" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="88" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="89" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="90" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="91" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="92" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="93" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="94" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="95" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="96" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="97" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="98" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="99" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="100" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="101" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="102" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="103" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="104" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="105" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="106" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="107" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="108" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="109" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="110" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="111" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="112" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="113" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="114" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="115" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="116" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="117" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="118" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="119" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="120" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="121" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="122" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="123" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="124" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="125" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="126" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="127" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="128" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="129" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="130" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="131" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="132" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="133" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="134" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="135" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="136" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="137" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="138" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="139" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="140" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="141" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="142" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="143" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="144" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="145" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="146" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="147" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="148" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="149" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_05 name="" code="150" column1="" column2="" column3="" column4="" column5="" column6="" column7=""/>
+    <data_06 name="" code="151" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="152" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="153" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="154" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="155" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="156" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="157" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="158" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="159" column1="" column2="" column3="" column4="" column5=""/>
+    <data_06 name="" code="160" column1="" column2="" column3="" column4="" column5=""/>
+    <data_07 name="" code="170" column1="1" column2="2" column3="3" column4="4" column5="5" column6="6"/>
+    <data_08 name="" code="200" column1="" column2="" column3=""/>
+    <data_08 name="" code="201" column1="" column2="" column3=""/>
+    <data_08 name="" code="202" column1="" column2="" column3=""/>
+    <data_08 name="" code="203" column1="" column2="" column3=""/>
+    <data_08 name="" code="204" column1="" column2="" column3=""/>
+    <data_08 name="" code="205" column1="" column2="" column3=""/>
+    <data_08 name="" code="206" column1="" column2="" column3=""/>
+    <data_08 name="" code="207" column1="" column2="" column3=""/>
+    <data_08 name="" code="208" column1="" column2="" column3=""/>
+    <data_08 name="" code="209" column1="" column2="" column3=""/>
+    <data_08 name="" code="210" column1="" column2="" column3=""/>
+    <data_08 name="" code="211" column1="" column2="" column3=""/>
+    <data_08 name="" code="212" column1="" column2="" column3=""/>
+    <data_08 name="" code="213" column1="" column2="" column3=""/>
+    <data_08 name="" code="214" column1="" column2="" column3=""/>
+    <data_08 name="" code="215" column1="" column2="" column3=""/>
+    <data_08 name="" code="216" column1="" column2="" column3=""/>
+    <data_08 name="" code="217" column1="" column2="" column3=""/>
+    <data_08 name="" code="218" column1="" column2="" column3=""/>
+    <data_08 name="" code="219" column1="" column2="" column3=""/>
+    <data_08 name="" code="220" column1="" column2="" column3=""/>
+    <data_08 name="" code="221" column1="" column2="" column3=""/>
+    <data_08 name="" code="222" column1="" column2="" column3=""/>
+    <data_08 name="" code="223" column1="" column2="" column3=""/>
+    <data_08 name="" code="224" column1="" column2="" column3=""/>
+    <data_08 name="" code="225" column1="" column2="" column3=""/>
+    <data_08 name="" code="226" column1="" column2="" column3=""/>
+    <data_08 name="" code="227" column1="" column2="" column3=""/>
+    <data_08 name="" code="228" column1="" column2="" column3=""/>
+    <data_08 name="" code="229" column1="" column2="" column3=""/>
+    <data_08 name="" code="230" column1="" column2="" column3=""/>
+    <data_08 name="" code="231" column1="" column2="" column3=""/>
+    <data_08 name="" code="232" column1="" column2="" column3=""/>
+    <data_08 name="" code="233" column1="" column2="" column3=""/>
+    <data_08 name="" code="234" column1="" column2="" column3=""/>
+    <data_08 name="" code="235" column1="" column2="" column3=""/>
+    <data_08 name="" code="236" column1="" column2="" column3=""/>
+    <data_08 name="" code="237" column1="" column2="" column3=""/>
+    <data_08 name="" code="238" column1="" column2="" column3=""/>
+    <data_08 name="" code="239" column1="" column2="" column3=""/>
+    <data_08 name="" code="240" column1="" column2="" column3=""/>
+    <data_08 name="" code="241" column1="" column2="" column3=""/>
+    <data_08 name="" code="242" column1="" column2="" column3=""/>
+    <data_08 name="" code="243" column1="" column2="" column3=""/>
+    <data_08 name="" code="244" column1="" column2="" column3=""/>
+    <data_08 name="" code="245" column1="" column2="" column3=""/>
+    <data_08 name="" code="246" column1="" column2="" column3=""/>
+    <data_08 name="" code="247" column1="" column2="" column3=""/>
+    <data_08 name="" code="248" column1="" column2="" column3=""/>
+    <data_08 name="" code="249" column1="" column2="" column3=""/>
+    <data_08 name="" code="250" column1="" column2="" column3=""/>
+    <data_08 name="" code="251" column1="" column2="" column3=""/>
+    <data_08 name="" code="252" column1="" column2="" column3=""/>
+    <data_08 name="" code="253" column1="" column2="" column3=""/>
+    <data_08 name="" code="254" column1="" column2="" column3=""/>
+    <data_08 name="" code="255" column1="" column2="" column3=""/>
+    <data_08 name="" code="256" column1="" column2="" column3=""/>
+    <data_08 name="" code="257" column1="" column2="" column3=""/>
+    <data_08 name="" code="258" column1="" column2="" column3=""/>
+    <data_08 name="" code="259" column1="" column2="" column3=""/>
+    <data_08 name="" code="260" column1="" column2="" column3=""/>
+    <data_08 name="" code="261" column1="" column2="" column3=""/>
+    <data_08 name="" code="262" column1="" column2="" column3=""/>
+    <data_08 name="" code="263" column1="" column2="" column3=""/>
+    <data_08 name="" code="264" column1="" column2="" column3=""/>
+    <data_08 name="" code="265" column1="" column2="" column3=""/>
+    <data_08 name="" code="266" column1="" column2="" column3=""/>
+    <data_08 name="" code="267" column1="" column2="" column3=""/>
+    <data_08 name="" code="268" column1="" column2="" column3=""/>
+    <data_08 name="" code="269" column1="" column2="" column3=""/>
+    <data_08 name="" code="270" column1="" column2="" column3=""/>
+    <data_08 name="" code="271" column1="" column2="" column3=""/>
+    <data_08 name="" code="272" column1="" column2="" column3=""/>
+    <data_08 name="" code="273" column1="" column2="" column3=""/>
+    <data_08 name="" code="274" column1="" column2="" column3=""/>
+    <data_08 name="" code="275" column1="" column2="" column3=""/>
+    <data_08 name="" code="276" column1="" column2="" column3=""/>
+    <data_08 name="" code="277" column1="" column2="" column3=""/>
+    <data_08 name="" code="278" column1="" column2="" column3=""/>
+    <data_08 name="" code="279" column1="" column2="" column3=""/>
+    <data_08 name="" code="280" column1="" column2="" column3=""/>
+    <data_08 name="" code="281" column1="" column2="" column3=""/>
+    <data_08 name="" code="282" column1="" column2="" column3=""/>
+    <data_08 name="" code="283" column1="" column2="" column3=""/>
+    <data_08 name="" code="284" column1="" column2="" column3=""/>
+    <data_08 name="" code="285" column1="" column2="" column3=""/>
+    <data_08 name="" code="286" column1="" column2="" column3=""/>
+    <data_08 name="" code="287" column1="" column2="" column3=""/>
+    <data_08 name="" code="288" column1="" column2="" column3=""/>
+    <data_08 name="" code="289" column1="" column2="" column3=""/>
+    <data_08 name="" code="290" column1="" column2="" column3=""/>
+    <data_08 name="" code="291" column1="" column2="" column3=""/>
+    <data_08 name="" code="292" column1="" column2="" column3=""/>
+    <data_08 name="" code="293" column1="" column2="" column3=""/>
+    <data_08 name="" code="294" column1="" column2="" column3=""/>
+    <data_08 name="" code="295" column1="" column2="" column3=""/>
+    <data_08 name="" code="296" column1="" column2="" column3=""/>
+    <data_08 name="" code="297" column1="" column2="" column3=""/>
+    <data_08 name="" code="298" column1="" column2="" column3=""/>
+    <data_08 name="" code="299" column1="" column2="" column3=""/>
+    <data_08 name="" code="300" column1="" column2="" column3=""/>
+    <data_09 name="" code="301" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="302" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="303" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="304" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="305" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="306" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="307" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="308" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="309" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="310" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="311" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="312" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="313" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="314" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="315" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="316" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="317" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="318" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="319" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="320" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="321" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="322" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="323" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="324" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="325" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="326" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="327" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="328" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="329" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="330" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="331" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="332" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="333" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="334" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="335" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="336" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="337" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="338" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="339" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="340" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="341" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="342" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="343" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="344" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="345" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="346" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="347" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="348" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="349" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="350" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="351" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="352" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="353" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="354" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="355" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="356" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="357" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="358" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="359" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="360" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="361" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="362" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="363" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="364" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="365" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="366" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="367" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="368" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="369" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="370" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="371" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="372" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="373" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="374" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="375" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="376" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="377" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="378" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="379" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="380" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="381" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="382" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="383" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="384" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="385" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="386" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="387" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="388" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="389" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="390" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="391" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="392" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="393" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="394" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="395" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="396" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="397" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="398" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="399" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <data_09 name="" code="400" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКТМО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

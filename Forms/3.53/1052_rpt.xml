@@ -1,0 +1,38 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Всего" code="10" column1="" column2=""/>
+    <strdata name="с ОФ других АО (компаний)" code="11" column1="" column2=""/>
+    <strdata name="Нужды коксования России" code="20" column1="" column2=""/>
+    <strdata name="Минобороны" code="30" column1="" column2=""/>
+    <strdata name="МВД" code="40" column1="" column2=""/>
+    <strdata name="Минюст" code="50" column1="" column2=""/>
+    <strdata name="ФПС" code="60" column1="" column2=""/>
+    <strdata name="Атомная промышленность" code="70" column1="" column2=""/>
+    <strdata name="РАО &quot;РЖД&quot;" code="80" column1="" column2=""/>
+    <strdata name="Население и коммунально-бытовые потребители" code="90" column1="" column2=""/>
+    <strdata name="Энергокомпании" code="100" column1="" column2=""/>
+    <strdata name="Нужды металлургии (энерг.)" code="110" column1="" column2=""/>
+    <strdata name="Собственные нужды" code="135" column1="" column2=""/>
+    <strdata name="Поставка (продажа) угля на ОФ" code="140" column1="" column2=""/>
+    <strdata name="Поставка на ОФ других АО  (компаний), как давальческое сырье" code="150" column1="" column2=""/>
+    <strdata name="Поставка на ОФ других АО  (компаний), как давальческое сырье, коксующихся углей" code="152" column1="" column2=""/>
+    <strdata name="Поставка в страны ближнего зарубежья" code="200" column1="" column2=""/>
+    <strdata name="Поставка в страны ближнего зарубежья коксующихся углей" code="202" column1="" column2=""/>
+    <strdata name="Поставка в страны дальнего зарубежья" code="250" column1="" column2=""/>
+    <strdata name="Поставка в страны дальнего зарубежья коксующихся углей" code="252" column1="" column2=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

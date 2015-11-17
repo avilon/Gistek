@@ -1,0 +1,29 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Наименование программы" code="1" column1=""/>
+    <strdata name="Почтовый адрес" code="2" column1=""/>
+    <strdata name="Ответственный за формирование программы (Ф.И.О., контактный телефон, e-mail)" code="3" column1=""/>
+    <strdata name="Даты начала и окончания действия программы" code="4" column1=""/>
+    <strdata name="За отчетный год, план" code="5" column1="51" column2="52" column3="53" column4="54" column5="55" column6="56" column7="57" column8="58" column9="59" column10="510" column11="511"/>
+    <strdata name="Зза отчетный год, факт" code="6" column1="61" column2="62" column3="63" column4="64" column5="65" column6="66" column7="67" column8="68" column9="69" column10="610" column11="611"/>
+    <strdata name="За отчетный год, отклонение" code="7" column1="71" column2="72" column3="73" column4="74" column5="75" column6="76" column7="77" column8="78" column9="79" column10="710" column11="711"/>
+    <strdata name="Нарастающим итогом, план" code="8" column1="81" column2="82" column3="83" column4="84" column5="85" column6="86" column7="87" column8="88" column9="89" column10="810" column11="811"/>
+    <strdata name="Нарастающим итогом, факт" code="9" column1="91" column2="92" column3="93" column4="94" column5="95" column6="96" column7="97" column8="98" column9="99" column10="910" column11="911"/>
+    <strdata name="Нарастающим итогом, отклонение" code="10" column1="101" column2="102" column3="103" column4="104" column5="105" column6="106" column7="107" column8="108" column9="109" column10="1010" column11="1011"/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+    <strServiceInf name="ОКТМО" code="133" col1=""/>
+  </flat>
+</document>

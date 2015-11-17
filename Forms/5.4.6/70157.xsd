@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="common" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="inn" use="required" type="xs:long"/>
+									<xs:attribute name="address" use="required" type="xs:string"/>
+									<xs:attribute name="phone" use="required" type="xs:long"/>
+									<xs:attribute name="email" use="required" type="xs:string"/>
+									<xs:attribute name="plan" use="required" type="xs:string"/>
+									<xs:attribute name="date_beg" use="required" type="xs:string"/>
+									<xs:attribute name="doc_info" use="required" type="xs:string"/>
+									<xs:attribute name="date_end" use="required" type="xs:string"/>
+									<xs:attribute name="sert" use="required" type="xs:string"/>
+									<xs:attribute name="sert_org" use="required" type="xs:string"/>
+									<xs:attribute name="sys_info" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="dzo" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="inn" use="required" type="xs:long"/>
+									<xs:attribute name="doc_name" use="required" type="xs:string"/>
+									<xs:attribute name="doc_date" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="dynamic" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="inn" use="required" type="xs:long"/>
+									<xs:attribute name="pokaz_name" use="required" type="xs:string"/>
+									<xs:attribute name="measure" use="required" type="xs:string"/>
+									<xs:attribute name="val_year_downto_3" use="required" type="xs:decimal"/>
+									<xs:attribute name="val_year_downto_2" use="required" type="xs:decimal"/>
+									<xs:attribute name="val_year_downto_1" use="required" type="xs:decimal"/>
+									<xs:attribute name="val_year" use="required" type="xs:decimal"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="managers" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="mngr_energo" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="fio" use="required" type="xs:string"/>
+												<xs:attribute name="post" use="required" type="xs:string"/>
+												<xs:attribute name="phone" use="required" type="xs:int"/>
+												<xs:attribute name="email" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="mngr_quality" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="fio" use="required" type="xs:string"/>
+												<xs:attribute name="post" use="required" type="xs:string"/>
+												<xs:attribute name="phone" use="required" type="xs:long"/>
+												<xs:attribute name="email" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="mngr_ecology" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="fio" use="required" type="xs:string"/>
+												<xs:attribute name="post" use="required" type="xs:string"/>
+												<xs:attribute name="phone" use="required" type="xs:long"/>
+												<xs:attribute name="email" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="inn" use="required" type="xs:long"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="param" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="version" use="required" type="xs:decimal"/>
+									<xs:attribute name="year" use="required" type="xs:short"/>
+									<xs:attribute name="month" use="required" type="xs:byte"/>
+									<xs:attribute name="day" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strServiceInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

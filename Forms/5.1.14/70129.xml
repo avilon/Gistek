@@ -1,0 +1,29 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <param name="params" version="1.0" year="2014" month="12" day=""/>
+    <goal name="Целевые показатели" id=" "/>
+    <goal name="Целевой показатель 1" id="1" measure="млн. куб. м" avg="100.00" max="200.00" basic_year="110.00" year_dowto_4="111.00" year_dowto_3="112.00" year_dowto_2="113.00" year_dowto_1="114.00" year_curr="115.00" year_to_1="116.00" year_to_2="117.00" year_to_3="118.00" year_to_4="119.00"/>
+    <goal name="Целевой показатель 2" id="2" measure="кг" avg="200.00" max="300.00" basic_year="210.00" year_dowto_4="211.00" year_dowto_3="212.00" year_dowto_2="213.00" year_dowto_1="214.00" year_curr="215.00" year_to_1="216.00" year_to_2="217.00" year_to_3="218.00" year_to_4="219.00"/>
+    <goal name="Целевой показатель 3" id="3" measure="млн. кВт. ч" avg="300.00" max="400.00" basic_year="310.00" year_dowto_4="311.00" year_dowto_3="312.00" year_dowto_2="313.00" year_dowto_1="314.00" year_curr="315.00" year_to_1="316.00" year_to_2="317.00" year_to_3="318.00" year_to_4="319.00"/>
+    <goal name="Целевой показатель 4" id="4" measure="%" avg="400.00" max="500.00" basic_year="510.00" year_dowto_4="511.00" year_dowto_3="512.00" year_dowto_2="513.00" year_dowto_1="514.00" year_curr="515.00" year_to_1="516.00" year_to_2="517.00" year_to_3="518.00" year_to_4="519.00"/>
+    <goal name="Прочие показатели" id=" "/>
+    <goal name="Прочие показатели 1" id="1" measure="млн. куб. м" avg="10.00" max="20.00" basic_year="11.00" year_dowto_4="12.00" year_dowto_3="13.00" year_dowto_2="14.00" year_dowto_1="15.00" year_curr="16.00" year_to_1="17.00" year_to_2="18.00" year_to_3="19.00" year_to_4="20.00"/>
+    <goal name="Прочие показатели 2" id="2" measure="кг" avg="20.00" max="30.00" basic_year="21.00" year_dowto_4="22.00" year_dowto_3="23.00" year_dowto_2="24.00" year_dowto_1="25.00" year_curr="26.00" year_to_1="27.00" year_to_2="28.00" year_to_3="29.00" year_to_4="30.00"/>
+    <goal name="Прочие показатели 3" id="3" measure="млн. кВт. ч" avg="30.00" max="40.00" basic_year="31.00" year_dowto_4="32.00" year_dowto_3="33.00" year_dowto_2="34.00" year_dowto_1="35.00" year_curr="36.00" year_to_1="37.00" year_to_2="38.00" year_to_3="39.00" year_to_4="40.00"/>
+    <goal name="Прочие показатели 4" id="4" measure="%" avg="40.00" max="50.00" basic_year="41.00" year_dowto_4="42.00" year_dowto_3="43.00" year_dowto_2="44.00" year_dowto_1="45.00" year_curr="46.00" year_to_1="47.00" year_to_2="48.00" year_to_3="49.00" year_to_4="50.00"/>
+    <strContactInf name="Руководитель организации" code="111" col1="----ФИО----" col2="----Должность -----" col3="----тел ----" col4="----емайл ----"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="FIO" col2="post" col3="phone" col4="email"/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="org"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="post addr"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="fact addr"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="ogrn"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="inn"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="kpp"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="okpo"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="okved"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="okato"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="okogu"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="okopf"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="okfs"/>
+  </flat>
+</document>

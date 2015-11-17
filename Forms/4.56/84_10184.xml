@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="207" name="НПУ - нормальный подпорный уровень, м">
+ <column name="Значение показателя" order="1" id="59" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="208" name="УМО - уровень мертвого объема, м">
+ <column name="Значение показателя" order="1" id="59" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="209" name="Энергоемкость полезного объема водохранилища, млн. кВтч">
+ <column name="Значение показателя" order="1" id="59" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="210" name="Полезный объем водохранилища, млн. м3">
+ <column name="Значение показателя" order="1" id="59" datatype="number" format="30.3"></column>
+</strdata>
+</document>

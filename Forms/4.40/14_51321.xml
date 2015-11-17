@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="1" name="Установленная  мощность гидроэлектростанции на конец года, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="2" name="Величина изменения установленной мощности за счет ввода, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="3" name="Величина изменения установленной мощности за счет демонтажа, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="4" name="Величина изменения установленной мощности за счет перемаркировки, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="5" name="Располагаемая мощность гидроэлектростанции на конец года, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="6" name="Средняя рабочая мощность гидроэлектростанции за отчетный год, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="214" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="7" name="Средняя установленная мощность по гидрогенераторам за отчетный год, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="223" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="8" name="Число часов использования средней за отчетный год установленной мощности, час">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="9" name="Величина ограничения установленной мощности - всего, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="10" name="Технические ограничения установленной мощности, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="11" name="Сезонные ограничения установленной мощности, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="12" name="Временные ограничения установленной мощности, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="13" name="Системные ограничения установленной мощности, кВт">
+ <column name="Факт на конец отчетного года" order="1" id="230" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="14" name="Запас воды в водохранилище, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="15" name="Полный приток воды, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="16" name="Полный расход воды, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="17" name="на выработку электроэнергии, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="18" name="на холостые сбросы, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="19" name="Фильтрация и утечка воды через гидроузел, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="20" name="Водопотребление другими отраслями народного хозяйства, млн.куб.м">
+ <column name="Факт за отчетный год" order="1" id="243" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="21" name="Максимум нагрузки, тыс.кВт">
+ <column name="Факт за отчетный год" order="1" id="247" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="22" name="Выработано электроэнергии - всего, тыс.кВтч">
+ <column name="Факт за отчетный год" order="1" id="254" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="23" name="Отпущено электроэнергии с шин, тыс.кВтч">
+ <column name="Факт за отчетный год" order="1" id="254" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="24" name="Расход электроэнергии на собственные производственные нужды, тыс.кВтч">
+ <column name="Факт за отчетный год" order="1" id="254" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="25" name="Удельный расход электроэнергии на собственные нужды, %">
+ <column name="Факт за отчетный год" order="1" id="254" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="26" name="Коэффициент технического использования гидроагрегатов, %">
+ <column name="Факт за отчетный год" order="1" id="371" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="27" name="Общий простой гидроагрегатов, час">
+ <column name="Факт за отчетный год" order="1" id="372" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="271" name="в том числе, простой гидроагрегатов в аварийном режиме, час">
+ <column name="Факт за отчетный год" order="1" id="372" datatype="number" format="30.3"></column>
+</strdata>
+<strdata code="28" name="Наименование водоема">
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+<strdetail code="2800001">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800002">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800003">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800004">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800005">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800006">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800007">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800008">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800009">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800010">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800011">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800012">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800013">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800014">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800015">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800016">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800017">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800018">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800019">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800020">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800021">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800022">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800023">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800024">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800025">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800026">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800027">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800028">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800029">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800030">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800031">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800032">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800033">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800034">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800035">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800036">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800037">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800038">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800039">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800040">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800041">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800042">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800043">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800044">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800045">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800046">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800047">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800048">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800049">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800050">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800051">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800052">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800053">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800054">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800055">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800056">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800057">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800058">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800059">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800060">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800061">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800062">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800063">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800064">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800065">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800066">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800067">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800068">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800069">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800070">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800071">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800072">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800073">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800074">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800075">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800076">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800077">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800078">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800079">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800080">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800081">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800082">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800083">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800084">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800085">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800086">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800087">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800088">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800089">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800090">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800091">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800092">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800093">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800094">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800095">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800096">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800097">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800098">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800099">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800100">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+<strdetail code="2800101">
+ <entity></entity>
+ <column name="Водность по обеспеченности, %" order="1" id="361" datatype="number" format="30.2"></column>
+ <column name="Водный режим в отчетном году" order="2" id="362" datatype="classifier" format="2048"></column>
+</strdetail>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="379" datatype="text" format="50"></column>
+ <column name="Должность" order="2" id="380" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="381" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="382" datatype="text" format="50"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="379" datatype="text" format="50"></column>
+ <column name="Должность" order="2" id="380" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="381" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="382" datatype="text" format="50"></column>
+</strdata>
+<strdata code="321" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="322" name="Почтовый адрес">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="323" name="Код отчитывающейся организации по ОКПО">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="324" name="Код вида деятельности по ОКВЭД">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="325" name="Код территории по ОКАТО">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="326" name="Код министерства (ведомства), органа управления по ОКОГУ">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="327" name="Код организационно-правовой формы по ОКОПФ">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="328" name="Код формы собственности по ОКФС">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+<strdata code="329" name="Код формы по ОКУД">
+ <column name="Значение" order="1" id="393" datatype="text" format="300"></column>
+</strdata>
+</document>

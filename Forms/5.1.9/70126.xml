@@ -1,0 +1,28 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <param name="params" version="1.0" year="2012" month="12" day=""/>
+    <strdata name="Такое вот мероприятие" code="1" measure="млн. куб. м" vol_paln_all="100.00" vol_plan_year="10.00" vol_fact_all="100.00" vol_fact_year="10.00">
+      <econ name="Электрическая энергия" measure="кВт.ч" all_plan_natur="100.00" all_plan_tut="100.00" all_plan_cost="" year_plan_natur="100.00" year_plan_tut="10.00" year_plan_cost="10.00" all_fact_natur="100.00" all_fact_tut="100.00" all_fact_cost="" year_fact_natur="100.00" year_fact_tut="100.00" year_fact_cost="100.00"/>
+    </strdata>
+    <strdata name="Мальчишник в Вегасе" code="2" measure="кг" vol_paln_all="200.00" vol_plan_year="20.00" vol_fact_all="200.00" vol_fact_year="20.00" cost_all_plan="200.00" cost_year_plan="200.00" cost_all_fact="200.00" cost_year_fact="200.00">
+      <econ name="Электрическая энергия" measure="кВт.ч" all_plan_natur="100.00" all_plan_tut="100.00" all_plan_cost="" year_plan_natur="100.00" year_plan_tut="10.00" year_plan_cost="10.00" all_fact_natur="100.00" all_fact_tut="100.00" all_fact_cost="" year_fact_natur="100.00" year_fact_tut="100.00" year_fact_cost="100.00"/>
+      <econ name="Уголь" measure="т" all_plan_natur="100.00" all_plan_tut="100.00" all_plan_cost="" year_plan_natur="100.00" year_plan_tut="10.00" year_plan_cost="10.00" all_fact_natur="100.00" all_fact_tut="100.00" all_fact_cost="" year_fact_natur="100.00" year_fact_tut="100.00" year_fact_cost="100.00"/>
+    </strdata>
+    <strdata name="Девчачник в Васюках" code="3" measure="млн. кВт. ч" vol_paln_all="300.00" vol_plan_year="30.00" vol_fact_all="300.00" vol_fact_year="30.00" cost_all_plan="300.00" cost_year_plan="300.00" cost_all_fact="300.00" cost_year_fact="300.00"/>
+    <strContactInf name="Руководитель организации" code="111" col1="Баранов" col2="баран" col3="+1234567890" col4="baran@mail.ru"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Козлов" col2="козел" col3="+7654321890" col4="kozel@mail.ru"/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="121"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="122"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+    <strServiceInf name="ОКТМО" code="133" col1="133"/>
+  </flat>
+</document>

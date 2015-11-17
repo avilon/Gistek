@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="src_01" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:short"/>
+												<xs:attribute name="vol_year_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="src_02" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:short"/>
+												<xs:attribute name="vol_year_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="src_03" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:short"/>
+												<xs:attribute name="vol_year_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="src_04" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:short"/>
+												<xs:attribute name="vol_year_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="total" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:short"/>
+												<xs:attribute name="vol_year_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="vol_year_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="econ" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="name" use="required" type="xs:string"/>
+												<xs:attribute name="measure" use="required" type="xs:string"/>
+												<xs:attribute name="econ_natur_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_downto_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_downto_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_downto_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_to_1" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_to_2" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_natur_to_3" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_cost_to_3" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:long"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="param" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="version" use="required" type="xs:decimal"/>
+									<xs:attribute name="year" use="required" type="xs:short"/>
+									<xs:attribute name="month" use="required" type="xs:byte"/>
+									<xs:attribute name="day" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strServiceInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
+									<xs:attribute name="col1" use="required" type="xs:short"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

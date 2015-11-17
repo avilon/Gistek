@@ -1,0 +1,8 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="НПУ - нормальный подпорный уровень, м" code="207" column1=""/>
+    <strdata name="УМО - уровень мертвого объема, м" code="208" column1=""/>
+    <strdata name="Энергоемкость полезного объема водохранилища, млн. кВтч" code="209" column1=""/>
+    <strdata name="Полезный объем водохранилища, млн. м3" code="210" column1=""/>
+  </flat>
+</document>

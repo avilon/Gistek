@@ -1,0 +1,44 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Первое мероприятие" code="1">
+      <src_01 name="федеральный бюджет" code="1" vol_year_downto_3="1000.00" vol_year_downto_2="1100.00" vol_year_downto_1="1200.00" vol_year="1300.00" vol_year_to_1="10.00" vol_year_to_2="10.00" vol_year_to_3="10.00"/>
+      <src_02 name="бюджет субъектов Российской Федерации" code="2" vol_year_downto_3="900.00" vol_year_downto_2="1000.00" vol_year_downto_1="1100.00" vol_year="1200.00" vol_year_to_1="20.00" vol_year_to_2="20.00" vol_year_to_3="20.00"/>
+      <src_03 name="местные бюджеты" code="3" vol_year_downto_3="800.00" vol_year_downto_2="900.00" vol_year_downto_1="1000.00" vol_year="1100.00" vol_year_to_1="30.00" vol_year_to_2="30.00" vol_year_to_3="30.00"/>
+      <src_04 name="внебюджетные средства" code="4" vol_year_downto_3="700.00" vol_year_downto_2="800.00" vol_year_downto_1="900.00" vol_year="1000.00" vol_year_to_1="40.00" vol_year_to_2="40.00" vol_year_to_3="40.00"/>
+      <total name="Итого  по мероприятию" code="5" vol_year_downto_3="3400.00" vol_year_downto_2="3800.00" vol_year_downto_1="4200.00" vol_year="4600.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <econ name="Электрическая энергия" measure="кВт.ч" econ_natur_downto_3="30.00" econ_cost_downto_3="33.00" econ_natur_downto_2="20.00" econ_cost_downto_2="22.00" econ_natur_downto_1="10.00" econ_cost_downto_1="11.00" econ_natur="50.00" econ_cost="55.00" econ_natur_to_1="60.00" econ_cost_to_1="66.00" econ_natur_to_2="70.00" econ_cost_to_2="77.00" econ_natur_to_3="80.00" econ_cost_to_3="88.00"/>
+      <econ name="Тепловая энергия" measure="Гкал" econ_natur_downto_3="130.00" econ_cost_downto_3="133.00" econ_natur_downto_2="120.00" econ_cost_downto_2="122.00" econ_natur_downto_1="110.00" econ_cost_downto_1="111.00" econ_natur="150.00" econ_cost="155.00" econ_natur_to_1="160.00" econ_cost_to_1="166.00" econ_natur_to_2="170.00" econ_cost_to_2="177.00" econ_natur_to_3="180.00" econ_cost_to_3="188.00"/>
+    </strdata>
+    <strdata name="Второе мероприятие" code="6">
+      <src_01 name="федеральный бюджет" code="6" vol_year_downto_3="100.00" vol_year_downto_2="110.00" vol_year_downto_1="120.00" vol_year="130.00" vol_year_to_1="10.00" vol_year_to_2="10.00" vol_year_to_3="10.00"/>
+      <src_02 name="бюджет субъектов Российской Федерации" code="7" vol_year_downto_3="90.00" vol_year_downto_2="100.00" vol_year_downto_1="110.00" vol_year="120.00" vol_year_to_1="20.00" vol_year_to_2="20.00" vol_year_to_3="20.00"/>
+      <src_03 name="местные бюджеты" code="8" vol_year_downto_3="80.00" vol_year_downto_2="90.00" vol_year_downto_1="100.00" vol_year="110.00" vol_year_to_1="30.00" vol_year_to_2="30.00" vol_year_to_3="30.00"/>
+      <src_04 name="внебюджетные средства" code="9" vol_year_downto_3="70.00" vol_year_downto_2="80.00" vol_year_downto_1="90.00" vol_year="100.00" vol_year_to_1="40.00" vol_year_to_2="40.00" vol_year_to_3="40.00"/>
+      <total name="Итого  по мероприятию" code="10" vol_year_downto_3="340.00" vol_year_downto_2="380.00" vol_year_downto_1="420.00" vol_year="460.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <econ name="Уголь" measure="т" econ_natur_downto_3="10.00" econ_cost_downto_3="11.00" econ_natur_downto_2="20.00" econ_cost_downto_2="22.00" econ_natur_downto_1="30.00" econ_cost_downto_1="33.00" econ_natur="40.00" econ_cost="44.00" econ_natur_to_1="50.00" econ_cost_to_1="55.00" econ_natur_to_2="60.00" econ_cost_to_2="66.00" econ_natur_to_3="70.00" econ_cost_to_3="77.00"/>
+    </strdata>
+    <strdata name="Прочие" code="996">
+      <src_01 name="федеральный бюджет" code="996" vol_year_downto_3="100.00" vol_year_downto_2="100.00" vol_year_downto_1="100.00" vol_year="100.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <src_02 name="бюджет субъектов Российской Федерации" code="997" vol_year_downto_3="100.00" vol_year_downto_2="100.00" vol_year_downto_1="100.00" vol_year="100.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <src_03 name="местные бюджеты" code="998" vol_year_downto_3="100.00" vol_year_downto_2="100.00" vol_year_downto_1="100.00" vol_year="100.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <src_04 name="внебюджетные средства" code="999" vol_year_downto_3="100.00" vol_year_downto_2="100.00" vol_year_downto_1="100.00" vol_year="100.00" vol_year_to_1="100.00" vol_year_to_2="100.00" vol_year_to_3="100.00"/>
+      <total name="Итого  по мероприятию" code="1000" vol_year_downto_3="400.00" vol_year_downto_2="400.00" vol_year_downto_1="400.00" vol_year="400.00" vol_year_to_1="400.00" vol_year_to_2="400.00" vol_year_to_3="400.00"/>
+      <econ name="Мазут топочный" measure="т" econ_natur_downto_3="10.00" econ_cost_downto_3="10.00" econ_natur_downto_2="10.00" econ_cost_downto_2="10.00" econ_natur_downto_1="10.00" econ_cost_downto_1="10.00" econ_natur="10.00" econ_cost="10.00" econ_natur_to_1="10.00" econ_cost_to_1="10.00" econ_natur_to_2="10.00" econ_cost_to_2="10.00" econ_natur_to_3="10.00" econ_cost_to_3="10.00"/>
+    </strdata>
+    <strContactInf name="Руководитель организации" code="111" col1="Баранов" col2="баран" col3="+1234567890" col4="baran@mail.ru"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Козлов" col2="козел" col3="+7654321890" col4="kozel@mail.ru"/>
+    <param name="params" version="1.0" year="2013" month="12" day=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="121"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="122"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+  </flat>
+</document>

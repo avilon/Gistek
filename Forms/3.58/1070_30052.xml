@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online">
+<strdata code="1" name="Экспорт угля">
+ <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+ <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+ <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ <strclass code="100001" name="АБХАЗИЯ" id="630000">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100002" name="АЗЕРБАЙДЖАН" id="31">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100003" name="АЛБАНИЯ" id="8">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100004" name="БЕЛЬГИЯ" id="56">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100005" name="БОЛГАРИЯ" id="100">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100006" name="БРАЗИЛИЯ" id="76">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100007" name="СОЕДИНЕННОЕ КОРОЛЕВСТВО" id="826">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100008" name="ВЕНГРИЯ" id="348">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100009" name="ВИРГИНСКИЕ ОСТРОВА, БРИТАНСКИЕ" id="92">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100010" name="ВЬЕТНАМ" id="704">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100011" name="ГЕРМАНИЯ" id="276">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100012" name="ГОНКОНГ" id="344">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100013" name="ГРЕЦИЯ" id="300">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100014" name="ГРУЗИЯ" id="268">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100015" name="ДАНИЯ" id="208">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100016" name="ЕГИПЕТ" id="818">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100017" name="ИЗРАИЛЬ" id="376">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100018" name="ИНДИЯ" id="356">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100019" name="ИНДОНЕЗИЯ" id="360">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100020" name="ИРАН, ИСЛАМСКАЯ РЕСПУБЛИКА" id="364">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100021" name="ИРЛАНДИЯ" id="372">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100022" name="ИСПАНИЯ" id="724">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100023" name="ИТАЛИЯ" id="380">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100024" name="КИПР" id="196">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100025" name="КИРГИЗИЯ" id="417">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100026" name="КИТАЙ" id="156">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100027" name="КОРЕЯ, НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА" id="408">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100028" name="ЛАТВИЯ" id="428">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100029" name="ЛИВАН" id="422">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100030" name="ЛИТВА" id="440">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100031" name="МАЛАЙЗИЯ" id="458">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100032" name="МАЛЬТА" id="470">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100033" name="МАРОККО" id="504">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100034" name="МОЛДОВА, РЕСПУБЛИКА" id="498">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100035" name="НИДЕРЛАНДЫ" id="528">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100036" name="НОРВЕГИЯ" id="578">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100037" name="ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ" id="784">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100038" name="ПЕРУ" id="604">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100039" name="ПОЛЬША" id="616">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100040" name="КОРЕЯ, РЕСПУБЛИКА" id="410">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100041" name="РУМЫНИЯ" id="642">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100042" name="СЕРБИЯ" id="688">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100043" name="СЛОВАКИЯ" id="703">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100044" name="СЛОВЕНИЯ" id="705">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100045" name="СОЕДИНЕННЫЕ ШТАТЫ" id="840">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100046" name="ТАДЖИКИСТАН" id="762">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100047" name="ТАЙВАНЬ [КИТАЙ]" id="158">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100048" name="ТУРКМЕНИСТАН" id="795">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100049" name="ТУРЦИЯ" id="792">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100050" name="УЗБЕКИСТАН" id="860">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100051" name="УКРАИНА" id="804">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100052" name="ФИЛИППИНЫ" id="608">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100053" name="ФИНЛЯНДИЯ" id="246">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100054" name="ФРАНЦИЯ" id="250">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100055" name="ХОРВАТИЯ" id="191">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100056" name="ЧЕШСКАЯ РЕСПУБЛИКА" id="203">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100057" name="ШВЕЦИЯ" id="752">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100058" name="ШРИ-ЛАНКА" id="144">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100059" name="ЭСТОНИЯ" id="233">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+ <strclass code="100060" name="ЯПОНИЯ" id="392">
+  <column name="Объем поставок угольной продукции за месяц, тыс. тонн" order="1" id="6" datatype="number" format="30.1"></column>
+  <column name="Средневзвешенная контрактная цена на угольную продукцию за месяц $/тонн" order="2" id="7" datatype="number" format="30.1"></column>
+  <column name="Стоимость поставок, тыс.$" order="3" id="8" datatype="number" format="30.1"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="11" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="11" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="500"></column>
+</strdata>
+</document>

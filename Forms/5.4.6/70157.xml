@@ -1,0 +1,36 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <common name="Организация 01" code="1" inn="111111111111" address="АДРЕС01" phone="1111111111" email="myorg01@mail.com" plan="" date_beg="01.01.2014" doc_info="AAA-01-02-03" date_end="01.01.2015" sert="ДА" sert_org="Большой орган 01" sys_info="Есть такие"/>
+    <common name="Организация 02" code="2" inn="222222222222" address="АДРЕС02" phone="2222222222" email="myorg02@mail.com" plan="" date_beg="01.02.2014" doc_info="BBB-02-03-04" date_end="02.02.2015" sert="НЕТ" sert_org="Маленький орган 02" sys_info="Нет таких"/>
+    <dzo name="Филиал 01" code="1" inn="333333333333" doc_name="Паспорт" doc_date="01.01.2014"/>
+    <dzo name="Филиал 02" code="2" inn="444444444444" doc_name="Свидетельство о рождении" doc_date="02.02.2014"/>
+    <dynamic name="ДЗО 01" code="1" inn="555555555555" pokaz_name="показатель 01" measure="млн. куб. м" val_year_downto_3="103.00" val_year_downto_2="102.00" val_year_downto_1="101.00" val_year="100.00"/>
+    <dynamic name="ДЗО 02" code="2" inn="666666666666" pokaz_name="Показатель 02" measure="кг" val_year_downto_3="203.00" val_year_downto_2="202.00" val_year_downto_1="201.00" val_year="200.00"/>
+    <dynamic name="ДЗО 03" code="3" inn="777777777777" pokaz_name="Показатель 03" measure="%" val_year_downto_3="303.00" val_year_downto_2="302.00" val_year_downto_1="301.00" val_year="300.00"/>
+    <managers name="Организация 01" inn="1234567890" code="1">
+      <mngr_energo fio="Иванов" post="Энергетический менеджер" phone="800123456" email="email@mail.com"/>
+      <mngr_quality fio="Гроссман" post="качественный менеджер" phone="5555555555" email="addr@mail.com"/>
+      <mngr_ecology fio="Флейшман-Садовский" post="экологический менеджер" phone="666666666666" email="yy@mail.com"/>
+    </managers>
+    <managers name="Организация 02" inn="99887766554" code="2">
+      <mngr_energo fio="Петров" post="Энергоменеджер" phone="900123456" email="liame@mail.com"/>
+      <mngr_quality fio="Грицко" post="Качествоменеджер" phone="2222222222" email="cach@mail.com"/>
+      <mngr_ecology fio="Требко" post="Эколоменеджер" phone="288888888888" email="eco@mail.com"/>
+    </managers>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <param name="params" version="1.0" year="2014" month="12" day=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

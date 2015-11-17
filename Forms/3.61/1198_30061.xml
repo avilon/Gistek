@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="1" name="Угольная продукция - Всего">
+ <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+ <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+ <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ <strclass code="100001" name="Марка Б" id="690">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100002" name="Б рядовой [0-300]" id="10">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100003" name="БПК [50-200 [300]]" id="20">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100004" name="Марка Д" id="700">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100005" name="ДРОК1 [0-300]" id="40">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100006" name="Д рядовой [0-300]" id="30">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100007" name="ДПК 50-200 [300]" id="50">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100008" name="ДПКО [25-300]" id="60">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100009" name="ДКО [25-100]" id="70">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100010" name="ДКОМ [13-100]" id="80">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100011" name="ДО [25-50]" id="90">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100012" name="ДОМ [13-50]" id="100">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100013" name="ДОМСШ [0-50]" id="110">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100014" name="ДМСШ [0-25]" id="120">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100015" name="ДСШ [0-13]" id="130">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100016" name="Д смесь[рядовой&amp;Г шлам]" id="140">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100017" name="Марка ДГ" id="710">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100018" name="ДГ рядовой [0-300]" id="150">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100019" name="ДГ концентрат" id="160">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100020" name="ДГРОК1 [0-300]" id="170">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100021" name="ДГПКОМ [13-200]" id="180">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100022" name="ДГОМСШ [0-50]" id="190">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100023" name="Марка Г" id="720">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100024" name="Г рядовой [0-300]" id="200">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100025" name="Г концентрат кокс" id="210">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100026" name="ГПК [50-200]" id="220">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100027" name="ГОМСШ [0-50]" id="230">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100028" name="ГМСШ [0-25]" id="240">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100029" name="Гсмесь [отсев и шлам]" id="250">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100030" name="Гсмесь [рядовой и шлам]" id="260">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100031" name="Гшлам" id="270">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100032" name="Марка ГЖО" id="730">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100033" name="ГЖО рядовой [0-300]" id="280">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100034" name="ГЖОСШ" id="290">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100035" name="ГЖО концентрат" id="300">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100036" name="Марка Ж" id="740">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100037" name="Ж рядовой кокс [0-300]" id="310">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100038" name="Ж рядовой энерг [0-300]" id="320">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100039" name="Ж концентрат кокс" id="330">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100040" name="Марка К" id="750">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100041" name="К рядовой [0-300]" id="340">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100042" name="К концентрат" id="350">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100043" name="Марка КО" id="760">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100044" name="КО рядовой [0-300]" id="360">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100045" name="КО концентрат" id="370">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100046" name="Марка КС" id="770">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100047" name="КС рядовой [0-300]" id="380">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100048" name="КС концентрат" id="390">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100049" name="Марка ОС" id="780">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100050" name="ОС рядовой [0-300]" id="400">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100051" name="Марка ТС" id="790">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100052" name="ТС рядовой [0-300]" id="410">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100053" name="Марка CС" id="800">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100054" name="CС рядовой [0-300]" id="420">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100055" name="CСПК [50-200]" id="430">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100056" name="CСОМ [13-50]" id="440">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100057" name="CСОМСШ [0-70]" id="450">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100058" name="CСОМСШ [0-50]" id="460">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100059" name="ССМСШ [0-25]" id="470">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100060" name="CССШ [0-13]" id="480">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100061" name="Марка Т" id="810">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100062" name="Т рядовой [0-300]" id="490">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100063" name="ТРОК1 [0-300]" id="500">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100064" name="Т концентрат [ &gt; 13]" id="510">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100065" name="ТПК [50-200]" id="520">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100066" name="ТПКО [25-200]" id="530">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100067" name="ТКОМ" id="540">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100068" name="ТО [25-50]" id="550">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100069" name="ТОМ [13-50]" id="560">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100070" name="ТОМСШ [0-50]" id="570">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100071" name="ТМСШ [0-25]" id="580">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100072" name="Марка А" id="820">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100073" name="А рядовой [0-300]" id="590">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100074" name="АК концентрат [50-100]" id="600">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100075" name="АКО концентрат" id="610">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100076" name="АО концентрат [25-50]" id="620">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100077" name="АМ концентрат [13-25]" id="630">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100078" name="АС концентрат [6-13]" id="640">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100079" name="АСШ [0-13]" id="650">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100080" name="АШ [0-6]" id="660">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100081" name="АШ концентрат [0-6]" id="670">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+ <strclass code="100082" name="А шлам" id="680">
+  <column name="Средняя фактическая цена на угольную продукцию за отчетный месяц, руб/тонну" order="1" id="6" datatype="number" format="30.2"></column>
+  <column name="Средняя фактическая цена на угольную продукцию, поставленную энергокомпаниям за отчетный месяц, руб/тонну" order="2" id="7" datatype="number" format="30.2"></column>
+  <column name="Прейскурант на угольную продукцию на предстоящий месяц, руб/тонну" order="3" id="8" datatype="number" format="30.2"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="11" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="11" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="12" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="13" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="14" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="27" datatype="text" format="300"></column>
+</strdata>
+</document>

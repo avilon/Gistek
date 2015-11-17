@@ -4,7 +4,7 @@
 	<schemasources>
 		<namespaces/>
 		<schemasources>
-			<xsdschemasource name="XML" main="1" schemafile="20037_rpt.xsd" workingxmlfile="20037_rpt.xml"/>
+			<xsdschemasource name="XML" main="1" schemafile="20037.xsd" workingxmlfile="20037.xml"/>
 		</schemasources>
 	</schemasources>
 	<modules/>
@@ -36,18 +36,242 @@
 							<text transparency="50"/>
 						</watermark>
 					</documentsection>
-					<text fixtext="Сведения о добыче нефти и газового конденсата на месторождениях">
-						<styles font-size="16pt"/>
-					</text>
+					<paragraph paragraphtag="pre">
+						<styles text-align="right"/>
+						<children>
+							<text fixtext="Приложение № 1.16.1">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+							<newline/>
+							<text fixtext="к приказу Минэнерго России">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+							<newline/>
+							<text fixtext="от «__» ______ 2015 г. №___">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+						</children>
+					</paragraph>
 					<newline/>
-					<line/>
-					<text fixtext="Раздел 1 Сведения о добыче нефти и газового конденсата на месторождениях"/>
+					<paragraph paragraphtag="center">
+						<children>
+							<text fixtext="ГОСУДАРСТВЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА ТОПЛИВНО-ЭНЕРГЕТИЧЕСКОГО КОМПЛЕКСА">
+								<styles font-family="Times New Roman" font-size="12pt" font-weight="bold"/>
+							</text>
+						</children>
+					</paragraph>
+					<newline/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="ПРЕДОСТАВЛЯЕТСЯ В ЭЛЕКТРОННОМ ВИДЕ ">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+															<newline/>
+															<text fixtext="В МИНИСТЕРСТВО ЭНЕРГЕТИКИ РОССИЙСКОЙ ФЕДЕРАЦИИ">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Сведения о добыче нефти и газового конденсата на месторождениях">
+																<styles font-weight="bold"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol>
+										<properties width="50%"/>
+									</tgridcol>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Сегмент в области нефтедобывающей промышленности, нефтеперерабатывающей промышленности, нефтехимической промышленности, транспортировки по магистральным трубопроводам нефти и нефтепродуктов"/>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Шифр формы: 1.16.">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol>
+										<properties width="50%"/>
+									</tgridcol>
+									<tgridcol>
+										<properties width="25%"/>
+									</tgridcol>
+									<tgridcol>
+										<properties width="25%"/>
+									</tgridcol>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Представляют:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Сроки представления:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Периодичность предоставления:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<styles height="0.43in"/>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="организации, осуществляющие деятельность по добыче нефти и газового конденсата"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="До 10-го числа месяца, следующего за отчетным"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="ежемесячно"/>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline break="page"/>
+					<paragraph paragraphtag="center">
+						<children>
+							<field>
+								<styles font-family="Times New Roman"/>
+							</field>
+						</children>
+					</paragraph>
+					<newline/>
+					<newline/>
+					<text fixtext="Раздел 1. Сведения о добыче нефти и газового конденсата, облагаемой по полной ставке НДПИ"/>
 					<newline/>
 					<tgrid>
 						<properties border="1"/>
 						<children>
 							<tgridbody-cols>
 								<children>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
@@ -63,12 +287,32 @@
 										<children>
 											<tgridcell>
 												<children>
+													<text fixtext="Субъект РФ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Предприятие"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
 													<text fixtext="Месторождение"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Номер лицензии"/>
+													<text fixtext="Номер лицензмм"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Срок действия лицензии"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Вид углеводородного сырья"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
@@ -78,28 +322,37 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="С начала эксплуатации"/>
+													<text fixtext="Степень выработанности месторождения, %"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="С начала года"/>
+													<text fixtext="Объем добычи за отчетный месяц, т (тыс. куб. м)"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="За отчетный месяц"/>
+													<text fixtext="Объем добычи с начала года, т (тыс. куб. м)"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Примечание"/>
+													<text fixtext="Объем добычи с начала разработ-ки, т (тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="НДПИ, тыс. руб."/>
 												</children>
 											</tgridcell>
 										</children>
 									</tgridrow>
 									<tgridrow>
 										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
 											<tgridcell joinabove="1"/>
 											<tgridcell joinabove="1"/>
 											<tgridcell joinabove="1"/>
@@ -118,7 +371,16 @@
 													<text fixtext="3"/>
 												</children>
 											</tgridcell>
-											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="4"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="5"/>
+												</children>
+											</tgridcell>
 										</children>
 									</tgridrow>
 								</children>
@@ -131,15 +393,59 @@
 												<children>
 													<template subtype="element" match="flat">
 														<children>
-															<template subtype="element" match="strfree">
+															<template subtype="element" match="strdata_01">
 																<children>
 																	<tgridrow>
 																		<children>
+																			<tgridcell/>
+																			<tgridcell/>
 																			<tgridcell>
 																				<children>
 																					<template subtype="attribute" match="column1">
 																						<children>
 																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column2">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="code">
+																						<children>
+																							<content subtype="regular">
+																								<format basic-type="xsd" datatype="byte"/>
+																							</content>
 																						</children>
 																						<variables/>
 																					</template>
@@ -157,11 +463,364 @@
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
+																					<template subtype="attribute" match="column6">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column7">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column8">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column9">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+												<variables/>
+											</template>
+										</children>
+										<variables/>
+									</template>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<text fixtext="Раздел 2. Сведения о добыче нефти и газового конденсата, облагаемой по льготной ставке НДПИ"/>
+					<newline/>
+					<tgrid>
+						<properties border="1"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridheader-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="Субъект РФ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Предприятие"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Место-рождение"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Номер лицензии"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Срок действия лицензии"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Вид углеводородного сырья"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Код строки"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Степень выработанности месторождения, %"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Объем добычи за отчетный месяц, т (тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Объем добычи с начала года, т (тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Объем добычи с начала разработки, т (тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="При-меняе-мая ставка НДПИ, руб./т (руб./ тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="НДПИ, тыс. руб."/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Кате-гория 1 льготы по ставке НДПИ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Кате-гория 2 льготы по ставке НДПИ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Кате-гория 3 льготы по ставке НДПИ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Кате-гория 4 льго-ты по ставке НДПИ"/>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="1"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="2"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="3"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="4"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="5"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="6"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="7"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="8"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="9"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="10"/>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridheader-rows>
+							<tgridbody-rows>
+								<children>
+									<template subtype="source" match="XML">
+										<children>
+											<template subtype="element" match="document">
+												<children>
+													<template subtype="element" match="flat">
+														<children>
+															<template subtype="element" match="strdata_02">
+																<children>
+																	<tgridrow>
+																		<children>
+																			<tgridcell/>
+																			<tgridcell/>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column1">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column2">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
 																					<template subtype="attribute" match="code">
 																						<children>
 																							<content subtype="regular">
 																								<format basic-type="xsd" datatype="byte"/>
 																							</content>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column5">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column6">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column7">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column8">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column9">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column10">
+																						<children>
+																							<content subtype="regular"/>
 																						</children>
 																						<variables/>
 																					</template>
@@ -226,18 +885,416 @@
 						</children>
 					</tgrid>
 					<newline/>
-					<text fixtext="С"/>
-					<text fixtext="лужебный раздел">
-						<styles font-size="larger"/>
+					<text fixtext="Раздел 3. Сведения о реализации нефти и газового конденсата на экспорт, облагаемой по льготной экспортной пошлине"/>
+					<newline/>
+					<tgrid>
+						<properties border="1"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridheader-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="Субъект РФ"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Предприятие"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Код строки"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Месторождение"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Номер лицензии"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Срок действия лицензии"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Вид углеводородного сырья"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Код по ТН ВЭД ТС"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Объем реализации на экспорт, т "/>
+													<newline/>
+													<text fixtext="(тыс. куб. м)"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="Применяемая ставка вывозной таможенной пошлины"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="Вывозная таможенная пошлина, тыс. руб."/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Категория льготы по экспортной пошлине"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Категория льготы по экспортной пошлине"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Категория льготы по экспортной пошлине"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Кате-гория льготы по экспортной пошлине"/>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="Всего"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Страна-импортер"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="руб./т (руб./тыс. куб. м)"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="%"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="1"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="2"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="3"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="4"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="5"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="6"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="7"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="8"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="9"/>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridheader-rows>
+							<tgridbody-rows>
+								<children>
+									<template subtype="source" match="XML">
+										<children>
+											<template subtype="element" match="document">
+												<children>
+													<template subtype="element" match="flat">
+														<children>
+															<template subtype="element" match="strdata_03">
+																<children>
+																	<tgridrow>
+																		<children>
+																			<tgridcell/>
+																			<tgridcell/>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="code">
+																						<children>
+																							<content subtype="regular">
+																								<format basic-type="xsd" datatype="byte"/>
+																							</content>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column1">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column2">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column5">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column6">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column7">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column8">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column9">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column10">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column11">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column12">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column13">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column14">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+												<variables/>
+											</template>
+										</children>
+										<variables/>
+									</template>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<newline/>
+					<text fixtext="Служебный раздел">
+						<styles font-size="16pt"/>
 					</text>
 					<newline/>
 					<line/>
+					<newline/>
+					<text fixtext="Сведения о Субъекте ТЭК, предоставившем информацию"/>
+					<newline/>
 					<tgrid>
 						<properties border="1" width="100%"/>
 						<children>
 							<tgridbody-cols>
 								<children>
-									<tgridcol/>
+									<tgridcol>
+										<styles width="4.16in"/>
+									</tgridcol>
 									<tgridcol/>
 								</children>
 							</tgridbody-cols>
@@ -247,416 +1304,9 @@
 										<children>
 											<tgridcell>
 												<children>
-													<text fixtext="Служебная информация">
+													<text fixtext="Наименование отчитывающейся организации">
 														<styles font-weight="bold"/>
 													</text>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Значение 1">
-														<styles font-weight="bold"/>
-													</text>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="Наименование отчитывающейся организации"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col1">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="Почтовый адрес"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col2">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="Фактический адрес"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col3">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОГРН (Основной государственный регистрационный номер)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col4">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ИНН (Идентификационный номер налогоплательщика)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col5">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="КПП (Код причины постановки на учет)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col6">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<styles height="0.24in"/>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОКПО (Общероссийский классификатор предприятий и организаций)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col7">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОКВЭД (Код вида деятельности)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col8">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОКАТО (Код территории)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col9">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОКОГУ (Код министерства (ведомства), органа управления)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<template subtype="source" match="XML">
-														<children>
-															<template subtype="element" match="document">
-																<children>
-																	<template subtype="element" match="flat">
-																		<children>
-																			<template subtype="element" match="strServiceInf">
-																				<children>
-																					<template subtype="attribute" match="col10">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																				<variables/>
-																			</template>
-																		</children>
-																		<variables/>
-																	</template>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="ОКОПФ (Код организационно-правовой формы)"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
@@ -695,7 +1345,419 @@
 										<children>
 											<tgridcell>
 												<children>
-													<text fixtext="ОКФС (Код формы собственности)"/>
+													<text fixtext="Почтовый адрес">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col12">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="Фактический адрес">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОГРН (Основной государственный регистрационный номер)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ИНН (Идентификационный номер налогоплательщика)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col5">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="КПП (Код причины постановки на учет)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col6">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКПО (Общероссийский классификатор предприятий и организаций)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col7">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКВЭД (Код вида деятельности)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col8">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКТМО (Код территории)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col9">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКОГУ (Код министерства (ведомства), органа управления)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col10">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКОПФ (Код организационно-правовой формы)">
+														<styles font-weight="bold"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<template subtype="source" match="XML">
+														<children>
+															<template subtype="element" match="document">
+																<children>
+																	<template subtype="element" match="flat">
+																		<children>
+																			<template subtype="element" match="strServiceInf">
+																				<children>
+																					<template subtype="attribute" match="col11">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																				<variables/>
+																			</template>
+																		</children>
+																		<variables/>
+																	</template>
+																</children>
+																<variables/>
+															</template>
+														</children>
+														<variables/>
+													</template>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="ОКФС (Код формы собственности)">
+														<styles font-weight="bold"/>
+													</text>
 												</children>
 											</tgridcell>
 											<tgridcell>
@@ -735,141 +1797,49 @@
 						</children>
 					</tgrid>
 					<newline/>
-					<newline/>
-					<text fixtext="Контактная информация">
-						<styles font-size="larger"/>
-					</text>
-					<newline/>
+					<text fixtext="Сведения о времени поступления информации"/>
 					<newline/>
 					<tgrid>
-						<properties border="1"/>
+						<properties border="1" width="100%"/>
 						<children>
 							<tgridbody-cols>
 								<children>
-									<tgridcol/>
 									<tgridcol>
-										<styles width="4in"/>
+										<styles width="4.13in"/>
 									</tgridcol>
-									<tgridcol/>
-									<tgridcol/>
 									<tgridcol/>
 								</children>
 							</tgridbody-cols>
-							<tgridheader-rows>
+							<tgridbody-rows>
 								<children>
 									<tgridrow>
 										<children>
 											<tgridcell>
 												<children>
-													<text fixtext="Контактная информация"/>
+													<text fixtext="Дата формирования отчета техническими средствами ГИС ТЭК">
+														<styles font-weight="bold"/>
+													</text>
 												</children>
 											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Ф.И.О"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Должность"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Контактный телефон (с кодом города)"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Электронный адрес"/>
-												</children>
-											</tgridcell>
+											<tgridcell/>
 										</children>
 									</tgridrow>
-								</children>
-							</tgridheader-rows>
-							<tgridbody-rows>
-								<children>
-									<template subtype="source" match="XML">
+									<tgridrow>
 										<children>
-											<template subtype="element" match="document">
+											<tgridcell>
 												<children>
-													<template subtype="element" match="flat">
-														<children>
-															<template subtype="element" match="strContactInf">
-																<children>
-																	<tgridrow>
-																		<children>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="name">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="col1">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="col2">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="col3">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="col4">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																		</children>
-																	</tgridrow>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
+													<text fixtext="Дата получения последнего электронного документа, необходимого для формирования отчета">
+														<styles font-weight="bold"/>
+													</text>
 												</children>
-												<variables/>
-											</template>
+											</tgridcell>
+											<tgridcell/>
 										</children>
-										<variables/>
-									</template>
+									</tgridrow>
 								</children>
 							</tgridbody-rows>
 						</children>
 					</tgrid>
-					<newline/>
-					<newline/>
 					<newline/>
 				</children>
 			</globaltemplate>

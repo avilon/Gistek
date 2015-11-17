@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strdata code="1" name="Организационно-правовая форма">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="2" name="Полное наименование">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="3" name="Краткое наименование">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="7" name="Свидетельство о внесении в Единый государственный реестр юридических лиц (дата, номер, кем выдано)">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="8" name="Наименование органа государственной регистрации">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="12" name="ИНН / КПП">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="13" name="ОКПО">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="14" name="ОКВЭД">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="15" name="ОГРН">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="16" name="Юридический адрес">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="17" name="Фактический адрес">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="18" name="Почтовый адрес">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="19" name="Банковские реквизиты (наименование и адрес банка, номер расчетного счета предприятия в банке, телефоны банка, прочие банковские реквизиты)">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="20" name="Контактные телефоны - Канцелярия">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="21" name="Контактные телефоны - Отдел документооборота">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="22" name="Контактные телефоны - Отдел по работе с государственными органами">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="23" name="Контактные телефоны - Приемная директора">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="24" name="Контактные телефоны - Директор">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="25" name="Контактные телефоны - Прочие контактные телефоны предприятия">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="26" name="Факс">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="27" name="Основные виды деятельности">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="28" name="Присутствие в списках компаний">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="29" name="Адрес электронной почты">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="30" name="Сайт в сети Интернет">
+ <column name="Сведения о предприятии" order="1" id="31" datatype="text" format="2000"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="32" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="33" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="6" name="Способ образования">
+ <column name="Сведения о предприятии" order="1" id="35" datatype="classifier" format="2048"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="36" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="37" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="9" name="Дата регистрации (последней перерегистрации)">
+ <column name="Сведения о предприятии" order="1" id="40" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="42" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="10" name="Дата начала хозяйственной деятельности">
+ <column name="Сведения о предприятии" order="1" id="40" datatype="date" format="dd.mm.yyyy"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="41" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="42" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="11" name="Сведения о реорганизации">
+ <column name="Сведения о предприятии" order="1" id="44" datatype="classifier" format="2048"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="45" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="46" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="4" name="Уставный капитал - Объявленный уставный капитал, тыс. руб.">
+ <column name="Сведения о предприятии" order="1" id="49" datatype="number" format="30.3"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="50" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="51" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="5" name="Уставный капитал - Оплаченный уставный капитал, тыс. руб.">
+ <column name="Сведения о предприятии" order="1" id="49" datatype="number" format="30.3"></column>
+ <column name="Изменение относительно предыдущего отчета (Да/Нет)" order="2" id="50" datatype="classifier" format="2048"></column>
+ <column name="Описание изменения относительно предыдущего отчета" order="3" id="51" datatype="text" format="2000"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="66" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="67" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="68" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="69" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="66" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="67" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="68" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="69" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКТМО (Код территории)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="82" datatype="text" format="300"></column>
+</strdata>
+</document>

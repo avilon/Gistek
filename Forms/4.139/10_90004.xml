@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_variant="">
+<strdata code="1" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="2" name="Дорожно-транспортное происшествие">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="3" name="Падение пострадавшего с высоты, на поверхности">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="4" name="Падения, обрушения, обвалы предметов, материалов, земли и т.д.">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="5" name="Воздействие движущихся, разлетающихся, вращающихся предметов и деталей">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="6" name="Поражение электрическим током">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="7" name="Воздействие среды с высокой  температурой">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="701" name="в том числе от воздействия электродуги">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="8" name="Воздействие среды с низкой  температурой">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="9" name="Воздействие вредных веществ">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="10" name="Воздействие ионизирующих излучений">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="11" name="Физические перегрузки">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="12" name="Повреждения в результате контакта с животными, насекомыми и пресмыкающимися">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="13" name="Воздействие биологического фактора">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="14" name="Утопление">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="15" name="Убийство (уголовное преступление, военные действия и т.п.)">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="16" name="Повреждения при стихийных бедствиях">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="17" name="Прочие происшествия, опасные факторы">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="174" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="175" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="176" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="177" datatype="number" format="30"></column>
+</strdata>
+<strdata code="20" name="Всего нарушений ОТ">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="21" name="Конструктивные недостатки, несовершенство,  недостаточная надежность машин,  механизмов,  оборудования">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="22" name="Эксплуатация неисправных машин, механизмов, оборудования">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="23" name="Несовершенство технологического процесса">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="24" name="Нарушения технологического процесса">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="25" name="Нарушения требований безопасности при эксплуатации транспортных средств">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="26" name="Нарушение правил дорожного движения">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="27" name="Неудовлетворительная организация работ">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="28" name="Неудовлетворительное содержание и недостатки в организации рабочих мест">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="29" name="Неудовлетворительное техническое состояние зданий, сооружений, территорий">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="30" name="Недостатки в обучении безопасным  приемам   труда">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="31" name="Неприменение средств индивидуальной защиты">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="32" name="Неприменение средств коллективной защиты">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="33" name="Нарушение трудовой и производственной дисциплины, всего">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="34" name="в том числе нахождение пострадавшего в состоянии алкогольного или наркотического опьянения">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="35" name="Использование работающего не по специальности, расширение задания, зоны работы">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="36" name="Работа без разрешения диспетчера">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="37" name="Работа без установки защитного заземления">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="38" name="Поражение эл.током от наведенного напряжения">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="39" name="Ошибочное попадание на работающее оборудование">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="40" name="Прочие причины возникновения несчастных случаев">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="178" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="179" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="180" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="181" datatype="number" format="30"></column>
+</strdata>
+<strdata code="50" name="Число пострадавших в ДТП, всего">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="51" name="По вине водителей энергетической организации">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="52" name="_Нахождение водителей в состоянии алкогольного опьянения">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="53" name="_Нарушение правил обгона">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="54" name="_Несоблюдение дорожных знаков">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="55" name="_Нарушение скоростного режима">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="56" name="_Неудовлетворительное техническое состояние">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="57" name="_Нарушение ПОТ при техническом обслуживании автотранспорта">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="58" name="_По вине дорожных служб">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="59" name="_По вине водителей сторонней организации">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="182" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="183" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="184" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="185" datatype="number" format="30"></column>
+</strdata>
+<strdata code="60" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="61" name="Возраст от 18 лет до 24 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="62" name="Возраст от 25 лет до 39 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="63" name="Возраст от 40 лет до 49 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="64" name="Возраст от 50 лет до 59 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="65" name="Возраст от 60 лет и старше">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="186" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="187" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="188" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="189" datatype="number" format="30"></column>
+</strdata>
+<strdata code="70" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="71" name="Стаж до 1 года">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="72" name="Стаж от 1 года до 3 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="73" name="Стаж от 3 лет до 5 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="74" name="Стаж от 5 лет до 10 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="75" name="Стаж более 10 лет">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="190" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="191" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="192" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="193" datatype="number" format="30"></column>
+</strdata>
+<strdata code="80" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="81" name="Пострадавшие в понедельник">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="82" name="Пострадавшие во вторник">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="83" name="Пострадавшие в среду">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="84" name="Пострадавшие в четверг">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="85" name="Пострадавшие в пятницу">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="86" name="Пострадавшие в субботу">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="87" name="Пострадавшие в  воскресенье">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="194" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="195" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="196" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="197" datatype="number" format="30"></column>
+</strdata>
+<strdata code="90" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="198" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="199" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="200" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="201" datatype="number" format="30"></column>
+</strdata>
+<strdata code="91" name="Пострадавшие мужчины">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="198" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="199" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="200" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="201" datatype="number" format="30"></column>
+</strdata>
+<strdata code="92" name="Пострадавшие женщины">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="198" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="199" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="200" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="201" datatype="number" format="30"></column>
+</strdata>
+<strdata code="100" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="101" name="Пострадавшие на электростанциях">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="102" name="Пострадавшие на предприятиях электрических сетей">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="103" name="Пострадавшие на предприятиях тепловых сетей">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="104" name="Пострадавшие на ремонтных и наладочных предприятиях">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="105" name="Пострадавшие в прочих организациях">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="202" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="203" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="204" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="205" datatype="number" format="30"></column>
+</strdata>
+<strdata code="110" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="206" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="207" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="208" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="209" datatype="number" format="30"></column>
+</strdata>
+<strdata code="111" name="Оперативное обслуживание">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="206" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="207" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="208" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="209" datatype="number" format="30"></column>
+</strdata>
+<strdata code="112" name="Ремонт">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="206" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="207" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="208" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="209" datatype="number" format="30"></column>
+</strdata>
+<strdata code="113" name="Вспомогательные работы">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="206" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="207" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="208" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="209" datatype="number" format="30"></column>
+</strdata>
+<strdata code="114" name="Прочие виды работ">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="206" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="207" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="208" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="209" datatype="number" format="30"></column>
+</strdata>
+<strdata code="120" name="Всего пострадавших">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="210" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="211" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="212" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="213" datatype="number" format="30"></column>
+</strdata>
+<strdata code="121" name="Руководители">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="210" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="211" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="212" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="213" datatype="number" format="30"></column>
+</strdata>
+<strdata code="122" name="Специалисты">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="210" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="211" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="212" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="213" datatype="number" format="30"></column>
+</strdata>
+<strdata code="123" name="Рабочие основных профессий">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="210" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="211" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="212" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="213" datatype="number" format="30"></column>
+</strdata>
+<strdata code="124" name="Рабочие вспомогательных профессий">
+ <column name="число пострадавших за аналогичный период предыдущего года" order="1" id="210" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом за аналогичный период предыдущего года" order="2" id="211" datatype="number" format="30"></column>
+ <column name="число пострадавших с начала текущего года" order="3" id="212" datatype="number" format="30"></column>
+ <column name="число пострадавших со смертельным исходом с начала текущего года" order="4" id="213" datatype="number" format="30"></column>
+</strdata>
+<strdata code="211" name="Руководитель организации">
+ <column name="ФИО" order="1" id="236" datatype="text" format="50"></column>
+ <column name="Должность" order="2" id="237" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="238" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="239" datatype="text" format="50"></column>
+</strdata>
+<strdata code="212" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="236" datatype="text" format="50"></column>
+ <column name="Должность" order="2" id="237" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="238" datatype="text" format="50"></column>
+ <column name="Электронный адрес" order="4" id="239" datatype="text" format="50"></column>
+</strdata>
+<strdata code="221" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="222" name="Почтовый адрес">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="223" name="Фактический адрес">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="224" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="225" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="226" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="227" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="228" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="229" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="230" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="231" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="232" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+<strdata code="233" name="ОКТМО">
+ <column name="Значение" order="1" id="309" datatype="text" format="300"></column>
+</strdata>
+</document>

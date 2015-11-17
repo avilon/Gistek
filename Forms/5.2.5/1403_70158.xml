@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="1" subject_variant="">
+<strdata code="1" name="Валовой региональный продукт (ВРП)">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п1</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">млрд. руб.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2" name="Конечное потребление топливно-энергетических ресурсов (далее ТЭР) в субъекте Российской Федерации">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п2</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3" name="Объем отпуска тепловой энергии (далее ТЭ) котельными">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п3</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4" name="Объем ТЭР, потребляемых на выработку ТЭР в котельных">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п4</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="5" name="Объем потерь ТЭ в теплосетях">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п5</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="6" name="Объем потерь электрической энергии (далее ЭЭ) при передаче в сетях электроснабжения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п6</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="7" name="Объем ЭЭ, отпущенной в сеть">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п7</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="8" name="Объем отпущенной ЭЭ на общедомовые нужды многоквартирных домов (далее МКД)">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п8</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="9" name="Объем отпущенной ТЭ МКД">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п9</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="10" name="Отпущено воды населению (горячее и холодное водоснабжение суммарно)">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п10</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. куб. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="11" name="Объем ЭЭ, используемой для передачи (транспортировки) воды в системах водоснабжения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п11</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="12" name="Подано воды в сеть">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п12</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. куб. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="13" name="Общая площадь помещений общего пользования в МКД">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п13</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">кв. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="14" name="Общая площадь МКД">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п14</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">кв. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="15" name="Оценка численности постоянного населения в среднем за год">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п15</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">чел.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="16" name="Объем ТЭ, отпущенной на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п16</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="17" name="Объем ЭЭ, отпущенной на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п17</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="18" name="Объем ТЭР (за исключением электрической и тепловой энергии), потребляемых государственными и муниципальными учреждениями здравоохранения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п18</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="19" name="Объем воды, отпущенной на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п19</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. куб. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="20" name="Общая площадь зданий государственных и муниципальных учреждений здравоохранения">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п20</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кв. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="21" name="Объем ТЭ, отпущенной на снабжение государственных и муниципальных учреждений образования">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п21</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="22" name="Объем ЭЭ, отпущенной на снабжение государственных и муниципальных учреждений образования">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п22</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="23" name="Объем ТЭР (за исключением электрической и тепловой энергии), потребляемых государственными и муниципальными учреждениями образования">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п23</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="24" name="Объем воды, отпущенной на снабжение государственных и муниципальных учреждений образования">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п24</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. куб. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="25" name="Общая площадь зданий государственных и муниципальных учреждений образования">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п25</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">тыс. кв. м.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="26" name="Расход ТЭР на производство j-ого вида продукции / работы (по видам):">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п26j</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048"></column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strfree code="27">
+ <entity>Индикатор 27</entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п261</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2">271.00</column>
+</strfree>
+<strfree code="28">
+ <entity>Индикатор 28</entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п262</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2">281.00</column>
+</strfree>
+<strfree code="29">
+ <entity>Индикатор 29</entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п263</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2">291.00</column>
+</strfree>
+<strfree code="30">
+ <entity>Индикатор 30</entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п264</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2">301.00</column>
+</strfree>
+<strfree code="31">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п265</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="32">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п266</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="33">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п267</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="34">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п268</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="35">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п269</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="36">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п2610</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strfree>
+<strdata code="37" name="Объем производства указанного j-ого вида продукции / работ (по видам):">
+ <column name="Условное обозначение" order="1" id="40" datatype="constant" format="2048">п27j</column>
+ <column name="Ед. изм." order="2" id="41" datatype="constant" format="2048"></column>
+ <column name="Значение, факт" order="3" id="42" datatype="number" format="30.2"></column>
+</strdata>
+<strfree code="38">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п271</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="39">
+ <entity>Индикатор 39</entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п272</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048">кг</column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2">3901.00</column>
+</strfree>
+<strfree code="40">
+ <entity>Индикатор 40</entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п273</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048">млн. кВт. ч</column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2">40.00</column>
+</strfree>
+<strfree code="41">
+ <entity>Индикатор 41</entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п274</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048">%</column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2">401.00</column>
+</strfree>
+<strfree code="42">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п275</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="43">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п276</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="44">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п277</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="45">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п278</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="46">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п279</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="47">
+ <entity></entity>
+ <column name="Условное обозначение" order="1" id="54" datatype="constant" format="2048">п2710</column>
+ <column name="Ед. изм." order="2" id="55" datatype="classifier" format="2048"></column>
+ <column name="Значение, факт" order="3" id="56" datatype="number" format="30.2"></column>
+</strfree>
+<strdata code="48" name="Объем ТЭР, потребляемых на выработку ЭЭ на ТЭЦ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п28</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="49" name="Объем ТЭР, потребляемых на выработку ТЭ на ТЭЦ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п29</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="50" name="Объем отпуска ЭЭ ТЭЦ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п30</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">млн. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="51" name="Объем отпуска ТЭ ТЭЦ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п31</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. Гкал</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="52" name="Объем ТЭ, потребляемой на производство скота и птицы на убой">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п32</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="53" name="Объем ЭЭ, потребляемой на производство скота и птицы на убой">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п33</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="54" name="Объем топлива, потребляемого на обработку посевных площадей сельскохозяйственных культур (без учета тепличного хозяйства)">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п34</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="55" name="Объем ТЭ, потребляемой в тепличном хозяйстве ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п35</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">Гкал</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="56" name="Объем ЭЭ, потребляемой в тепличном хозяйстве ">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п36</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="57" name="Объем производства скота и птицы на убой в живой массе">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п37</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">ц</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="58" name="Посевная площадь сельскохозяйственных культур">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п38</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">га</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="59" name="Используемая площадь теплиц">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п39</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">кв. м</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="60" name="Объем топлива, потребляемого автобусным (автомобильным) пассажирским транспортом, подчиняющимся расписанию">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п40</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">т у. т.</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="61" name="Пассажирооборот автобусного (автомобильного) пассажирского транспорта, подчиняющегося расписанию">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п41</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. пасс*км</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="62" name="Объем ЭЭ, потребляемой городским электротранспортом на пассажирское движение">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п42</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="63" name="Пассажирооборот городского электротранспорта">
+ <column name="Условное обозначение" order="1" id="74" datatype="constant" format="2048">п43</column>
+ <column name="Ед. изм." order="2" id="75" datatype="constant" format="2048">тыс. пасс*км</column>
+ <column name="Значение, факт" order="3" id="76" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="64" name="Энергоемкость ВРП">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кг у. т. / 10 000 руб.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа A. Общие целевые показатели в области энергосбережения и повышения энергетической эффективности</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п2 / п1</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">100.00</column>
+</strdata>
+<strdata code="65" name="Удельный расход топливно-энергетических ресурсов на отпуск тепловой энергии в котельных">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кг у. т. / Гкал</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п4 / п3 </column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">101.00</column>
+</strdata>
+<strdata code="66" name="Доля потерь в тепловых сетях">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">%</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п5 / (п3 + п32)</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">102.00</column>
+</strdata>
+<strdata code="67" name="Доля потерь электрической энергии в сетях электроснабжения (процентов от общего объема отпуска электроэнергии)">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">%</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п6 / п7</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">103.00</column>
+</strdata>
+<strdata code="68" name="Удельный расход электрической энергии на общедомовые нужды в многоквартирных домах">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кВт*ч / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п8 / п13</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">104.00</column>
+</strdata>
+<strdata code="69" name="Удельный расход тепловой энергии в многоквартирных домах">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">Гкал / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п9 / п14</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="70" name="Удельный расход электрической энергии на передачу (транспортировку) воды в системах водоснабжения">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кВт*ч / куб. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п11 / п12</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="71" name="Удельный расход воды населением">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">куб. м. / чел.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа B. Целевые показатели в области энергосбережения и повышения энергетической эффективности в жилищно-коммунальном хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п10 / п15</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">171.00</column>
+</strdata>
+<strdata code="72" name="Удельный расход тепловой энергии на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">Гкал / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа C. Целевые показатели в области энергосбережения и повышения энергетической эффективности в здравоохранении</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п16 / п20</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="73" name="Удельный расход электрической энергии на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кВт*ч / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа C. Целевые показатели в области энергосбережения и повышения энергетической эффективности в здравоохранении</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п17 / п20</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="74" name="Удельный расход иных топливо-энергетических ресурсов (за исключением электрической и тепловой энергии) на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кг у. т. / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа C. Целевые показатели в области энергосбережения и повышения энергетической эффективности в здравоохранении</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п18 / п20</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2">174.00</column>
+</strdata>
+<strdata code="75" name="Удельный расход воды на снабжение государственных и муниципальных учреждений здравоохранения">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">куб. м. / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа C. Целевые показатели в области энергосбережения и повышения энергетической эффективности в здравоохранении</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п19 / п20</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="76" name="Удельный расход тепловой энергии на снабжение государственных и муниципальных учреждений образования">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">Гкал / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа D. Целевые показатели в области энергосбережения и повышения энергетической эффективности в образовании</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п21 / п25</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="77" name="Удельный расход электрической энергии на снабжение государственных и муниципальных учреждений образования">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кВт*ч / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа D. Целевые показатели в области энергосбережения и повышения энергетической эффективности в образовании</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п22 / п25</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="78" name="Удельный расход иных топливо-энергетических ресурсов (за исключением электрической и тепловой энергии) на снабжение государственных и муниципальных учреждений образования">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кг у. т. / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа D. Целевые показатели в области энергосбережения и повышения энергетической эффективности в образовании</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п23 / п25</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="79" name="Удельный расход воды на снабжение государственных и муниципальных учреждений образования">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">куб. м. / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа D. Целевые показатели в области энергосбережения и повышения энергетической эффективности в образовании</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п24 / п25</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="80" name="Удельный расход топливно-энергетических ресурсов на производство j-го вида продукции/работ (по видам)">
+ <column name="Ед. изм." order="1" id="95" datatype="constant" format="2048">кг у. т. / материальный показатель (т, тыс. куб. м., ед. и пр.)</column>
+ <column name="Группа целевых показателей" order="2" id="96" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="97" datatype="constant" format="2048">п26j / п27j</column>
+ <column name="Значение целевого показателя" order="4" id="98" datatype="number" format="30.2"></column>
+</strdata>
+<strfree code="81">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п261 / п271</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="82">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п262 / п272</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="83">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п263 / п273</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="84">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п264 / п274</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="85">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п265 / п275</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="86">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п266 / п276</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="87">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п267 / п277</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="88">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п268 / п278</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="89">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п269 / п279</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strfree code="90">
+ <entity></entity>
+ <column name="Ед. изм." order="1" id="111" datatype="classifier" format="2048"></column>
+ <column name="Группа целевых показателей" order="2" id="112" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="113" datatype="constant" format="2048">п2610 / п2710</column>
+ <column name="Значение целевого показателя" order="4" id="114" datatype="number" format="30.2"></column>
+</strfree>
+<strdata code="91" name="Удельный расход топливно-энергетических ресурсов на выработку электрической энергии ТЭЦ">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / тыс. кВт*ч</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">п28 / п30</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="92" name="Удельный расход топливно-энергетических ресурсов на выработку тепловой энергии ТЭЦ">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / Гкал</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа E. Целевые показатели в области энергосбережения и повышения энергетической эффективности в промышленности</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">п29 / п31 </column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="93" name="Удельный расход тепловой и электрической энергии на производство скота и птицы на убой">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / ц</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа F. Целевые показатели в области энергосбережения и повышения энергетической эффективности в сельском хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">(п32*коэффициент перевода ТЭР + п 33*коэффициент перевода ТЭР) / п37</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="94" name="Удельный расход топлива на обработку посевных площадей сельскохозяйственных культур без учета тепличного хозяйства">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / га</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа F. Целевые показатели в области энергосбережения и повышения энергетической эффективности в сельском хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">п34*коэффициент перевода ТЭР / п38</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="95" name="Удельный расход тепловой и электрической энергии в тепличном хозяйстве">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / кв. м.</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа F. Целевые показатели в области энергосбережения и повышения энергетической эффективности в сельском хозяйстве</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">(п35*коэффициент перевода ТЭР + п36*коэффициент перевода ТЭР) / п39</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="96" name="Удельный расход топливно-энергетических ресурсов на перевозку пассажиров общественным транспортом">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кг у. т. / тыс. пасс*км</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа G. Целевые показатели в области энергосбережения и повышения энергетической эффективности в транспорте</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">п40 / п41</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="97" name="Удельный расход топливно-энергетических ресурсов на перевозку пассажиров общественным электротранспортом">
+ <column name="Ед. изм." order="1" id="123" datatype="constant" format="2048">кВт*ч / тыс. пасс*км</column>
+ <column name="Группа целевых показателей" order="2" id="124" datatype="constant" format="2048">Группа G. Целевые показатели в области энергосбережения и повышения энергетической эффективности в транспорте</column>
+ <column name="Расчетная формула" order="3" id="125" datatype="constant" format="2048">п42 / п43</column>
+ <column name="Значение целевого показателя" order="4" id="126" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="130" datatype="text" format="100">Баранов</column>
+ <column name="Должность" order="2" id="131" datatype="text" format="100">баран</column>
+ <column name="Контактный телефон" order="3" id="132" datatype="text" format="100">1111111111</column>
+ <column name="Электронный адрес" order="4" id="133" datatype="text" format="100">baran@mail.ru</column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="130" datatype="text" format="100">Козлов</column>
+ <column name="Должность" order="2" id="131" datatype="text" format="100">козел</column>
+ <column name="Контактный телефон" order="3" id="132" datatype="text" format="100">+72222222222</column>
+ <column name="Электронный адрес" order="4" id="133" datatype="text" format="100">kozel@mail.ru</column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+<strdata code="133" name="ОКТМО">
+ <column name="Значение" order="1" id="148" datatype="text" format="300"></column>
+</strdata>
+</document>

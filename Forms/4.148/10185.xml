@@ -1,0 +1,68 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata_02 name="ПАССИВ" code="2" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="III. КАПИТАЛ И РЕЗЕРВЫ" code="4000" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="3.1.Уставный капитал" code="4100" column1="1310" column2="" column3="" column4=""/>
+    <strdata_02 name="3.2.Переоценка внеоборотных активов" code="4150" column1="1340" column2="" column3="" column4=""/>
+    <strdata_02 name="3.3.Добавочный капитал (без переоценки)" code="4200" column1="1350" column2="" column3="" column4=""/>
+    <strdata_02 name="3.4.Резервный капитал" code="4300" column1="1360" column2="" column3="" column4=""/>
+    <strdata_02 name="3.5.Нераспределенная прибыль (непокрытый убыток)" code="4350" column1="1370" column2="" column3="" column4=""/>
+    <strdata_02 name="3.5.1.Нераспределенная прибыль(+)/убыток(-) прошлых лет" code="4650" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="3.5.2.Нераспределенная прибыль(+)/убыток(-) отчетного года" code="4700" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="3.6.Прочие капиталы и резервы" code="4800" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="3.7.Итого по разделу III" code="4900" column1="1300" column2="" column3="" column4=""/>
+    <strdata_02 name="IV. ДОЛГОСРОЧНЫЕ ОБЯЗАТЕЛЬСТВА" code="5000" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="4.1.Заемные средства (долгосрочные)" code="5100" column1="1410" column2="" column3="" column4=""/>
+    <strdata_02 name="4.1.1. инвестиционные" code="5101" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="4.2.Отложенные налоговые обязательства" code="5110" column1="1420" column2="" column3="" column4=""/>
+    <strdata_02 name="4.3.Резервы под условные обязательства" code="5120" column1="1430" column2="" column3="" column4=""/>
+    <strdata_02 name="4.4.Прочие обязательства (долгосрочные)" code="5200" column1="1450" column2="" column3="" column4=""/>
+    <strdata_02 name="4.5.Итого по разделу IV" code="5900" column1="1400" column2="" column3="" column4=""/>
+    <strdata_02 name="V.КРАТКОСРОЧНЫЕ ОБЯЗАТЕЛЬСТВА" code="6000" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="5.1.Заемные средства (краткосрочные)" code="6100" column1="1510" column2="" column3="" column4=""/>
+    <strdata_02 name="5.1.1. инвестиционные" code="6101" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="5.1.2.операционные" code="6102" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="5.2.Кредиторская задолженность" code="6200" column1="1520" column2="" column3="" column4=""/>
+    <strdata_02 name="5.3.Доходы будущих периодов" code="6210" column1="1530" column2="" column3="" column4=""/>
+    <strdata_02 name="5.4.Резервы предстоящих расходов" code="6220" column1="1540" column2="" column3="" column4=""/>
+    <strdata_02 name="5.5.Прочие обязательства (краткосрочные)" code="6300" column1="1550" column2="" column3="" column4=""/>
+    <strdata_02 name="5.6.Итого по разделу V" code="6900" column1="1500" column2="" column3="" column4=""/>
+    <strdata_02 name="ВСЕГО по ПАССИВУ" code="7000" column1="1700" column2="" column3="" column4=""/>
+    <strdata_02 name="НЕБАЛАНС (+, -)" code="8000" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="1.1.Нематериальные активы" code="1100" column1="1110" column2="" column3="" column4=""/>
+    <strdata_01 name="1.2.Результаты исследований и разработок" code="1150" column1="1120" column2="" column3="" column4=""/>
+    <strdata_01 name="1.3.Основные средства" code="1200" column1="1130" column2="" column3="" column4=""/>
+    <strdata_01 name="1.3.1.Незавершенное строительство" code="1300" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="1.4.Финансовые вложения (долгосрочные)" code="1400" column1="1150" column2="" column3="" column4=""/>
+    <strdata_01 name="1.5.Прочие внеоборотные активы" code="1500" column1="1140, 1160, 1170" column2="" column3="" column4=""/>
+    <strdata_01 name="1.6.Итого по разделу I" code="1900" column1="1100" column2="" column3="" column4=""/>
+    <strdata_01 name="II.ОБОРОТНЫЕ АКТИВЫ" code="2000" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.1.Запасы" code="2100" column1="1210" column2="" column3="" column4=""/>
+    <strdata_01 name="2.2.Налог на добавленную стоимость по приобретенным ценностям" code="2200" column1="1220" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.Дебиторская задолженность, в т.ч." code="2250" column1="1230" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.1.Долгосрочная дебиторская задолженность" code="2300" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.1.1.Авансы выданные инвестиционные" code="2301" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.1.2.Авансы выданные операционные" code="2302" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.3.Задолженность покупателей и заказчиков" code="2303" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.2.Краткосрочная дебиторская задолженность" code="2400" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.2.1.Авансы выданные инвестиционные" code="2401" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.2.2.Авансы выданные операционные" code="2402" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.3.2.3.Задолженность покупателей и заказчиков" code="2403" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="2.4.Финансовые вложения (краткосрочные)" code="2500" column1="1240" column2="" column3="" column4=""/>
+    <strdata_01 name="2.5.Денежные средства" code="2600" column1="1250" column2="" column3="" column4=""/>
+    <strdata_01 name="2.6.Прочие оборотные активы" code="2700" column1="1260" column2="" column3="" column4=""/>
+    <strdata_01 name="2.7.Итого по разделу II" code="2900" column1="1200" column2="" column3="" column4=""/>
+    <strdata_01 name="ВСЕГО по АКТИВУ" code="3000" column1="1600" column2="" column3="" column4=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Код отчитывающейся организации по ОКПО" code="123" col1=""/>
+    <strServiceInf name="Код вида деятельности по ОКВЭД" code="124" col1=""/>
+    <strServiceInf name="Код территории по ОКАТО" code="125" col1=""/>
+    <strServiceInf name="Код министерства (ведомства), органа управления по ОКОГУ" code="126" col1=""/>
+    <strServiceInf name="Код организационно-правовой формы по ОКОПФ" code="127" col1=""/>
+    <strServiceInf name="Код формы собственности по ОКФС" code="128" col1=""/>
+    <strServiceInf name="Код формы по ОКУД" code="129" col1=""/>
+  </flat>
+</document>
