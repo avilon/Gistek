@@ -19362,7 +19362,19 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 
 declare function util:pre70117($doc) {     
 
-let $oldXML:=$doc           
+let $oldXML:=$doc  
+
+let $parm := for $prm in $oldXML
+  return (
+       element { xs:QName("param") } {
+       attribute name {"params"},  
+       attribute version {$prm/@version},
+       attribute year {$prm/@year},
+       attribute month {$prm/@month},
+       attribute day {$prm/@day}       
+     }
+) 
+         
 
 let $fin := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1" and string-length(entity) > 1]
 return 
@@ -19423,7 +19435,26 @@ return
             attribute vol_year_to_1     { $data//column[25]},
             attribute vol_year_to_2     { $data//column[30]},
             attribute vol_year_to_3     { $data//column[35]}
-        }        
+        },
+        for $econ in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and entity = $data//entity]
+          return element{xs:QName("econ")} {
+              attribute name { $econ//column[1]},
+              attribute measure { $econ//column[2]},
+              attribute econ_natur_downto_3 { $econ//column[3]  },
+              attribute econ_cost_downto_3  { $econ//column[4]  },
+              attribute econ_natur_downto_2 { $econ//column[5]  },
+              attribute econ_cost_downto_2  { $econ//column[6]  },
+              attribute econ_natur_downto_1 { $econ//column[7]  },
+              attribute econ_cost_downto_1  { $econ//column[8]  },
+              attribute econ_natur          { $econ//column[9]  },
+              attribute econ_cost           { $econ//column[10] },
+              attribute econ_natur_to_1     { $econ//column[11] },
+              attribute econ_cost_to_1      { $econ//column[12] },
+              attribute econ_natur_to_2     { $econ//column[13] },
+              attribute econ_cost_to_2      { $econ//column[14] },
+              attribute econ_natur_to_3     { $econ//column[15] },
+              attribute econ_cost_to_3      { $econ//column[16] }  
+          }                
     }
 
 let $flattenContactData:=
@@ -19457,10 +19488,9 @@ let $flattenServiceData:=
               }
 
     
-let $flatten := $fin
-let $flatten := insert-before($flatten, 0, $flattenContactData)
-let $flatten := insert-before($flatten, 0, $flattenServiceData)
-
+let $flatten := insert-before($flattenServiceData, 0, $parm) 
+let $flatten := insert-before($flatten, 0, $flattenContactData)         
+let $flatten := insert-before($flatten, 0, $fin)
 
 let $newXML := for $item in $flatten
               return $item 

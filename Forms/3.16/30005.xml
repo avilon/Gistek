@@ -1,0 +1,38 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <list_01 name="Экскаватор-мехлопата до 10 м3" code="1" quart_tot="10" year_tot="40" quart_own="20" year_own="30" quart_imp="101" year_imp="1001"/>
+    <list_01 name="Экскаватор-мехлопата свыше 10 м3" code="2" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Погрузчики" code="3" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Роторный экскаватор" code="4" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Буровой станок" code="5" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Бульдозер тяжелый (мощностью двигателя свыше 220 Квт)" code="6" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Механизированные комплексы,  всего" code="7" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Струговые механизированные комплексы" code="8" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Проходческие комбайны" code="9" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Очистные комбайны" code="10" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Погрузочные машины" code="11" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Дизельные локомотивы шахтные" code="12" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_01 name="Дизельные дороги шахтные" code="13" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_02 name="Автосамосвалы технологические до 40 т" code="14" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_02 name="Автосамосвалы технологические свыше 40 т" code="15" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_03 name="Электровозы, тепловозы" code="16" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_03 name="Думпкары, вагоны" code="17" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_04 name="Экскаваторы-драглайны до 11 м3 включительно" code="18" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <list_04 name="Экскаваторы-драглайны свыше 11 м3" code="19" quart_tot="" year_tot="" quart_own="" year_own="" quart_imp="" year_imp=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <param name="params" version="1.0" year="0" month="0" day=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
+    <strServiceInf name="ОКТМО (Код территории)" code="129" col1=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
+  </flat>
+</document>

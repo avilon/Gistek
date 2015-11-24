@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strdata code="21" name="Экскаватор-мехлопата до 10 м3">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30">10</column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30">40</column>
+ <strclass code="2100001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30">20</column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30">30</column>
+ </strclass>
+ <strclass code="2100002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30">101</column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30">1001</column>
+ </strclass>
+</strdata>
+<strdata code="22" name="Экскаватор-мехлопата свыше 10 м3">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2200001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2200002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="23" name="Погрузчики">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2300001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2300002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="24" name="Роторный экскаватор">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2400001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2400002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="25" name="Буровой станок">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2500001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2500002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="26" name="Бульдозер тяжелый (мощностью двигателя свыше 220 Квт)">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2600001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2600002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="27" name="Механизированные комплексы,  всего">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2700001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2700002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="28" name="Струговые механизированные комплексы">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2800001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2800002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="29" name="Проходческие комбайны">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="2900001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="2900002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="30" name="Очистные комбайны">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3000001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3000002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="31" name="Погрузочные машины">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3100001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3100002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="32" name="Дизельные локомотивы шахтные">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3200001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3200002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="33" name="Дизельные дороги шахтные">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3300001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3300002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="34" name="Автосамосвалы технологические до 40 т">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3400001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3400002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3400003" name="оборудование БелАЗ" id="3">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="35" name="Автосамосвалы технологические свыше 40 т">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3500001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3500002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3500003" name="оборудование БелАЗ" id="3">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="36" name="Электровозы, тепловозы">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3600001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3600002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="37" name="Думпкары, вагоны">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3700001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3700002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="38" name="Экскаваторы-драглайны до 11 м3 включительно">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3800001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3800002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="39" name="Экскаваторы-драглайны свыше 11 м3">
+ <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+ <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ <strclass code="3900001" name="оборудование отечественное" id="1">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+ <strclass code="3900002" name="оборудование импортное" id="2">
+  <column name="ввод за квартал, шт" order="1" id="64" datatype="number" format="30"></column>
+  <column name="ввод с начала года, шт" order="2" id="65" datatype="number" format="30"></column>
+ </strclass>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="70" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="71" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="72" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="73" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="70" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="71" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="72" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="73" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКТМО (Код территории)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="86" datatype="text" format="500"></column>
+</strdata>
+</document>
