@@ -26,6 +26,9 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 				<xsl:comment>[if IE]&gt;&lt;STYLE type=&quot;text/css&quot;&gt;.altova-rotate-left-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)} .altova-rotate-right-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)} &lt;/STYLE&gt;&lt;![endif]</xsl:comment>
 				<xsl:comment>[if !IE]&gt;&lt;!</xsl:comment>
+				<style type="text/css">
+					<xsl:value-of select="document('style.css')" disable-output-escaping="yes" />
+				</style>
 				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
 				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
@@ -66,7 +69,7 @@
 									</span>
 									<br/>
 								</th>
-								<th colspan="7">
+								<th colspan="5">
 									<span>
 										<xsl:text>Значения целевых показателей, план			</xsl:text>
 									</span>
@@ -74,11 +77,6 @@
 								</th>
 							</tr>
 							<tr>
-								<th>
-									<span>
-										<xsl:value-of select="number(document/flat/param/@year) - 3"/>
-									</span>
-								</th>
 								<th>
 									<span>
 										<xsl:value-of select="number(document/flat/param/@year) - 2"/>
@@ -102,11 +100,6 @@
 								<th>
 									<span>
 										<xsl:value-of select="number(document/flat/param/@year) + 2"/>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:value-of select="number(document/flat/param/@year) + 3"/>
 									</span>
 								</th>
 							</tr>
@@ -151,16 +144,6 @@
 										<xsl:text>5</xsl:text>
 									</span>
 								</th>
-								<th>
-									<span>
-										<xsl:text>6</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>7</xsl:text>
-									</span>
-								</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -185,13 +168,6 @@
 												</td>
 												<td>
 													<xsl:for-each select="@code">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@plan_downto_3">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -227,13 +203,6 @@
 												</td>
 												<td>
 													<xsl:for-each select="@plan_to_2">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@plan_to_3">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>

@@ -26,11 +26,11 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 				<xsl:comment>[if IE]&gt;&lt;STYLE type=&quot;text/css&quot;&gt;.altova-rotate-left-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)} .altova-rotate-right-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)} &lt;/STYLE&gt;&lt;![endif]</xsl:comment>
 				<xsl:comment>[if !IE]&gt;&lt;!</xsl:comment>
-				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
-				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">
 					<xsl:value-of select="document('style.css')" disable-output-escaping="yes" />
 				</style>
+				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
+				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
 			</head>
 			<body>
@@ -70,7 +70,7 @@
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр1</xsl:text>
+										<xsl:text>1</xsl:text>
 									</span>
 								</th>
 							</tr>
@@ -126,81 +126,135 @@
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
-								<th>
+								<th rowspan="4">
 									<span>
 										<xsl:text>Год</xsl:text>
 									</span>
 									<br/>
 								</th>
-								<th>
+								<th rowspan="4">
 									<span>
 										<xsl:text>Код строки</xsl:text>
 									</span>
 									<br/>
 								</th>
-								<th>
+								<th colspan="2">
 									<span>
-										<xsl:text>Затраты на реализацию программы - всего, млн. руб. без НДС</xsl:text>
+										<xsl:text>Затраты на реализацию программы, млн. руб. без НДС</xsl:text>
 									</span>
 									<br/>
 								</th>
-								<th>
-									<span>
-										<xsl:text>Капитальные затраты на реализацию программы, млн. руб. без НДС</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
+								<th rowspan="4">
 									<span>
 										<xsl:text>Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности, %</xsl:text>
 									</span>
 									<br/>
 								</th>
+								<th colspan="8">
+									<span>
+										<xsl:text>Топливно-энергетические ресурсы (ТЭР)							</xsl:text>
+									</span>
+									<br/>
+								</th>
+							</tr>
+							<tr>
+								<th rowspan="3">
+									<span>
+										<xsl:text>всего</xsl:text>
+									</span>
+								</th>
+								<th rowspan="3">
+									<span>
+										<xsl:text>в т.ч. капитальные</xsl:text>
+									</span>
+									<br/>
+									<br/>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>при осуществлении регулируемого вида деятельности			</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>при осуществлении прочей деятельности, в т.ч. хозяйственные нужды			</xsl:text>
+									</span>
+									<br/>
+								</th>
+							</tr>
+							<tr>
+								<th colspan="2">
+									<span>
+										<xsl:text>суммарные затраты ТЭР	</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th colspan="2">
+									<span>
+										<xsl:text>экономия ТЭР в результате реализации программы	</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th colspan="2">
+									<span>
+										<xsl:text>суммарные затраты ТЭР	</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th colspan="2">
+									<span>
+										<xsl:text>экономия ТЭР в результате реализации программы	</xsl:text>
+									</span>
+									<br/>
+								</th>
+							</tr>
+							<tr>
 								<th>
 									<span>
-										<xsl:text>Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды</xsl:text>
+										<xsl:text>т у.т. без учета воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды</xsl:text>
+										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды</xsl:text>
+										<xsl:text>т у.т. без учета воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды</xsl:text>
+										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды</xsl:text>
+										<xsl:text>т у.т. без учета воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды</xsl:text>
+										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды</xsl:text>
+										<xsl:text>т у.т. без учета воды</xsl:text>
 									</span>
 									<br/>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды</xsl:text>
+										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
 									</span>
 									<br/>
 								</th>
@@ -218,57 +272,57 @@
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр1</xsl:text>
+										<xsl:text>1</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр2</xsl:text>
+										<xsl:text>2</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр3</xsl:text>
+										<xsl:text>3</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр4</xsl:text>
+										<xsl:text>4</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр5</xsl:text>
+										<xsl:text>5</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр6</xsl:text>
+										<xsl:text>6</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр7</xsl:text>
+										<xsl:text>7</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр8</xsl:text>
+										<xsl:text>8</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр9</xsl:text>
+										<xsl:text>9</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр10</xsl:text>
+										<xsl:text>10</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Гр11</xsl:text>
+										<xsl:text>11</xsl:text>
 									</span>
 								</th>
 							</tr>
@@ -277,21 +331,27 @@
 							<xsl:for-each select="$XML">
 								<xsl:for-each select="document">
 									<xsl:for-each select="flat">
-										<xsl:for-each select="strdata[@code &gt;= 5]">
+										<xsl:for-each select="strdata[(@code &gt;= 5) and 
+(@code != 6) and
+(@code != 7) and
+(@code != 13) and 
+(@code != 14)]">
 											<tr>
 												<td>
-													<xsl:for-each select="@name">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
+													<span>
+														<xsl:value-of select="if (number(@code) &gt; 5 and number(@code) &lt; 15) then  
+  number(  /document/flat/param/@year ) - number(10 - number(@code))
+else @name"/>
+													</span>
 												</td>
 												<td>
-													<xsl:for-each select="@code">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
+													<span>
+														<xsl:value-of select="if (number(@code) = 15) then 11
+else (
+    if (number(@code) = 5) then 5
+   else (number(@code) - 2) 
+)"/>
+													</span>
 												</td>
 												<td>
 													<xsl:for-each select="@column1">

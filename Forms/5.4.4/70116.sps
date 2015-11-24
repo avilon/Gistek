@@ -56,8 +56,6 @@
 									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
 								</children>
 							</tgridbody-cols>
 							<tgridheader-rows>
@@ -94,8 +92,6 @@
 											<tgridcell joinleft="1"/>
 											<tgridcell joinleft="1"/>
 											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
 										</children>
 									</tgridrow>
 									<tgridrow>
@@ -103,11 +99,6 @@
 											<tgridcell joinabove="1"/>
 											<tgridcell joinabove="1"/>
 											<tgridcell joinabove="1"/>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 3"/>
-												</children>
-											</tgridcell>
 											<tgridcell>
 												<children>
 													<autocalc xpath="number(document/flat/param/@year) - 2"/>
@@ -131,11 +122,6 @@
 											<tgridcell>
 												<children>
 													<autocalc xpath="number(document/flat/param/@year) + 2"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) + 3"/>
 												</children>
 											</tgridcell>
 										</children>
@@ -182,16 +168,6 @@
 													<text fixtext="5"/>
 												</children>
 											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="6"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="7"/>
-												</children>
-											</tgridcell>
 										</children>
 									</tgridrow>
 								</children>
@@ -234,18 +210,6 @@
 																						<children>
 																							<content subtype="regular">
 																								<format basic-type="xsd" datatype="byte"/>
-																							</content>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="plan_downto_3">
-																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="decimal"/>
 																							</content>
 																						</children>
 																						<variables/>
@@ -303,18 +267,6 @@
 																			<tgridcell>
 																				<children>
 																					<template subtype="attribute" match="plan_to_2">
-																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="decimal"/>
-																							</content>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="plan_to_3">
 																						<children>
 																							<content subtype="regular">
 																								<format basic-type="xsd" datatype="decimal"/>

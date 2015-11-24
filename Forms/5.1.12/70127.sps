@@ -80,7 +80,7 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр1"/>
+													<text fixtext="1"/>
 												</children>
 											</tgridcell>
 										</children>
@@ -190,16 +190,11 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Затраты на реализацию программы - всего, млн. руб. без НДС"/>
+													<text fixtext="Затраты на реализацию программы, млн. руб. без НДС"/>
 													<newline/>
 												</children>
 											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Капитальные затраты на реализацию программы, млн. руб. без НДС"/>
-													<newline/>
-												</children>
-											</tgridcell>
+											<tgridcell joinleft="1"/>
 											<tgridcell>
 												<children>
 													<text fixtext="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности, %"/>
@@ -208,49 +203,145 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды"/>
+													<text fixtext="Топливно-энергетические ресурсы (ТЭР)							"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="всего"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="в т.ч. капитальные"/>
+													<newline/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="при осуществлении регулируемого вида деятельности			"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="при осуществлении прочей деятельности, в т.ч. хозяйственные нужды			"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="суммарные затраты ТЭР	"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="экономия ТЭР в результате реализации программы	"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="суммарные затраты ТЭР	"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="экономия ТЭР в результате реализации программы	"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="т у.т. без учета воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды"/>
+													<text fixtext="млн. руб. без НДС с учетом воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды"/>
+													<text fixtext="т у.т. без учета воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды"/>
+													<text fixtext="млн. руб. без НДС с учетом воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды"/>
+													<text fixtext="т у.т. без учета воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды"/>
+													<text fixtext="млн. руб. без НДС с учетом воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды"/>
+													<text fixtext="т у.т. без учета воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды"/>
+													<text fixtext="млн. руб. без НДС с учетом воды"/>
 													<newline/>
 												</children>
 											</tgridcell>
@@ -270,57 +361,57 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр1"/>
+													<text fixtext="1"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр2"/>
+													<text fixtext="2"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр3"/>
+													<text fixtext="3"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр4"/>
+													<text fixtext="4"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр5"/>
+													<text fixtext="5"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр6"/>
+													<text fixtext="6"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр7"/>
+													<text fixtext="7"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр8"/>
+													<text fixtext="8"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр9"/>
+													<text fixtext="9"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр10"/>
+													<text fixtext="10"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Гр11"/>
+													<text fixtext="11"/>
 												</children>
 											</tgridcell>
 										</children>
@@ -335,30 +426,28 @@
 												<children>
 													<template subtype="element" match="flat">
 														<children>
-															<template subtype="element" filter="@code &gt;= 5" match="strdata">
+															<template subtype="element" filter="(@code &gt;= 5) and 
+(@code != 6) and
+(@code != 7) and
+(@code != 13) and 
+(@code != 14)" match="strdata">
 																<children>
 																	<tgridrow>
 																		<children>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="name">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
+																					<autocalc xpath="if (number(@code) &gt; 5 and number(@code) &lt; 15) then  
+  number(  /document/flat/param/@year ) - number(10 - number(@code))
+else @name"/>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="code">
-																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="byte"/>
-																							</content>
-																						</children>
-																						<variables/>
-																					</template>
+																					<autocalc xpath="if (number(@code) = 15) then 11
+else (
+    if (number(@code) = 5) then 5
+   else (number(@code) - 2) 
+)"/>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>

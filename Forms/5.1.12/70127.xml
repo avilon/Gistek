@@ -1,5 +1,6 @@
 <document version="1.0" created="create_xml_online">
   <flat>
+    <param version="1.0" year="2014" month="0" day=""/>
     <strdata name="Основание для разработки программы" code="1" column1=""/>
     <strdata name="Почтовый адрес" code="2" column1=""/>
     <strdata name="Ответственный за формирование программы (Ф.И.О., контактный телефон, e-mail)" code="3" column1=""/>

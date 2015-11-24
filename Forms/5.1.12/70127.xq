@@ -1,9 +1,22 @@
 (: ------------------------------------------------------------------------------ :)
-(: --------------------- 5.1.12 maket 1343 - 70127 	 ------------------------ :)
+(: --------------------- 5.1.12 maket 1343 - 70127 ------------------------------ :)
 (: ------------------------------------------------------------------------------ :)
 
 declare function util:pre70127($doc) {
-let $data := for $strCls in $oldXML//strdata[(number(@code) < 111 or number(@code) > 133)]
+ 
+let $oldXML := $doc   
+
+  let $parm := for $prm in $oldXML
+  return (
+       element { xs:QName("param") } {
+       attribute version {$prm/@version},
+       attribute year {$prm/@year},
+       attribute month {$prm/@month},
+       attribute day {$prm/@day}       
+     }
+  )
+
+let $data := for $strCls in $oldXML//strdata[(number(@code) < 111 or number(@code) > 145)]
               let $columns:=$strCls/column             
               return
               element {xs:QName("strdata") }{
@@ -51,6 +64,7 @@ let $columnNames:=distinct-values($oldXML//column/@order)
 
 let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
 let $flatten:= insert-before($flatten, 0, $data)
+let $flatten:= insert-before($flatten, 0, $parm)
 
 let $newXML := for $item in $flatten
               return $item
@@ -58,4 +72,4 @@ let $newXML := for $item in $flatten
           
                
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
-}
+};

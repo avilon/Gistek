@@ -8,7 +8,7 @@ import module namespace file = "http://expath.org/ns/file";
 declare function util:pre10006($doc) { 
 let $oldXML := $doc
 
-(:Раздел 1. Поступление (прием) электрической энергии в электрические сети филиалов организации по управлению единой национальной (общероссийской) электрической сетью:)
+(:Раздел 1. Поступление (прием) электрической энергии eв электрические сети филиалов организации по управлению единой национальной (общероссийской) электрической сетью:)
 let $data_tb1 := for $strData in $oldXML//strdata[number(@code)=100 or number(@code)=101 or number(@code)=1021 or number(@code)=1022 ]
 count $count
   return (
@@ -243,81 +243,6 @@ let $newXML := for $item in $flatten
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>  
 }; 
 
-
-(: ------------------------------------------------------------------------------ :)
-(: --------------------- 4.51 maket 1496 - 10492 	 ------------------------ :)
-(: ------------------------------------------------------------------------------ :)
-
-declare function util:pre10184($doc) { 
-
-  let $oldXML:=$doc
-
-let $data := for $strCls in $oldXML//strdata[(number(@code) < 211 or number(@code) > 200)]
-              let $columns:=$strCls/column             
-              return
-              element {xs:QName("strdata") } {
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                
-                (for $c in $columns
-                 return
-                attribute {xs:QName(concat("column", string($c/@order)))}{
-                  $c/text()
-                })
-              }
-
-let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strContactInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col",string($c/@order)))}{
-                      $c/text()
-                    }
-                )
-              }
-
-let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code) >= 321 and number(@code) <= 329] 
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strServiceInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col", string($c/@order)))}{
-                      $c/text()
-                    }
-                )
-              }
-
-let $columnNames:=distinct-values($oldXML//column/@order)
-
-
-let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
-let $flatten:= insert-before($flatten, 0, $data)
-
-let $newXML := for $item in $flatten
-              return $item
-              
-          
-               
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
-}; 
-
-(: ------------------------------------------------------------------------------ :)
-(: --------------------- 4.139 maket 10 - 90004 	 ------------------------ :)
-(: ------------------------------------------------------------------------------ :)
-
-(: ------------------------------------------------------------------------------ :)
-(: --------------------- 1.148 maket 85 - 10185 	 ------------------------ :)
-(: ------------------------------------------------------------------------------ :)
-
 declare function util:pre10185($doc) {
 let $oldXML := $doc
 let $data_01 := for $strCls in $oldXML//strdata[(number(@code) > 1000)  and (number(@code) < 3001)]
@@ -389,71 +314,7 @@ let $newXML := for $item in $flatten
                
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
 };
-declare function util:pre10188($doc) {
 
-let $oldXML:=$doc 
- 
-
-let $data := for $strCls in $oldXML//strdata[number(@code) >= 1 or number(@code) <= 100]
-              let $columns:=$strCls/column             
-              return
-              element {xs:QName("strdata") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                attribute {xs:QName(concat("column", string($c/@order)))}{
-                  $c/text()
-                })
-              }
-
-let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=310 or number(@code)=320] 
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strContactInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col",string($c/@order)))}{
-                      $c/text()
-                    }
-                )
-              }
-
-let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code) >= 321 and number(@code) <= 329] 
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strServiceInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col", string($c/@order)))}{
-                      $c/text()
-                    }
-                )
-              }
-
-let $columnNames:=distinct-values($oldXML//column/@order)
-
-
-let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
-let $flatten:= insert-before($flatten, 0, $data)
-
-let $newXML := for $item in $flatten
-              return $item
-              
-          
-               
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
-}; 
-
-(: ------------------------------------------------------------------------------ :)
-(: --------------------- 1.35 maket 1142 - 20075 	 ------------------------ :)
-(: ------------------------------------------------------------------------------ :)
 (: ------------------------------------------------------------------------------ :)
 (: --------------------- 4.165 maket 103 - 10216 	 ------------------------ :)
 (: ------------------------------------------------------------------------------ :)
@@ -1127,133 +988,7 @@ let $newXML:= for $item in $flatten return $item
                        
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>             };
 
-declare function util:pre10445($doc) {let $oldXML := $doc
-let $rer:=$oldXML//document
-let $flattenPart0 := element {xs:QName("str")} {attribute year {$rer}}
-             
-let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1 
-                                                                       and number(@code)<=10
-                                                                       or number(@code)=100
-                                                                       or number(@code)=21
-                                                                       or number(@code)=51
-                                                                       or number(@code)=52
-                                                                       or number(@code)=110
-                                                                       or number(@code)=120
-                                                                     )]/@name))
-              return 
-              element {xs:QName("strdata1")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-  
-let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=101 
-                                                                       or number(@code)=102
-                                                                       or number(@code)=103
-                                                                       or number(@code)=201
-                                                                       or number(@code)=211
-                                                                       or number(@code)=212
-                                                                     )]/@name))
-              return 
-              element {xs:QName("strdata2")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-                          
-let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111 or number(@code)=112)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strcontact")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-             
-let $flattenPart22 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121 and number(@code)<=132)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strsubject")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-             
-let $flatten:= insert-before($flattenPart22,0,$flattenPart21)
-let $flatten:= insert-before($flatten,0,$flattenPart2) 
-let $flatten:= insert-before($flatten,0,$flattenPart1) 
-let $flatten:= insert-before($flatten,0,$flattenPart0)
 
-let $newXML:= for $item in $flatten return $item              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>             };
 declare function util:pre10471($doc) {
   
 let $oldXML := $doc
@@ -1605,105 +1340,6 @@ let $newXML:= for $item in $flatten
               
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
 
-declare function util:pre10481($doc) {let $oldXML := $doc
-                        
- let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
-                                                                       and number(@code)<=20)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strdata")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                      attribute name {$strCls},
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-              }
-
-let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=111)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("strcontact")} {
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute name {$str/@name}
-                    )
-                ),             
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-             
-let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=112)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("strsubject")} {
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute name {$str/@name}
-                    )
-                ),          
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }  
-                           
-let $flatten:= insert-before($flattenPart3,0,$flattenPart2)              
-let $flatten:= insert-before($flatten,0,$flattenPart1)
-              
-let $newXML:= for $item in $flatten
-              return $item              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
 
 declare function util:pre10482($doc) {
   
@@ -5650,219 +5286,8 @@ let $newXML:= for $item in $flatten
                        
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
 
-};declare function util:pre10512($doc) {let $oldXML := $doc
-
-  
-  
- let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10
-                                                                       and number(@code)<=20)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block1")} {
-              
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code},
-                      attribute name {$str/@name},
-                         
-                                    
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                    )
-                                               
-                )
-              }  
-      
-  let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=40
-                                                                       and number(@code)<=90)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block2")} {
-              
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code},
-                      attribute name {$str/@name},
-                         
-                                    
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                    )
-                                               
-                )
-              }  
-       
-   let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=340
-                                                                       and number(@code)<=390)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block3")} {
-              
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code},
-                      attribute name {$str/@name},
-                         
-                                    
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                    )
-                                               
-                )
-              }   
-                    
-  let $flattenPart4_1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=410
-                                                                       and number(@code)<=440)
-                                                                  ]/@code),distinct-values($oldXML//strclass[
-                                                                        (	number(@code)>=44000001 
-                                                                       and number(@code)<=44000114)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block4")} {
-              
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code},
-                      attribute name {$str/@name},
-                         
-                                    
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                    )
-                                               
-                ),
-                (for $c in $oldXML//strclass[string(@code) = $strCls] 
-                   return
-                     element {xs:QName("strclass") }{   
-                         attribute id {$c/@code},
-                         attribute name {$c/@name},
-                        (for $column in $c/column
-                           return
-                           attribute {xs:QName(concat("col",string($column/@order)))}{
-                                $column/text()
-                              }
-                          )
-                          
-                     }
-                )
-              }     
-              
-   let $flattenPart4_2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=450
-                                                                       and number(@code)<=490)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block4")} {
-              
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code},
-                      attribute name {$str/@name},
-                         
-                                    
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                    )
-                                               
-                )
-              }                                        
-                    
- let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
-                                                                       and number(@code)<=133)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block6")} {
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-              }                          
-  
-
-
-
-let $flatten:= insert-before($flattenPart6,0,$flattenPart4_2)
-let $flatten:= insert-before($flatten,0,$flattenPart4_1)
-let $flatten:= insert-before($flatten,0,$flattenPart3)
-let $flatten:= insert-before($flatten,0,$flattenPart2)
-let $flatten:= insert-before($flatten,0,$flattenPart1)
-
-
-
-let $newXML:= for $item in $flatten
-              return $item
-              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre10514($doc) {let $oldXML := $doc  
+};
+declare function util:pre10514($doc) {let $oldXML := $doc  
   let $oldXML:=fn:doc("3000_10514.xml")/*  
   
                    
@@ -6311,183 +5736,9 @@ let $newXML:= for $item in $flatten
               return $item
               
                        
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre10524($doc) {let $oldXML := $doc
-  
- let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10
-                                                                       and number(@code)<=133)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("block3")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-              }
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
 
-
-          
-                        
-let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdetail[
-                                                                        (	number(@code)>=100001 
-                                                                       and number(@code)<=100100)
-                                                          
-                                                                  ]/@code))
-              return 
-              element {xs:QName("block1")} {
-                (
-                  for $str in $oldXML//strdetail[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-               
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdetail[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                ),
-                
-                    for $str in $oldXML//strdetail[string(@code) = $strCls]
-                  let $columns:=$str/entity
-                  return
-                    (for $c in $columns
-                      return
-                  
-                       attribute {xs:QName("entity")}{
-                            $c/text()
-                          }
-                     )
-               
-              }
-
-
-                           
-                          
-let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
-
-
-
-
-let $newXML:= for $item in $flatten
-              return $item
-              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre10526($doc) {let $oldXML := $doc  
-  let $oldXML:=fn:doc("738516_10526.xml")/*  
-  
-                        
- let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
-                                                                       and number(@code)<=500)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("strdata")} {
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-              }
-
-let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=511)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("strcontact")} {
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }
-             
-let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=521)
-                                                                  ]/@code))
-              return 
-              element {xs:QName("strsubject")} {
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strfree[string(@code) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-             }  
-                           
-let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
-let $flatten:= insert-before($flatten,0,$flattenPart1)
-
-
-let $newXML:= for $item in $flatten
-              return $item
-              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
-
-};declare function util:pre10527($doc) {let $oldXML := $doc
+declare function util:pre10527($doc) {let $oldXML := $doc
                         
  
 
@@ -17218,7 +16469,7 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 http://saiku0.gistek.rosenergo.gov.ru/BaseX/xslt/pre71014/71014/action=xml&aid=1185&mid=5&period_year=2015&period_month=12&period_day=0&subject=6006&subject_variant=&type=1&user=8
 :)
 
-declare function util:pre40003($doc) {
+declare function util:pre71014($doc) {
 	let $oldXML:=$doc
 let $flattenData:=for $strCls in $oldXML//strdata[number(@code)<111]
               let $columns:=$strCls/column
@@ -20033,13 +19284,34 @@ return
         attribute name {$strData//entity},
         attribute code {number($strData/@code) - 100000},
         attribute measure {$strData//column[1]},
-        attribute plan_downto_3 {$strData//column[2]},
-        attribute plan_downto_2 {$strData//column[3]},
-        attribute plan_downto_1 {$strData//column[4]},
-        attribute plan          {$strData//column[5]},
-        attribute plan_to_1     {$strData//column[6]},
-        attribute plan_to_2     {$strData//column[7]},
-        attribute plan_to_3     {$strData//column[8]}
+        
+        if(string-length($strData//column[2]) > 0) then (
+            attribute plan_downto_3 {$strData//column[2]}
+        ) else () ,
+
+        if(string-length($strData//column[3]) > 0) then (
+            attribute plan_downto_2 {$strData//column[3]}
+        ) else () ,
+        
+        if(string-length($strData//column[4]) > 0) then (
+            attribute plan_downto_1 {$strData//column[4]}
+        ) else () ,
+        
+        if(string-length($strData//column[5]) > 0) then (
+            attribute plan {$strData//column[5]}
+        ) else () ,
+        
+        if(string-length($strData//column[6]) > 0) then (
+            attribute plan_to_1 {$strData//column[6]}
+        ) else () ,
+
+        if(string-length($strData//column[7]) > 0) then (
+            attribute plan_to_2 {$strData//column[7]}
+        ) else () ,
+        
+        if(string-length($strData//column[8]) > 0) then (
+            attribute plan_to_3 {$strData//column[8]}
+        ) else ()                 
     }        
          
 let $flattenContactData:=
@@ -20693,12 +19965,19 @@ let $oldXML:=$doc
   let $parm := for $prm in $oldXML
   return (
        element { xs:QName("param") } {
+       attribute id {"0"},
        attribute version {$prm/@version},
        attribute year {$prm/@year},
        attribute month {$prm/@month},
        attribute day {$prm/@day}       
      }
   ) 
+  
+let $mo1 :=  $oldXML//strdata[number(@code) = 141]
+let $mo := $mo1//column[1]//text()
+
+let $oktmo1 :=  $oldXML//strdata[number(@code) = 142]
+let $oktmo := $oktmo1//column[1]//text()
   
 let $flattenPart0 :=  element {xs:QName("strdata") }{   
                          attribute id {"0"},
@@ -20737,7 +20016,9 @@ let $flattenPart0 :=  element {xs:QName("strdata") }{
                       attribute id {$str/@code}
                     )
                 ),
-                attribute name {$strCls},                
+                attribute name {$strCls},        
+                attribute mo {($mo)},
+                attribute oktmo {($oktmo)},                        
                 (
                   for $str in $oldXML//strclass[string(@name) = $strCls]
                   let $columns:=$str/column
@@ -20822,6 +20103,7 @@ let $flattenContactData:=
               element {xs:QName("strContactInf") }{
                 attribute name {$strCls/@name},
                 attribute code {$strCls/@code},
+                attribute id {"0"},
                 (for $c in $columns
                  return
                  attribute {xs:QName(concat("col",string($c/@order)))}{
@@ -20837,6 +20119,7 @@ let $flattenServiceData:=
               element {xs:QName("strServiceInf") }{
                 attribute name {$strCls/@name},
                 attribute code {$strCls/@code},
+                attribute id {"0"},
                 (for $c in $columns
                  return
                  attribute {xs:QName(concat("col",string($c/@order))) }{
@@ -20854,7 +20137,7 @@ let $flatten:= insert-before($flatten, 0, $flattenServiceData)
 
 let $flatten:= insert-before($flatten, 0, $parm) 
 
-let $newXML:= for $item in $flatten[number(@id) != 720]
+let $newXML:= for $item in $flatten[@id != 720]
               order by $item/@id
               return $item
               
@@ -20866,123 +20149,164 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 (: --------------------- 5.2.5 maket 1403 - 70158 	 ------------------------ :)
 (: ------------------------------------------------------------------------------ :)
 
-declare function util:pre70122($doc) {
+declare function util:pre70158($doc) {
   
  let $oldXML:=$doc         
- let $flattenPart0 :=  element {xs:QName("strdata") }{   
-                         attribute id {"0"},
-                         attribute name {"Целевые показатели, установленные из перечня целевых показателей в области энергосбережения и повышения энергетической эффективности согласно постановлению Правительства Российской Федерации от 31 декабря 2009 г. N 1225"}}
-                         
- let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@code)=1 
-                                                                                   or number(@code)=2
-                                                                                   or number(@code)=3
-                                                                                   or number(@code)=4
-                                                                                   or number(@code)=5)
-                                                                  ]/@name),distinct-values($oldXML//strclass[
-                                                                        (	number(@code)>=100001 
-                                                                       and number(@code)<=100006)
-                                                                    or  (	number(@code)>=200001 
-                                                                       and number(@code)<=200007)
-                                                                    or  (	number(@code)>=300001 
-                                                                       and number(@code)<=300007)
-                                                                    or  (	number(@code)>=400001 
-                                                                       and number(@code)<=400008)
-                                                                    or  (	number(@code)>=500001 
-                                                                       and number(@code)<=500005)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strdata")} {
-                (
-                  for $str in $oldXML//strclass[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strclass[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                ),
-                (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
-                   return
-                     element {xs:QName("child") }{   
-                         attribute nameInd {$c/entity/text()},
-                         (for $column in $c/column
-                           return
-                           attribute {xs:QName(concat("col",string($column/@order)))}{
-                                $column/text()
-                              }
-                          )
-                     }
-                )
+
+let $data_01 := for $strCls in $oldXML//strdata[number(@code) >= 1 and number(@code) < 27]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
               }
 
- let $flattenPart2 :=  element {xs:QName("strdata") }{   
-                         attribute id {"6"},
-                         attribute name {"Иные целевые показатели в области энергосбережения и повышения энергетической эффективности, определенные органом местного самоуправления при разработке муниципальной программы в области энергосбережения и повышения энергетической эффективности"}}
-                         
-
- let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@code)=20)
-                                                                  ]/@name),
-                                                                  distinct-values($oldXML//strdetail[
-                                                                 (number(@code)>=2000001 
-                                                                and number(@code)<=2000500)]/entity/text()))
-              return 
-              element {xs:QName("strdata")} {
-                (
-                  for $str in $oldXML//strdetail[entity = $strCls]
-                  return
-                    (
-                      attribute id {concat("7",$str/@code)}
-                    )
-                ),
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {concat("7",$str/@code)}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdetail[entity = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                ),
-                (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
-                   return
-                     element {xs:QName("child") }{   
-                         attribute nameInd {$c/entity/text()},
-                         (for $column in $c/column
-                           return
-                           attribute {xs:QName(concat("col",string($column/@order)))}{
-                                $column/text()
-                              }
-                          )
-                     }
-                )
+let $data_020 := for $strCls in $oldXML//strfree[number(@code) >= 27 and number(@code) <= 36]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls//entity},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
               }
+
+let $data_021 := for $strCls in $oldXML//strdata[number(@code) = 37]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_022 := for $strCls in $oldXML//strfree[number(@code) >= 38 and number(@code) <= 47]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls//entity},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_03 := for $strCls in $oldXML//strdata[number(@code) > 47 and number(@code) < 64]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_04 := for $xmlData_01 in (distinct-values($oldXML//strdata[number(@code) >= 64 and number(@code) <= 80]//column[2]))
+return
+        element {xs:QName("strdata02")} {
+          
+            attribute name{$xmlData_01},
+            attribute code{""},
+            attribute id{substring($xmlData_01, 8, 1)},
+            attribute measure {""},
+            attribute formula {""},
+            attribute val {"04"},            
+            for $str in $oldXML//strdata[string(column[2]) = string($xmlData_01)]
+                let $cnt := 0
+                return (
+                   
+                    element {xs:QName("strdata02")} {
+                      attribute name{$str/@name}, 
+                      (:attribute code {number(translate(substring(string($xmlData), 8, 1), 'A', '1'))},   :)
+                      attribute code {$str/@code - 63},                   
+                      
+                      attribute id{concat(substring(string($xmlData_01), 8, 2), string(number($str/@code)-63))},
+                      attribute measure{$str//column[1]},
+                      attribute formula{$str//column[3]},
+                      attribute val{$str//column[4]}
+                  }  
+             )                     
+                                 
+        }
+
+let $data_05 := for $xmlData_02 in (distinct-values($oldXML//strfree[number(@code) >= 81 and number(@code) < 91]//column[2]))
+return
+        element {xs:QName("strdata02")} {
+(:          
+            attribute name{$xmlData},
+            attribute code{""},
+            attribute id{substring($xmlData, 8, 1)},
+            attribute measure {""},
+            attribute formula {""},
+            attribute val{"05"},
+:)            
+            for $str in $oldXML//strfree[string(column[2]) = string($xmlData_02)]
+                let $cnt := 0
+                return (
+                   
+                    element {xs:QName("strdata02")} {
+                      attribute name{$str//entity}, 
+                      (:attribute code {number(translate(substring(string($xmlData), 8, 1), 'A', '1'))},:)
+                      attribute code {$str/@code - 63},                   
+                      
+                      attribute id{concat(substring(string($xmlData_02), 8, 2), string(number($str/@code)-63))},
+                      attribute measure{$str//column[1]},
+                      attribute formula{$str//column[3]},
+                      attribute val {$str//column[4]}
+                  }  
+             )                     
+                                 
+        }
+
+let $data_06 := for $xmlData_03 in (distinct-values($oldXML//strdata[number(@code) >= 91 and number(@code) < 100]//column[2]))
+return
+        element {xs:QName("strdata02")} {
+(:          
+            attribute name{$xmlData},
+            attribute code{""},
+            attribute id{substring($xmlData, 8, 1)},
+            attribute measure {""},
+            attribute formula {""},
+            attribute val{"06"},
+:)            
+            for $str in $oldXML//strdata[string(column[2]) = string($xmlData_03)]
+                let $cnt := 0
+                return (
+                   
+                    element {xs:QName("strdata02")} {
+                      attribute name{$str/@name}, 
+                      (:attribute code {number(translate(substring(string($xmlData), 8, 1), 'A', '1'))},   :)
+                      attribute code {$str/@code - 63}, 
+                      
+                      if ((number($str/@code) - 63) < 18) then (
+                          attribute id{""}
+                      ) else (
+                          attribute id{concat(substring(string($xmlData_03), 8, 2), string(number($str/@code)-63))}
+                      ),
+                      attribute measure{$str//column[1]},
+                      attribute formula{$str//column[3]},
+                      attribute val {$str//column[4]}
+                  }  
+             )                     
+                                 
+        }
 
 let $flattenContactData:=
               for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
@@ -21000,7 +20324,7 @@ let $flattenContactData:=
               }
 
 let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] 
+              for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 133] 
               let $columns:=$strCls/column
               return
               element {xs:QName("strServiceInf") }{
@@ -21008,25 +20332,46 @@ let $flattenServiceData:=
                 attribute code {$strCls/@code},
                 (for $c in $columns
                  return
-                 attribute {xs:QName(concat("col",string($c/@order))) }{
+                 attribute {xs:QName(concat("col", string($c/@order)))}{
                       $c/text()
-                    }                    
+                    }
                 )
               }
-              
-let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
-let $flatten:= insert-before($flatten,0,$flattenPart1)
-let $flatten:= insert-before($flatten,0,$flattenPart0)
 
-let $flatten:= insert-before($flatten, 0, $flattenContactData)
-let $flatten:= insert-before($flatten, 0, $flattenServiceData)
 
-let $newXML:= for $item in $flatten
-              order by $item/@id
+let $Preflatten := $data_04
+let $Preflatten := insert-before($Preflatten, 0, $data_05)
+let $Preflatten := insert-before($Preflatten, 0, $data_06)
+
+let $newXML := for $item in $Preflatten
+return <document version="1.0" created="create_xml_online"><flat>{$item}</flat></document>
+
+let $outData_02 := for $items in $newXML//flat//strdata02[string-length(@id) > 0]
+    order by $items/@id
+    return
+              element {xs:QName    ("strdata_02") } {
+                  attribute id {$items/@id},
+                  attribute name {$items/@name},
+                  attribute measure {$items/@measure},
+                  attribute formula {$items/@formula},
+                  attribute code {$items/@code},
+                  attribute val{$items/@val} 
+              }
+
+let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
+let $flatten:= insert-before($flatten, 0, $outData_02)
+let $flatten:= insert-before($flatten, 0, $data_03)
+let $flatten:= insert-before($flatten, 0, $data_022)
+let $flatten:= insert-before($flatten, 0, $data_021)
+let $flatten:= insert-before($flatten, 0, $data_020)
+let $flatten:= insert-before($flatten, 0, $data_01)
+
+let $newXML01 := for $item in $flatten[string-length(@name) > 0]
               return $item
               
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+          
+               
+return <document version="1.0" created="create_xml_online"><flat>{$newXML01}</flat></document>  
 };
 
 (: ------------------------------------------------------------------------------ :)
@@ -21109,10 +20454,11 @@ let $parm := for $prm in $oldXML
      }
 ) 
 
-let $data := for $xmlData in (distinct-values($oldXML//strdetail//column[2][string-length(text()) > 1]))
+let $data := for $xmlData in (distinct-values($oldXML//strdetail//column[2][ (string-length(text()) > 1) ]))
       return 
         element {xs:QName("strdata")} {
           attribute name {$xmlData},
+          attribute part {"0"},
           attribute measure{""},
           attribute code{""},
           
@@ -21137,14 +20483,41 @@ let $data := for $xmlData in (distinct-values($oldXML//strdetail//column[2][stri
           attribute column19{""},
                  
           for $subData in (distinct-values($oldXML//strdetail//column[3]))       
-                      
+          for $str in $oldXML//strdetail[string(column[2]) = string($xmlData) and string(column[3]) = string($subData)]
+          return 
+            element {xs:QName("strdata")} {
+                attribute name {$str//column[3]},  
+                attribute part {"1"},
+                attribute measure{""},
+                attribute code{""},
+          
+                attribute column1{""},
+                attribute column2{""},
+                attribute column3{""},
+                attribute column4{""},
+                attribute column5{""},
+                attribute column6{""},
+                attribute column7{""},
+                attribute column8{""},
+                attribute column9{""},
+                attribute column10{""},
+                attribute column11{""},
+                attribute column12{""},
+                attribute column13{""},
+                attribute column14{""},
+                attribute column15{""},
+                attribute column16{""},
+                attribute column17{""},
+                attribute column18{""},
+                attribute column19{""},
           for $str in $oldXML//strdetail[string(column[2]) = string($xmlData) and string(column[3]) = string($subData)]
             return 
               element {xs:QName("strdata")} {
                 attribute name {$str//entity},
+                attribute part{"2"},
                 attribute subname{$str//column[3]},
                 attribute measure {$str//column[1]},
-                attribute code {""},
+                attribute code {number($str/@code) - 100000},
                 
                 attribute column1 {$str//column[4]},
                 attribute column2 {$str//column[5]},
@@ -21165,12 +20538,13 @@ let $data := for $xmlData in (distinct-values($oldXML//strdetail//column[2][stri
                 attribute column17{$str//column[20]},           
                 attribute column18{$str//column[21]},           
                 attribute column19{$str//column[22]}                                
-              }
+              }                                
+            }                        
     }
       
   
 let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
+              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:Контактная информация:)
               let $columns:=$strCls/column
               return
               element {xs:QName("strContactInf") }{
@@ -21185,7 +20559,7 @@ let $flattenContactData:=
               }
 
 let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] 
+              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=132] (:Служебная информация:)
               let $columns:=$strCls/column
               return
               element {xs:QName("strServiceInf") }{
@@ -21210,28 +20584,29 @@ let $outData := for $items in $newXML//flat//strdata
               return
               element {xs:QName    ("strdata") } {
                 attribute name     {$items/@name},
+                attribute part     {$items/@part},
                 attribute subname  {$items/@subname},
                 attribute measure  {$items/@measure},
                 attribute code     {$items/@code},
-                attribute column1  {$items/@column1},
-                attribute column2  {$items/@column2},
-                attribute column3  {$items/@column3},
-                attribute column4  {$items/@column4},
-                attribute column5  {$items/@column5},
-                attribute column6  {$items/@column6},
-                attribute column7  {$items/@column7},
-                attribute column8  {$items/@column8},
-                attribute column9  {$items/@column9},
-                attribute column10 {$items/@column10},
-                attribute column11 {$items/@column11},
-                attribute column12 {$items/@column12},
-                attribute column13 {$items/@column13},
-                attribute column14 {$items/@column14},
-                attribute column15 {$items/@column15},
-                attribute column16 {$items/@column16},
-                attribute column17 {$items/@column17},
-                attribute column18 {$items/@column18},
-                attribute column19 {$items/@column18}                
+                attribute column1 { $items/@column1 },      
+                attribute column2 { $items/@column2 },
+                attribute column3 { $items/@column3 },
+                attribute column4 { $items/@column4 },                
+                attribute column5 { $items/@column5 },
+                attribute column6 { $items/@column6 },                
+                attribute column7 { $items/@column7 },                
+                attribute column8 { $items/@column8 },
+                attribute column9 { $items/@column9 },                
+                attribute column10 { $items/@column10 },
+                attribute column11 { $items/@column11 },                
+                attribute column12 { $items/@column12 },                
+                attribute column13 { $items/@column13 },                
+                attribute column14 { $items/@column14 },                
+                attribute column15 { $items/@column15 },                
+                attribute column16 { $items/@column16 },
+                attribute column17 { $items/@column17 },
+                attribute column18 { $items/@column18 },                                
+                attribute column19 { $items/@column19 }                
               } 
  
 let $flatten := $parm
@@ -21584,8 +20959,8 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 (: ------------------------------------------------------------------------------ :)
 
 declare function util:pre70127($doc) {
-
-let $oldXML:=$doc          
+ 
+let $oldXML := $doc   
 
   let $parm := for $prm in $oldXML
   return (
@@ -21597,7 +20972,7 @@ let $oldXML:=$doc
      }
   )
 
-let $data := for $strCls in $oldXML//strdata[(number(@code) < 111 or number(@code) > 133)]
+let $data := for $strCls in $oldXML//strdata[(number(@code) < 101)]
               let $columns:=$strCls/column             
               return
               element {xs:QName("strdata") }{
@@ -21652,7 +21027,7 @@ let $newXML := for $item in $flatten
               
           
                
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>  
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
 };
  
 
@@ -21993,132 +21368,207 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 (: --------------------- 5.2.1 maket 1348 - 70119 	 ------------------------ :)
 (: ------------------------------------------------------------------------------ :)
 
-declare function util:pre70119($doc) {     
+declare function util:pre70119($doc) { 
 
-let $oldXML:=$doc           
+let $oldXML:=$doc   
 
-(: Параметры запуска :)
+let $mo1 :=  $oldXML//strdata[number(@code) = 141]
+let $mo := $mo1//column[1]//text()
 
-let $parm := for $prm in $oldXML
-  return (
-       element { xs:QName("param") } {
-       attribute name {"params"},  
-       attribute version {$prm/@version},
-       attribute year {$prm/@year},
-       attribute month {$prm/@month},
-       attribute day {$prm/@day}       
-     }
-) 
+let $mo := $oldXML/@subject_name
 
-let $common := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1" and string-length(entity) > 1]
-return 
-    element {xs:QName("common")} {
-         attribute name     { $data//entity },
-         attribute code     { number($data/@code) - 100000},
-         attribute inn      { $data//column[1]  },
-         attribute address  { $data//column[2]  },
-         attribute phone    { $data//column[3]  },
-         attribute email    { $data//column[4]  },
-         attribute plan     { $data//column[5]  },
-         attribute date_beg { $data//column[6]  },
-         attribute doc_info { $data//column[7]  },
-         attribute date_end { $data//column[8]  },
-         attribute sert     { $data//column[9]  },
-         attribute sert_org { $data//column[10] },
-         attribute sys_info { $data//column[11] } 
-    }
-
-let $dzo := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and string-length(entity) > 1]
-return
-    element {xs:QName("dzo")} {
-        attribute name     { $data//entity },
-        attribute code     { number($data/@code) - 200000 },
-        attribute inn      { $data//column[1] },
-        attribute doc_name { $data//column[2] },  
-        attribute doc_date { $data//column[3] }
-    }
-
-let $dynamic := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "3" and string-length(entity) > 1]
-return
-    element {xs:QName("dynamic")} {
-        attribute name              { $data//entity},
-        attribute code              { number($data/@code) - 300000 },
-        attribute inn               { $data//column[1]  },
-        attribute pokaz_name        { $data//column[2]  },
-        attribute measure           { $data//column[3]  },
-        attribute val_year_downto_3 { $data//column[4]  },
-        attribute val_year_downto_2 { $data//column[5]  },
-        attribute val_year_downto_1 { $data//column[6]  },
-        attribute val_year          { $data//column[7]  }   
-    }
+let $oktmo1 :=  $oldXML//strdata[number(@code) = 142]
+let $oktmo := $oktmo1//column[1]//text()
+let $oktmo := $oldXML/@subject_variant_name
     
-let $managers := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "4" and string-length(entity) > 1]
-return
-    element {xs:QName("managers")} {
-         attribute name { $data//entity },
-         attribute inn  { $data//column[1]  },
-         attribute code { number($data/@code) - 400000 },
-         element {xs:QName("mngr_energo")} {
-             attribute fio   { $data//column[2] },
-             attribute post  { $data//column[3] },
-             attribute phone { $data//column[4] },
-             attribute email { $data//column[5] }
-         },
-         element {xs:QName ("mngr_quality")} {
-             attribute fio   { $data//column[6] },
-             attribute post  { $data//column[7] },
-             attribute phone { $data//column[8] },
-             attribute email { $data//column[9] }
-         },
-         element {xs:QName ("mngr_ecology")} {
-             attribute fio   { $data//column[10] },
-             attribute post  { $data//column[11] },
-             attribute phone { $data//column[12] },
-             attribute email { $data//column[13] }
-         }  
-    } 
-       
-let $flattenContactData := for $strCls in $oldXML//strdata[number(@code) = 111 or number(@code) = 112] 
-              
-let $columns := $strCls/column
-return
-    element {xs:QName("strContactInf") }{
-         attribute name {$strCls/@name},
-         attribute code {$strCls/@code},
-         (for $c in $columns
+let $flattenPart0 :=  element {xs:QName("strdata") }{   
+                         attribute id {"0"},
+                         attribute name {"Целевые показатели, установленные из перечня целевых показателей в области энергосбережения и повышения энергетической эффективности согласно постановлению Правительства Российской Федерации от 31 декабря 2009 г. N 1225"}}
+                         
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@code)=1 
+                                                                                   or number(@code)=2
+                                                                                   or number(@code)=3
+                                                                                   or number(@code)=4
+                                                                                   or number(@code)=5)
+                                                                  ]/@name),distinct-values($oldXML//strclass[
+                                                                        (	number(@code)>=100001 
+                                                                       and number(@code)<=100006)
+                                                                    or  (	number(@code)>=200001 
+                                                                       and number(@code)<=200007)
+                                                                    or  (	number(@code)>=300001 
+                                                                       and number(@code)<=300007)
+                                                                    or  (	number(@code)>=400001 
+                                                                       and number(@code)<=400008)
+                                                                    or  (	number(@code)>=500001 
+                                                                       and number(@code)<=500005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata")} {
+                (
+                  for $str in $oldXML//strclass[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},     
+                attribute mo {($mo)},
+                attribute oktmo {($oktmo)},
+                (
+                  for $str in $oldXML//strclass[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
+                   return
+                     element {xs:QName("child") }{   
+                         attribute nameInd {$c/entity/text()},
+                         (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+              }
+
+ let $flattenPart2 :=  element {xs:QName("strdata") }{   
+                         attribute id {"6"},
+                         attribute name {"Иные целевые показатели в области энергосбережения и повышения энергетической эффективности, определенные органом местного самоуправления при разработке муниципальной программы в области энергосбережения и повышения энергетической эффективности"}}
+                         
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@code)=20)
+                                                                  ]/@name),
+                                                                  distinct-values($oldXML//strdetail[
+                                                                 (number(@code)>=2000001 
+                                                                and number(@code)<=2000500)]/entity/text()))
+              return 
+              element {xs:QName("strdata")} {
+                (
+                  for $str in $oldXML//strdetail[entity = $strCls]
+                  return
+                    (
+                      attribute id {concat("7",$str/@code)}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {concat("7",$str/@code)}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdetail[entity = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
+                   return
+                     element {xs:QName("child") }{   
+                         attribute nameInd {$c/entity/text()},
+                         (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+              }
+
+let $flattenContactData:=
+              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:Контактная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strContactInf") }{
+                attribute name {$strCls/@name},
+                attribute id {"0"},                
+                attribute code {$strCls/@code},
+                (for $c in $columns
                  return
                  attribute {xs:QName(concat("col",string($c/@order)))}{
                       $c/text()
                     }
-         )
-     }
+                )
+              }
 
-let $flattenServiceData := for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 133] 
-let $columns:=$strCls/column
-return
-    element {xs:QName("strServiceInf") }{
-        attribute name {$strCls/@name},
-        attribute code {$strCls/@code},
-        (for $c in $columns
-           return
-              attribute {xs:QName(concat("col",string($c/@order))) }{
+let $flattenServiceData:=
+              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] (:Служебная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strServiceInf") }{
+                attribute name {$strCls/@name},
+                attribute id {"0"},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order))) }{
                       $c/text()
-              }                    
-        )
+                    }                    
+                )
+              }
+(:              
+let $subject := for $data in $oldXML//strdata[number(@code) = 141]
+return 
+    element {xs:QName("subject")} {
+        attribute subject {$data//column[1]},  
+        attribute code {"0"}    
     }
-    
-            
-let $flatten := insert-before($flattenServiceData, 0, $parm) 
-let $flatten := insert-before($flatten, 0, $flattenContactData)      
-let $flatten := insert-before($flatten, 0, $managers)   
-let $flatten := insert-before($flatten, 0, $dynamic)   
-let $flatten := insert-before($flatten, 0, $dzo)   
-let $flatten := insert-before($flatten, 0, $common)
+
+let $mo := for $data in $oldXML//strdata[number(@code) = 142]
+return 
+    element {xs:QName("mo")} {
+        attribute subject {$data//column[1]},  
+        attribute code {"0"}    
+    }
+
+:)
               
-let $newXML := for $item in $flatten
+let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+
+(:
+let $flatten := <mo>{$flatten}</mo>
+:)
+
+
+let $flatten:= insert-before($flatten, 0, $flattenContactData)
+let $flatten:= insert-before($flatten, 0, $flattenServiceData)
+
+(:
+let $flatten:= insert-before($flatten, 0, $mo)
+let $flatten:= insert-before($flatten, 0, $subject)
+:)
+
+let $newXML:= for $item in $flatten[@id != 720]
+              order by $item/@id
               return $item
+              
                        
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
 };
 
 
@@ -22130,7 +21580,7 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 (: ------------------------------------------------------------------------------ :)
 (: --------------------- 4.27 maket 88 - 10188 	 -------------------------------- :)
 (: ------------------------------------------------------------------------------ :)
-declare function util:pre70158($doc) {
+declare function util:pre10188($doc) {
 
 let $oldXML:=$doc          
 let $data_01 := for $strCls in $oldXML//strdata[number(@code) >= 1 and number(@code) < 27]
@@ -22262,7 +21712,7 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML01}</fl
 (: --------------------- 5.2.4 maket 1355 - 70122 	 ------------------------ :)
 (: ------------------------------------------------------------------------------ :)
 
-declare function util:pre71001($doc) {
+declare function util:pre70122($doc) {
 let $oldXML := $doc  
 
 (: Параметры запуска :)
@@ -22516,7 +21966,7 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 http://saiku0.gistek.rosenergo.gov.ru/BaseX/xslt/pre71001/71001/action=xml&aid=1184&mid=2&period_year=2014&period_month=12&period_day=0&subject=45
 :)
 
-declare function util:pre71014($doc) {
+declare function util:pre71001($doc) {
 let $oldXML := $doc  
 
 let $data := for $strCls in $oldXML//strdata[(number(@code) < 111 or number(@code) > 112) and (number(@code) < 121 or number(@code) > 136)]
@@ -23342,110 +22792,10 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 http://saiku0.gistek.rosenergo.gov.ru/BaseX/xslt/pre71005/71005/action=xml&aid=1186&mid=2&period_year=2014&period_day=0&subject=77000000
 :)
 
-declare function util:pre90002($doc) {let $oldXML := $doc  
-  let $oldXML:=fn:doc("864018_90002.xml")/*  
+
+declare function util:pre90003($doc) {
   
-                         
- let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[
-                                                                        (	number(@code)>=10 
-                                                                       and number(@code)<=51)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strdata")} {
-               (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                
-              }
-
-
-
-             
- let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[
-                                                                        (	number(@code)=111
-                                                                       or number(@code)=112)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strcontact")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                ),
-                attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                
-              }
-              
- let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[
-                                                                        (	number(@code)>=121
-                                                                       and number(@code)<=133)
-                                                                  ]/@name))
-              return 
-              element {xs:QName("strsubject")} {
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
-                  return
-                    (
-                      attribute id {$str/@code}
-                    )
-                )
-                ,
-               attribute name {$strCls},                
-                (
-                  for $str in $oldXML//strdata[string(@name) = $strCls]
-                  let $columns:=$str/column
-                  return
-                    (for $c in $columns
-                       return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
-                )
-                
-              }              
-
-let $flatten:= insert-before($flattenPart2,0,$flattenPart1)
-let $flatten:= insert-before($flattenPart3,0,$flatten)
-
-let $newXML:= for $item in $flatten
-              return $item
-              
-                       
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
-
-};declare function util:pre90003($doc) {let $oldXML := $doc  
-  let $oldXML:=fn:doc("338707_90003.xml")/*  
-  
+  let $oldXML := $doc  
                          
  let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[
                                                                         (	number(@code)>=10 
@@ -24368,3 +23718,8803 @@ let $newXML := for $item in $flatten
                
 return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>  
 }; 
+
+(: ------------------------------------------------------------------------------ :)
+(: ----------------------- 4.56 maket 84 - 10184 	 ------------------------ :)
+(: ------------------------------------------------------------------------------ :)
+
+declare function util:pre10184($doc) { 
+
+  let $oldXML:=$doc
+
+let $data := for $strCls in $oldXML//strdata[(number(@code) < 211 or number(@code) > 200)]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") } {
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $flattenContactData:=
+              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strContactInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $flattenServiceData:=
+              for $strCls in $oldXML//strdata[number(@code) >= 321 and number(@code) <= 329] 
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strServiceInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col", string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $columnNames:=distinct-values($oldXML//column/@order)
+
+
+let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
+let $flatten:= insert-before($flatten, 0, $data)
+
+let $newXML := for $item in $flatten
+              return $item
+              
+          
+               
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+};
+
+declare function util:pre50005($doc) {let $oldXML := $doc
+
+
+ let $flattenPart0 := distinct-values($oldXML//document/@subject_name)                                     
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                    attribute subject {$flattenPart0},
+                 (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=11)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute subject {$flattenPart0},
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111
+                                                                       or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121
+                                                                      and number(@code)<=132)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre50006($doc) {
+  let $oldXML := $doc
+
+ let $subject := $oldXML/@subject_name                                
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                      attribute name {$subject},
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111
+                                                                       or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code + 390}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121
+                                                                      and number(@code)<=125)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50007($doc) {
+  let $oldXML := $doc
+  let $oldXML1:=$oldXML[number(@code) = 50007]/document
+  let $oldXML2:=$oldXML[number(@code) = 50008]/document
+   
+
+ let $flP := distinct-values($oldXML1//document/@subject_name)                       
+ let $flattenPart0 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                   attribute subject {$flP},
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+   
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML2//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)=111)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),                
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),              
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+                           
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+let $flatten:= insert-before($flatten,0,$flattenPart0)              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+declare function util:pre50009($doc) {
+  let $oldXML := $doc
+  
+  let $flattenPart1_1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=1)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+               (
+                 attribute id {"001"},
+                 attribute name {"Исходные данные"}  
+                )
+              }      
+
+ 
+  let $flattenPart1_2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=1)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("00",($c/@code+1))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }      
+              
+  let $flattenPart1_3 :=  for $strCls in (distinct-values($oldXML//strclass[(	number(@code)>=100001
+                                                                       and number(@code)<=100108)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             ( element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strclass[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{   
+                         attribute id {$c/@code},
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }    
+              
+              
+   let $flattenPart1_4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=2
+                                                                       and number(@code)<=2)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("00",($c/@code+1))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }               
+                    
+  let $flattenPart1_5 :=  for $strCls in (distinct-values($oldXML//strclass[(	number(@code)>=200001
+                                                                       and number(@code)<=200108)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (  element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strclass[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                        attribute id {$c/@code}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }      
+              
+              
+    let $flattenPart1_6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=3
+                                                                       and number(@code)<=3)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("00",($c/@code+1))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }               
+                    
+  let $flattenPart1_7 :=  for $strCls in (distinct-values($oldXML//strclass[(	number(@code)>=300001
+                                                                       and number(@code)<=300108)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strclass[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {$c/@code}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }               
+                   
+   let $flattenPart1_8 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=4
+                                                                       and number(@code)<=4)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("00",($c/@code+1))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }               
+                    
+  let $flattenPart1_9 :=  for $strCls in (distinct-values($oldXML//strclass[(	number(@code)>=400001
+                                                                       and number(@code)<=400108)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strclass[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {$c/@code}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }    
+              
+              
+let $flattenPart1_10 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=5
+                                                                       and number(@code)<=5)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {concat("00",($str/@code+1))}, 
+                      attribute name {$str/@name}   
+                    )
+                ),
+                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }     
+   
+let $flattenPart1_11 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=13
+                                                                       and number(@code)<=13)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+                (
+                  
+                      attribute id {"007"},
+                      attribute name {"Ликвидная продукция"}   
+                    
+                )
+              }
+              
+ let $flattenPart1_12 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=6
+                                                                       and number(@code)<=7)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("00",($c/@code+2))},
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }          
+              
+                 
+  let $flattenPart1_13 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=8
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+         
+                  for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block1") }{   
+                         attribute id {concat("0",($c/@code+2))},
+                         attribute name {$c/@name}
+                      
+                          
+                     }
+                     
+ let $flattenPart1_14 :=  
+                   
+                     element {xs:QName("block1") }{   
+                         attribute id {"012"},
+                         attribute name {"Использование ликвидной продукции и дополнительной выручки"}
+                      
+                          
+                     }                     
+               
+ let $flattenPart1_15 := 
+                     element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                         attribute id {"013"},
+                         attribute name {"Возмещение некомпенсированных затрат компании"}
+                          
+                     }
+                   )
+                 }
+                
+                                                                                                                 
+ let $flattenPart1_16 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10
+                                                                       and number(@code)<=14)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {concat("0",($c/@code+4))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }    
+
+
+  let $flattenPart1_17 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=15
+                                                                       and number(@code)<=15)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+4))},
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }                                                                                                   
+ let $flattenPart1_18 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=16
+                                                                       and number(@code)<=18)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {concat("0",($c/@code+4))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }  
+              
+  let $flattenPart1_19 :=  
+              element {xs:QName("block1")} {
+                
+                  (
+                     element {xs:QName("block2") }{   
+                         attribute id {"023"},
+                         attribute name {"Доли распределение ликвидной продукции и дополнительной выручки в соответствии с соглашением о распределении продукции и уровней накопленных чистых денежных поступлений"}
+                          
+                     }
+                )
+              }        
+                    
+ let $flattenPart1_20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=19
+                                                                       and number(@code)<=20)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {concat("0",($c/@code+5))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }         
+              
+  let $flattenPart1_21 :=  
+              element {xs:QName("block1")} {
+                
+                  (
+                     element {xs:QName("block2") }{   
+                         attribute id {"026"},
+                         attribute name {"Распределение ликвидной продукции и дополнительной выручки в соответствии с соглашением о распределении продукции"}
+                          
+                     }
+                )
+              }             
+              
+let $flattenPart1_22 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=21
+                                                                       and number(@code)<=21)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {concat("0",($c/@code+6))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }       
+              
+ let $flattenPart1_23 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=22
+                                                                       and number(@code)<=23)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                      element {xs:QName("block3") }{   
+                  
+                     (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block4") }{  
+                       attribute id {concat("0",($c/@code+6))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                  }
+                  
+                          )
+                          
+                     }
+                )
+              }      
+              
+let $flattenPart1_24 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=24
+                                                                       and number(@code)<=25)
+                                                                  ]/@code))
+            return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2") }{   
+                   (
+                   (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{  
+                       attribute id {concat("0",($c/@code+6))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                     }
+                )
+                          )
+                          
+                     }
+                )
+              }        
+              
+              
+  
+ let $flattenPart1_25 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=26
+                                                                       and number(@code)<=26)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {concat("0",($str/@code+6))}, 
+                      attribute name {$str/@name}   
+                    )
+                ),
+                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }     
+              
+  
+  let $flattenPart1_26 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=27
+                                                                       and number(@code)<=28)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+6))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }                                                                      
+              
+   
+  let $flattenPart1_27 :=   
+              element {xs:QName("block1")} {
+               (
+                 attribute id {"035"},
+                 attribute name {"Корректировки, которые следует внести в распределение в пользу Российской стороны, производившееся согласно прогнозу предыдущего месяца"}  
+                )
+              }    
+              
+     let $flattenPart1_28 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=29
+                                                                       and number(@code)<=30)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+7))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }         
+              
+   let $flattenPart1_29 :=  
+              element {xs:QName("block1")} {
+               (
+                 attribute id {"038"},
+                 attribute name {"Всего распределение в пользу Российской стороны включая корректировки"}  
+                )
+              }    
+              
+     let $flattenPart1_30 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=31
+                                                                       and number(@code)<=31)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }                          
+              
+      let $flattenPart1_31 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=32
+                                                                       and number(@code)<=33)
+                                                                  ]/@code))
+             return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }  
+            )
+          }                        
+                           
+   let $flattenPart1_32 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=34
+                                                                       and number(@code)<=34)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }      
+              
+     let $flattenPart1_33 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=35
+                                                                       and number(@code)<=36)
+                                                                  ]/@code))
+             return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }   
+            )
+          }
+             
+ let $flattenPart1_34 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=37
+                                                                       and number(@code)<=37)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }                                                
+    
+  let $flattenPart1_35 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=38
+                                                                       and number(@code)<=39)
+                                                                  ]/@code))
+             return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{   
+                         attribute id {concat("0",($c/@code+8))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }    
+            )
+          }  
+ 
+  let $flattenPart1_36 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=1)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+               (
+                 attribute id {"048"},
+                 attribute name {"Очередность предоставления углеводородов и выручки"}  
+                )
+              }     
+              
+   let $flattenPart1_37 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=40
+                                                                       and number(@code)<=40)
+                                                                  ]/@code))
+            return 
+              element {xs:QName("block1")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block2") }{   
+                         attribute id {concat("0",($c/@code+9))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }                                                
+  
+  
+   let $flattenPart1_38 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=41
+                                                                       and number(@code)<=43)
+                                                                  ]/@code))
+             return 
+            element {xs:QName("block1")} {
+             (
+                   element {xs:QName("block2")} {
+                
+                  (for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block3") }{   
+                         attribute id {concat("0",($c/@code+9))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }  
+            )
+          }
+          
+     let $flattenPart1_39 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=44
+                                                                       and number(@code)<=44)
+                                                                  ]/@code))
+            for $c in $oldXML//strdata[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("block1") }{   
+                         attribute id {concat("0",($c/@code+9))}, 
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                
+                           
+                              
+                          
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=132)
+                                                                  ]/@code))
+                return
+                element {xs:QName("block100")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+             
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+    
+                  
+                       
+                       
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1_39)
+let $flatten:= insert-before($flatten,0,$flattenPart1_38)
+let $flatten:= insert-before($flatten,0,$flattenPart1_37)
+let $flatten:= insert-before($flatten,0,$flattenPart1_36)
+let $flatten:= insert-before($flatten,0,$flattenPart1_35)
+let $flatten:= insert-before($flatten,0,$flattenPart1_34)
+let $flatten:= insert-before($flatten,0,$flattenPart1_33)
+let $flatten:= insert-before($flatten,0,$flattenPart1_32)
+let $flatten:= insert-before($flatten,0,$flattenPart1_31)
+let $flatten:= insert-before($flatten,0,$flattenPart1_30)
+let $flatten:= insert-before($flatten,0,$flattenPart1_29)
+let $flatten:= insert-before($flatten,0,$flattenPart1_28)
+let $flatten:= insert-before($flatten,0,$flattenPart1_27)
+let $flatten:= insert-before($flatten,0,$flattenPart1_26)
+let $flatten:= insert-before($flatten,0,$flattenPart1_25)
+let $flatten:= insert-before($flatten,0,$flattenPart1_24)
+let $flatten:= insert-before($flatten,0,$flattenPart1_23)
+let $flatten:= insert-before($flatten,0,$flattenPart1_22)
+let $flatten:= insert-before($flatten,0,$flattenPart1_21)
+let $flatten:= insert-before($flatten,0,$flattenPart1_20)
+let $flatten:= insert-before($flatten,0,$flattenPart1_19)
+let $flatten:= insert-before($flatten,0,$flattenPart1_18)
+let $flatten:= insert-before($flatten,0,$flattenPart1_17)
+let $flatten:= insert-before($flatten,0,$flattenPart1_16)
+let $flatten:= insert-before($flatten,0,$flattenPart1_15)
+let $flatten:= insert-before($flatten,0,$flattenPart1_14)
+let $flatten:= insert-before($flatten,0,$flattenPart1_13)
+let $flatten:= insert-before($flatten,0,$flattenPart1_12)
+let $flatten:= insert-before($flatten,0,$flattenPart1_11)
+let $flatten:= insert-before($flatten,0,$flattenPart1_10)
+let $flatten:= insert-before($flatten,0,$flattenPart1_9)
+let $flatten:= insert-before($flatten,0,$flattenPart1_8)
+let $flatten:= insert-before($flatten,0,$flattenPart1_7)
+let $flatten:= insert-before($flatten,0,$flattenPart1_6)
+let $flatten:= insert-before($flatten,0,$flattenPart1_5)
+let $flatten:= insert-before($flatten,0,$flattenPart1_4)
+let $flatten:= insert-before($flatten,0,$flattenPart1_3)
+let $flatten:= insert-before($flatten,0,$flattenPart1_2)
+let $flatten:= insert-before($flatten,0,$flattenPart1_1)
+
+
+let $newXML:= for $item in $flatten
+              return $item
+           
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50010($doc) {
+  
+  let $oldXML := $doc
+
+ let $flat := $oldXML/@subject_name                                     
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=100001 and number(@code)<=100018)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=2)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=200001 and number(@code)<=200015)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=3)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=300001 and number(@code)<=300014)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=4)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=400001 and number(@code)<=400005)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata4")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart5 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=5)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=500001 and number(@code)<=500004)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata5")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=6)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	number(@code)>=600001 and number(@code)<=600004)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata6")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$flat}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111
+                                                                       or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121
+                                                                      and number(@code)<=132)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart6)
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50015($doc) {
+  
+ let $oldXML := $doc
+
+ let $flattenPart0 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=305
+                                                                       and number(@code)<=350)
+                                                                       or 
+                                                                       (	number(@code)>=3050101
+                                                                       and number(@code)<=3400102)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strbakalavr")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=514
+                                                                       and number(@code)<=550)
+                                                                       or 
+                                                                       (	number(@code)>=5140101
+                                                                       and number(@code)<=5210501)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strengineer")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=405
+                                                                       and number(@code)<=450)
+                                                                       or 
+                                                                       (	number(@code)>=4050101
+                                                                       and number(@code)<=4400101)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strMagistr")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+
+
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1001
+                                                                       and number(@code)<=1002)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1009)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+                           
+let $flatten:=$flattenPart4
+let $flatten:= insert-before($flatten,0,$flattenPart3) 
+let $flatten:= insert-before($flatten,0,$flattenPart2)              
+let $flatten:= insert-before($flatten,0,$flattenPart1)              
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50016($doc) {
+  
+  let $oldXML := $doc   
+ 
+  let $subject := $oldXML/@subject_variant_name    
+ let $flattenPart0 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=108
+                                                                       and number(@code)<=121)
+                                                                       or 
+                                                                       (	number(@code)>=1080201
+                                                                       and number(@code)<=1211616)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strProfessii")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (                      
+                     attribute subject {$subject}
+                    )
+                ,
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=208
+                                                                       and number(@code)<=235)
+                                                                       or 
+                                                                       (	number(@code)>=2080201
+                                                                       and number(@code)<=2250802)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strSpecialnosti")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (                      
+                     attribute subject {$subject}
+                    )
+                ,
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+
+
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1001
+                                                                       and number(@code)<=1002)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1009)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+                           
+let $flatten:=$flattenPart3
+let $flatten:= insert-before($flatten,0,$flattenPart2)              
+let $flatten:= insert-before($flatten,0,$flattenPart1)              
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50017($doc) {
+  
+  let $oldXML := $doc  
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+ 
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=111
+                                                                       and number(@code)<=121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50018($doc) {
+  
+  let $oldXML := $doc
+     
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+                
+              }
+     
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1111
+                                                                       and number(@code)<=1121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre50019($doc) {
+
+let $oldXML := $doc
+
+let $oldXML1:=$oldXML[number(@code) = 50019]/document
+let $oldXML2:=$oldXML[number(@code) = 50020]/document
+let $oldXML3:=$oldXML[number(@code) = 50021]/document
+                        
+ let $flattenPart1_1 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=300)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_1")} 
+             
+       {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }
+              
+   let $flattenPart1_2 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=301
+                                                                       and number(@code)<=600)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_2")} 
+             
+       {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }            
+  
+  let $flattenPart1_3 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=601
+                                                                       and number(@code)<=1100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_3")} 
+             
+       {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }
+              
+   let $flattenPart1_4_1 :=  for $strCls in (distinct-values($oldXML2//strdata[(	number(@code)>=10
+                                                                       and number(@code)<=10)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_4_1")} 
+             
+       {
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name}
+                    )
+                    
+                ),
+                        
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }    
+                         
+   let $flattenPart1_4 :=  for $strCls in (distinct-values($oldXML2//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=7)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_4")} 
+             
+       {
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@code}
+                    )
+                    
+                ),
+                        
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }    
+                       
+             
+     let $flattenPart1_5 :=  for $strCls in (distinct-values($oldXML3//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_5")} 
+             
+       {
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                        
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }             
+                                
+   let $flattenPart1_6 :=  for $strCls in (distinct-values($oldXML3//strfree[(	number(@code)>=501
+                                                                       and number(@code)<=600)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_6")} 
+             
+       {
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                        
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }             
+                    
+               
+  let $flattenPart1_7 :=  for $strCls in (distinct-values($oldXML3//strfree[(	number(@code)>=601
+                                                                       and number(@code)<=1100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_7")} 
+             
+       {
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                        
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }             
+                             
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=1111
+                                                                       and number(@code)<=1121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1_7)
+let $flatten:= insert-before($flatten,0,$flattenPart1_6)
+let $flatten:= insert-before($flatten,0,$flattenPart1_5)
+let $flatten:= insert-before($flatten,0,$flattenPart1_4)
+let $flatten:= insert-before($flatten,0,$flattenPart1_4_1)
+let $flatten:= insert-before($flatten,0,$flattenPart1_3)
+let $flatten:= insert-before($flatten,0,$flattenPart1_2)
+let $flatten:= insert-before($flatten,0,$flattenPart1_1)
+
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80001($doc) {
+
+let $oldXML := $doc
+
+ let $subject :=  $oldXML/@subject_name                          
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1 and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=101 and number(@code)<=200)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=201)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=202)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80002($doc) {
+  
+  let $oldXML := $doc
+                           
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=101 and number(@code)<=106)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=107 and number(@code)<=110)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=201 and number(@code)<=222)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=223 and number(@code)<=228)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata4")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1201
+                                                                       or number(@code)=1202)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                      and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80003($doc) {
+  
+  let $oldXML := $doc
+                           
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=31)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1 and number(@code)<=5)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=6 and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10 and number(@code)<=13)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata4")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=14 and number(@code)<=24)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata5")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=25 and number(@code)<=30)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata6")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=201
+                                                                       or number(@code)=202)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                      and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart6)
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80004($doc) {
+  
+let $oldXML := $doc
+
+                                      
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=101
+                                                                       and number(@code)<=110)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ), 
+                      attribute name {$strCls},
+                 (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=201
+                                                                       and number(@code)<=221)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ), 
+                      attribute name {$strCls},
+                 (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1001
+                                                                       or number(@code)=1002)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {string($str/@code - 800)}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                      and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre80005($doc) {
+  
+let $oldXML := $doc
+
+let $oldXML1:=$oldXML[number(@code) = 80005]/document
+let $oldXML2:=$oldXML[number(@code) = 80006]/document
+let $oldXML3:=$oldXML[number(@code) = 80007]/document
+let $oldXML4:=$oldXML[number(@code) = 80008]/document 
+                        
+ let $flattenPart1_1 :=  for $strCls in (distinct-values($oldXML1//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_1")} 
+             
+       {
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML1//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+              
+ let $flattenPart1_2 :=  for $strCls in (distinct-values($oldXML2//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_2")} 
+             
+       {
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML2//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+              
+ let $flattenPart1_3 :=  for $strCls in (distinct-values($oldXML3//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_3")} 
+             
+       {
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+              
+
+  let $flattenPart1_4 :=  for $strCls in (distinct-values($oldXML4//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1_4")} 
+             
+       {
+                (
+                  for $str in $oldXML4//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML4//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML4//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }             
+             
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML1//strdata[(	number(@code)>=1001
+                                                                       and number(@code)<=1005)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1_4)
+let $flatten:= insert-before($flatten,0,$flattenPart1_3)
+let $flatten:= insert-before($flatten,0,$flattenPart1_2)
+let $flatten:= insert-before($flatten,0,$flattenPart1_1)
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre80009($doc) {let $oldXML := $doc  
+ let $oldXML:=fn:doc("3_80009.xml")/*    
+ let $subject := $oldXML/@subject_name  
+                                                                 
+             
+ let $flattenPart0 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=100001 and number(@code)<=100043)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+                         
+
+ (:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+          
+          let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+(:----------------------------------------------------------------------------------------------------------:)                          
+                           
+ 
+let $flatten:=$flattenPart2
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+
+
+let $newXML:= for $item in $flatten            
+              return $item
+ 
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};declare function util:pre80010($doc) {let $oldXML := $doc  
+let $oldXML:=fn:doc("3_80010.xml")/*    
+let $subject := $oldXML/@subject_name  
+                                                                       
+
+             
+let $flattenPart0 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=100001 and number(@code)<=100043)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+             
+ (:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+          
+          let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+(:----------------------------------------------------------------------------------------------------------:)                          
+                           
+ 
+let $flatten:=$flattenPart2
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+
+
+let $newXML:= for $item in $flatten            
+              return $item
+ 
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};declare function util:pre80012($doc) {let $oldXML := $doc  
+  let $oldXML:=fn:doc("4_80012.xml")/*     
+  let $subject := $oldXML/@subject_name      
+  let $flattenPart0 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=1)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=100001 and number(@code)<=100043)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+                         
+
+
+ (:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+          
+          let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+(:----------------------------------------------------------------------------------------------------------:)                          
+                           
+ 
+let $flatten:=$flattenPart2
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+
+
+let $newXML:= for $item in $flatten            
+              return $item
+ 
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};
+
+declare function util:pre80013($doc) {
+  
+let $oldXML := $doc 
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+            
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=101
+                                                                       and number(@code)<=121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80014($doc) {
+  let $oldXML := $doc
+  
+let $subject := $oldXML/@subject_name  
+ 
+  let $flattenPart0 :=  for $strCls in $subject
+              return 
+              element {xs:QName("strRegion")} {
+                
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (                      
+                     attribute subject {$subject}
+                    )
+              }
+              
+                     
+(:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=110
+                                                                       and number(@code)<=111)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strChislPersonala")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),                   
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (                      
+                     attribute subject {$subject}
+                    )
+                ,
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+(:----------------------------------------------------------------------------------------------------------:)
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=120)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=12000001 and number(@code)<=12000014)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("GruppaPoVozrastu")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+             
+(:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=130)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=13000001 and number(@code)<=13000014)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("GruppaPoStagu")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+ (:----------------------------------------------------------------------------------------------------------:)
+  
+   let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=140)
+                                                                  ]/@code),
+                                     distinct-values($oldXML//strclass[(	number(@code)>=14000001 and number(@code)<=14000006)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("GruppaPoObrasovaniyu")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }             
+ (:----------------------------------------------------------------------------------------------------------:)            
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=43)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("PoEconomichDeyatelnosti")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                 (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute subject {$subject}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ (:----------------------------------------------------------------------------------------------------------:)  
+let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=201
+                                                                       and number(@code)<=202)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+(:----------------------------------------------------------------------------------------------------------:)              
+let $flattenPart7 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=203
+                                                                       and number(@code)<=205)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+                           
+
+ (:----------------------------------------------------------------------------------------------------------:) 
+ 
+let $flatten:= $flattenPart0 
+let $flatten:= insert-before($flatten,0,$flattenPart7)               
+let $flatten:= insert-before($flatten,0,$flattenPart6)                   
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart4)                     
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80015($doc) {
+  
+  let $oldXML := $doc
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} 
+             
+                 {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+ 
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=111
+                                                                       and number(@code)<=121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strfreea[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80022($doc) {
+  
+  let $oldXML := $doc  
+                        
+  let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=101
+                                                                       and number(@code)<=101)
+                                                                  ]/@name),distinct-values($oldXML//strclass[
+                                                                      (	number(@code)>=10100001 
+                                                                       and number(@code)<=10100086)
+                                                                  ]/@name))
+        return 
+              element {xs:QName("block1")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name}
+                    )
+                ),
+             
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (for $c in $oldXML//strclass[string(@name) = $strCls] 
+                   return
+                     element {xs:QName("block1_1") }{   
+                         attribute id {($c/@code)-10099899},
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }
+              
+              
+ 
+   
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+
+                       
+                       
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+           
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};declare function util:pre80025($doc) {
+  
+let $oldXML := $doc
+let $oldXML1:=$oldXML[number(@code) = 80025]/document
+let $oldXML2:=$oldXML[number(@code) = 80026]/document
+let $oldXML3:=$oldXML[number(@code) = 80027]/document
+let $oldXML4:=$oldXML[number(@code) = 80028]/document
+let $oldXML5:=$oldXML[number(@code) = 80029]/document
+let $oldXML6:=$oldXML[number(@code) = 80030]/document
+let $oldXML7:=$oldXML[number(@code) = 80031]/document
+
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML1//strdata[(	number(@code)>=1 and number(@code)<=4)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+           
+let $subject := $oldXML2/@subject_variant_name              
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML2//strdata[(	number(@code)=1)
+                                                                  ]/@code),
+                                     distinct-values($oldXML2//strclass[(	number(@code)>=100001 and number(@code)<=100004)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML2//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),              
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$subject})),
+                (
+                  for $str in $oldXML2//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML2//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML2//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                                 
+              
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML3//strfree[(	number(@code)>=1 and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata4")} {
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML3//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML4//strclass[(	number(@code)>=300001 and number(@code)<=300060)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }               
+              
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML4//strdata[(	number(@code)=5)
+                                                                  ]/@code),
+                                       distinct-values($oldXML4//strclass[(	number(@code)>=500001 and number(@code)<=500087)
+                                                                  ]/@code) )
+              return 
+              element {xs:QName("strdata5")} {
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),                
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }               
+              
+ let $flattenPart6 :=  for $strCls in (distinct-values($oldXML4//strdata[(	number(@code)=6)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata6")} {
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+
+ let $flattenPart7 :=  for $strCls in (distinct-values($oldXML4//strdata[(	number(@code)=7)
+                                                                  ]/@code),
+                                       distinct-values($oldXML4//strclass[(	number(@code)>=700001 and number(@code)<=700013)
+                                                                  ]/@code) )
+              return 
+              element {xs:QName("strdata7")} {
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),                
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML4//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()}
+                     )
+                ),
+                (
+                  for $str in $oldXML4//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              } 
+
+ let $flattenPart8 :=  for $strCls in (distinct-values($oldXML5//strfree[(	number(@code)>=1 and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata8")} {
+                (
+                  for $str in $oldXML5//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML5//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML5//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }  
+
+ let $flattenPart9 :=  for $strCls in (distinct-values($oldXML6//strfree[(	number(@code)>=1 and number(@code)<=250)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata9")} {
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }  
+              
+let $flattenPart10 :=  for $strCls in (distinct-values($oldXML6//strfree[(	number(@code)>=251 and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata10")} {
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }                
+              
+let $flattenPart11 :=  for $strCls in (distinct-values($oldXML6//strfree[(	number(@code)>=501 and number(@code)<=750)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML6//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+let $flattenPart12 :=  for $strCls in (distinct-values($oldXML7//strfree[(	number(@code)>=1 and number(@code)<=300)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata12")} {
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }                 
+
+let $flattenPart13 :=  for $strCls in (distinct-values($oldXML7//strfree[(	number(@code)>=301 and number(@code)<=310)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata13")} {
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]                  
+                  return
+                      attribute name {$str/@name}
+                ),
+                (
+                  for $str in $oldXML7//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              } 
+                            
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML1//strdata[(	number(@code)=201
+                                                                         or number(@code)=202)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),                
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart22 :=  for $strCls in (distinct-values($oldXML1//strdata[(	number(@code)>=1003
+                                                                        and number(@code)<=1005)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                
+                (
+                  for $str in $oldXML1//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+             
+               
+let $flatten:= insert-before($flattenPart22,0,$flattenPart21)
+let $flatten:= insert-before($flatten,0,$flattenPart13) 
+let $flatten:= insert-before($flatten,0,$flattenPart12) 
+let $flatten:= insert-before($flatten,0,$flattenPart11)   
+let $flatten:= insert-before($flatten,0,$flattenPart10)
+let $flatten:= insert-before($flatten,0,$flattenPart9)  
+let $flatten:= insert-before($flatten,0,$flattenPart8)  
+let $flatten:= insert-before($flatten,0,$flattenPart7)    
+let $flatten:= insert-before($flatten,0,$flattenPart6)  
+let $flatten:= insert-before($flatten,0,$flattenPart5) 
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2) 
+let $flatten:= insert-before($flatten,0,$flattenPart1)            
+let $newXML:= for $item in $flatten
+              return $item              
+              
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>              };
+
+declare function util:pre80033($doc) {
+  
+  let $oldXML := $doc
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+  let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1001
+                                                                       and number(@code)<=1001)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block2")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+              
+    let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1111
+                                                                       and number(@code)<=1121)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+                
+                
+              }           
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80034($doc) {
+  
+  let $oldXML := $doc
+  
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=200)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strfree")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=211
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=221
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }    
+                      
+                              
+let $flatten:=$flattenPart3
+let $flatten:= insert-before($flatten,0,$flattenPart2) 
+let $flatten:= insert-before($flatten,0,$flattenPart1)              
+
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80035($doc) {
+  
+  let $oldXML := $doc
+
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=10)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strfree")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=111
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=121
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }    
+                      
+                              
+let $flatten:=$flattenPart3
+let $flatten:= insert-before($flatten,0,$flattenPart2) 
+let $flatten:= insert-before($flatten,0,$flattenPart1)              
+
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80036($doc) {
+  
+let $oldXML := $doc
+let $oldXML36:=$oldXML[number(@code) = 80036]/document
+let $oldXML37:=$oldXML[number(@code) = 80037]/document
+let $oldXML38:=$oldXML[number(@code) = 80038]/document
+let $oldXML39:=$oldXML[number(@code) = 80039]/document
+let $oldXML40:=$oldXML[number(@code) = 80040]/document
+let $oldXML41:=$oldXML[number(@code) = 80041]/document
+                                           
+(:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML36//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=6)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel1.table1")} {
+                (
+                  for $str in $oldXML36//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML36//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML36//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+(:----------------------------------------------------------------------------------------------------------:)
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML37//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel2.table1")} {
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML37//strdata[(	number(@code)=10
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel2.table2_Total")} {
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart4 :=  for $strCls in (
+                                     distinct-values($oldXML37//strclass[(	number(@code)>=1000001 and number(@code)<=1000021)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel2.table2")} {
+                (
+                  for $str in $oldXML37//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),                          
+                (
+                  for $str in $oldXML37//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML37//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML37//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+            
+
+(:----------------------------------------------------------------------------------------------------------:)  
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML38//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel3.table1")} {
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart6 :=  for $strCls in (distinct-values($oldXML38//strdata[(	number(@code)=10
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel3.table2_Total")} {
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+let $flattenPart7 :=  for $strCls in (
+                                     distinct-values($oldXML38//strclass[(	number(@code)>=1000001 and number(@code)<=1000031)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel3.table2")} {              
+                (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),                                      
+                (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+
+let $flattenPart8 :=  for $strCls in (distinct-values($oldXML38//strdata[(	number(@code)=11
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel3.table3_Total")} {
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+                          
+let $flattenPart9 :=  for $strCls in (
+                                     distinct-values($oldXML38//strclass[(	number(@code)>=1100001 and number(@code)<=1100029)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel3.table3")} {
+           
+                (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ), 
+                                        
+                (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML38//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML38//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+
+ (:----------------------------------------------------------------------------------------------------------:)              
+ let $flattenPart10 :=  for $strCls in (distinct-values($oldXML39//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel4.table1")} {
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart11 :=  for $strCls in (distinct-values($oldXML39//strdata[(	number(@code)=10
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel4.table2_Total")} {
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart12 :=  for $strCls in (
+                                     distinct-values($oldXML39//strclass[(	number(@code)>=1000001 and number(@code)<=1000029)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel4.table2")} {
+               
+                (
+                  for $str in $oldXML39//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ), 
+                
+                (
+                  for $str in $oldXML39//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML39//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML39//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+            
+
+(:----------------------------------------------------------------------------------------------------------:)  
+ let $flattenPart13 :=  for $strCls in (distinct-values($oldXML40//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel5.table1")} {
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart14 :=  for $strCls in (distinct-values($oldXML40//strdata[(	number(@code)=10
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel5.table2_Total")} {
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart15 :=  for $strCls in (
+                                     distinct-values($oldXML40//strclass[(	number(@code)>=1000001 and number(@code)<=1000027)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel5.table2")} {
+               
+                (
+                  for $str in $oldXML40//strclass[string(@code) = $strCls]                  
+                  return
+                      attribute id {$str/@code}
+                ),  
+                                  
+                (
+                  for $str in $oldXML40//strclass[string(@code) = $strCls]                  
+                  return
+                    ( attribute name {$str/@name})),                    
+                (
+                  for $str in $oldXML40//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+               (
+                  for $str in $oldXML40//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )                
+              }                          
+(:----------------------------------------------------------------------------------------------------------:)            
+ let $flattenPart16 :=  for $strCls in (distinct-values($oldXML41//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=9)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("razdel6.table1")} {
+                (
+                  for $str in $oldXML41//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+                (
+                  for $str in $oldXML41//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                     attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML41//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+(:----------------------------------------------------------------------------------------------------------:)
+          
+let $flattenPart17 :=  for $strCls in (distinct-values($oldXML36//strdata[(	number(@code)>=201
+                                                                       and number(@code)<=202)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML36//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML36//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+(:----------------------------------------------------------------------------------------------------------:)              
+let $flattenPart18 :=  for $strCls in (distinct-values($oldXML36//strdata[(	number(@code)>=1003
+                                                                       and number(@code)<=1005)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML36//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML36//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+                           
+
+ (:----------------------------------------------------------------------------------------------------------:) 
+ 
+let $flatten:= $flattenPart18
+let $flatten:= insert-before($flatten,0,$flattenPart17)
+let $flatten:= insert-before($flatten,0,$flattenPart16)
+let $flatten:= insert-before($flatten,0,$flattenPart15)
+let $flatten:= insert-before($flatten,0,$flattenPart14)
+let $flatten:= insert-before($flatten,0,$flattenPart13)
+let $flatten:= insert-before($flatten,0,$flattenPart12)
+let $flatten:= insert-before($flatten,0,$flattenPart11)
+let $flatten:= insert-before($flatten,0,$flattenPart10)
+let $flatten:= insert-before($flatten,0,$flattenPart9)
+let $flatten:= insert-before($flatten,0,$flattenPart8)
+let $flatten:= insert-before($flatten,0,$flattenPart7)
+let $flatten:= insert-before($flatten,0,$flattenPart6)
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)   
+let $flatten:= insert-before($flatten,0,$flattenPart1)   
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80042($doc) {
+  
+  let $oldXML := $doc
+
+ let $subject :=  $oldXML/@subject_name                          
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=51)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1 and number(@code)<=50)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=101 and number(@code)<=200)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=301 and number(@code)<=350)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata4")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }                            
+              
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=401 and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata5")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=601 and number(@code)<=650)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata6")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart7 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=701 and number(@code)<=800)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata7")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart8 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=901 and number(@code)<=1000)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata8")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart9 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1101 and number(@code)<=1200)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata9")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart10 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1301 and number(@code)<=1400)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata10")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+ let $flattenPart11 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1501 and number(@code)<=1600)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$subject},
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+              
+              
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=1611)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=1621)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart11)
+let $flatten:= insert-before($flatten,0,$flattenPart10)
+let $flatten:= insert-before($flatten,0,$flattenPart9)
+let $flatten:= insert-before($flatten,0,$flattenPart8)
+let $flatten:= insert-before($flatten,0,$flattenPart7)
+let $flatten:= insert-before($flatten,0,$flattenPart6)
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80051($doc) {
+  
+  let $oldXML := $doc  
+  
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdetail[(	number(@code)>=100100
+                                                                       and number(@code)<=100100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+              
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+
+                         
+                                    
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                ),
+                   attribute name {$strCls},  
+               (
+                   for $str in $oldXML//strdetail[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                   )
+              }  
+      
+   let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=123)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+       
+
+
+
+
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80052($doc) {
+  
+  let $oldXML := $doc  
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=101
+                                                                       and number(@code)<=200)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block2")} 
+             
+       {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                    
+                ),
+                    
+                   
+                        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                   for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+                
+                
+              }
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=211
+                                                                       and number(@code)<=221)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+        
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+             
+             
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre80053($doc) {
+  
+ let $oldXML := $doc
+  
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=15)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strfree")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=111
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=121
+                                                                       )
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }    
+                      
+                              
+let $flatten:=$flattenPart3
+let $flatten:= insert-before($flatten,0,$flattenPart2) 
+let $flatten:= insert-before($flatten,0,$flattenPart1)              
+
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre30002($doc) {
+  
+let $oldXML := $doc
+
+let $flattenData:=for $strDat in $oldXML//strdata[number(@code)=1]
+              let $columns:=$strDat/column
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strDat/@name},
+                attribute code {$strDat/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+let $flattenClass:=for $strCls in $oldXML//strclass
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strdata") }{
+                attribute name {concat('   ',$strCls/@name)},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 if ($c/text()!="")
+                then attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                else ""
+                )
+              }
+              
+(:-----------------------------------------------------------------------------------:)
+
+let $flattenNameOrg:=
+             for $strCls in $oldXML//strdata[number(@code)=121]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strNameOrg") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+let $flattenOGRN:=
+             for $strCls in $oldXML//strdata[number(@code)=124]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strOGRN") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+let $flattenINN:=
+             for $strCls in $oldXML//strdata[number(@code)=125]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strINN") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+let $flattenOKPO:=
+             for $strCls in $oldXML//strdata[number(@code)=127]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strOKPO") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $flattenAddress:=
+             for $strCls in $oldXML//strdata[number(@code)=122]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strAddress") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }              
+              
+
+let $columnNames:=distinct-values($oldXML//column/@order)
+let $flatten:= insert-before($flattenData,0,$flattenClass)
+let $flatten:= insert-before($flatten,0,$flattenNameOrg)
+let $flatten:= insert-before($flatten,0,$flattenOGRN)
+let $flatten:= insert-before($flatten,0,$flattenINN)
+let $flatten:= insert-before($flatten,0,$flattenOKPO)
+let $flatten:= insert-before($flatten,0,$flattenAddress)
+
+let $newXML:= for $item in $flatten
+              order by $item/@code
+              return $item
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+};
+
+declare function util:pre10524($doc) {
+  
+let $oldXML := $doc
+  
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10
+                                                                       and number(@code)<=133)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("block3")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+          
+                        
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdetail[
+                                                                        (	number(@code)>=100001 
+                                                                       and number(@code)<=100100)
+                                                          
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+                (
+                  for $str in $oldXML//strdetail[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+               
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ),
+                
+                    for $str in $oldXML//strdetail[string(@code) = $strCls]
+                  let $columns:=$str/entity
+                  return
+                    (for $c in $columns
+                      return
+                  
+                       attribute {xs:QName("entity")}{
+                            $c/text()
+                          }
+                     )
+               
+              }
+
+
+                           
+                          
+let $flatten:= insert-before($flattenPart3,0,$flattenPart1)
+
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre10445($doc) {
+
+let $oldXML := $doc
+let $rer:=$oldXML//document
+let $flattenPart0 := element {xs:QName("str")} {attribute year {$rer}}
+             
+let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1 
+                                                                       and number(@code)<=10
+                                                                       or number(@code)=100
+                                                                       or number(@code)=21
+                                                                       or number(@code)=51
+                                                                       or number(@code)=52
+                                                                       or number(@code)=110
+                                                                       or number(@code)=120
+                                                                     )]/@name))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+  
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=101 
+                                                                       or number(@code)=102
+                                                                       or number(@code)=103
+                                                                       or number(@code)=201
+                                                                       or number(@code)=211
+                                                                       or number(@code)=212
+                                                                     )]/@name))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+                          
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111 or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart22 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121 and number(@code)<=132)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flatten:= insert-before($flattenPart22,0,$flattenPart21)
+let $flatten:= insert-before($flatten,0,$flattenPart2) 
+let $flatten:= insert-before($flatten,0,$flattenPart1) 
+let $flatten:= insert-before($flatten,0,$flattenPart0)
+
+let $newXML:= for $item in $flatten return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>             };
+
+declare function util:pre10481($doc) {
+  
+  let $oldXML := $doc
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1
+                                                                       and number(@code)<=20)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                      attribute name {$strCls},
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=111)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),             
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=112)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ),          
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+                           
+let $flatten:= insert-before($flattenPart3,0,$flattenPart2)              
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+              
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre10512($doc) {
+  let $oldXML := $doc
+  
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=10
+                                                                       and number(@code)<=20)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block1")} {
+              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name},
+                         
+                                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                )
+              }  
+      
+  let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=40
+                                                                       and number(@code)<=90)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block2")} {
+              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name},
+                         
+                                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                )
+              }  
+       
+   let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=340
+                                                                       and number(@code)<=390)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block3")} {
+              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name},
+                         
+                                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                )
+              }   
+                    
+  let $flattenPart4_1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=410
+                                                                       and number(@code)<=440)
+                                                                  ]/@code),distinct-values($oldXML//strclass[
+                                                                        (	number(@code)>=44000001 
+                                                                       and number(@code)<=44000114)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block4")} {
+              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name},
+                         
+                                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                ),
+                (for $c in $oldXML//strclass[string(@code) = $strCls] 
+                   return
+                     element {xs:QName("strclass") }{   
+                         attribute id {$c/@code},
+                         attribute name {$c/@name},
+                        (for $column in $c/column
+                           return
+                           attribute {xs:QName(concat("col",string($column/@order)))}{
+                                $column/text()
+                              }
+                          )
+                          
+                     }
+                )
+              }     
+              
+   let $flattenPart4_2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=450
+                                                                       and number(@code)<=490)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block4")} {
+              
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code},
+                      attribute name {$str/@name},
+                         
+                                    
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                    )
+                                               
+                )
+              }                                        
+                    
+ let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=111
+                                                                       and number(@code)<=133)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("block6")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }                          
+  
+
+
+
+let $flatten:= insert-before($flattenPart6,0,$flattenPart4_2)
+let $flatten:= insert-before($flatten,0,$flattenPart4_1)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>};
+
+declare function util:pre10526($doc) {
+  let $oldXML := $doc  
+                        
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)>=1
+                                                                       and number(@code)<=500)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=511)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strfree[(	number(@code)=521)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+                           
+let $flatten:= insert-before($flattenPart3,0,$flattenPart2)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};
+declare function util:pre90002($doc) {
+  let $oldXML := $doc  
+                         
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[
+                                                                        (	number(@code)>=10 
+                                                                       and number(@code)<=51)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strdata")} {
+               (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }
+
+
+
+             
+ let $flattenPart2 :=  for $strCls in (distinct-values($oldXML//strdata[
+                                                                        (	number(@code)=111
+                                                                       or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }
+              
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[
+                                                                        (	number(@code)>=121
+                                                                       and number(@code)<=133)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                )
+                ,
+               attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+                
+              }              
+
+let $flatten:= insert-before($flattenPart2,0,$flattenPart1)
+let $flatten:= insert-before($flattenPart3,0,$flatten)
+
+let $newXML:= for $item in $flatten
+              return $item
+              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};
+
+declare function util:pre30053($doc) {
+  
+  let $oldXML:=$doc[number(@code) = 30053]/document
+  let $oldXML2:=$doc[number(@code) = 30056]/document
+
+
+ let $subject := $oldXML/@subject_name                                
+ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=1 and number(@code)<=31)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=2500001 and number(@code)<=2500032)
+                                                                         or (number(@code)>=2600001 and number(@code)<=2600032))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata1")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2_1 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=32 and number(@code)<=33)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=3300001 and number(@code)<=3300029))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2_2 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=34)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=3400001 and number(@code)<=3400003))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2_3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=35)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=3500001 and number(@code)<=3500014))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart2_4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=36 and number(@code)<=39)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=3900001 and number(@code)<=3900496))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+ let $flattenPart2_5 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=40 and number(@code)<=41)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }              
+
+ let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=42 and number(@code)<=48)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata3")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                  attribute okei {},
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart4 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=49 and number(@code)<=50)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata41")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart42 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=51 and number(@code)<=52)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata42")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart5 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=53 and number(@code)<=54)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=5300001 and number(@code)<=5300004)
+                                                                         or (number(@code)>=5400001 and number(@code)<=5400004))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata5")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+(
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart6 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=55 and number(@code)<=56)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata6")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+let $flattenPart7 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=57 and number(@code)<=58)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=5800001 and number(@code)<=5800064))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata7")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart71 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=59 and number(@code)<=66)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata7")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart8 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=67 and number(@code)<=77)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata8")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart9 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=78 and number(@code)<=83)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strdetail[(	(number(@code)>=8300001 and number(@code)<=8300011))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata9")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]/entity                  
+                  return
+                    (attribute name {$str})
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strdetail[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart91 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=84)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata9")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+              
+ let $flattenPart10 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=85 and number(@code)<=95)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata10")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart110 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=96)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=9600001 and number(@code)<=9600064))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart111 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=97)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=9700001 and number(@code)<=9700035))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+let $flattenPart112 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=98 and number(@code)<=101)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=10100001 and number(@code)<=10100024))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+let $flattenPart113 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=102 and number(@code)<=103)
+                                                                  ]/@code),
+                                       distinct-values($oldXML//strclass[(	(number(@code)>=10300001 and number(@code)<=10300022))
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                ), 
+                (
+                  for $str in $oldXML//strclass[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart114 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=104 and number(@code)<=109)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata11")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart121 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=135 and number(@code)<=145)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata12")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart122 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=146 and number(@code)<=166)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata12_2")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart123 :=  for $strCls in (distinct-values($oldXML2//strfree[(	number(@code)>=1 and number(@code)<=100)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata12_3")} {
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute name {$str/@name}
+                    )
+                ), 
+                (
+                  for $str in $oldXML2//strfree[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+ let $flattenPart13 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=167)
+                                                                  ]/@code))
+              return 
+              element {xs:QName("strdata13")} {
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                      attribute name {$subject}, 
+                (
+                  for $str in $oldXML//strdata[string(@code) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {xs:QName(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+              }
+
+
+let $flattenPart20 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)=111
+                                                                       or number(@code)=112)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strcontact")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }
+             
+let $flattenPart21 :=  for $strCls in (distinct-values($oldXML//strdata[(	number(@code)>=121
+                                                                      and number(@code)<=132)
+                                                                  ]/@name))
+              return 
+              element {xs:QName("strsubject")} {
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]                  
+                  return
+                    (
+                      attribute id {$str/@code}
+                    )
+                ),
+                
+                attribute name {$strCls},                
+                (
+                  for $str in $oldXML//strdata[string(@name) = $strCls]
+                  let $columns:=$str/column
+                  return
+                    (for $c in $columns
+                       return
+                       attribute {(concat("col",string($c/@order)))}{
+                            $c/text()
+                          }
+                     )
+                )
+             }  
+
+let $flatten:= insert-before($flattenPart21,0,$flattenPart20)              
+let $flatten:= insert-before($flatten,0,$flattenPart13)
+let $flatten:= insert-before($flatten,0,$flattenPart123)
+let $flatten:= insert-before($flatten,0,$flattenPart122)
+let $flatten:= insert-before($flatten,0,$flattenPart121)
+let $flatten:= insert-before($flatten,0,$flattenPart114)
+let $flatten:= insert-before($flatten,0,$flattenPart113)
+let $flatten:= insert-before($flatten,0,$flattenPart112)
+let $flatten:= insert-before($flatten,0,$flattenPart111)
+let $flatten:= insert-before($flatten,0,$flattenPart110)
+let $flatten:= insert-before($flatten,0,$flattenPart10)
+let $flatten:= insert-before($flatten,0,$flattenPart91)
+let $flatten:= insert-before($flatten,0,$flattenPart9)
+let $flatten:= insert-before($flatten,0,$flattenPart8)
+let $flatten:= insert-before($flatten,0,$flattenPart71)
+let $flatten:= insert-before($flatten,0,$flattenPart7)
+let $flatten:= insert-before($flatten,0,$flattenPart6)
+let $flatten:= insert-before($flatten,0,$flattenPart5)
+let $flatten:= insert-before($flatten,0,$flattenPart42)
+let $flatten:= insert-before($flatten,0,$flattenPart4)
+let $flatten:= insert-before($flatten,0,$flattenPart3)
+let $flatten:= insert-before($flatten,0,$flattenPart2_5)
+let $flatten:= insert-before($flatten,0,$flattenPart2_4)
+let $flatten:= insert-before($flatten,0,$flattenPart2_3)
+let $flatten:= insert-before($flatten,0,$flattenPart2_2)
+let $flatten:= insert-before($flatten,0,$flattenPart2_1)
+let $flatten:= insert-before($flatten,0,$flattenPart1)
+             
+let $newXML:= for $item in $flatten
+              return $item              
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+
+};
+
+declare function util:pre10509($doc) { 
+let $oldXML := $doc
+
+let $flattenData:=for $strCls in $oldXML//strfree[number(@code)<=100]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return 
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+              
+(:-------------------------------------------------------------------------------------------------------------------:)
+let $flattenContactData:=
+              for $strCls in $oldXML//strfree[number(@code)=111] (:Контактная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strContactInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $flattenServiceData:=
+              for $strCls in $oldXML//strfree[number(@code)=121] (:Служебная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strServiceInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $columnNames:=distinct-values($oldXML//column/@order)
+let $flatten:= insert-before($flattenData,0,$flattenContactData)
+let $flatten:= insert-before($flatten,0,$flattenServiceData)
+
+
+return <document version="1.0" created="create_xml_online"><flat>{$flatten}</flat></document>
+};
+
+declare function util:pre10409($doc) { 
+
+let $oldXML1:=$doc[number(@code) = 10409]/document
+let $oldXML2:=$doc[number(@code) = 10410]/document
+
+let $flattenData:=for $strCls in $oldXML1//strfree[number(@code)<=100]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return 
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+              
+(:-------------------------------------------------------------------------------------------------------------------:)
+let $flattenContactData:=
+              for $strCls in $oldXML1//strfree[number(@code)=111] (:Контактная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strContactInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $flattenServiceData:=
+              for $strCls in $oldXML1//strfree[number(@code)=121] (:Служебная информация:)
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strServiceInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+let $flattenData2:=for $strCls in $oldXML2//strfree[number(@code)<=100]
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strdata2") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return 
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+              
+              
+
+
+let $columnNames:=distinct-values($oldXML2//column/@order)
+let $flatten:= insert-before($flattenData2,0,$flattenData)
+let $flatten:= insert-before($flatten,0,$flattenContactData)
+let $flatten:= insert-before($flatten,0,$flattenServiceData)
+
+
+return <document version="1.0" created="create_xml_online"><flat>{$flatten}</flat></document>
+};

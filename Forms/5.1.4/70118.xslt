@@ -34,7 +34,6 @@
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
 			</head>
 			<body>
-				<br/>
 				<span style="font-size:16pt; ">
 					<xsl:text>Сведения о показателях (индикаторах) энергетической эффективности государственных программ Российской Федерации</xsl:text>
 				</span>
@@ -69,139 +68,56 @@
 									</span>
 									<br/>
 								</th>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column1 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column2 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 2"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column3 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 3"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column4 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 4"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column5 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 5"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column6 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 6"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column7 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 7"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column8 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 8"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column9 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) - 9"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column10 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year)"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column11 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column12 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 2"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column13 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 3"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column14 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 4"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column15 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 5"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column16 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 6"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column17 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 7"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column18 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 8"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column19 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(document/flat/param/@year) + 9"/>
-										</span>
-									</th>
-								</xsl:if>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) - 1"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) - 2"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) - 3"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) - 4"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year)"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) + 1"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) + 2"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) + 3"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) + 4"/>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:value-of select="number(document/flat/param/@year) + 5"/>
+									</span>
+								</th>
 							</tr>
 							<tr>
 								<th>
@@ -219,292 +135,56 @@
 										<xsl:text>В</xsl:text>
 									</span>
 								</th>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column1 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:text>1</xsl:text>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column2 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="count( document/flat/strdata/@column1 ) &gt; 0 + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column3 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column4 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column5 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column6 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column7 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column8 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column9 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column10 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column11 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column12 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column13 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column14 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column15 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column16 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column17 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column18 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +
-number(count( document/flat/strdata/@column17 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
-								<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column19 ) &gt; 0)">
-									<th>
-										<span>
-											<xsl:value-of select="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +
-number(count( document/flat/strdata/@column17 ) &gt; 0) +
-number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
-										</span>
-									</th>
-								</xsl:if>
+								<th>
+									<span>
+										<xsl:text>1</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>2</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>3</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>4</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>5</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>6</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>7</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>8</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>9</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>10</xsl:text>
+									</span>
+								</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -512,188 +192,302 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 								<xsl:for-each select="document">
 									<xsl:for-each select="flat">
 										<xsl:for-each select="strdata">
-											<tr>
-												<td>
-													<xsl:for-each select="@name">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@measure">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@code">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column1 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column1">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column2 ) &gt; 0)">
-													<td/>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column3 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column3">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column4 ) &gt; 0)">
-													<td/>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column5 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column5">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column6 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column6">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column7 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column7">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column8 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column8">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column9 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column9">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column10 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column10">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column11 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column11">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column12 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column12">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column13 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column13">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column14 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column14">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column15 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column15">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column16 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column16">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column17 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column17">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column18 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column18">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-												<xsl:if test="$altova:CurrContextGrid_0/(count( document/flat/strdata/@column19 ) &gt; 0)">
-													<td>
-														<xsl:for-each select="@column19">
-															<span>
-																<xsl:value-of select="string(.)"/>
-															</span>
-														</xsl:for-each>
-													</td>
-												</xsl:if>
-											</tr>
+											<xsl:choose>
+												<xsl:when test="(@part = 0) and (fn:string-length(@name) &gt; 0)">
+													<tr>
+														<td>
+															<xsl:for-each select="@name">
+																<span style="font-weight:bold; ">
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+															<br/>
+														</td>
+														<td>
+															<xsl:for-each select="@measure">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@code">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column1">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column2">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column3">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column4">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column10">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column11">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column12">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column13">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column14">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column15">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+													</tr>
+												</xsl:when>
+												<xsl:otherwise/>
+											</xsl:choose>
+											<xsl:choose>
+												<xsl:when test="(@part = 1) and (fn:string-length(@name) &gt; 0)">
+													<tr>
+														<td>
+															<xsl:for-each select="@name">
+																<span style="font-style:italic; font-weight:bold; ">
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+															<br/>
+														</td>
+														<td>
+															<xsl:for-each select="@measure">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@code">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column1">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column2">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column3">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column4">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column10">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column11">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column12">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column13">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column14">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column15">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+													</tr>
+												</xsl:when>
+												<xsl:otherwise/>
+											</xsl:choose>
+											<xsl:choose>
+												<xsl:when test="(@part=2) and (fn:string-length(@name) &gt; 0)">
+													<tr>
+														<td>
+															<xsl:for-each select="@name">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@measure">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@code">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column1">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column2">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column3">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column4">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column10">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column11">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column12">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column13">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column14">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+														<td>
+															<xsl:for-each select="@column15">
+																<span>
+																	<xsl:value-of select="string(.)"/>
+																</span>
+															</xsl:for-each>
+														</td>
+													</tr>
+												</xsl:when>
+												<xsl:otherwise/>
+											</xsl:choose>
 										</xsl:for-each>
 									</xsl:for-each>
 								</xsl:for-each>
@@ -939,9 +733,20 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 					<xsl:text>комплекса)</xsl:text>
 				</span>
 				<br/>
-				<br/>
 			</body>
 		</html>
+	</xsl:template>
+	<xsl:template name="Template1">
+		<xsl:for-each select="if (@part = &quot;0&quot;) then (@name) else &quot;&quot;">
+			<xsl:choose>
+				<xsl:when test=". instance of element() or . instance of document-node()">
+					<xsl:apply-templates/>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:value-of select="."/>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
 	</xsl:template>
 	<xsl:function name="altova:is-cell-empty" as="xs:boolean">
 		<xsl:param name="altova:cell" as="element()"/>

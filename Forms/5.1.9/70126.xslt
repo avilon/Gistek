@@ -464,158 +464,368 @@
 													</xsl:for-each>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@name">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@name">
+																		<tr style="height:1.09in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@measure">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@measure">
+																		<tr style="height:1.08in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_plan_natur">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_3" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_plan_natur">
+																		<tr style="height:1.09in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_plan_tut">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_4" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_plan_tut">
+																		<tr style="height:1.09in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_plan_cost">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_5" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_plan_cost">
+																		<tr style="height:1.07in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_plan_natur">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_6" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_plan_natur">
+																		<tr style="height:1.05in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_plan_tut">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_7" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_plan_tut">
+																		<tr style="height:1.06in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_plan_cost">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_8" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_plan_cost">
+																		<tr style="height:1.08in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_fact_natur">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_9" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_fact_natur">
+																		<tr style="height:1.08in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_fact_tut">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_10" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_fact_tut">
+																		<tr style="height:1.07in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@all_fact_cost">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_11" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@all_fact_cost">
+																		<tr style="height:1.06in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_fact_natur">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_12" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_fact_natur">
+																		<tr style="height:1.06in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_fact_tut">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_13" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_fact_tut">
+																		<tr style="height:1.06in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
-													<xsl:for-each select="econ">
-														<xsl:for-each select="@year_fact_cost">
-															<p>
-																<span>
-																	<xsl:value-of select="string(.)"/>
-																</span>
-															</p>
-														</xsl:for-each>
-													</xsl:for-each>
+													<xsl:variable name="altova:table">
+														<table style="border-bottom-style:none; border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; " border="1">
+															<xsl:variable name="altova:CurrContextGrid_14" select="."/>
+															<xsl:variable name="altova:ColumnData"/>
+															<tbody>
+																<xsl:for-each select="econ">
+																	<xsl:for-each select="@year_fact_cost">
+																		<tr style="height:1.07in; ">
+																			<td style="border-left-style:none; border-right-style:none; border-top-style:none; min-width:1.2in; ">
+																				<span>
+																					<xsl:value-of select="string(.)"/>
+																				</span>
+																			</td>
+																		</tr>
+																	</xsl:for-each>
+																</xsl:for-each>
+															</tbody>
+														</table>
+													</xsl:variable>
+													<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+													<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+													<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+														<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+													</xsl:apply-templates>
 												</td>
 												<td>
 													<xsl:for-each select="@cost_all_plan">
@@ -670,7 +880,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_15" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -738,7 +948,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_16" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>

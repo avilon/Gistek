@@ -9,26 +9,29 @@
 							<xs:element name="strdata" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="part" use="required" type="xs:byte"/>
 									<xs:attribute name="subname" use="required" type="xs:string"/>
 									<xs:attribute name="measure" use="required" type="xs:string"/>
 									<xs:attribute name="code" use="required" type="xs:string"/>
-									<xs:attribute name="column1" type="xs:decimal"/>
-									<xs:attribute name="column3" type="xs:decimal"/>
-									<xs:attribute name="column5" type="xs:decimal"/>
-									<xs:attribute name="column6" type="xs:decimal"/>
-									<xs:attribute name="column7" type="xs:decimal"/>
-									<xs:attribute name="column8" type="xs:decimal"/>
-									<xs:attribute name="column9" type="xs:decimal"/>
-									<xs:attribute name="column10" type="xs:decimal"/>
-									<xs:attribute name="column11" type="xs:decimal"/>
-									<xs:attribute name="column12" type="xs:decimal"/>
-									<xs:attribute name="column13" type="xs:decimal"/>
-									<xs:attribute name="column14" type="xs:decimal"/>
-									<xs:attribute name="column15" type="xs:decimal"/>
-									<xs:attribute name="column16" type="xs:decimal"/>
-									<xs:attribute name="column17" type="xs:decimal"/>
-									<xs:attribute name="column18" type="xs:decimal"/>
-									<xs:attribute name="column19" type="xs:byte"/>
+									<xs:attribute name="column1" use="required" type="xs:string"/>
+									<xs:attribute name="column2" use="required" type="xs:string"/>
+									<xs:attribute name="column3" use="required" type="xs:string"/>
+									<xs:attribute name="column4" use="required" type="xs:string"/>
+									<xs:attribute name="column5" use="required" type="xs:string"/>
+									<xs:attribute name="column6" use="required" type="xs:string"/>
+									<xs:attribute name="column7" use="required" type="xs:string"/>
+									<xs:attribute name="column8" use="required" type="xs:string"/>
+									<xs:attribute name="column9" use="required" type="xs:string"/>
+									<xs:attribute name="column10" use="required" type="xs:string"/>
+									<xs:attribute name="column11" use="required" type="xs:string"/>
+									<xs:attribute name="column12" use="required" type="xs:string"/>
+									<xs:attribute name="column13" use="required" type="xs:string"/>
+									<xs:attribute name="column14" use="required" type="xs:string"/>
+									<xs:attribute name="column15" use="required" type="xs:string"/>
+									<xs:attribute name="column16" use="required" type="xs:string"/>
+									<xs:attribute name="column17" use="required" type="xs:string"/>
+									<xs:attribute name="column18" use="required" type="xs:string"/>
+									<xs:attribute name="column19" use="required" type="xs:string"/>
 								</xs:complexType>
 							</xs:element>
 							<xs:element name="strServiceInf" maxOccurs="unbounded">

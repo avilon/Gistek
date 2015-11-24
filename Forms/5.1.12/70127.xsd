@@ -6,6 +6,14 @@
 				<xs:element name="flat" maxOccurs="unbounded">
 					<xs:complexType>
 						<xs:sequence>
+							<xs:element name="param" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="version" use="required" type="xs:decimal"/>
+									<xs:attribute name="year" use="required" type="xs:short"/>
+									<xs:attribute name="month" use="required" type="xs:byte"/>
+									<xs:attribute name="day" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
 							<xs:element name="strdata" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:attribute name="name" use="required" type="xs:string"/>

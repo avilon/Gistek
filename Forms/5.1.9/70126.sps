@@ -604,288 +604,610 @@
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="name">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular"/>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="name">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.09in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																																<children>
+																																	<content subtype="regular"/>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="measure">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular"/>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="measure">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.08in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																																<children>
+																																	<content subtype="regular"/>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_plan_natur">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_plan_natur">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.09in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_plan_tut">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_plan_tut">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.09in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_plan_cost">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular"/>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none" border-top-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_plan_cost">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.07in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular"/>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_plan_natur">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_plan_natur">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.05in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_plan_tut">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_plan_tut">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.06in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_plan_cost">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_plan_cost">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.08in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_fact_natur">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_fact_natur">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.08in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_fact_tut">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_fact_tut">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.07in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="all_fact_cost">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular"/>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="all_fact_cost">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.06in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1in"/>
+																																<children>
+																																	<content subtype="regular"/>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_fact_natur">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_fact_natur">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.06in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_fact_tut">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_fact_tut">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.06in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="element" match="econ">
+																					<tgrid>
+																						<properties border="1"/>
+																						<styles border-bottom-style="none" border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
 																						<children>
-																							<template subtype="attribute" match="year_fact_cost">
+																							<tgridbody-cols>
 																								<children>
-																									<paragraph paragraphtag="p">
-																										<children>
-																											<content subtype="regular">
-																												<format basic-type="xsd" datatype="decimal"/>
-																											</content>
-																										</children>
-																									</paragraph>
+																									<tgridcol>
+																										<styles border-left-style="none" border-right-style="none"/>
+																									</tgridcol>
 																								</children>
-																								<variables/>
-																							</template>
+																							</tgridbody-cols>
+																							<tgridbody-rows>
+																								<children>
+																									<template subtype="element" match="econ">
+																										<children>
+																											<template subtype="attribute" match="year_fact_cost">
+																												<children>
+																													<tgridrow>
+																														<styles height="1.07in"/>
+																														<children>
+																															<tgridcell>
+																																<styles border-left-style="none" border-right-style="none" border-top-style="none" min-width="1.2in"/>
+																																<children>
+																																	<content subtype="regular">
+																																		<format basic-type="xsd" datatype="decimal"/>
+																																	</content>
+																																</children>
+																															</tgridcell>
+																														</children>
+																													</tgridrow>
+																												</children>
+																												<variables/>
+																											</template>
+																										</children>
+																										<variables/>
+																									</template>
+																								</children>
+																							</tgridbody-rows>
 																						</children>
-																						<variables/>
-																					</template>
+																					</tgrid>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>

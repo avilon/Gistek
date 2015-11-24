@@ -36,7 +36,6 @@
 							<text transparency="50"/>
 						</watermark>
 					</documentsection>
-					<newline/>
 					<text fixtext="Сведения о показателях (индикаторах) энергетической эффективности государственных программ Российской Федерации">
 						<styles font-size="16pt"/>
 					</text>
@@ -53,25 +52,16 @@
 									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column1 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column2 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column3 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column4 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column5 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column6 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column7 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column8 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column9 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column10 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column11 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column12 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column13 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column14 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column15 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column16 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column17 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column18 ) &gt; 0"/>
-									<tgridcol conditional-processing="count( document/flat/strdata/@column19 ) &gt; 0"/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
 								</children>
 							</tgridbody-cols>
 							<tgridheader-rows>
@@ -118,31 +108,6 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 5"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 6"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 7"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 8"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) - 9"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
 													<autocalc xpath="number(document/flat/param/@year)"/>
 												</children>
 											</tgridcell>
@@ -171,26 +136,6 @@
 													<autocalc xpath="number(document/flat/param/@year) + 5"/>
 												</children>
 											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) + 6"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) + 7"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) + 8"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(document/flat/param/@year) + 9"/>
-												</children>
-											</tgridcell>
 										</children>
 									</tgridrow>
 									<tgridrow>
@@ -217,245 +162,47 @@
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="count( document/flat/strdata/@column1 ) &gt; 0 + 1"/>
+													<text fixtext="2"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 1"/>
+													<text fixtext="3"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 1"/>
+													<text fixtext="4"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 1"/>
+													<text fixtext="5"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 1"/>
+													<text fixtext="6"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +1"/>
+													<text fixtext="7"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 1"/>
+													<text fixtext="8"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 1"/>
+													<text fixtext="9"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +
-number(count( document/flat/strdata/@column17 ) &gt; 0) +1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<autocalc xpath="number(count( document/flat/strdata/@column1 ) &gt; 0) +
-number(count( document/flat/strdata/@column2 ) &gt; 0) + 
-number(count( document/flat/strdata/@column3 ) &gt; 0) + 
-number(count( document/flat/strdata/@column4 ) &gt; 0) + 
-number(count( document/flat/strdata/@column5 ) &gt; 0) + 
-number(count( document/flat/strdata/@column6 ) &gt; 0) +
-number(count( document/flat/strdata/@column7 ) &gt; 0) + 
-number(count( document/flat/strdata/@column8 ) &gt; 0) + 
-number(count( document/flat/strdata/@column9 ) &gt; 0) + 
-number(count( document/flat/strdata/@column10 ) &gt; 0) +
-number(count( document/flat/strdata/@column11 ) &gt; 0) +
-number(count( document/flat/strdata/@column12 ) &gt; 0) +
-number(count( document/flat/strdata/@column13 ) &gt; 0) + 
-number(count( document/flat/strdata/@column14 ) &gt; 0) + 
-number(count( document/flat/strdata/@column15 ) &gt; 0) + 
-number(count( document/flat/strdata/@column16 ) &gt; 0) +
-number(count( document/flat/strdata/@column17 ) &gt; 0) +
-number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
+													<text fixtext="10"/>
 												</children>
 											</tgridcell>
 										</children>
@@ -472,7 +219,281 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 														<children>
 															<template subtype="element" match="strdata">
 																<children>
-																	<tgridrow>
+																	<tgridrow conditional-processing="(@part = 0) and (fn:string-length(@name) &gt; 0)">
+																		<children>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="name">
+																						<children>
+																							<content subtype="regular">
+																								<styles font-weight="bold"/>
+																							</content>
+																						</children>
+																						<variables/>
+																					</template>
+																					<newline/>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="measure">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="code">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column1">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column2">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column10">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column11">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column12">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column13">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column14">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column15">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																	<tgridrow conditional-processing="(@part = 1) and (fn:string-length(@name) &gt; 0)">
+																		<children>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="name">
+																						<children>
+																							<content subtype="regular">
+																								<styles font-style="italic" font-weight="bold"/>
+																							</content>
+																						</children>
+																						<variables/>
+																					</template>
+																					<newline/>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="measure">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="code">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column1">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column2">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column3">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column4">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column10">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column11">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column12">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column13">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column14">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column15">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																		</children>
+																	</tgridrow>
+																	<tgridrow conditional-processing="(@part=2) and (fn:string-length(@name) &gt; 0)">
 																		<children>
 																			<tgridcell>
 																				<children>
@@ -546,56 +567,6 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="column5">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column6">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column7">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column8">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column9">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
 																					<template subtype="attribute" match="column10">
 																						<children>
 																							<content subtype="regular"/>
@@ -647,46 +618,6 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 																			<tgridcell>
 																				<children>
 																					<template subtype="attribute" match="column15">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column16">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column17">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column18">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column19">
 																						<children>
 																							<content subtype="regular"/>
 																						</children>
@@ -1005,13 +936,26 @@ number(count( document/flat/strdata/@column18 ) &gt; 0) +1"/>
 					<newline/>
 					<text fixtext="комплекса)"/>
 					<newline/>
-					<newline/>
 				</children>
 			</globaltemplate>
 		</children>
 	</mainparts>
 	<globalparts/>
-	<designfragments/>
+	<designfragments>
+		<children>
+			<globaltemplate subtype="named" match="Template1">
+				<parameters/>
+				<children>
+					<template subtype="userdefined" match="if (@part = &quot;0&quot;) then (@name) else &quot;&quot;">
+						<children>
+							<content subtype="regular"/>
+						</children>
+						<variables/>
+					</template>
+				</children>
+			</globaltemplate>
+		</children>
+	</designfragments>
 	<xmltables/>
 	<authentic-custom-toolbar-buttons/>
 </structure>
