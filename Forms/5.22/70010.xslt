@@ -10,10 +10,10 @@
 	<xsl:param name="SV_BaseOutputFileName" as="xs:string?">
 		<xsl:sequence select="for $i in altovaext:get-base-output-uri(), $j in tokenize( $i, &apos;[/\\]&apos; )[last()] return replace( $j, &apos;\.[^\.\s#%;]*$&apos;, &apos;&apos; )" use-when="function-available(&apos;altovaext:get-base-output-uri&apos;)"/>
 	</xsl:param>
-	<xsl:param name="SV_GeneratedFileNamePrefix" select="if ( $SV_BaseOutputFileName ) then $SV_BaseOutputFileName else &apos;70127&apos;" as="xs:string?"/>
+	<xsl:param name="SV_GeneratedFileNamePrefix" select="if ( $SV_BaseOutputFileName ) then $SV_BaseOutputFileName else &apos;70010&apos;" as="xs:string?"/>
 	<xsl:variable name="XML" select="/"/>
 	<xsl:variable name="altova:nPxPerIn" select="96"/>
-	<xsl:import-schema schema-location="70127.xsd" use-when="system-property('xsl:is-schema-aware')='yes'"/>
+	<xsl:import-schema schema-location="70010_rpt.xsd" use-when="system-property('xsl:is-schema-aware')='yes'"/>
 	<xsl:variable name="altova:CssImages" select="()"/>
 	<xsl:template match="/">
 		<xsl:call-template name="altova:Root"/>
@@ -26,21 +26,22 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 				<xsl:comment>[if IE]&gt;&lt;STYLE type=&quot;text/css&quot;&gt;.altova-rotate-left-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)} .altova-rotate-right-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)} &lt;/STYLE&gt;&lt;![endif]</xsl:comment>
 				<xsl:comment>[if !IE]&gt;&lt;!</xsl:comment>
+				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
+				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">
 					<xsl:value-of select="document('style.css')" disable-output-escaping="yes" />
 				</style>
-				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
-				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
 			</head>
 			<body>
+				<br/>
 				<span style="font-size:16pt; ">
-					<xsl:text>Паспорт программы в области энергосбережения и повышения энергетической эффективности организаций, осуществляющих регулируемые виды деятельности</xsl:text>
+					<xsl:text>Отчет о достижении целевых показателей энергосбережения и повышения энергетической эффективности субъектами естественных монополий, в отношении которых установлены требования к программам в области энергосбережения и повышения энергетической эффективности</xsl:text>
 				</span>
 				<br/>
 				<hr/>
 				<span>
-					<xsl:text>Раздел  1 Краткая информация о программе</xsl:text>
+					<xsl:text>Раздел 1. Отчет о достижении целевых показателей энергосбережения и повышения энергетической эффективности субъектом естественной монополии в морском порту (транспортном терминале)</xsl:text>
 				</span>
 				<br/>
 				<xsl:variable name="altova:table">
@@ -49,37 +50,177 @@
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
-								<th/>
-								<th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Наименование целевого показателя</xsl:text>
+									</span>
+									<br/>
+									<span>
+										<xsl:text>/ </xsl:text>
+									</span>
+									<br/>
+									<span>
+										<xsl:text>Вид ТЭР</xsl:text>
+									</span>
+									<br/>
+								</th>
+								<th rowspan="2">
+									<span>
+										<xsl:text>Ед. изм.</xsl:text>
+									</span>
+								</th>
+								<th rowspan="2">
 									<span>
 										<xsl:text>Код строки</xsl:text>
 									</span>
 								</th>
-								<th/>
+								<th colspan="2">
+									<span>
+										<xsl:text>20__</xsl:text>
+									</span>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>20__</xsl:text>
+									</span>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>20__</xsl:text>
+									</span>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>20__</xsl:text>
+									</span>
+								</th>
+								<th colspan="4">
+									<span>
+										<xsl:text>20__</xsl:text>
+									</span>
+								</th>
 							</tr>
 							<tr>
 								<th>
 									<span>
-										<xsl:text>А</xsl:text>
+										<xsl:text>план</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>Б</xsl:text>
+										<xsl:text>факт</xsl:text>
 									</span>
 								</th>
 								<th>
 									<span>
-										<xsl:text>1</xsl:text>
+										<xsl:text>план</xsl:text>
 									</span>
 								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>факт</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>план</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>факт</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>план</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>факт</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>план</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>факт</xsl:text>
+									</span>
+								</th>
+								<th>
+									<span>
+										<xsl:text>% измен., к пред. периоду</xsl:text>
+									</span>
+								</th>
+							</tr>
+							<tr>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
+								<th/>
 							</tr>
 						</thead>
 						<tbody>
 							<xsl:for-each select="$XML">
 								<xsl:for-each select="document">
 									<xsl:for-each select="flat">
-										<xsl:for-each select="strdata[@code &lt; 5]">
+										<xsl:for-each select="strdata">
 											<tr>
 												<td>
 													<xsl:for-each select="@name">
@@ -88,266 +229,13 @@
 														</span>
 													</xsl:for-each>
 												</td>
+												<td/>
 												<td>
 													<xsl:for-each select="@code">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
 													</xsl:for-each>
-												</td>
-												<td>
-													<xsl:for-each select="@column1">
-														<span>
-															<xsl:value-of select="string(.)"/>
-														</span>
-													</xsl:for-each>
-												</td>
-											</tr>
-										</xsl:for-each>
-									</xsl:for-each>
-								</xsl:for-each>
-							</xsl:for-each>
-						</tbody>
-					</table>
-				</xsl:variable>
-				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
-				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
-				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
-					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
-				</xsl:apply-templates>
-				<br/>
-				<span>
-					<xsl:text>Раздел&#160; 2 Затраты на реализация программы</xsl:text>
-				</span>
-				<br/>
-				<xsl:variable name="altova:table">
-					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
-						<xsl:variable name="altova:ColumnData"/>
-						<thead>
-							<tr>
-								<th rowspan="4">
-									<span>
-										<xsl:text>Год</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th rowspan="4">
-									<span>
-										<xsl:text>Код строки</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="2">
-									<span>
-										<xsl:text>Затраты на реализацию программы, млн. руб. без НДС</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th rowspan="4">
-									<span>
-										<xsl:text>Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности, %</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="8">
-									<span>
-										<xsl:text>Топливно-энергетические ресурсы (ТЭР)							</xsl:text>
-									</span>
-									<br/>
-								</th>
-							</tr>
-							<tr>
-								<th rowspan="3">
-									<span>
-										<xsl:text>всего</xsl:text>
-									</span>
-								</th>
-								<th rowspan="3">
-									<span>
-										<xsl:text>в т.ч. капитальные</xsl:text>
-									</span>
-									<br/>
-									<br/>
-								</th>
-								<th colspan="4">
-									<span>
-										<xsl:text>при осуществлении регулируемого вида деятельности			</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="4">
-									<span>
-										<xsl:text>при осуществлении прочей деятельности, в т.ч. хозяйственные нужды			</xsl:text>
-									</span>
-									<br/>
-								</th>
-							</tr>
-							<tr>
-								<th colspan="2">
-									<span>
-										<xsl:text>суммарные затраты ТЭР	</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="2">
-									<span>
-										<xsl:text>экономия ТЭР в результате реализации программы	</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="2">
-									<span>
-										<xsl:text>суммарные затраты ТЭР	</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th colspan="2">
-									<span>
-										<xsl:text>экономия ТЭР в результате реализации программы	</xsl:text>
-									</span>
-									<br/>
-								</th>
-							</tr>
-							<tr>
-								<th>
-									<span>
-										<xsl:text>т у.т. без учета воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>т у.т. без учета воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>т у.т. без учета воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>т у.т. без учета воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-								<th>
-									<span>
-										<xsl:text>млн. руб. без НДС с учетом воды</xsl:text>
-									</span>
-									<br/>
-								</th>
-							</tr>
-							<tr>
-								<th>
-									<span>
-										<xsl:text>А</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Б</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>1</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>2</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>3</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>4</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>5</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>6</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>7</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>8</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>9</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>10</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>11</xsl:text>
-									</span>
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<xsl:for-each select="$XML">
-								<xsl:for-each select="document">
-									<xsl:for-each select="flat">
-										<xsl:for-each select="strdata[(number(@code) &gt; 4 and number(@code) &lt; 20) and
-( (string-length(@column1) &gt; 0) or (@code = 15))]">
-											<tr>
-												<td>
-													<span>
-														<xsl:value-of select="if (number(@code) &gt; 5 and number(@code) &lt; 15) then  
-  number(  /document/flat/param/@year ) - number(10 - number(@code))
-else @name"/>
-													</span>
-												</td>
-												<td>
-													<span>
-														<xsl:value-of select="if (number(@code) = 15) then 15
-else (
-        4 + fn:position()
-)"/>
-													</span>
 												</td>
 												<td>
 													<xsl:for-each select="@column1">
@@ -426,74 +314,50 @@ else (
 														</span>
 													</xsl:for-each>
 												</td>
-											</tr>
-										</xsl:for-each>
-									</xsl:for-each>
-								</xsl:for-each>
-							</xsl:for-each>
-						</tbody>
-					</table>
-				</xsl:variable>
-				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
-				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
-				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
-					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
-				</xsl:apply-templates>
-				<br/>
-				<span style="font-size:16pt; ">
-					<xsl:text>Служебный раздел</xsl:text>
-				</span>
-				<br/>
-				<hr/>
-				<span>
-					<xsl:text>Сведения о Субъекте ТЭК, предоставившем информацию</xsl:text>
-				</span>
-				<br/>
-				<xsl:variable name="altova:table">
-					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
-						<xsl:variable name="altova:ColumnData"/>
-						<thead>
-							<tr>
-								<th>
-									<span>
-										<xsl:text>Служебная информация</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Значение 1</xsl:text>
-									</span>
-								</th>
-								<th>
-									<span>
-										<xsl:text>Значение 2</xsl:text>
-									</span>
-								</th>
-							</tr>
-						</thead>
-						<tbody>
-							<xsl:for-each select="$XML">
-								<xsl:for-each select="document">
-									<xsl:for-each select="flat">
-										<xsl:for-each select="strServiceInf">
-											<tr>
 												<td>
-													<xsl:for-each select="@name">
+													<xsl:for-each select="@column12">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
 													</xsl:for-each>
 												</td>
 												<td>
-													<xsl:for-each select="@code">
+													<xsl:for-each select="@column13">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
 													</xsl:for-each>
 												</td>
 												<td>
-													<xsl:for-each select="@col1">
+													<xsl:for-each select="@column14">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column15">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column16">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column17">
+														<span>
+															<xsl:value-of select="string(.)"/>
+														</span>
+													</xsl:for-each>
+												</td>
+												<td>
+													<xsl:for-each select="@column18">
 														<span>
 															<xsl:value-of select="string(.)"/>
 														</span>
@@ -519,22 +383,18 @@ else (
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_3" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
 								<th rowspan="2">
 									<span>
-										<xsl:text>Контактная иформация</xsl:text>
+										<xsl:text>Контактная информация</xsl:text>
 									</span>
 								</th>
 								<th rowspan="2">
 									<span>
-										<xsl:text>Код</xsl:text>
-									</span>
-									<br/>
-									<span>
-										<xsl:text>строки</xsl:text>
+										<xsl:text>Код строки</xsl:text>
 									</span>
 								</th>
 								<th>
@@ -642,36 +502,6 @@ else (
 				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
 					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
 				</xsl:apply-templates>
-				<br/>
-				<br/>
-				<span>
-					<xsl:text> «____» ___________20_ год</xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>(дата предоставления </xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>информации в </xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>государственную </xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>информационную систему </xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>топливно-энергетического </xsl:text>
-				</span>
-				<br/>
-				<span>
-					<xsl:text>комплекса)</xsl:text>
-				</span>
-				<br/>
 				<br/>
 			</body>
 		</html>

@@ -1,35 +1,37 @@
 <document version="1.0" created="create_xml_online">
   <flat>
-    <param version="1.0" year="2014" month="0" day=""/>
-    <strdata name="Основание для разработки программы" code="1" column1=""/>
-    <strdata name="Почтовый адрес" code="2" column1=""/>
-    <strdata name="Ответственный за формирование программы (Ф.И.О., контактный телефон, e-mail)" code="3" column1=""/>
-    <strdata name="Даты начала и окончания действия программы" code="4" column1=""/>
-    <strdata name="базовый год" code="5" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год - 4" code="6" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
+    <param version="1.0" year="2014" month="12" day=""/>
+    <strdata name="Основание для разработки программы" code="1" column1="Федеральный закон от 23.11.2009 N 261-ФЗ &quot;Об энергосбережении и о повышении энергетической эффективности и о внесении изменений в отдельные законодательные акты РФ&quot;"/>
+    <strdata name="Почтовый адрес" code="2" column1="456789 и т.д."/>
+    <strdata name="Ответственный за формирование программы (Ф.И.О., контактный телефон, e-mail)" code="3" column1="Кац"/>
+    <strdata name="Даты начала и окончания действия программы" code="4" column1="01.01.2000 - 31.12.2020"/>
+    <strdata name="базовый год" code="5" column1="1.00" column2="2.00" column3="3.00" column4="4.00" column5="5.00" column6="6.00" column7="7.00" column8="8.00" column9="9.00" column10="10.00" column11="11.00"/>
+    <strdata name="отчетный год - 4" code="6" column1="41.00" column2="42.00" column3="43.00" column4="44.00" column5="45.00" column6="46.00" column7="47.00" column8="48.00" column9="49.00" column10="50.00" column11="51.00"/>
     <strdata name="отчетный год - 3" code="7" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год - 2" code="8" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год - 1" code="9" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год" code="10" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год + 1" code="11" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год + 2" code="12" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strdata name="отчетный год + 3" code="13" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
+    <strdata name="отчетный год - 2" code="8" column1="21.00" column2="22.00" column3="23.00" column4="24.00" column5="25.00" column6="26.00" column7="27.00" column8="28.00" column9="29.00" column10="30.00" column11="31.00"/>
+    <strdata name="отчетный год - 1" code="9" column1="11.00" column2="12.00" column3="13.00" column4="14.00" column5="15.00" column6="16.00" column7="17.00" column8="18.00" column9="19.00" column10="20.00" column11="21.00"/>
+    <strdata name="отчетный год" code="10" column1="10.00" column2="20.00" column3="30.00" column4="40.00" column5="50.00" column6="60.00" column7="70.00" column8="80.00" column9="90.00" column10="100.00" column11="110.00"/>
+    <strdata name="отчетный год + 1" code="11" column1="110.00" column2="120.00" column3="130.00" column4="140.00" column5="150.00" column6="160.00" column7="170.00" column8="180.00" column9="190.00" column10="200.00" column11="210.00"/>
+    <strdata name="отчетный год + 2" code="12" column1="210.00" column2="220.00" column3="230.00" column4="240.00" column5="250.00" column6="260.00" column7="270.00" column8="280.00" column9="290.00" column10="300.00" column11="310.00"/>
+    <strdata name="отчетный год + 3" code="13" column1="310.00" column2="320.00" column3="330.00" column4="340.00" column5="350.00" column6="360.00" column7="370.00" column8="380.00" column9="390.00" column10="400.00" column11="410.00"/>
     <strdata name="отчетный год + 4" code="14" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
     <strdata name="Всего за годы программы" code="15" column1="" column2="" column3="" column4="" column5="" column6="" column7="" column8="" column9="" column10="" column11=""/>
-    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4="" col5="" col6="" col7="" col8=""/>
-    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4="" col5="" col6="" col7="" col8=""/>
-    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
-    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
-    <strServiceInf name="Фактический адрес" code="123" col1=""/>
-    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
-    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
-    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
-    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1=""/>
-    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1=""/>
-    <strServiceInf name="ОКАТО (Код территории)" code="129" col1=""/>
-    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1=""/>
-    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1=""/>
-    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1=""/>
-    <strServiceInf name="ОКТМО" code="133" col1=""/>
+    <strdata name="ОКВЭД" code="146" column1="146"/>
+    <strdata name="ОКТМО" code="147" column1="147"/>
+    <strContactInf name="Руководитель организации" code="111" col1="Козлов" col2="козел" col3="+1234567890" col4="kozel@mail.com" col5="" col6="" col7="" col8=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Баранов" col2="баран" col3="+7654321890" col4="baran@mail.com" col5="" col6="" col7="" col8=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1="121"/>
+    <strServiceInf name="Почтовый адрес" code="122" col1="122"/>
+    <strServiceInf name="Фактический адрес" code="123" col1="123"/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1="126"/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" col1="127"/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" col1="128"/>
+    <strServiceInf name="ОКАТО (Код территории)" code="129" col1="129"/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" col1="130"/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" col1="131"/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" col1="132"/>
+    <strServiceInf name="ОКТМО" code="133" col1="133"/>
   </flat>
 </document>

@@ -20617,28 +20617,180 @@ let $outData := for $items in $newXML//flat//strdata
                 attribute part     {$items/@part},
                 attribute subname  {$items/@subname},
                 attribute measure  {$items/@measure},
-                attribute code     {$items/@code},
-                attribute column1 { $items/@column1 },      
-                attribute column2 { $items/@column2 },
-                attribute column3 { $items/@column3 },
-                attribute column4 { $items/@column4 },                
-                attribute column5 { $items/@column5 },
-                attribute column6 { $items/@column6 },                
-                attribute column7 { $items/@column7 },                
-                attribute column8 { $items/@column8 },
-                attribute column9 { $items/@column9 },                
-                attribute column10 { $items/@column10 },
-                attribute column11 { $items/@column11 },                
-                attribute column12 { $items/@column12 },                
-                attribute column13 { $items/@column13 },                
-                attribute column14 { $items/@column14 },                
-                attribute column15 { $items/@column15 },                
-                attribute column16 { $items/@column16 },
-                attribute column17 { $items/@column17 },
-                attribute column18 { $items/@column18 },                                
-                attribute column19 { $items/@column19 }                
+                attribute code     {$items/@code},                
+                
+                if (string-length($items/@column1) > 0) then
+                (
+                    attribute column1 { $items/@column1 },
+                    attribute cols1 {"1"}
+                )    
+                else (
+                    attribute cols1{"0"}
+                ),
+                      
+                if (string-length($items/@column2) > 0) then 
+                (
+                  attribute column2 { $items/@column2 },
+                  attribute cols2 {"1"}
+                )  
+                else (
+                  attribute cols2{"0"}
+                ),
+                
+                if (string-length( $items/@column3) > 0) then
+                (
+                  attribute column3 { $items/@column3 },
+                  attribute cols3{"1"}
+                )  
+                else(
+                  attribute cols3{"0"}
+                ),
+                
+                if (string-length($items/@column4) > 0) then
+                (
+                  attribute column4 { $items/@column4 },
+                  attribute cols4{"1"}
+                )  
+                else(
+                  attribute cols4{"0"}
+                ),
+                
+                if (string-length($items/@column5) > 0) then
+                (                
+                  attribute column5 { $items/@column5 },
+                  attribute cols5 {"1"}
+                )
+                else(
+                  attribute cols5{"0"}
+                ),
+                
+                if (string-length($items/@column6) > 0) then
+                (
+                  attribute column6 { $items/@column6 },
+                  attribute cols{"1"}
+                )
+                else(
+                  attribute cols6{"0"}
+                ),                
+                
+                if (string-length($items/@column7) > 0) then
+                (
+                  attribute column7 { $items/@column7 },
+                  attribute cols7{"1"}
+                )
+                else(
+                  attribute cols7{"0"}
+                ),          
+                
+                if (string-length($items/@column8) > 0) then      
+                (
+                  attribute column8 { $items/@column8 },
+                  attribute cols8{"1"}
+                )
+                else(
+                  attribute cols8{"0"}
+                ),
+                
+                if (string-length($items/@column9) > 0) then
+                (
+                  attribute column9 { $items/@column9 },
+                  attribute cols9{"1"}
+                )
+                else(
+                  attribute cols9{"0"}
+                ),
+                
+                if (string-length($items/@column10) > 0) then                
+                (
+                  attribute column10 { $items/@column10 },
+                  attribute cols10{"1"}
+                )
+                else(
+                  attribute cols10{"0"}
+                ),
+                
+                if (string-length($items/@column11) > 0) then
+                (
+                  attribute column11 { $items/@column11 },
+                  attribute cols11{"1"}
+                )
+                else(
+                  attribute cols11{"0"}
+                ),
+                
+                if (string-length($items/@column12) > 0) then                
+                (
+                  attribute column12 { $items/@column12 },
+                  attribute cols12 {"1"}
+                )
+                else(
+                  attribute cols12{"0"}
+                ),                
+                
+                if (string-length($items/@column13) > 0) then
+                (
+                  attribute column13 { $items/@column13 },
+                  attribute cols13{"1"}
+                )
+                else(
+                  attribute cols13{"0"}
+                ),                
+                
+                if (string-length($items/@column14) > 0) then
+                (
+                  attribute column14 { $items/@column14 },
+                  attribute cols14{"1"}
+                )
+                else(
+                  attribute cols14{"0"}
+                ),
+                
+                if (string-length($items/@column15) > 0) then                
+                (
+                  attribute column15 { $items/@column15 },
+                  attribute cols15{"1"}
+                )
+                else(
+                  attribute cols15{"0"}
+                ),                
+                
+                if (string-length($items/@column16) > 0) then
+                (
+                  attribute column16 { $items/@column16 },
+                  attribute cols16{"1"}
+                )
+                else(
+                  attribute cols16{"0"}
+                ),
+                
+                if (string-length($items/@column17) > 0) then
+                (
+                  attribute column17 { $items/@column17 },
+                  attribute cols17 {"1"}
+                )
+                else(
+                  attribute cols17{"0"}
+                ),
+                
+                if (string-length($items/@column18) > 0) then
+                (
+                  attribute column18 { $items/@column18 },
+                  attribute cols18{"1"}
+                )
+                else(
+                  attribute cols18{"0"}
+                ),                                
+                
+                if (string-length($items/@column19) > 0) then
+                (
+                  attribute column19 { $items/@column19 },
+                  attribute cols19{"1"}
+                )
+                else(
+                  attribute cols19{"0"}
+                )               
               } 
- 
+  
 let $flatten := $parm
 let $flatten := insert-before($flatten, 0, $flattenContactData)
 let $flatten := insert-before($flatten, 0, $flattenServiceData)

@@ -4,7 +4,7 @@
 	<schemasources>
 		<namespaces/>
 		<schemasources>
-			<xsdschemasource name="XML" main="1" schemafile="70127.xsd" workingxmlfile="70127.xml"/>
+			<xsdschemasource name="XML" main="1" schemafile="70010_rpt.xsd" workingxmlfile="70010_rpt.xml"/>
 		</schemasources>
 	</schemasources>
 	<modules/>
@@ -36,12 +36,13 @@
 							<text transparency="50"/>
 						</watermark>
 					</documentsection>
-					<text fixtext="Паспорт программы в области энергосбережения и повышения энергетической эффективности организаций, осуществляющих регулируемые виды деятельности">
+					<newline/>
+					<text fixtext="Отчет о достижении целевых показателей энергосбережения и повышения энергетической эффективности субъектами естественных монополий, в отношении которых установлены требования к программам в области энергосбережения и повышения энергетической эффективности">
 						<styles font-size="16pt"/>
 					</text>
 					<newline/>
 					<line/>
-					<text fixtext="Раздел  1 Краткая информация о программе"/>
+					<text fixtext="Раздел 1. Отчет о достижении целевых показателей энергосбережения и повышения энергетической эффективности субъектом естественной монополии в морском порту (транспортном терминале)"/>
 					<newline/>
 					<tgrid>
 						<properties border="1"/>
@@ -51,38 +52,210 @@
 									<tgridcol/>
 									<tgridcol/>
 									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
+									<tgridcol/>
 								</children>
 							</tgridbody-cols>
 							<tgridheader-rows>
 								<children>
 									<tgridrow>
 										<children>
-											<tgridcell/>
+											<tgridcell>
+												<children>
+													<text fixtext="Наименование целевого показателя"/>
+													<newline/>
+													<text fixtext="/ "/>
+													<newline/>
+													<text fixtext="Вид ТЭР"/>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="Ед. изм."/>
+												</children>
+											</tgridcell>
 											<tgridcell>
 												<children>
 													<text fixtext="Код строки"/>
 												</children>
 											</tgridcell>
-											<tgridcell/>
+											<tgridcell>
+												<children>
+													<text fixtext="20__"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="20__"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="20__"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="20__"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell>
+												<children>
+													<text fixtext="20__"/>
+												</children>
+											</tgridcell>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
+											<tgridcell joinleft="1"/>
 										</children>
 									</tgridrow>
 									<tgridrow>
 										<children>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
+											<tgridcell joinabove="1"/>
 											<tgridcell>
 												<children>
-													<text fixtext="А"/>
+													<text fixtext="план"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Б"/>
+													<text fixtext="факт"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="1"/>
+													<text fixtext="план"/>
 												</children>
 											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="факт"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="план"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="факт"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="план"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="факт"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="план"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="факт"/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="% измен., к пред. периоду"/>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
+											<tgridcell/>
 										</children>
 									</tgridrow>
 								</children>
@@ -95,7 +268,7 @@
 												<children>
 													<template subtype="element" match="flat">
 														<children>
-															<template subtype="element" filter="@code &lt; 5" match="strdata">
+															<template subtype="element" match="strdata">
 																<children>
 																	<tgridrow>
 																		<children>
@@ -109,6 +282,7 @@
 																					</template>
 																				</children>
 																			</tgridcell>
+																			<tgridcell/>
 																			<tgridcell>
 																				<children>
 																					<template subtype="attribute" match="code">
@@ -119,331 +293,6 @@
 																						</children>
 																						<variables/>
 																					</template>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<template subtype="attribute" match="column1">
-																						<children>
-																							<content subtype="regular"/>
-																						</children>
-																						<variables/>
-																					</template>
-																				</children>
-																			</tgridcell>
-																		</children>
-																	</tgridrow>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-												<variables/>
-											</template>
-										</children>
-										<variables/>
-									</template>
-								</children>
-							</tgridbody-rows>
-						</children>
-					</tgrid>
-					<newline/>
-					<text fixtext="Раздел  2 Затраты на реализация программы"/>
-					<newline/>
-					<tgrid>
-						<properties border="1"/>
-						<children>
-							<tgridbody-cols>
-								<children>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-								</children>
-							</tgridbody-cols>
-							<tgridheader-rows>
-								<children>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="Год"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Код строки"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Затраты на реализацию программы, млн. руб. без НДС"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности, %"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Топливно-энергетические ресурсы (ТЭР)							"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="всего"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="в т.ч. капитальные"/>
-													<newline/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinabove="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="при осуществлении регулируемого вида деятельности			"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="при осуществлении прочей деятельности, в т.ч. хозяйственные нужды			"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-											<tgridcell joinleft="1"/>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="суммарные затраты ТЭР	"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="экономия ТЭР в результате реализации программы	"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="суммарные затраты ТЭР	"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="экономия ТЭР в результате реализации программы	"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell joinleft="1"/>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell joinabove="1"/>
-											<tgridcell>
-												<children>
-													<text fixtext="т у.т. без учета воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="млн. руб. без НДС с учетом воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="т у.т. без учета воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="млн. руб. без НДС с учетом воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="т у.т. без учета воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="млн. руб. без НДС с учетом воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="т у.т. без учета воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="млн. руб. без НДС с учетом воды"/>
-													<newline/>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="А"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Б"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="2"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="3"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="4"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="5"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="6"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="7"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="8"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="9"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="10"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="11"/>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-								</children>
-							</tgridheader-rows>
-							<tgridbody-rows>
-								<children>
-									<template subtype="source" match="XML">
-										<children>
-											<template subtype="element" match="document">
-												<children>
-													<template subtype="element" match="flat">
-														<children>
-															<template subtype="element" filter="(number(@code) &gt; 4 and number(@code) &lt; 20) and
-( (string-length(@column1) &gt; 0) or (@code = 15))" match="strdata">
-																<children>
-																	<tgridrow>
-																		<children>
-																			<tgridcell>
-																				<children>
-																					<autocalc xpath="if (number(@code) &gt; 5 and number(@code) &lt; 15) then  
-  number(  /document/flat/param/@year ) - number(10 - number(@code))
-else @name"/>
-																				</children>
-																			</tgridcell>
-																			<tgridcell>
-																				<children>
-																					<autocalc xpath="if (number(@code) = 15) then 15
-else (
-        4 + fn:position()
-)"/>
 																				</children>
 																			</tgridcell>
 																			<tgridcell>
@@ -556,80 +405,9 @@ else (
 																					</template>
 																				</children>
 																			</tgridcell>
-																		</children>
-																	</tgridrow>
-																</children>
-																<variables/>
-															</template>
-														</children>
-														<variables/>
-													</template>
-												</children>
-												<variables/>
-											</template>
-										</children>
-										<variables/>
-									</template>
-								</children>
-							</tgridbody-rows>
-						</children>
-					</tgrid>
-					<newline/>
-					<text fixtext="Служебный раздел">
-						<styles font-size="16pt"/>
-					</text>
-					<newline/>
-					<line/>
-					<text fixtext="Сведения о Субъекте ТЭК, предоставившем информацию"/>
-					<newline/>
-					<tgrid>
-						<properties border="1"/>
-						<children>
-							<tgridbody-cols>
-								<children>
-									<tgridcol/>
-									<tgridcol/>
-									<tgridcol/>
-								</children>
-							</tgridbody-cols>
-							<tgridheader-rows>
-								<children>
-									<tgridrow>
-										<children>
-											<tgridcell>
-												<children>
-													<text fixtext="Служебная информация"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Значение 1"/>
-												</children>
-											</tgridcell>
-											<tgridcell>
-												<children>
-													<text fixtext="Значение 2"/>
-												</children>
-											</tgridcell>
-										</children>
-									</tgridrow>
-								</children>
-							</tgridheader-rows>
-							<tgridbody-rows>
-								<children>
-									<template subtype="source" match="XML">
-										<children>
-											<template subtype="element" match="document">
-												<children>
-													<template subtype="element" match="flat">
-														<children>
-															<template subtype="element" match="strServiceInf">
-																<children>
-																	<tgridrow>
-																		<children>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="name">
+																					<template subtype="attribute" match="column12">
 																						<children>
 																							<content subtype="regular"/>
 																						</children>
@@ -639,11 +417,9 @@ else (
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="code">
+																					<template subtype="attribute" match="column13">
 																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="short"/>
-																							</content>
+																							<content subtype="regular"/>
 																						</children>
 																						<variables/>
 																					</template>
@@ -651,11 +427,49 @@ else (
 																			</tgridcell>
 																			<tgridcell>
 																				<children>
-																					<template subtype="attribute" match="col1">
+																					<template subtype="attribute" match="column14">
 																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="short"/>
-																							</content>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column15">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column16">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column17">
+																						<children>
+																							<content subtype="regular"/>
+																						</children>
+																						<variables/>
+																					</template>
+																				</children>
+																			</tgridcell>
+																			<tgridcell>
+																				<children>
+																					<template subtype="attribute" match="column18">
+																						<children>
+																							<content subtype="regular"/>
 																						</children>
 																						<variables/>
 																					</template>
@@ -701,14 +515,12 @@ else (
 										<children>
 											<tgridcell>
 												<children>
-													<text fixtext="Контактная иформация"/>
+													<text fixtext="Контактная информация"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
 												<children>
-													<text fixtext="Код"/>
-													<newline/>
-													<text fixtext="строки"/>
+													<text fixtext="Код строки"/>
 												</children>
 											</tgridcell>
 											<tgridcell>
@@ -819,9 +631,7 @@ else (
 																				<children>
 																					<template subtype="attribute" match="col3">
 																						<children>
-																							<content subtype="regular">
-																								<format basic-type="xsd" datatype="long"/>
-																							</content>
+																							<content subtype="regular"/>
 																						</children>
 																						<variables/>
 																					</template>
@@ -855,22 +665,6 @@ else (
 							</tgridbody-rows>
 						</children>
 					</tgrid>
-					<newline/>
-					<newline/>
-					<text fixtext=" «____» ___________20_ год"/>
-					<newline/>
-					<text fixtext="(дата предоставления "/>
-					<newline/>
-					<text fixtext="информации в "/>
-					<newline/>
-					<text fixtext="государственную "/>
-					<newline/>
-					<text fixtext="информационную систему "/>
-					<newline/>
-					<text fixtext="топливно-энергетического "/>
-					<newline/>
-					<text fixtext="комплекса)"/>
-					<newline/>
 					<newline/>
 				</children>
 			</globaltemplate>

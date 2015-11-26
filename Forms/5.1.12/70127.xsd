@@ -17,7 +17,7 @@
 							<xs:element name="strdata" maxOccurs="unbounded">
 								<xs:complexType>
 									<xs:attribute name="name" use="required" type="xs:string"/>
-									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="code" use="required" type="xs:short"/>
 									<xs:attribute name="column1" use="required" type="xs:string"/>
 									<xs:attribute name="column2" type="xs:string"/>
 									<xs:attribute name="column3" type="xs:string"/>
@@ -37,7 +37,7 @@
 									<xs:attribute name="code" use="required" type="xs:byte"/>
 									<xs:attribute name="col1" use="required" type="xs:string"/>
 									<xs:attribute name="col2" use="required" type="xs:string"/>
-									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:long"/>
 									<xs:attribute name="col4" use="required" type="xs:string"/>
 									<xs:attribute name="col5" use="required" type="xs:string"/>
 									<xs:attribute name="col6" use="required" type="xs:string"/>
@@ -49,7 +49,7 @@
 								<xs:complexType>
 									<xs:attribute name="name" use="required" type="xs:string"/>
 									<xs:attribute name="code" use="required" type="xs:short"/>
-									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col1" use="required" type="xs:short"/>
 								</xs:complexType>
 							</xs:element>
 						</xs:sequence>

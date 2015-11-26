@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2014" month="12" day="" subject="6459" subject_name="ОАО &quot;Саханефтегазсбыт&quot;" subject_variant="64" subject_variant_name="Сахалинская область">
+<strdata code="1" name="Основание для разработки программы">
+ <column name="Значение" order="1" id="8" datatype="constant" format="2048">Федеральный закон от 23.11.2009 N 261-ФЗ "Об энергосбережении и о повышении энергетической эффективности и о внесении изменений в отдельные законодательные акты РФ"</column>
+</strdata>
+<strdata code="2" name="Почтовый адрес">
+ <column name="Значение" order="1" id="12" datatype="text" format="500">456789 и т.д.</column>
+</strdata>
+<strdata code="3" name="Ответственный за формирование программы (Ф.И.О., контактный телефон, e-mail)">
+ <column name="Значение" order="1" id="12" datatype="text" format="500">Кац</column>
+</strdata>
+<strdata code="4" name="Даты начала и окончания действия программы">
+ <column name="Значение" order="1" id="12" datatype="text" format="500">01.01.2000 - 31.12.2020</column>
+</strdata>
+<strdata code="5" name="базовый год">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">1.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">2.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">3.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">4.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">5.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">6.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">7.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">8.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">9.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">10.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">11.00</column>
+</strdata>
+<strdata code="6" name="отчетный год - 4">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">41.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">42.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">43.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">44.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">45.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">46.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">47.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">48.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">49.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">50.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">51.00</column>
+</strdata>
+<strdata code="7" name="отчетный год - 3">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2"></column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2"></column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="8" name="отчетный год - 2">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">21.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">22.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">23.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">24.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">25.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">26.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">27.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">28.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">29.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">30.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">31.00</column>
+</strdata>
+<strdata code="9" name="отчетный год - 1">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">11.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">12.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">13.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">14.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">15.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">16.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">17.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">18.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">19.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">20.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">21.00</column>
+</strdata>
+<strdata code="10" name="отчетный год">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">10.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">20.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">30.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">40.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">50.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">60.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">70.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">80.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">90.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">100.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">110.00</column>
+</strdata>
+<strdata code="11" name="отчетный год + 1">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">110.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">120.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">130.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">140.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">150.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">160.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">170.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">180.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">190.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">200.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">210.00</column>
+</strdata>
+<strdata code="12" name="отчетный год + 2">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">210.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">220.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">230.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">240.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">250.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">260.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">270.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">280.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">290.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">300.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">310.00</column>
+</strdata>
+<strdata code="13" name="отчетный год + 3">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2">310.00</column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2">320.00</column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2">330.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2">340.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2">350.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2">360.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2">370.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2">380.00</column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2">390.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2">400.00</column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2">410.00</column>
+</strdata>
+<strdata code="14" name="отчетный год + 4">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2"></column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2"></column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="15" name="Всего за годы программы">
+ <column name="Затраты на реализацию программы - всего, млн. руб. без НДС" order="1" id="24" datatype="number" format="30.2"></column>
+ <column name="Капитальные затраты на реализацию программы, млн. руб. без НДС" order="2" id="25" datatype="number" format="30.2"></column>
+ <column name="Доля затрат в инвестиционной программе, направленная на реализацию мероприятий программы энергосбережения и повышения энергетической эффективности" order="3" id="26" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, т у. т. без учета воды" order="4" id="27" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="5" id="28" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, т у.т. без учета воды" order="6" id="29" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении регулируемого вида деятельности, млн. руб. без НДС с учетом воды" order="7" id="30" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, т у. т. без учета воды" order="8" id="31" datatype="number" format="30.2"></column>
+ <column name="Суммарные затраты ТЭР при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="9" id="32" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, т у.т. без учета воды" order="10" id="33" datatype="number" format="30.2"></column>
+ <column name="Экономия ТЭР в результате реализации программы при осуществлении прочей деятельности, млн. руб. без НДС с учетом воды" order="11" id="34" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="35" datatype="text" format="100">Козлов</column>
+ <column name="Должность" order="2" id="36" datatype="text" format="100">козел</column>
+ <column name="Контактный телефон" order="3" id="37" datatype="text" format="100">+1234567890</column>
+ <column name="Электронный адрес" order="4" id="38" datatype="text" format="100">kozel@mail.com</column>
+ <column name="ФИО" order="5" id="41" datatype="text" format="100"></column>
+ <column name="Должность" order="6" id="42" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="7" id="43" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="8" id="44" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="35" datatype="text" format="100">Баранов</column>
+ <column name="Должность" order="2" id="36" datatype="text" format="100">баран</column>
+ <column name="Контактный телефон" order="3" id="37" datatype="text" format="100">+7654321890</column>
+ <column name="Электронный адрес" order="4" id="38" datatype="text" format="100">baran@mail.com</column>
+ <column name="ФИО" order="5" id="41" datatype="text" format="100"></column>
+ <column name="Должность" order="6" id="42" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="7" id="43" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="8" id="44" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">121</column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">122</column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">123</column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">124</column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">125</column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">126</column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">127</column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">128</column>
+</strdata>
+<strdata code="129" name="ОКАТО (Код территории)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">129</column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">130</column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">131</column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">132</column>
+</strdata>
+<strdata code="133" name="ОКТМО">
+ <column name="Значение" order="1" id="58" datatype="text" format="300">133</column>
+</strdata>
+<strdata code="141" name="Полное наименование организации">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">141</column>
+</strdata>
+<strdata code="142" name="ОГРН">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">142</column>
+</strdata>
+<strdata code="143" name="ИНН">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">143</column>
+</strdata>
+<strdata code="144" name="КПП">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">144</column>
+</strdata>
+<strdata code="145" name="ОКПО">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">145</column>
+</strdata>
+<strdata code="146" name="ОКВЭД">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">146</column>
+</strdata>
+<strdata code="147" name="ОКТМО">
+ <column name="Значение" order="1" id="67" datatype="text" format="300">147</column>
+</strdata>
+</document>
