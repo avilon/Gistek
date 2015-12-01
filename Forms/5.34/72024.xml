@@ -1,0 +1,78 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Организационные мероприятия" division="10"/>
+    <strdata name="Глобальное" division="1" enter_month="12" enter_year="2010" payback="100">
+      <child id="1" code="1" cost="200.000" ter="Электроэнергия " measure="тыс. кВт*ч" ter_econ_natur_plan="10.00" ter_econ_tut_plan="20.00" ter_econ_cost_plan="30.000" econ_effect_plan="40.000" ter_econ_natur_fact="10.00" ter_econ_tut_fact="20.00" ter_econ_effect_fact="30.000" econ_effect_fact="40.000"/>
+      <child id="2" code="2" cost="201.000" ter_econ_natur_plan="11.00" ter_econ_tut_plan="21.00" ter_econ_cost_plan="31.000" econ_effect_plan="41.000" ter_econ_natur_fact="11.00" ter_econ_tut_fact="21.00" ter_econ_effect_fact="31.000" econ_effect_fact="41.000"/>
+      <child id="3" code="3" cost="222.000" ter_econ_natur_plan="12.00" ter_econ_tut_plan="22.00" ter_econ_cost_plan="32.000" econ_effect_plan="42.000" ter_econ_natur_fact="12.00" ter_econ_tut_fact="22.00" ter_econ_effect_fact="32.000" econ_effect_fact="42.000"/>
+      <child id="4" code="4" cost="333.000" ter_econ_natur_plan="13.00" ter_econ_tut_plan="23.00" ter_econ_cost_plan="33.000" econ_effect_plan="43.000" ter_econ_natur_fact="13.00" ter_econ_tut_fact="23.00" ter_econ_effect_fact="33.000" econ_effect_fact="43.000"/>
+      <child id="5" code="5" cost="43.000" ter_econ_natur_plan="14.00" ter_econ_tut_plan="24.00" ter_econ_cost_plan="34.000" econ_effect_plan="44.000" ter_econ_natur_fact="14.00" ter_econ_tut_fact="24.00" ter_econ_effect_fact="34.000" econ_effect_fact="44.000"/>
+    </strdata>
+    <strdata name="Убойное" division="1" enter_month="1" enter_year="2011" payback="1">
+      <child id="1" code="6" cost="12.000" ter="Электроэнергия " measure="тыс. кВт*ч" ter_econ_natur_plan="13.00" ter_econ_tut_plan="14.00" ter_econ_cost_plan="15.000" econ_effect_plan="16.000" ter_econ_natur_fact="17.00" ter_econ_tut_fact="18.00" ter_econ_effect_fact="19.000" econ_effect_fact="20.000"/>
+    </strdata>
+    <strdata name="Технические мероприятия" division="20"/>
+    <strdata name="Инвестиционная программа" division="30"/>
+    <strdata name="Итого по видам ТЭР" division="40"/>
+    <strdata name="Электроэнергия " division="4">
+      <terChild id="1" cost="100.000" ter_econ_natur_plan="1.00" ter_econ_tut_plan="2.00" ter_econ_cost_plan="3.000" econ_effect_plan="1.000" ter_econ_natur_fact="2.00" ter_econ_tut_fact="3.00" ter_econ_cost_fact="1.000" econ_effect_pfact="2.00"/>
+      <terChild id="2" cost="101.000" measure=" тыс. кВт*ч" ter_econ_natur_plan="2.00" ter_econ_tut_plan="3.00" ter_econ_cost_plan="4.000" econ_effect_plan="2.000" ter_econ_natur_fact="3.00" ter_econ_tut_fact="4.00" ter_econ_cost_fact="2.000" econ_effect_pfact="3.00"/>
+      <terChild id="3" cost="102.000" ter_econ_natur_plan="3.00" ter_econ_tut_plan="4.00" ter_econ_cost_plan="5.000" econ_effect_plan="3.000" ter_econ_natur_fact="4.00" ter_econ_tut_fact="5.00" ter_econ_cost_fact="3.000" econ_effect_pfact="4.00"/>
+      <terChild id="4" cost="103.000" ter_econ_natur_plan="4.00" ter_econ_tut_plan="5.00" ter_econ_cost_plan="6.000" econ_effect_plan="4.000" ter_econ_natur_fact="5.00" ter_econ_tut_fact="6.00" ter_econ_cost_fact="4.000" econ_effect_pfact="5.00"/>
+      <terChild id="5" cost="104.000" ter_econ_natur_plan="5.00" ter_econ_tut_plan="6.00" ter_econ_cost_plan="7.000" econ_effect_plan="5.000" ter_econ_natur_fact="6.00" ter_econ_tut_fact="7.00" ter_econ_cost_fact="5.000" econ_effect_pfact="6.00"/>
+    </strdata>
+    <strdata name="Тепловая энергия " division="4">
+      <terChild id="1" cost="200.000" ter_econ_natur_plan="1.00" ter_econ_tut_plan="1.00" ter_econ_cost_plan="1.000" econ_effect_plan="1.000" ter_econ_natur_fact="1.00" ter_econ_tut_fact="1.00" ter_econ_cost_fact="1.000" econ_effect_pfact="1.00"/>
+      <terChild id="2" cost="201.000" measure=" тыс. Гкал" ter_econ_natur_plan="2.00" ter_econ_tut_plan="2.00" ter_econ_cost_plan="2.000" econ_effect_plan="2.000" ter_econ_natur_fact="2.00" ter_econ_tut_fact="2.00" ter_econ_cost_fact="2.000" econ_effect_pfact="2.00"/>
+      <terChild id="3" cost="202.000" ter_econ_natur_plan="3.00" ter_econ_tut_plan="3.00" ter_econ_cost_plan="3.000" econ_effect_plan="3.000" ter_econ_natur_fact="3.00" ter_econ_tut_fact="3.00" ter_econ_cost_fact="3.000" econ_effect_pfact="3.00"/>
+      <terChild id="4" cost="203.000" ter_econ_natur_plan="4.00" ter_econ_tut_plan="4.00" ter_econ_cost_plan="4.000" econ_effect_plan="4.000" ter_econ_natur_fact="4.00" ter_econ_tut_fact="4.00" ter_econ_cost_fact="4.000" econ_effect_pfact="4.00"/>
+      <terChild id="5" cost="204.000" ter_econ_natur_plan="5.00" ter_econ_tut_plan="5.00" ter_econ_cost_plan="5.000" econ_effect_plan="55.000" ter_econ_natur_fact="5.00" ter_econ_tut_fact="5.00" ter_econ_cost_fact="5.000" econ_effect_pfact="5.00"/>
+    </strdata>
+    <strdata name="Дизельное топливо " division="4">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" тыс. т" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strdata name="Мазут " division="4">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" тыс. т" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strdata name="Бензин " division="4">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" тыс. т" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strdata name="Газ " division="4">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" тыс. куб. м" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strdata name="Уголь " division="4">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" т" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strdata name="Всего ТЭР" division="50"/>
+    <strdata name="Всего энергоресурсов " division="5">
+      <terChild id="1" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="2" cost="" measure=" т.у.т." ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="3" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="4" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+      <terChild id="5" cost="" ter_econ_natur_plan="" ter_econ_tut_plan="" ter_econ_cost_plan="" econ_effect_plan="" ter_econ_natur_fact="" ter_econ_tut_fact="" ter_econ_cost_fact="" econ_effect_pfact=""/>
+    </strdata>
+    <strContactInf name="Руководитель организации" code="111" col1="Козлов" col2="козел" col3="+1234567890" col4="kozel@mail.com"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Баранов" col2="баран" col3="+7654321890" col4="baram@mail.com"/>
+    <param name="params" version="1.0" year="2010" month="12" day="" subject="ОАО &quot;Аэропорт Анапа&quot;" vid="Услуги аэропортов"/>
+  </flat>
+</document>

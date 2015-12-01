@@ -1,0 +1,57 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Объемные показатели" code="10" division="10"/>
+    <strdata name="Объем оказываемых услуг" code="1" division="1" measure="тыс. руб." plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Условный объем судна (модуль)" code="2" division="1" measure="тыс. куб. м" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Объем перегрузки" code="3" division="1" measure="тыс. т" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Годовые затраты на ТЭР" code="20" division="20"/>
+    <strdata name="Электроэнергия" division="2">
+      <child id="1" measure="тыс. кВт*ч" code="1" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="2" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="3" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Тепловая энергия" division="2">
+      <child id="1" measure="тыс. Гкал" code="4" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="5" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="6" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Дизельное топливо" division="2">
+      <child id="1" measure="тыс. т" code="7" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="8" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="9" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Мазут" division="2">
+      <child id="1" measure="тыс. т" code="10" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="11" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="12" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Бензин" division="2">
+      <child id="1" measure="тыс. т" code="13" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="14" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="15" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Газ" division="2">
+      <child id="1" measure="тыс. куб. М" code="16" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="17" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="18" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Уголь" division="2">
+      <child id="1" measure="тыс. т" code="19" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. т у. т." code="20" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="3" measure="тыс. руб." code="21" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Всего ТЭР" division="2">
+      <child id="1" measure="тыс. т у. т." code="22" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+      <child id="2" measure="тыс. руб." code="23" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    </strdata>
+    <strdata name="Показатели энергоемкости" code="30" division="30"/>
+    <strdata name="Энергоемкость производственной деятельности на единицу условного объема судна (модуль)" code="1" division="3" measure="т у. т./куб. м" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Энергоемкость производственной деятельности на тонну перегружаемого груза" code="2" division="3" measure="т у. т./т" plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Показатели энергоэффективности" code="40" division="40"/>
+    <strdata name="Энергоэффективность производственной деятельности (с учетом условного объема (модуля) обслуживаемых судов)" code="1" division="4" measure="куб. м/т у. т." plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strdata name="Энергоэффективность производственной деятельности (с учетом общего грузооборота)" code="2" division="4" measure="т/т у. т." plan_downto_2="" fact_downto_2="" plan_downto_1="" plan_proc_downto_1="" fact_downto_1="" fact_proc_downt_1="" plan="" plan_proc="" fact="" fact_proc="" plan_to_1="" plan_proc_to_1="" fact_to_1="" fact_proc_to_1="" plan_to_2="" plan_proc_to_2="" fact_to_2="" fact_proc_to_2=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <param name="params" version="1.0" year="0" month="0" day="" subject="" vid=""/>
+  </flat>
+</document>

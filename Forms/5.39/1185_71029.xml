@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strdata code="1" name="Удельный расход тепловой энергии на отопление зданий в зависимости от этажности зданий">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048"></column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2" name="1 этаж">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3" name="2 этажа">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4" name="3 этажа">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="5" name="4, 5 этажей">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="6" name="6, 7 этажей">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="7" name="8, 9 этажей">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="8" name="10, 11 этажей">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="9" name="12 этажей и выше">
+ <column name="Ед. изм." order="1" id="6948" datatype="constant" format="2048">кДж/(м*С*сут)</column>
+ <column name="Отчетный год -1 [план]" order="2" id="6128" datatype="number" format="30.2"></column>
+ <column name="Отчетный год -1 [факт]" order="3" id="6129" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="4" id="6130" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="5" id="6131" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [план]" order="6" id="6132" datatype="number" format="30.2"></column>
+ <column name="Отчетный год +1 [факт]" order="7" id="6133" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="6138" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="6139" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="6140" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="6141" datatype="text" format="100"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="6138" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="6139" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="6140" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="6141" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКТМО (Код территории)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="6393" datatype="text" format="500"></column>
+</strdata>
+<strdata code="133" name="Полное наименование организации">
+ <column name="Значение" order="1" id="6946" datatype="text" format="300"></column>
+</strdata>
+<strdata code="134" name="ОГРН">
+ <column name="Значение" order="1" id="6946" datatype="text" format="300"></column>
+</strdata>
+<strdata code="135" name="ИНН">
+ <column name="Значение" order="1" id="6946" datatype="text" format="300"></column>
+</strdata>
+<strdata code="136" name="КПП">
+ <column name="Значение" order="1" id="6946" datatype="text" format="300"></column>
+</strdata>
+</document>

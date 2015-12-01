@@ -1,4 +1,4 @@
-module namespace util="http://lanit.ru/gistek/xsltutil";
+	module namespace util="http://lanit.ru/gistek/xsltutil";
 import module namespace fnx = "http://www.functx.com" at "functx.xq";
 import module namespace file = "http://expath.org/ns/file";
 (: ------------------------------------------------------------------------------ :)
@@ -16469,41 +16469,78 @@ return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat
 http://saiku0.gistek.rosenergo.gov.ru/BaseX/xslt/pre71014/71014/action=xml&aid=1185&mid=5&period_year=2015&period_month=12&period_day=0&subject=6006&subject_variant=&type=1&user=8
 :)
 
-declare function util:pre71014($doc) {
-	let $oldXML:=$doc
-let $flattenData:=for $strCls in $oldXML//strdata[number(@code)<111]
-              let $columns:=$strCls/column
+declare function util:pre70009($doc) {
+
+let $oldXML:=$doc
+
+let $parm := for $prm in $oldXML
+  return (
+       element { xs:QName("param") } {
+       attribute name {"params"},  
+       attribute version {$prm/@version},
+       attribute year {$prm/@year},
+       attribute month {$prm/@month},
+       attribute day {$prm/@day},
+       attribute subject{$prm/@subject_name},
+       attribute vid{$prm/@subject_variant_name}              
+     }
+) 
+
+let $data_00 := for $strCls in $oldXML//strdata[number(@code) = 10]
+              let $columns:=$strCls/column             
               return
               element {xs:QName("strdata") }{
                 attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                 (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col",string($c/@order)))}{
-                      $c/text()
-                    }
-                )
-              }
-              
-let $flattenClass:=for $strCls in $oldXML//strclass
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strdata") }{
-                attribute name {concat('   ',$strCls/@name)},
-                attribute code {$strCls/@code},
+                attribute code {""},
                 (for $c in $columns
                  return
-                 if ($c/text()!="")
-                then attribute {xs:QName(concat("col",string($c/@order)))}{
-                      $c/text()
-                    }
-                else ""
-                )
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
               }
-              
-(:-------------------------------------------------------------------------------------------------------------------:)
+
+let $data_01 := for $strCls in $oldXML//strdata[(number(@code) >= 1000 and number(@code) <= 1100)]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute measure {substring-before(substring-after($strCls/@name, "["), "]")},
+                attribute code {number($strCls/@code)-999},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_20 := for $strCls in $oldXML//strdata[number(@code) = 20]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {""},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_02 := for $strCls in $oldXML//strdata[(number(@code) >= 2000 and number(@code) <= 2100)]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata") }{
+                attribute name {$strCls/@name},
+                attribute code {number($strCls/@code)-1999},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
 let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:?????????? ??????????:)
+              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
               let $columns:=$strCls/column
               return
               element {xs:QName("strContactInf") }{
@@ -16518,7 +16555,7 @@ let $flattenContactData:=
               }
 
 let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=132] (:????????? ??????????:)
+              for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 136] 
               let $columns:=$strCls/column
               return
               element {xs:QName("strServiceInf") }{
@@ -16526,24 +16563,28 @@ let $flattenServiceData:=
                 attribute code {$strCls/@code},
                 (for $c in $columns
                  return
-                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                 attribute {xs:QName(concat("col", string($c/@order)))}{
                       $c/text()
                     }
                 )
               }
-              
-              
-              
 
 let $columnNames:=distinct-values($oldXML//column/@order)
-let $flatten:= insert-before($flattenData,0,$flattenClass)
-let $flatten:= insert-before($flatten,0,$flattenContactData)
-let $flatten:= insert-before($flatten,0,$flattenServiceData)
 
-let $newXML:= for $item in $flatten
-              order by $item/@code
+
+let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
+let $flatten:= insert-before($flatten, 0, $data_02)
+let $flatten:= insert-before($flatten, 0, $data_20)
+let $flatten:= insert-before($flatten, 0, $data_01)
+let $flatten:= insert-before($flatten, 0, $data_00)
+let $flatten:= insert-before($flatten, 0, $parm)
+
+let $newXML := for $item in $flatten
               return $item
-	return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
+              
+          
+               
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>  
 };
 
 
@@ -19284,38 +19325,66 @@ return
         attribute name {$strData//entity},
         attribute code {number($strData/@code) - 100000},
         attribute measure {$strData//column[1]},
-        
-        if(string-length($strData//column[2]) > 0) then (
-            attribute plan_downto_3 {$strData//column[2]}
-        ) else () ,
 
-        if(string-length($strData//column[3]) > 0) then (
-            attribute plan_downto_2 {$strData//column[3]}
-        ) else () ,
+        attribute plan_downto_3 {$strData//column[2]},
         
-        if(string-length($strData//column[4]) > 0) then (
-            attribute plan_downto_1 {$strData//column[4]}
-        ) else () ,
-        
-        if(string-length($strData//column[5]) > 0) then (
-            attribute plan {$strData//column[5]}
-        ) else () ,
-        
-        if(string-length($strData//column[6]) > 0) then (
-            attribute plan_to_1 {$strData//column[6]}
-        ) else () ,
+        if (string-length($strData//column[2]) > 0) then (
+            attribute sum_plan_downto_3 {"1"}
+        ) else (
+          attribute sum_plan_downto_3 {"0"}
+        ) ,
 
-        if(string-length($strData//column[7]) > 0) then (
-            attribute plan_to_2 {$strData//column[7]}
-        ) else () ,
+        attribute plan_downto_2 {$strData//column[3]},
+
+        if (string-length($strData//column[3]) > 0) then (
+            attribute sum_plan_downto_2 {"1"}
+        ) else (
+          attribute sum_plan_downto_2 {"0"}
+        ),
         
-        if(string-length($strData//column[8]) > 0) then (
-            attribute plan_to_3 {$strData//column[8]}
-        ) else ()                 
+        attribute plan_downto_1 {$strData//column[4]},        
+        
+        if (string-length($strData//column[4]) > 0) then (
+            attribute sum_plan_downto_1 {"1"}
+        ) else (
+          attribute sum_plan_downto_1 {"0"}
+        ),
+
+        attribute plan {$strData//column[5]},
+        
+        if (string-length($strData//column[5]) > 0) then (
+            attribute sum_plan {"1"}
+        ) else (
+          attribute sum_plan {"0"}
+        ),
+
+        attribute plan_to_1 {$strData//column[6]},
+        
+        if (string-length($strData//column[6]) > 0) then (
+            attribute sum_plan_to_1 {"1"}
+        ) else (
+          attribute sum_plan_to_1 {"0"}
+        ),
+
+        attribute plan_to_2 {$strData//column[7]},
+
+        if (string-length($strData//column[7]) > 0) then (
+            attribute sum_plan_to_2 {"1"}
+        ) else (
+          attribute sum_plan_to_2 {"0"}
+        ),
+
+        attribute plan_to_3 {$strData//column[8]},
+        
+        if (string-length($strData//column[8]) > 0) then (
+            attribute sum_plan_to_3 {"1"}
+        ) else (
+          attribute sum_plan_to_3 {"0"}
+        )
     }        
          
 let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] 
+              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:Контактная информация:)
               let $columns:=$strCls/column
               return
               element {xs:QName("strContactInf") }{
@@ -19330,7 +19399,7 @@ let $flattenContactData:=
               }
 
 let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] 
+              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=132] (:Служебная информация:)
               let $columns:=$strCls/column
               return
               element {xs:QName("strServiceInf") }{
@@ -19352,7 +19421,7 @@ let $flatten := insert-before($flatten, 0, $parm)
 let $newXML := for $item in $flatten
               return $item
                        
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
 };
 
 
@@ -19390,7 +19459,7 @@ return
             attribute vol_year          { $data//column[16] },
             attribute vol_year_to_1     { $data//column[21] },
             attribute vol_year_to_2     { $data//column[26] },
-            attribute vol_year_to_3     { $data//column[31] } 
+            attribute vol_year_to_3     { $data//column[31] }            
         },
         element {xs:QName("src_02")} {
             attribute name {"бюджет субъектов Российской Федерации"},
@@ -19435,7 +19504,85 @@ return
             attribute vol_year_to_1     { $data//column[25]},
             attribute vol_year_to_2     { $data//column[30]},
             attribute vol_year_to_3     { $data//column[35]}
+        },        
+        element{xs:QName("visible")} {
+            if ( string-length($data//column[1]) > 0 or
+                 string-length($data//column[2]) > 0 or
+                 string-length($data//column[3]) > 0 or
+                 string-length($data//column[4]) > 0 or
+                 string-length($data//column[5]) > 0) then (
+              
+               attribute show_downto_3 {"1"}
+            ) else (
+               attribute shoq_downto_3 {"0"}
+            ),
+            
+            if ( string-length($data//column[6]) > 0 or
+                 string-length($data//column[7]) > 0 or
+                 string-length($data//column[8]) > 0 or
+                 string-length($data//column[9]) > 0 or
+                 string-length($data//column[10]) > 0) then (
+              
+               attribute show_downto_2 {"1"}
+            ) else (
+               attribute shoq_downto_2 {"0"}
+            ),
+            
+            if ( string-length($data//column[11]) > 0 or
+                 string-length($data//column[12]) > 0 or
+                 string-length($data//column[13]) > 0 or
+                 string-length($data//column[14]) > 0 or
+                 string-length($data//column[15]) > 0) then (
+              
+               attribute show_downto_1 {"1"}
+            ) else (
+               attribute show_downto_1 {"0"}
+            ),
+                                    
+            if ( string-length($data//column[16]) > 0 or
+                 string-length($data//column[17]) > 0 or
+                 string-length($data//column[18]) > 0 or
+                 string-length($data//column[19]) > 0 or
+                 string-length($data//column[20]) > 0) then (
+              
+               attribute show {"1"}
+            ) else (
+               attribute show {"0"}
+            ),
+            
+            if ( string-length($data//column[21]) > 0 or
+                 string-length($data//column[22]) > 0 or
+                 string-length($data//column[23]) > 0 or
+                 string-length($data//column[24]) > 0 or
+                 string-length($data//column[25]) > 0) then (
+              
+               attribute show_to_1 {"1"}
+            ) else (
+               attribute show_to_1 {"0"}
+            ),
+            
+            if ( string-length($data//column[26]) > 0 or
+                 string-length($data//column[27]) > 0 or
+                 string-length($data//column[28]) > 0 or
+                 string-length($data//column[29]) > 0 or
+                 string-length($data//column[30]) > 0) then (
+              
+               attribute show_to_2 {"1"}
+            ) else (
+               attribute show_to_2 {"0"}
+            ),
+            if ( string-length($data//column[31]) > 0 or
+                 string-length($data//column[32]) > 0 or
+                 string-length($data//column[33]) > 0 or
+                 string-length($data//column[34]) > 0 or
+                 string-length($data//column[35]) > 0) then (
+              
+               attribute show_to_3 {"1"}
+            ) else (
+               attribute show_to_3 {"0"}
+            )                        
         },
+        
         for $econ in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and entity = $data//entity]
           return element{xs:QName("econ")} {
               attribute name { $econ//column[1]},
@@ -19454,48 +19601,46 @@ return
               attribute econ_cost_to_2      { $econ//column[14] },
               attribute econ_natur_to_3     { $econ//column[15] },
               attribute econ_cost_to_3      { $econ//column[16] }  
-          }                
+          }        
     }
-
-let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:Контактная информация:)
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strContactInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
+    
+let $flattenContactData := for $strCls in $oldXML//strdata[number(@code) = 111 or number(@code) = 112] 
+              
+let $columns := $strCls/column
+return
+    element {xs:QName("strContactInf") }{
+         attribute name {$strCls/@name},
+         attribute code {$strCls/@code},
+         (for $c in $columns
                  return
                  attribute {xs:QName(concat("col",string($c/@order)))}{
                       $c/text()
                     }
-                )
-              }
+         )
+     }
 
-let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] (:Служебная информация:)
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strServiceInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col",string($c/@order))) }{
+let $flattenServiceData := for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 132] 
+let $columns:=$strCls/column
+return
+    element {xs:QName("strServiceInf") }{
+        attribute name {$strCls/@name},
+        attribute code {$strCls/@code},
+        (for $c in $columns
+           return
+              attribute {xs:QName(concat("col",string($c/@order))) }{
                       $c/text()
-                    }                    
-                )
-              }
-
+              }                    
+        )
+    }
     
 let $flatten := insert-before($flattenServiceData, 0, $parm) 
 let $flatten := insert-before($flatten, 0, $flattenContactData)         
 let $flatten := insert-before($flatten, 0, $fin)
-
+        
 let $newXML := for $item in $flatten
               return $item 
                        
-return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document>
 };
 
 (: ------------------------------------------------------------------------------ :)
@@ -19519,134 +19664,139 @@ let $parm := for $prm in $oldXML
      }
 ) 
 
-let $data := for $xmlData in (distinct-values($oldXML//strdetail//column[2][string-length(text()) > 1]))
-return  
-        element {xs:QName("strdata")} {
-          attribute name {$xmlData},
-          attribute measure{""},
-          attribute code{""},
-          
-          attribute column1{""},
-          attribute column2{""},
-          attribute column3{""},
-          attribute column4{""},
-          attribute column5{""},
-          attribute column6{""},
-          attribute column7{""},
-          attribute column8{""},
-          attribute column9{""},
-          attribute column10{""},
-          attribute column11{""},
-          attribute column12{""},
-          attribute column13{""},
-          attribute column14{""},
-          attribute column15{""},
-          attribute column16{""},
-          attribute column17{""},
-          attribute column18{""},
-          attribute column19{""},
-                      
-          for $str in $oldXML//strdetail[string(column[2]) = string($xmlData)]
-            return 
-              element {xs:QName("strdata")} {
-                attribute name {$str//entity},
-                attribute measure {$str//column[1]},
-                attribute code {""},
-                
-                attribute column1 {$str//column[4]},
-                attribute column2 {$str//column[5]},
-                attribute column3 {$str//column[6]},          
-                attribute column4 {$str//column[7]},           
-                attribute column5 {$str//column[8]},           
-                attribute column6 {$str//column[9]},           
-                attribute column7 {$str//column[10]},           
-                attribute column8 {$str//column[11]},           
-                attribute column9 {$str//column[12]},           
-                attribute column10{$str//column[13]},           
-                attribute column11{$str//column[14]},           
-                attribute column12{$str//column[15]},           
-                attribute column13{$str//column[16]},           
-                attribute column14{$str//column[17]},           
-                attribute column15{$str//column[18]},           
-                attribute column16{$str//column[19]},           
-                attribute column17{$str//column[20]},           
-                attribute column18{$str//column[21]},           
-                attribute column19{$str//column[22]}                                
-              }
+let $common := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1" and string-length(entity) > 1]
+return 
+    element {xs:QName("common")} {
+         attribute name     { $data//entity },
+         attribute code     { number($data/@code) - 100000},
+         attribute inn      { $data//column[1]  },
+         attribute address  { $data//column[2]  },
+         attribute phone    { $data//column[3]  },
+         attribute email    { $data//column[4]  },
+         attribute plan     { $data//column[5]  },
+         attribute date_beg { $data//column[6]  },
+         attribute doc_info { $data//column[7]  },
+         attribute date_end { $data//column[8]  },
+         attribute sert     { $data//column[9]  },
+         attribute sert_org { $data//column[10] },
+         attribute sys_info { $data//column[11] } 
     }
-      
-  
-let $flattenContactData:=
-              for $strCls in $oldXML//strdata[number(@code)=111 or number(@code)=112] (:Контактная информация:)
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strContactInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
+
+let $dzo := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and string-length(entity) > 1]
+return
+    element {xs:QName("dzo")} {
+        attribute name     { $data//entity },
+        attribute code     { number($data/@code) - 200000 },
+        attribute inn      { $data//column[1] },
+        attribute doc_name { $data//column[2] },  
+        attribute doc_date { $data//column[3] }
+    }
+
+let $dynamic := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "3" and string-length(entity) > 1]
+return
+    element {xs:QName("dynamic")} {
+        attribute name              { $data//entity},
+        attribute code              { number($data/@code) - 300000 },
+        attribute inn               { $data//column[1]  },
+        attribute pokaz_name        { $data//column[2]  },
+        attribute measure           { $data//column[3]  },
+        attribute val_year_downto_3 { $data//column[4]  },
+        attribute val_year_downto_2 { $data//column[5]  },
+        attribute val_year_downto_1 { $data//column[6]  },
+        attribute val_year          { $data//column[7]  },
+        
+        if (string-length($data//column[4]) > 0) then (
+            attribute sum_year_downto_3 {"1"}
+        ) else (
+            attribute sum_year_downto_3 {"0"}
+        ),
+        
+        if (string-length($data//column[5]) > 0) then (
+            attribute sum_year_downto_2 {"1"}
+        ) else (
+            attribute sum_year_downto_2 {"0"}
+        ),
+        
+        if (string-length($data//column[6]) > 0) then (
+            attribute sum_year_downto_1 {"1"}
+        ) else (
+            attribute sum_year_downto_1 {"0"}
+        ),       
+         
+        if (string-length($data//column[7]) > 0) then (
+            attribute sum_year {"1"}
+        ) else (
+            attribute sum_year {"0"}
+        )                
+    }
+    
+let $managers := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "4" and string-length(entity) > 1]
+return
+    element {xs:QName("managers")} {
+         attribute name { $data//entity },
+         attribute inn  { $data//column[1]  },
+         attribute code { number($data/@code) - 400000 },
+         element {xs:QName("mngr_energo")} {
+             attribute fio   { $data//column[2] },
+             attribute post  { $data//column[3] },
+             attribute phone { $data//column[4] },
+             attribute email { $data//column[5] }
+         },
+         element {xs:QName ("mngr_quality")} {
+             attribute fio   { $data//column[6] },
+             attribute post  { $data//column[7] },
+             attribute phone { $data//column[8] },
+             attribute email { $data//column[9] }
+         },
+         element {xs:QName ("mngr_ecology")} {
+             attribute fio   { $data//column[10] },
+             attribute post  { $data//column[11] },
+             attribute phone { $data//column[12] },
+             attribute email { $data//column[13] }
+         }  
+    } 
+       
+let $flattenContactData := for $strCls in $oldXML//strdata[number(@code) = 111 or number(@code) = 112] 
+              
+let $columns := $strCls/column
+return
+    element {xs:QName("strContactInf") }{
+         attribute name {$strCls/@name},
+         attribute code {$strCls/@code},
+         (for $c in $columns
                  return
                  attribute {xs:QName(concat("col",string($c/@order)))}{
                       $c/text()
                     }
-                )
-              }
+         )
+     }
 
-let $flattenServiceData:=
-              for $strCls in $oldXML//strdata[number(@code)>=121 and number(@code)<=133] (:Служебная информация:)
-              let $columns:=$strCls/column
-              return
-              element {xs:QName("strServiceInf") }{
-                attribute name {$strCls/@name},
-                attribute code {$strCls/@code},
-                (for $c in $columns
-                 return
-                 attribute {xs:QName(concat("col",string($c/@order))) }{
+let $flattenServiceData := for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 132] 
+let $columns:=$strCls/column
+return
+    element {xs:QName("strServiceInf") }{
+        attribute name {$strCls/@name},
+        attribute code {$strCls/@code},
+        (for $c in $columns
+           return
+              attribute {xs:QName(concat("col",string($c/@order))) }{
                       $c/text()
-                    }                    
-                )
-              }
-
-  
-  
-let $Preflatten := $data
-
-let $newXML := for $item in $Preflatten
-return <document version="1.0" created="create_xml_online"><flat>{$item}</flat></document>
-
-let $outData := for $items in $newXML//flat//strdata
-              return
-              element {xs:QName    ("strdata") } {
-                attribute name     {$items/@name},
-                attribute measure  {$items/@measure},
-                attribute code     {$items/@code},
-                attribute column1  {$items/@column1},
-                attribute column2  {$items/@column2},
-                attribute column3  {$items/@column3},
-                attribute column4  {$items/@column4},
-                attribute column5  {$items/@column5},
-                attribute column6  {$items/@column6},
-                attribute column7  {$items/@column7},
-                attribute column8  {$items/@column8},
-                attribute column9  {$items/@column9},
-                attribute column10 {$items/@column10},
-                attribute column11 {$items/@column11},
-                attribute column12 {$items/@column12},
-                attribute column13 {$items/@column13},
-                attribute column14 {$items/@column14},
-                attribute column15 {$items/@column15},
-                attribute column16 {$items/@column16},
-                attribute column17 {$items/@column17},
-                attribute column18 {$items/@column18},
-                attribute column19 {$items/@column18}                
-              } 
- 
-let $flatten := $parm
-let $flatten := insert-before($flatten, 0, $flattenContactData)
-let $flatten := insert-before($flatten, 0, $flattenServiceData)
-let $flatten := insert-before($flatten, 0, $outData)
-
-
-return <document version="1.0" created="create_xml_online"><flat>{$flatten}</flat></document>  
+              }                    
+        )
+    }
+    
+            
+let $flatten := insert-before($flattenServiceData, 0, $parm) 
+let $flatten := insert-before($flatten, 0, $flattenContactData)      
+let $flatten := insert-before($flatten, 0, $managers)   
+let $flatten := insert-before($flatten, 0, $dynamic)   
+let $flatten := insert-before($flatten, 0, $dzo)   
+let $flatten := insert-before($flatten, 0, $common)
+              
+let $newXML := for $item in $flatten
+              return $item
+                       
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
 };
 
    
@@ -20055,10 +20205,16 @@ let $flattenPart0 :=  element {xs:QName("strdata") }{
                   return
                     (for $c in $columns
                        return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
-                     )
+                       (
+                         attribute {xs:QName(concat("col",string($c/@order)))}{
+                              $c/text()
+                         },
+                         if (string-length($c/text()) > 0) then
+                         attribute {xs:QName(concat("cols",string($c/@order)))} {"1"} 
+                         else                        
+                         attribute {xs:QName(concat("cols",string($c/@order)))} {"0"}                          
+                       )
+                    )
                 ),
                 (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
                    return
@@ -20066,10 +20222,12 @@ let $flattenPart0 :=  element {xs:QName("strdata") }{
                          attribute nameInd {$c/entity/text()},
                          (for $column in $c/column
                            return
-                           attribute {xs:QName(concat("col",string($column/@order)))}{
-                                $column/text()
-                              }
-                          )
+                           (
+                             attribute {xs:QName(concat("col",string($column/@order)))}{
+                                  $column/text()
+                             }
+                           )                           
+                         )
                      }
                 )
               }
@@ -20107,9 +20265,15 @@ let $flattenPart0 :=  element {xs:QName("strdata") }{
                   return
                     (for $c in $columns
                        return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
+                       (
+                            attribute {xs:QName(concat("col",string($c/@order)))}{
+                              $c/text()
+                            },
+                            if (string-length($c/text()) > 0) then
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"1"}
+                            else
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"0"}                                                        
+                       )   
                      )
                 ),
                 (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
@@ -21425,18 +21589,72 @@ let $fin := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1
             attribute code              { number($data/@code) - 100000 },
             attribute measure           { $data//column[1]  },
             attribute vol_tot           { $data//column[2]  },
+
             attribute vol_year_downto_4 { $data//column[3]  },
             attribute vol_year_downto_3 { $data//column[4]  },
-            attribute vol_year_downto_2 { $data//column[5]  },
+            attribute vol_year_downto_2 { $data//column[5]  },            
             attribute vol_year_downto_1 { $data//column[6]  },
             attribute vol_year          { $data//column[7]  },
             attribute vol_year_to_1     { $data//column[8]  },
             attribute vol_year_to_2     { $data//column[9]  },
             attribute vol_year_to_3     { $data//column[10] },
             attribute vol_year_to_4     { $data//column[11] },
+                            
+            if (string-length($data//column[3]) > 0 ) then (
+                attribute sum_year_downto_4 {"1"}
+            ) else (
+                attribute sum_year_downto_4 {"0"}              
+            ),
             
-            for $cost in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "3" and entity = $data//entity]                                
-            return (
+            if (string-length($data//column[4]) > 0 ) then (
+                attribute sum_year_downto_3 {"1"}
+            ) else (
+                attribute sum_year_downto_3 {"0"}              
+            ),
+
+            if (string-length($data//column[5]) > 0 ) then (
+                attribute sum_year_downto_2 {"1"}
+            ) else (
+                attribute sum_year_downto_2 {"0"}              
+            ),
+            
+            if (string-length($data//column[6]) > 0 ) then (
+                attribute sum_year_downto_1 {"1"}
+            ) else (
+                attribute sum_year_downto_1 {"0"}              
+            ),
+            
+            if (string-length($data//column[7]) > 0 ) then (
+                attribute sum_year {"1"}
+            ) else (
+                attribute sum_year {"0"}              
+            ),
+            
+            if (string-length($data//column[8]) > 0 ) then (
+                attribute sum_year_to_1 {"1"}
+            ) else (
+                attribute sum_year_to_1 {"0"}              
+            ),
+
+            if (string-length($data//column[9]) > 0 ) then (
+                attribute sum_year_to_2 {"1"}
+            ) else (
+                attribute sum_year_to_2 {"0"}              
+            ),
+            
+            if (string-length($data//column[10]) > 0 ) then (
+                attribute sum_year_to_3 {"1"}
+            ) else (
+                attribute sum_year_to_3 {"0"}              
+            ),
+            
+            if (string-length($data//column[11]) > 0 ) then (
+                attribute sum_year_to_4 {"1"}
+            ) else (
+                attribute sum_year_to_4 {"0"}              
+            ),
+                        
+            for $cost in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "3" and entity = $data//entity]                                return (
                 attribute cost_year_downto_4 { $cost//column[1] },
                 attribute cost_year_downto_3 { $cost//column[2] },
                 attribute cost_year_downto_2 { $cost//column[3] },
@@ -21446,11 +21664,65 @@ let $fin := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1
                 attribute cost_year_to_2     { $cost//column[7] },
                 attribute cost_year_to_3     { $cost//column[8] },
                 attribute cost_year_to_4     { $cost//column[9] },
+                
+                if (string-length($cost//column[1]) > 0) then (
+                   attribute sum_cost_year_downto_4 {"1"}
+                ) else (
+                   attribute sum_cost_year_downto_4 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[2]) > 0) then (
+                   attribute sum_cost_year_downto_3 {"1"}
+                ) else (
+                   attribute sum_cost_year_downto_3 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[3]) > 0) then (
+                   attribute sum_cost_year_downto_2 {"1"}
+                ) else (
+                   attribute sum_cost_year_downto_2 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[4]) > 0) then (
+                   attribute sum_cost_year_downto_1 {"1"}
+                ) else (
+                   attribute sum_cost_year_downto_1 {"0"}                   
+                ),
+
+                if (string-length($cost//column[5]) > 0) then (
+                   attribute sum_cost_year {"1"}
+                ) else (
+                   attribute sum_cost_year {"0"}                   
+                ),
+                
+                if (string-length($cost//column[6]) > 0) then (
+                   attribute sum_cost_year_to_1 {"1"}
+                ) else (
+                   attribute sum_cost_year_to_1 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[7]) > 0) then (
+                   attribute sum_cost_year_to_2 {"1"}
+                ) else (
+                   attribute sum_cost_year_to_2 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[8]) > 0) then (
+                   attribute sum_cost_year_to_3 {"1"}
+                ) else (
+                   attribute sum_cost_year_to_3 {"0"}                   
+                ),
+                
+                if (string-length($cost//column[9]) > 0) then (
+                   attribute sum_cost_year_to_4 {"1"}
+                ) else (
+                   attribute sum_cost_year_to_4 {"0"}                   
+                ),
+                
                 attribute pay_section        { $cost//column[10]}                            
             ),                     
 
-            for $pay in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "5" and entity = $data//entity]                                 
-            return (
+            for $pay in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "5" and entity = $data//entity]                                 return (
                 attribute payback_period { $pay//column[1] },
                 attribute vnd            { $pay//column[2] },
                 attribute cdd            { $pay//column[3] },
@@ -21458,8 +21730,7 @@ let $fin := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1
             ),
                       
             (: Экономия от реализации программ  :)            
-            for $econ in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and entity = $data//entity]                                
-            return 
+            for $econ in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "2" and entity = $data//entity]                                return 
                 element {xs:QName("econ")} {
                      attribute name                     { $econ//column[1]  },
                      attribute measure                  { $econ//column[2]  },
@@ -21468,43 +21739,134 @@ let $fin := for $data in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "1
                      attribute econ_tut_plan_downto_4   { $econ//column[5]  },
                      attribute econ_cost_plan_downto_4  { $econ//column[6]  },
                      
+                     if ( string-length($econ//column[4]) > 0 or
+                          string-length($econ//column[5]) > 0 or 
+                          string-length($econ//column[6]) > 0) then (
+                            
+                       attribute sum_econ_downto_4 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_downto_4 {"0"}                              
+                     ),
+                     
                      attribute econ_natur_plan_downto_3 { $econ//column[7]  },
                      attribute econ_tut_plan_downto_3   { $econ//column[8]  },
                      attribute econ_cost_plan_downto_3  { $econ//column[9]  },                     
+
+                     if ( string-length($econ//column[7]) > 0 or
+                          string-length($econ//column[8]) > 0 or 
+                          string-length($econ//column[9]) > 0) then (
+                            
+                       attribute sum_econ_downto_3 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_downto_3 {"0"}                              
+                     ),
 
                      attribute econ_natur_plan_downto_2 { $econ//column[10] },
                      attribute econ_tut_plan_downto_2   { $econ//column[11] },
                      attribute econ_cost_plan_downto_2  { $econ//column[12] },                     
 
+                     if ( string-length($econ//column[10]) > 0 or
+                          string-length($econ//column[11]) > 0 or 
+                          string-length($econ//column[12]) > 0) then (
+                            
+                       attribute sum_econ_downto_2 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_downto_2 {"0"}                              
+                     ),
+
                      attribute econ_natur_plan_downto_1 { $econ//column[13] },
                      attribute econ_tut_plan_downto_1   { $econ//column[14] },
                      attribute econ_cost_plan_downto_1  { $econ//column[15] },
+                                          
+                     if ( string-length($econ//column[13]) > 0 or
+                          string-length($econ//column[14]) > 0 or 
+                          string-length($econ//column[15]) > 0) then (
+                            
+                       attribute sum_econ_downto_1 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_downto_1 {"0"}                              
+                     ),
                                           
                      attribute econ_natur_plan          { $econ//column[16] },
                      attribute econ_tut_plan            { $econ//column[17] },
                      attribute econ_cost_plan           { $econ//column[18] }, 
 
+                     if ( string-length($econ//column[16]) > 0 or
+                          string-length($econ//column[17]) > 0 or 
+                          string-length($econ//column[18]) > 0) then (
+                            
+                       attribute sum_econ {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ {"0"}                              
+                     ),
+
                      attribute econ_natur_plan_to_1     { $econ//column[19] },
                      attribute econ_tut_plan_to_1       { $econ//column[20] },
                      attribute econ_cost_plan_to_1      { $econ//column[21] }, 
 
+                     if ( string-length($econ//column[19]) > 0 or
+                          string-length($econ//column[20]) > 0 or 
+                          string-length($econ//column[21]) > 0) then (
+                            
+                       attribute sum_econ_to_1 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_to_1 {"0"}                              
+                     ),
+
                      attribute econ_natur_plan_to_2     { $econ//column[22] },
                      attribute econ_tut_plan_to_2       { $econ//column[23] },
                      attribute econ_cost_plan_to_2      { $econ//column[24] },
+
+                     if ( string-length($econ//column[22]) > 0 or
+                          string-length($econ//column[23]) > 0 or 
+                          string-length($econ//column[24]) > 0) then (
+                            
+                       attribute sum_econ_to_2 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_to_2 {"0"}                              
+                     ),
                       
                      attribute econ_natur_plan_to_3     { $econ//column[25] },
                      attribute econ_tut_plan_to_3       { $econ//column[26] },
                      attribute econ_cost_plan_to_3      { $econ//column[27] },
 
+                     if ( string-length($econ//column[25]) > 0 or
+                          string-length($econ//column[26]) > 0 or 
+                          string-length($econ//column[27]) > 0) then (
+                            
+                       attribute sum_econ_to_3 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_to_3 {"0"}                              
+                     ),
+
                      attribute econ_natur_plan_to_4     { $econ//column[28] },
                      attribute econ_tut_plan_to_4       { $econ//column[29] },
-                     attribute econ_cost_plan_to_4      { $econ//column[30] }                                                           
+                     attribute econ_cost_plan_to_4      { $econ//column[30] }, 
+
+                     if ( string-length($econ//column[28]) > 0 or
+                          string-length($econ//column[29]) > 0 or 
+                          string-length($econ//column[30]) > 0) then (
+                            
+                       attribute sum_econ_to_4 {"1"}       
+                       
+                     ) else (
+                       attribute sum_econ_to_4 {"0"}                              
+                     )
+                                                                     
             },
-            for $source in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "4" and entity = $data//entity]                                
-            return 
+            for $source in $oldXML//strdata//strdetail[substring(@code, 1, 1) = "4" and entity = $data//entity]                                return 
                 element {xs:QName("source")} {
                     attribute name {$source//column[1]}
-            }                     }
+            }             
+        }
   
 let $flattenContactData := for $strCls in $oldXML//strdata[number(@code) = 111 or number(@code) = 112] 
               
@@ -21521,7 +21883,7 @@ return
          )
      }
 
-let $flattenServiceData := for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 133] 
+let $flattenServiceData := for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 132] 
 let $columns:=$strCls/column
 return
     element {xs:QName("strServiceInf") }{
@@ -21953,11 +22315,18 @@ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@
                   for $str in $oldXML//strclass[string(@name) = $strCls]
                   let $columns:=$str/column
                   return
+                    
                     (for $c in $columns
                        return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
+                       (
+                            attribute {xs:QName(concat("col",string($c/@order)))}{
+                              $c/text()
+                            },
+                            if (string-length($c/text()) > 0) then
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"1"} 
+                            else                        
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"0"}
+                        )  
                      )
                 ),
                 (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
@@ -21965,10 +22334,12 @@ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@
                      element {xs:QName("child") }{   
                          attribute nameInd {$c/entity/text()},
                          (for $column in $c/column
-                           return
-                           attribute {xs:QName(concat("col",string($column/@order)))}{
-                                $column/text()
-                              }
+                            return
+                            (
+                                attribute {xs:QName(concat("col",string($column/@order)))}{
+                                  $column/text()
+                                }
+                            )   
                           )
                      }
                 )
@@ -21977,7 +22348,7 @@ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@
  let $flattenPart2 :=  element {xs:QName("strdata") }{   
                          attribute id {"6"},
                          attribute name {"Иные целевые показатели в области энергосбережения и повышения энергетической эффективности, определенные органом местного самоуправления при разработке муниципальной программы в области энергосбережения и повышения энергетической эффективности"}}
-                         
+
 
  let $flattenPart3 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@code)=20)
                                                                   ]/@name),
@@ -22007,9 +22378,15 @@ let $flattenPart1 :=  for $strCls in (distinct-values($oldXML//strdata[(number(@
                   return
                     (for $c in $columns
                        return
-                       attribute {xs:QName(concat("col",string($c/@order)))}{
-                            $c/text()
-                          }
+                       (
+                           attribute {xs:QName(concat("col",string($c/@order)))}{
+                              $c/text()
+                           },
+                            if (string-length($c/text()) > 0) then
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"1"}
+                            else
+                            attribute {xs:QName(concat("cols",string($c/@order)))} {"0"}                           
+                       )   
                      )
                 ),
                 (for $c in $oldXML//strdetail[column[2]/text() = $strCls]
@@ -32700,3 +33077,112 @@ let $flatten:= insert-before($flatten,0,$flattenServiceData)
 
 return <document version="1.0" created="create_xml_online"><flat>{$flatten}</flat></document>
 };
+
+(: ------------------------------------------------------------------------------ :)
+(: --------------------- 5.132 maket 1186 - 71006 ------------------------------- :)
+(: ------------------------------------------------------------------------------ :)
+
+declare function util:pre71006($doc) { 
+
+let $oldXML := $doc 
+
+let $parm := for $prm in $oldXML
+  return (
+       element { xs:QName("param") } {
+       attribute name {"params"},  
+       attribute version {$prm/@version},
+       attribute year {$prm/@year},
+       attribute month {$prm/@month},
+       attribute day {$prm/@day},
+       attribute subject{$prm/@subject_name},
+       attribute oktmo{$prm/@subject_variant_name}              
+     }
+) 
+
+
+let $data_01 := for $strCls in $oldXML//strdata[(number(@code) >=1 and number(@code) <= 499) and 
+                                                (number(@code)) != 16 and
+                                                (number(@code)) != 17 and 
+                                                (number(@code)) != 121 and
+                                                (number(@code)) != 122 and
+                                                (number(@code)) != 123 and
+                                                (number(@code)) != 124 and
+                                                (number(@code)) != 125 and
+                                                (number(@code)) != 126 and
+                                                (number(@code)) != 127 and
+                                                (number(@code)) != 128 and
+                                                (number(@code)) != 129 and
+                                                (number(@code)) != 130 and
+                                                (number(@code)) != 131 and
+                                                (number(@code)) != 132]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata_01") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $data_02 := for $strCls in $oldXML//strdata[(number(@code) >= 500)]
+              let $columns:=$strCls/column             
+              return
+              element {xs:QName("strdata_02") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                attribute {xs:QName(concat("column", string($c/@order)))}{
+                  $c/text()
+                })
+              }
+
+let $flattenContactData:=
+              for $strCls in $oldXML//strdata[number(@code) = 16 or number(@code)=17] 
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strContactInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col",string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $flattenServiceData:=
+              for $strCls in $oldXML//strdata[number(@code) >= 121 and number(@code) <= 126] 
+              let $columns:=$strCls/column
+              return
+              element {xs:QName("strServiceInf") }{
+                attribute name {$strCls/@name},
+                attribute code {$strCls/@code},
+                (for $c in $columns
+                 return
+                 attribute {xs:QName(concat("col", string($c/@order)))}{
+                      $c/text()
+                    }
+                )
+              }
+
+let $columnNames:=distinct-values($oldXML//column/@order)
+
+let $flatten := insert-before($flattenServiceData, 0, $parm) 
+let $flatten := insert-before($flatten, 0, $flattenContactData)         
+let $flatten:= insert-before($flattenServiceData, 0, $flattenContactData)
+let $flatten:= insert-before($flatten, 0, $data_02)
+let $flatten:= insert-before($flatten, 0, $data_01)
+let $flatten:= insert-before($flatten, 0, $parm)
+
+let $newXML := for $item in $flatten
+              return $item
+              
+          
+               
+return <document version="1.0" created="create_xml_online"><flat>{$newXML}</flat></document> 
+}; 

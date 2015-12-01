@@ -1,0 +1,33 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <strdata name="Удельный расход тепловой энергии на отопление зданий" code="1"/>
+    <strdata name="в зависимости от этажности здания" code=""/>
+    <strdata name="1 этаж" code="2" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="2 этажа" code="3" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="3 этажа" code="4" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="4, 5 этажей" code="5" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="6, 7 этажей" code="6" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="8, 9 этажей" code="7" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="10, 11 этажей" code="8" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strdata name="12 этажей и выше" code="9" measure="кДж/(м*С*сут)" year_plan_downto_1="" year_fact_downto_1="" year_plan="" year_fact="" year_plan_to_1="" year_fact_to_1=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" value=""/>
+    <strServiceInf name="Почтовый адрес" code="122" value=""/>
+    <strServiceInf name="Фактический адрес" code="123" value=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" value="124"/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" value="125"/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" value=""/>
+    <strServiceInf name="ОКПО (Общероссийский классификатор предприятий и организаций)" code="127" value=""/>
+    <strServiceInf name="ОКВЭД (Код вида деятельности)" code="128" value=""/>
+    <strServiceInf name="ОКТМО (Код территории)" code="129" value=""/>
+    <strServiceInf name="ОКОГУ (Код министерства (ведомства), органа управления)" code="130" value=""/>
+    <strServiceInf name="ОКОПФ (Код организационно-правовой формы)" code="131" value=""/>
+    <strServiceInf name="ОКФС (Код формы собственности)" code="132" value=""/>
+    <strServiceInf name="Полное наименование организации" code="133" value=""/>
+    <strServiceInf name="ОГРН" code="134" value=""/>
+    <strServiceInf name="ИНН" code="135" value=""/>
+    <strServiceInf name="КПП" code="136" value=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="" col2="" col3="" col4=""/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="" col2="" col3="" col4=""/>
+    <param name="params" version="1.0" year="0" month="0" day="" subject="" vid=""/>
+  </flat>
+</document>

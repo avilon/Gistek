@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:choice minOccurs="0">
+										<xs:element name="child" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" use="required" type="xs:byte"/>
+												<xs:attribute name="code" use="required" type="xs:byte"/>
+												<xs:attribute name="cost" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter" type="xs:string"/>
+												<xs:attribute name="measure" type="xs:string"/>
+												<xs:attribute name="ter_econ_natur_plan" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter_econ_tut_plan" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter_econ_cost_plan" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_effect_plan" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter_econ_natur_fact" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter_econ_tut_fact" use="required" type="xs:decimal"/>
+												<xs:attribute name="ter_econ_effect_fact" use="required" type="xs:decimal"/>
+												<xs:attribute name="econ_effect_fact" use="required" type="xs:decimal"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="terChild" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" use="required" type="xs:byte"/>
+												<xs:attribute name="cost" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_natur_plan" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_tut_plan" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_cost_plan" use="required" type="xs:string"/>
+												<xs:attribute name="econ_effect_plan" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_natur_fact" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_tut_fact" use="required" type="xs:string"/>
+												<xs:attribute name="ter_econ_cost_fact" use="required" type="xs:string"/>
+												<xs:attribute name="econ_effect_pfact" use="required" type="xs:string"/>
+												<xs:attribute name="measure" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:choice>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="division" use="required" type="xs:byte"/>
+									<xs:attribute name="enter_month" type="xs:byte"/>
+									<xs:attribute name="enter_year" type="xs:short"/>
+									<xs:attribute name="payback" type="xs:byte"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:long"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="param" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="version" use="required" type="xs:decimal"/>
+									<xs:attribute name="year" use="required" type="xs:short"/>
+									<xs:attribute name="month" use="required" type="xs:byte"/>
+									<xs:attribute name="day" use="required" type="xs:string"/>
+									<xs:attribute name="subject" use="required" type="xs:string"/>
+									<xs:attribute name="vid" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

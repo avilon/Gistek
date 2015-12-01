@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="document">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="flat" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="strdata" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="child" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="id" use="required" type="xs:byte"/>
+												<xs:attribute name="measure" use="required" type="xs:string"/>
+												<xs:attribute name="code" use="required" type="xs:byte"/>
+												<xs:attribute name="plan_downto_2" use="required" type="xs:string"/>
+												<xs:attribute name="fact_downto_2" use="required" type="xs:string"/>
+												<xs:attribute name="plan_downto_1" use="required" type="xs:string"/>
+												<xs:attribute name="plan_proc_downto_1" use="required" type="xs:string"/>
+												<xs:attribute name="fact_downto_1" use="required" type="xs:string"/>
+												<xs:attribute name="fact_proc_downt_1" use="required" type="xs:string"/>
+												<xs:attribute name="plan" use="required" type="xs:string"/>
+												<xs:attribute name="plan_proc" use="required" type="xs:string"/>
+												<xs:attribute name="fact" use="required" type="xs:string"/>
+												<xs:attribute name="fact_proc" use="required" type="xs:string"/>
+												<xs:attribute name="plan_to_1" use="required" type="xs:string"/>
+												<xs:attribute name="plan_proc_to_1" use="required" type="xs:string"/>
+												<xs:attribute name="fact_to_1" use="required" type="xs:string"/>
+												<xs:attribute name="fact_proc_to_1" use="required" type="xs:string"/>
+												<xs:attribute name="plan_to_2" use="required" type="xs:string"/>
+												<xs:attribute name="plan_proc_to_2" use="required" type="xs:string"/>
+												<xs:attribute name="fact_to_2" use="required" type="xs:string"/>
+												<xs:attribute name="fact_proc_to_2" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" type="xs:byte"/>
+									<xs:attribute name="division" use="required" type="xs:byte"/>
+									<xs:attribute name="measure" type="xs:string"/>
+									<xs:attribute name="plan_downto_2" type="xs:string"/>
+									<xs:attribute name="fact_downto_2" type="xs:string"/>
+									<xs:attribute name="plan_downto_1" type="xs:string"/>
+									<xs:attribute name="plan_proc_downto_1" type="xs:string"/>
+									<xs:attribute name="fact_downto_1" type="xs:string"/>
+									<xs:attribute name="fact_proc_downt_1" type="xs:string"/>
+									<xs:attribute name="plan" type="xs:string"/>
+									<xs:attribute name="plan_proc" type="xs:string"/>
+									<xs:attribute name="fact" type="xs:string"/>
+									<xs:attribute name="fact_proc" type="xs:string"/>
+									<xs:attribute name="plan_to_1" type="xs:string"/>
+									<xs:attribute name="plan_proc_to_1" type="xs:string"/>
+									<xs:attribute name="fact_to_1" type="xs:string"/>
+									<xs:attribute name="fact_proc_to_1" type="xs:string"/>
+									<xs:attribute name="plan_to_2" type="xs:string"/>
+									<xs:attribute name="plan_proc_to_2" type="xs:string"/>
+									<xs:attribute name="fact_to_2" type="xs:string"/>
+									<xs:attribute name="fact_proc_to_2" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="strContactInf" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="code" use="required" type="xs:byte"/>
+									<xs:attribute name="col1" use="required" type="xs:string"/>
+									<xs:attribute name="col2" use="required" type="xs:string"/>
+									<xs:attribute name="col3" use="required" type="xs:string"/>
+									<xs:attribute name="col4" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="param" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+									<xs:attribute name="version" use="required" type="xs:decimal"/>
+									<xs:attribute name="year" use="required" type="xs:byte"/>
+									<xs:attribute name="month" use="required" type="xs:byte"/>
+									<xs:attribute name="day" use="required" type="xs:string"/>
+									<xs:attribute name="subject" use="required" type="xs:string"/>
+									<xs:attribute name="vid" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="version" use="required" type="xs:decimal"/>
+			<xs:attribute name="created" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

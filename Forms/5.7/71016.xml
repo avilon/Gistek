@@ -1,0 +1,35 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <param name="params" version="1.0" year="2010" month="12" day="" subject="ОАО &quot;Аэропорт Анапа&quot;" vid="Услуги аэропортов"/>
+    <strdata name="Показатели энергоемкости" code="" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на единицу валовой вместимости судна GT [%]" measure="%" code="1" column1="998.00" column2="999.00" column3="1000.00" column4="1001.00" column5="1002.00"/>
+    <strdata name="Снижение энергоемкости производственной деятельности на тонну перегружаемого груза [%]" measure="%" code="2" column1="11.00" column2="12.00" column3="13.00" column4="14.00" column5="15.00"/>
+    <strdata name="Снижение энергоемкости производственной деятельности на единицу валовой вместимости судна GT [%]" measure="%" code="3" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на тонну перегружаемого груза [%]" measure="%" code="4" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на единицу максимальной взлетной массы воздушного судна  [%]" measure="%" code="5" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на пассажира  [%]" measure="%" code="6" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на тонну заправленного авиационного топлива  [%]" measure="%" code="7" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности на хранение авиационного топлива  [%]" measure="%" code="8" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности  [%]" measure="%" code="9" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности  [кг у. т. / 10000 прив. ткм нетто]" measure="кг у. т. / 10000 прив. ткм нетто" code="10" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности  [%]" measure="%" code="11" column1="1010.00" column2="1020.00" column3="1030.00" column4="1040.00" column5="1040.00"/>
+    <strdata name="Снижение энергоемкости производственной деятельности  [кг у. т. / 10000 пасс.-км]" measure="кг у. т. / 10000 пасс.-км" code="12" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Снижение энергоемкости производственной деятельности  [%]" measure="%" code="13" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Показатели энергоэффективности" code="" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на единицу валовой вместимости судна GT  [%]" code="1" column1="2000.00" column2="2001.00" column3="2002.00" column4="2003.00" column5="2004.00"/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на тонну перегружаемого груза  [%]" code="2" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на единицу валовой вместимости судна GT  [%]" code="3" column1="2002.00" column2="2012.00" column3="2022.00" column4="2032.00" column5="2042.00"/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на тонну перегружаемого груза  [%]" code="4" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на единицу максимальной взлетной массы воздушного судна  [%]" code="5" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на пассажира  [%]" code="6" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на тонну заправленного авиационного топлива  [%]" code="7" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности на тонну принятого на хранение авиационного топлива  [%]" code="8" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности  [%]" code="9" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности  [прив. ткм нетто / кг у. т.]" code="10" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности  [%]" code="11" column1="2010.00" column2="2011.00" column3="2012.00" column4="2013.00" column5="2014.00"/>
+    <strdata name="Повышение энергоэффективности производственной деятельности  [пасс.-км / кг у. т.]" code="12" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata name="Повышение энергоэффективности производственной деятельности  [%]" code="13" column1="" column2="" column3="" column4="" column5=""/>
+    <strContactInf name="Руководитель организации" code="111" col1="Козлов" col2="Директор козлов" col3="+1234567890" col4="kozel@mail.com"/>
+    <strContactInf name="Ответственный за заполнение макета" code="112" col1="Баранов" col2="Начальник баранов" col3="+76543221890" col4="baran@mail.com"/>
+  </flat>
+</document>

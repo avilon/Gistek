@@ -1,0 +1,158 @@
+<document version="1.0" created="create_xml_online">
+  <flat>
+    <param name="params" version="1.0" year="" month="" day="" subject="Субъект" oktmo="ОКТМО"/>
+    <strdata_01 name="Металлургическое производство" code="10" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Доменный газ" code="20" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Конвертерный газ" code="30" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Ферросплавный газ" code="40" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Химическое производство, производство резиновых и пластмассовых изделий" code="50" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Отходящие газ производства техуглерода" code="60" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Метано-водородная фракция производства этилена" code="70" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Другие фракции производства этилена" code="80" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Абгаз производства стирола" code="90" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Жидкие углеводороды производства стирола" code="100" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Жидкие углеводороды производства изопрена из изопентана" code="110" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Жидкие углеводороды производства изопрена из изобутилена" code="120" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Танковые газы производства аммиака" code="135" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Печной газ производства фосфора" code="140" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Горючие газы производства аммиака, в том числе:" code="150" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="богатый газ" code="160" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="танковые и продувочные газы" code="170" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="ретурные газы" code="180" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="окись-углеродная фракция" code="190" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Жидкие углеводороды производства аммиака" code="200" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Танковые и продувочные газы производства метанола" code="210" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Отходящие газы производства формалина" code="220" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Прочие отходы" code="230" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Производство целлюлозы, древесной массы, бумаги и картона" code="240" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Упаренные сульфатные щелока" code="250" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Упаренные сульфитные щелока" code="260" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Упаренные бардяные концентраты" code="270" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Прочие горючие ВЭР" code="280" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Горючие ВЭР других видов экономической деятельности" code="290" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Лигнин" code="300" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Отходящие горючие газы, в том числе:" code="310" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="ваграночные газы" code="320" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="газы от прокалки кокса и т.п." code="330" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Жидкие горючие отходы, в том числе:" code="340" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="кубовые остатки" code="350" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="отработанные нефтепродукты и т.п." code="360" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Твердые горючие отходы, в том числе:" code="370" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="древесные отходы" code="380" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="костра лубяных волокон" code="390" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="подсолнечная лузга и т.п." code="400" column1="" column2="" column3="" column4=""/>
+    <strdata_01 name="Прочие отходы" code="410" column1="" column2="" column3="" column4=""/>
+    <strdata_02 name="Производство нефтепродуктов и кокса" code="500" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота дымовых газов и газов регенерации установок:" code="510" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="первичной переработки нефти" code="520" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="каталитического риформинга" code="530" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="каталитического крегинга" code="540" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="гидрокрегинга" code="550" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="карбамидной депарафинизации" code="560" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="производства масел" code="570" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="коксования" code="580" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="парекс" code="590" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="гидроочистки" code="600" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="получения водорода" code="610" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="крекинга и парафинов" code="620" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота уходящих газов коксовых печей" code="630" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство каучуков" code="640" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота:" code="650" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="контактного газа производства дивинила из спирта" code="660" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="фузельной воды производства дивинила из спирта" code="670" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота контактного газа и газов регенерации:" code="680" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Первой стадии дегидрирования производства дивинила из бутана" code="690" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Второй стадии дегидрирования производства дивинила из бутана" code="700" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Одностадийного производства дивинила из бутана" code="710" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Первой стадии дегидрирования производства изопрена из изопентана" code="720" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Второй стадии дегидрирования производства изопрена из изопентана" code="730" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="производство изопрена из изобутана и формальдегида" code="740" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="получение формальдегида из метанола производства бутилкаучука" code="750" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота формальдегидной воды" code="760" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота дымовых газов производства" code="770" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="стирола" code="780" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="этилбензола" code="790" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="альфаметилстирола" code="800" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР производства каучука" code="810" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство этилена и этилового спирта" code="820" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота:" code="830" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="дымовых газов печей пиролиза" code="840" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="пиролизных газов (контактных)" code="850" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="парогазовой смеси в производстве спирта" code="860" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="контактных газов производства окиси этилена" code="870" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="продуктовых газов производства бутиловых спиртов" code="880" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР производства этилена" code="890" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство аммиака и метанола" code="900" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота уходящих газов трубчатых печей" code="910" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждающей воды" code="920" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота продукционных газов:" code="930" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="колонн синтеза" code="940" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="конвертеров природного газа и CO" code="950" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство слабой азотной кислоты" code="960" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота продукционных газов контактных аппаратов" code="970" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота хвостовых газов" code="980" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство серной кислоты" code="990" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота продукционного газа:" code="1000" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="обжиговых печей КС, ВХЗ и серных контактных аппаратов" code="1010" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство обесфторенных фосфатов" code="1020" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отходящих газов вращающихся печей" code="1030" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие химические производства" code="1040" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота продукционных газов" code="1050" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отходящих газов технологических печей и агрегатов" code="1060" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждения" code="1070" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Переработка газа" code="1080" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота уходящих газов:" code="1090" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="тепловых двигателей компрессорных станций" code="1100" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="технологических установок газоперерабатывающих заводов" code="1110" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство прочих неметаллических минеральных продуктов" code="1120" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отходящих газов:" code="1130" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="стекловаренных печей и печей цементного производства" code="1140" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="обжига керамзита, керамических изделий и пр. вагранок, прочих технологических печей" code="1150" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждения корпусов печей и прочих агрегатов" code="1160" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР" code="1170" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Металлургическое производство" code="1180" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота уходящих газов:" code="1190" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="мартеновских, электросталеплавильных, нагревательных, термических, обжиговых, отражательных печей" code="1200" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="кислородных конвертеров" code="1210" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="нагревательных колодцев" code="1220" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="вельц-печей" code="1230" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="печей для сжигания серы" code="1240" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="прочих установок" code="1250" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждения:" code="1260" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="доменных, мартеновских и нагревательных печей" code="1270" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="вагранок" code="1280" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="обжиговых, отражательных и электротехнических печей" code="1290" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="прочих агрегатов" code="1300" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота кокса" code="1310" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота шлаков:" code="1320" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="доменных" code="1330" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="сталеплавильных" code="1340" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="ферросплавных" code="1350" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="других металлургических агрегатов и установок" code="1360" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота доменного газа" code="1370" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота коксового газа" code="1380" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР" code="1390" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Избыточное давление доменного газа" code="1400" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Производство машин и оборудования, электрооборудования, электронного и оптического оборудования, транспортных средств и оборудования" code="1410" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отходящих газов:" code="1420" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="нагревательных, термических и сушильных печей" code="1430" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="вагранок" code="1440" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="прочих технологических установок" code="1450" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждения:" code="1460" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="нагревательных печей, вагранок, компрессоров" code="1470" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отработанного пара от прессов и молотов" code="1480" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР" code="1490" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды экономической деятельности" code="1500" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отходящих газов технологических печей нагретой продукции" code="1510" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота охлаждения технологических агрегатов" code="1520" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Теплота отработанного пара" code="1530" column1="" column2="" column3="" column4="" column5=""/>
+    <strdata_02 name="Прочие виды ВЭР" code="1540" column1="" column2="" column3="" column4="" column5=""/>
+    <strContactInf name="Жидкие углеводороды производства изопрена из изобутилена" code="120" col1="" col2="" col3="" col4=""/>
+    <strServiceInf name="Наименование отчитывающейся организации" code="121" col1=""/>
+    <strServiceInf name="Почтовый адрес" code="122" col1=""/>
+    <strServiceInf name="Фактический адрес" code="123" col1=""/>
+    <strServiceInf name="ОГРН (Основной государственный регистрационный номер)" code="124" col1=""/>
+    <strServiceInf name="ИНН (Идентификационный номер налогоплательщика)" code="125" col1=""/>
+    <strServiceInf name="КПП (Код причины постановки на учет)" code="126" col1=""/>
+  </flat>
+</document>

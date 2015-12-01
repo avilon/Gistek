@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strdata code="10" name="Объемные показатели">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048"></column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1001" name="Объем оказываемых услуг">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1002" name="Максимальная взлетная масса воздушных судов">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т мвм</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1003" name="Количество пассажиров">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. пасс.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1004" name="Количество заправленного авиационного топлива">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1005" name="Количество принятого на хранение авиационного топлива">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="20" name="Годовые затраты на ТЭР">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048"></column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2001" name="Электроэнергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. кВт*ч</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2002" name="Электроэнергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2003" name="Электроэнергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2004" name="Тепловая энергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. Гкал</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2005" name="Тепловая энергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2006" name="Тепловая энергия">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2007" name="Дизельное топливо">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2008" name="Дизельное топливо">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2009" name="Дизельное топливо">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2010" name="Мазут">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2011" name="Мазут">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2012" name="Мазут">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2013" name="Бензин">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2014" name="Бензин">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2015" name="Бензин">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2016" name="Газ">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. куб. м</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2017" name="Газ">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2018" name="Газ">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2019" name="Уголь">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2020" name="Уголь">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2021" name="Уголь">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2022" name="Всего ТЭР">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2023" name="Всего ТЭР">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. руб.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="30" name="Показатели энергоемкости">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048"></column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3001" name="Энергоемкость производственной деятельности на единицу максимальной взлетной массы воздушного судна">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т у. т./т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3002" name="Энергоемкость производственной деятельности на пассажира">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т у. т./тыс. пасс.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3003" name="Энергоемкость производственной деятельности на тонну заправленного авиационного топлива">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т у. т./т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="3004" name="Энергоемкость производственной деятельности на тонну принятого на хранение авиационного топлива">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т у. т./т</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="40" name="Показатели энергоэффективности">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048"></column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4001" name="Энергоэффективность производственной деятельности (с учетом максимальной взлетной массы воздушных судов)">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т/т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4002" name="Энергоэффективность производственной деятельности (с учетом общего объема обслуживания пассажиров)">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">тыс. пасс./т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4003" name="Энергоэффективность производственной деятельности (с учетом объема заправленного авиационного топлива)">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т/т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="4004" name="Энергоэффективность производственной деятельности (с учетом общего объема принятого на хранение авиационного топлива)">
+ <column name="Ед. изм." order="1" id="6711" datatype="constant" format="2048">т/т у. т.</column>
+ <column name="Отчетный год - 2 [план]" order="2" id="5056" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 2 [факт]" order="3" id="5057" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [план]" order="4" id="5058" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="5" id="5059" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [факт]" order="6" id="5060" datatype="number" format="30.2"></column>
+ <column name="Отчетный год - 1 [% измен., к пред. периоду]" order="7" id="5061" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [план]" order="8" id="5062" datatype="number" format="30.2"></column>
+ <column name="Отчетный год  [% измен., к пред. периоду]" order="9" id="5063" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [факт]" order="10" id="5064" datatype="number" format="30.2"></column>
+ <column name="Отчетный год [% измен., к пред. периоду]" order="11" id="5065" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [план]" order="12" id="5066" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1  [% измен., к пред. периоду]" order="13" id="5067" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [факт]" order="14" id="5068" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 1 [% измен., к пред. периоду]" order="15" id="5069" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [план]" order="16" id="5070" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2  [% измен., к пред. периоду]" order="17" id="5071" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [факт]" order="18" id="5072" datatype="number" format="30.2"></column>
+ <column name="Отчетный год + 2 [% измен., к пред. периоду]" order="19" id="5073" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="5076" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="5077" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="5078" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="5079" datatype="text" format="500"></column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="5076" datatype="text" format="500"></column>
+ <column name="Должность" order="2" id="5077" datatype="text" format="500"></column>
+ <column name="Контактный телефон" order="3" id="5078" datatype="text" format="500"></column>
+ <column name="Электронный адрес" order="4" id="5079" datatype="text" format="500"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="129" name="ОКТМО (Код территории)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="6295" datatype="text" format="500"></column>
+</strdata>
+<strdata code="133" name="Полное наименование организации">
+ <column name="Значение" order="1" id="6712" datatype="text" format="300"></column>
+</strdata>
+<strdata code="134" name="ОГРН">
+ <column name="Значение" order="1" id="6712" datatype="text" format="300"></column>
+</strdata>
+<strdata code="135" name="ИНН">
+ <column name="Значение" order="1" id="6712" datatype="text" format="300"></column>
+</strdata>
+<strdata code="136" name="КПП">
+ <column name="Значение" order="1" id="6712" datatype="text" format="300"></column>
+</strdata>
+</document>

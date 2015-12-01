@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="0" month="0" day="" subject="0" subject_name="" subject_variant="" subject_variant_name="">
+<strdata code="10" name="Металлургическое производство">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="20" name="Доменный газ">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="30" name="Конвертерный газ">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="40" name="Ферросплавный газ">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="50" name="Химическое производство, производство резиновых и пластмассовых изделий">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="60" name="Отходящие газ производства техуглерода">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="70" name="Метано-водородная фракция производства этилена">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="80" name="Другие фракции производства этилена">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="90" name="Абгаз производства стирола">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="100" name="Жидкие углеводороды производства стирола">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="110" name="Жидкие углеводороды производства изопрена из изопентана">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="120" name="Жидкие углеводороды производства изопрена из изобутилена">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="135" name="Танковые газы производства аммиака">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="140" name="Печной газ производства фосфора">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="150" name="Горючие газы производства аммиака, в том числе:">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="160" name="богатый газ">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="170" name="танковые и продувочные газы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="180" name="ретурные газы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="190" name="окись-углеродная фракция">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="200" name="Жидкие углеводороды производства аммиака">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="210" name="Танковые и продувочные газы производства метанола">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="220" name="Отходящие газы производства формалина">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="230" name="Прочие отходы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="240" name="Производство целлюлозы, древесной массы, бумаги и картона">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="250" name="Упаренные сульфатные щелока">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="260" name="Упаренные сульфитные щелока">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="270" name="Упаренные бардяные концентраты">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="280" name="Прочие горючие ВЭР">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="290" name="Горючие ВЭР других видов экономической деятельности">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="300" name="Лигнин">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="310" name="Отходящие горючие газы, в том числе:">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="320" name="ваграночные газы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="330" name="газы от прокалки кокса и т.п.">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="340" name="Жидкие горючие отходы, в том числе:">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="350" name="кубовые остатки">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="360" name="отработанные нефтепродукты и т.п.">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="370" name="Твердые горючие отходы, в том числе:">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="380" name="древесные отходы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="390" name="костра лубяных волокон">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="400" name="подсолнечная лузга и т.п.">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="410" name="Прочие отходы">
+ <column name="Годовой выход вторичных горючих ресурсов - всего, т.у.т." order="1" id="331" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано на предприятии  вторичных горючих ресурсов, т.у.т." order="2" id="332" datatype="number" format="30.2"></column>
+ <column name="Отпущено на сторону  вторичных горючих ресурсов, т.у.т." order="3" id="333" datatype="number" format="30.2"></column>
+ <column name="Потери вторичных горючих ресурсов, т.у.т." order="4" id="334" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="500" name="Производство нефтепродуктов и кокса">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="510" name="Теплота дымовых газов и газов регенерации установок:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="520" name="первичной переработки нефти">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="530" name="каталитического риформинга">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="540" name="каталитического крегинга">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="550" name="гидрокрегинга">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="560" name="карбамидной депарафинизации">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="570" name="производства масел">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="580" name="коксования">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="590" name="парекс">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="600" name="гидроочистки">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="610" name="получения водорода">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="620" name="крекинга и парафинов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="630" name="Теплота уходящих газов коксовых печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="640" name="Производство каучуков">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="650" name="Теплота:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="660" name="контактного газа производства дивинила из спирта">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="670" name="фузельной воды производства дивинила из спирта">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="680" name="Теплота контактного газа и газов регенерации:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="690" name="Первой стадии дегидрирования производства дивинила из бутана">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="700" name="Второй стадии дегидрирования производства дивинила из бутана">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="710" name="Одностадийного производства дивинила из бутана">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="720" name="Первой стадии дегидрирования производства изопрена из изопентана">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="730" name="Второй стадии дегидрирования производства изопрена из изопентана">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="740" name="производство изопрена из изобутана и формальдегида">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="750" name="получение формальдегида из метанола производства бутилкаучука">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="760" name="Теплота формальдегидной воды">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="770" name="Теплота дымовых газов производства">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="780" name="стирола">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="790" name="этилбензола">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="800" name="альфаметилстирола">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="810" name="Прочие виды ВЭР производства каучука">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="820" name="Производство этилена и этилового спирта">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="830" name="Теплота:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="840" name="дымовых газов печей пиролиза">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="850" name="пиролизных газов (контактных)">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="860" name="парогазовой смеси в производстве спирта">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="870" name="контактных газов производства окиси этилена">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="880" name="продуктовых газов производства бутиловых спиртов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="890" name="Прочие виды ВЭР производства этилена">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="900" name="Производство аммиака и метанола">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="910" name="Теплота уходящих газов трубчатых печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="920" name="Теплота охлаждающей воды">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="930" name="Теплота продукционных газов:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="940" name="колонн синтеза">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="950" name="конвертеров природного газа и CO">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="960" name="Производство слабой азотной кислоты">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="970" name="Теплота продукционных газов контактных аппаратов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="980" name="Теплота хвостовых газов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="990" name="Производство серной кислоты">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1000" name="Теплота продукционного газа:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1010" name="обжиговых печей КС, ВХЗ и серных контактных аппаратов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1020" name="Производство обесфторенных фосфатов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1030" name="Теплота отходящих газов вращающихся печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1040" name="Прочие химические производства">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1050" name="Теплота продукционных газов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1060" name="Теплота отходящих газов технологических печей и агрегатов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1070" name="Теплота охлаждения">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1080" name="Переработка газа">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1090" name="Теплота уходящих газов:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1100" name="тепловых двигателей компрессорных станций">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1110" name="технологических установок газоперерабатывающих заводов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1120" name="Производство прочих неметаллических минеральных продуктов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1130" name="Теплота отходящих газов:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1140" name="стекловаренных печей и печей цементного производства">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1150" name="обжига керамзита, керамических изделий и пр. вагранок, прочих технологических печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1160" name="Теплота охлаждения корпусов печей и прочих агрегатов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1170" name="Прочие виды ВЭР">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1180" name="Металлургическое производство">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1190" name="Теплота уходящих газов:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1200" name="мартеновских, электросталеплавильных, нагревательных, термических, обжиговых, отражательных печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1210" name="кислородных конвертеров">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1220" name="нагревательных колодцев">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1230" name="вельц-печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1240" name="печей для сжигания серы">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1250" name="прочих установок">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1260" name="Теплота охлаждения:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1270" name="доменных, мартеновских и нагревательных печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1280" name="вагранок">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1290" name="обжиговых, отражательных и электротехнических печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1300" name="прочих агрегатов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1310" name="Теплота кокса">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1320" name="Теплота шлаков:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1330" name="доменных">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1340" name="сталеплавильных">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1350" name="ферросплавных">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1360" name="других металлургических агрегатов и установок">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1370" name="Теплота доменного газа">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1380" name="Теплота коксового газа">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1390" name="Прочие виды ВЭР">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1400" name="Избыточное давление доменного газа">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1410" name="Производство машин и оборудования, электрооборудования, электронного и оптического оборудования, транспортных средств и оборудования">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1420" name="Теплота отходящих газов:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1430" name="нагревательных, термических и сушильных печей">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1440" name="вагранок">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1450" name="прочих технологических установок">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1460" name="Теплота охлаждения:">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1470" name="нагревательных печей, вагранок, компрессоров">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1480" name="Теплота отработанного пара от прессов и молотов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1490" name="Прочие виды ВЭР">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1500" name="Прочие виды экономической деятельности">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1510" name="Теплота отходящих газов технологических печей нагретой продукции">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1520" name="Теплота охлаждения технологических агрегатов">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1530" name="Теплота отработанного пара">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1540" name="Прочие виды ВЭР">
+ <column name="Годовой выход  вторичных тепловых ресурсов, Гкал" order="1" id="440" datatype="number" format="30.2"></column>
+ <column name="Возможная годовая выработка тепла, Гкал" order="2" id="441" datatype="number" format="30.2"></column>
+ <column name="Фактическая годовая выработка тепла, Гкал" order="3" id="442" datatype="number" format="30.2"></column>
+ <column name="Фактически использовано вторичных тепловых ресурсов, Гкал" order="4" id="443" datatype="number" format="30.2"></column>
+ <column name="Фактическая экономия топлива за счет использования вторичных тепловых ресурсов, т.у.т." order="5" id="444" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="16" name="Руководитель организации">
+ <column name="ФИО" order="1" id="447" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="448" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="449" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="450" datatype="text" format="100"></column>
+</strdata>
+<strdata code="17" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="447" datatype="text" format="100"></column>
+ <column name="Должность" order="2" id="448" datatype="text" format="100"></column>
+ <column name="Контактный телефон" order="3" id="449" datatype="text" format="100"></column>
+ <column name="Электронный адрес" order="4" id="450" datatype="text" format="100"></column>
+</strdata>
+<strdata code="121" name="Наименование отчитывающейся организации">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="122" name="Почтовый адрес">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="123" name="Фактический адрес">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="124" name="ОГРН (Основной государственный регистрационный номер)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="125" name="ИНН (Идентификационный номер налогоплательщика)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="126" name="КПП (Код причины постановки на учет)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="127" name="ОКПО (Общероссийский классификатор предприятий и организаций)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="128" name="ОКВЭД (Код вида деятельности)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="129" name="ОКТМО (Код территории)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="130" name="ОКОГУ (Код министерства (ведомства), органа управления)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="131" name="ОКОПФ (Код организационно-правовой формы)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+<strdata code="132" name="ОКФС (Код формы собственности)">
+ <column name="Значение" order="1" id="1757" datatype="text" format="300"></column>
+</strdata>
+</document>

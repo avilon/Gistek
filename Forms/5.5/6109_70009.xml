@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.0" created="create_xml_online" year="2010" month="12" day="" subject="6109" subject_name="ОАО &quot;Аэропорт Анапа&quot;" subject_variant="603" subject_variant_name="Услуги аэропортов">
+<strdata code="10" name="Показатели энергоемкости">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1000" name="Снижение энергоемкости производственной деятельности на единицу валовой вместимости судна GT [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">998.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">999.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">1000.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">1001.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">1002.00</column>
+</strdata>
+<strdata code="1001" name="Снижение энергоемкости производственной деятельности на тонну перегружаемого груза [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">11.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">12.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">13.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">14.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">15.00</column>
+</strdata>
+<strdata code="1002" name="Снижение энергоемкости производственной деятельности на единицу валовой вместимости судна GT [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1003" name="Снижение энергоемкости производственной деятельности на тонну перегружаемого груза [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1004" name="Снижение энергоемкости производственной деятельности на единицу максимальной взлетной массы воздушного судна  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1005" name="Снижение энергоемкости производственной деятельности на пассажира  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1006" name="Снижение энергоемкости производственной деятельности на тонну заправленного авиационного топлива  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1007" name="Снижение энергоемкости производственной деятельности на хранение авиационного топлива  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1008" name="Снижение энергоемкости производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1009" name="Снижение энергоемкости производственной деятельности  [кг у. т. / 10000 прив. ткм нетто]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1010" name="Снижение энергоемкости производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">1010.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">1020.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">1030.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">1040.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">1040.00</column>
+</strdata>
+<strdata code="1011" name="Снижение энергоемкости производственной деятельности  [кг у. т. / 10000 пасс.-км]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="1012" name="Снижение энергоемкости производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="20" name="Показатели энергоэффективности">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2000" name="Повышение энергоэффективности производственной деятельности на единицу валовой вместимости судна GT  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">2000.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">2001.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">2002.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">2003.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">2004.00</column>
+</strdata>
+<strdata code="2001" name="Повышение энергоэффективности производственной деятельности на тонну перегружаемого груза  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2002" name="Повышение энергоэффективности производственной деятельности на единицу валовой вместимости судна GT  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">2002.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">2012.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">2022.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">2032.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">2042.00</column>
+</strdata>
+<strdata code="2003" name="Повышение энергоэффективности производственной деятельности на тонну перегружаемого груза  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2004" name="Повышение энергоэффективности производственной деятельности на единицу максимальной взлетной массы воздушного судна  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2005" name="Повышение энергоэффективности производственной деятельности на пассажира  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2006" name="Повышение энергоэффективности производственной деятельности на тонну заправленного авиационного топлива  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2007" name="Повышение энергоэффективности производственной деятельности на тонну принятого на хранение авиационного топлива  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2008" name="Повышение энергоэффективности производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2009" name="Повышение энергоэффективности производственной деятельности  [прив. ткм нетто / кг у. т.]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2010" name="Повышение энергоэффективности производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2">2010.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2">2011.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2">2012.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2">2013.00</column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2">2014.00</column>
+</strdata>
+<strdata code="2011" name="Повышение энергоэффективности производственной деятельности  [пасс.-км / кг у. т.]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="2012" name="Повышение энергоэффективности производственной деятельности  [%]">
+ <column name="Установленные значения целевых показателей (отчетный год -2)" order="1" id="32" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год -1)" order="2" id="33" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год)" order="3" id="34" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +1)" order="4" id="35" datatype="number" format="30.2"></column>
+ <column name="Установленные значения целевых показателей (отчетный год +2)" order="5" id="36" datatype="number" format="30.2"></column>
+</strdata>
+<strdata code="111" name="Руководитель организации">
+ <column name="ФИО" order="1" id="39" datatype="text" format="100">Козлов</column>
+ <column name="Должность" order="2" id="40" datatype="text" format="100">Директор козлов</column>
+ <column name="Контактный телефон" order="3" id="41" datatype="text" format="100">+1234567890</column>
+ <column name="Электронный адрес" order="4" id="42" datatype="text" format="100">kozel@mail.com</column>
+</strdata>
+<strdata code="112" name="Ответственный за заполнение макета">
+ <column name="ФИО" order="1" id="39" datatype="text" format="100">Баранов</column>
+ <column name="Должность" order="2" id="40" datatype="text" format="100">Начальник баранов</column>
+ <column name="Контактный телефон" order="3" id="41" datatype="text" format="100">+76543221890</column>
+ <column name="Электронный адрес" order="4" id="42" datatype="text" format="100">baran@mail.com</column>
+</strdata>
+</document>
