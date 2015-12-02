@@ -36,15 +36,247 @@
 							<text transparency="50"/>
 						</watermark>
 					</documentsection>
-					<text fixtext="Прогнозный баланс топлива">
-						<styles font-size="16pt"/>
+					<paragraph paragraphtag="pre">
+						<styles text-align="right"/>
+						<children>
+							<text fixtext="Приложение № 4.139.1">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+							<newline/>
+							<text fixtext="к приказу Минэнерго России">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+							<newline/>
+							<text fixtext="от «__» ______ 2015 г. №___">
+								<styles font-family="Times New Roman" padding-left="inherit"/>
+							</text>
+						</children>
+					</paragraph>
+					<paragraph paragraphtag="center">
+						<children>
+							<text fixtext="ГОСУДАРСТВЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА ТОПЛИВНО-ЭНЕРГЕТИЧЕСКОГО КОМПЛЕКСА">
+								<styles font-family="Times New Roman" font-size="12pt" font-weight="bold"/>
+							</text>
+						</children>
+					</paragraph>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="ПРЕДОСТАВЛЯЕТСЯ В ЭЛЕКТРОННОМ ВИДЕ ">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+															<newline/>
+															<text fixtext="В МИНИСТЕРСТВО ЭНЕРГЕТИКИ РОССИЙСКОЙ ФЕДЕРАЦИИ">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<text fixtext=" ">
+						<styles font-size="8pt"/>
 					</text>
 					<newline/>
-					<text fixtext="(по подготовке и прохождению отопительного сезона) ">
-						<styles font-size="16pt"/>
-					</text>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<styles text-align="center"/>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Прогнозный баланс топлива">
+																<styles font-weight="bold"/>
+															</text>
+															<newline/>
+															<text fixtext="(по подготовке и прохождению отопительного сезона)">
+																<styles font-weight="bold"/>
+															</text>
+															<text fixtext=" "/>
+															<newline/>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<text fixtext=" "/>
 					<newline/>
-					<line/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol>
+										<properties width="60%"/>
+									</tgridcol>
+									<tgridcol/>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Сегмент в области электроэнергетики, теплоэнергетики"/>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Шифр формы: 4.139.">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<text fixtext=" "/>
+					<newline/>
+					<tgrid>
+						<properties border="1" width="100%"/>
+						<children>
+							<tgridbody-cols>
+								<children>
+									<tgridcol>
+										<properties width="60%"/>
+									</tgridcol>
+									<tgridcol>
+										<properties width="20%"/>
+									</tgridcol>
+									<tgridcol>
+										<properties width="20%"/>
+									</tgridcol>
+								</children>
+							</tgridbody-cols>
+							<tgridbody-rows>
+								<children>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Представляют:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Сроки представления:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="Периодичность предоставления:">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+									<tgridrow>
+										<children>
+											<tgridcell>
+												<children>
+													<text fixtext="субъекты электроэнергетики, владеющие на праве собственности или на ином законном основании объектами электроэнергетики, установленная генерирующая мощность которых в совокупности равна или превышает 500 кВт (с детализацией по отдельным объектам электроэнергетики, установленная генерирующая мощность каждого из которых равна или превышает 500 кВт); территориальные сетевые организации (с детализацией по субъектам Российской Федерации); организация по управлению единой национальной (общероссийской) электрической сетью (с детализацией по филиалам); собственники или иные законные владельцы объектов электросетевого хозяйства, входящих в единую национальную (общероссийскую) электрическую сеть; системный оператор (с детализацией по филиалам); иные субъекты оперативно-диспетчерского управления в электроэнергетике">
+														<styles font-family="Times New Roman" font-size="12pt"/>
+													</text>
+													<newline/>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<text fixtext="до 20-го числа месяца, следующего за отчетным периодом">
+														<styles font-family="Times New Roman" font-size="12pt"/>
+													</text>
+												</children>
+											</tgridcell>
+											<tgridcell>
+												<children>
+													<paragraph paragraphtag="center">
+														<children>
+															<text fixtext="ежеквартальная">
+																<styles font-family="Times New Roman" font-size="12pt"/>
+															</text>
+														</children>
+													</paragraph>
+												</children>
+											</tgridcell>
+										</children>
+									</tgridrow>
+								</children>
+							</tgridbody-rows>
+						</children>
+					</tgrid>
+					<newline/>
+					<newline break="page"/>
+					<paragraph paragraphtag="center">
+						<children>
+							<field>
+								<styles font-family="Times New Roman"/>
+							</field>
+						</children>
+					</paragraph>
+					<newline/>
+					<newline/>
 					<text fixtext="Раздел 1. Прогнозный баланс топлива"/>
 					<newline/>
 					<tgrid>

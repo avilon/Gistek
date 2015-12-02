@@ -26,30 +26,197 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 				<xsl:comment>[if IE]&gt;&lt;STYLE type=&quot;text/css&quot;&gt;.altova-rotate-left-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)} .altova-rotate-right-textbox{filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1)} &lt;/STYLE&gt;&lt;![endif]</xsl:comment>
 				<xsl:comment>[if !IE]&gt;&lt;!</xsl:comment>
-				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
-				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">
 					<xsl:value-of select="document('style.css')" disable-output-escaping="yes" />
 				</style>
+				<style type="text/css">.altova-rotate-left-textbox{-webkit-transform: rotate(-90deg) translate(-100%, 0%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(-90deg) translate(-100%, 0%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(-90deg) translate(-100%, 0%); -ms-transform-origin: 0% 0%;}.altova-rotate-right-textbox{-webkit-transform: rotate(90deg) translate(0%, -100%); -webkit-transform-origin: 0% 0%;-moz-transform: rotate(90deg) translate(0%, -100%); -moz-transform-origin: 0% 0%;-ms-transform: rotate(90deg) translate(0%, -100%); -ms-transform-origin: 0% 0%;}</style>
+				<xsl:comment>&lt;![endif]</xsl:comment>
 				<style type="text/css">@page { margin-left:0.60in; margin-right:0.60in; margin-top:0.79in; margin-bottom:0.79in } @media print { br.altova-page-break { page-break-before: always; } }</style>
 			</head>
 			<body>
-				<span style="font-size:16pt; ">
-					<xsl:text>Сведения о распределении числа пострадавших при несчастных случаях на производстве</xsl:text>
+				<pre style="text-align:right; ">
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>Приложение № 4.139.1</xsl:text>
+					</span>
+					<br/>
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>к приказу Минэнерго России</xsl:text>
+					</span>
+					<br/>
+					<span style="font-family:Times New Roman; padding-left:inherit; ">
+						<xsl:text>от «__» ______ 2015 г. №___</xsl:text>
+					</span>
+				</pre>
+				<center>
+					<span style="font-family:Times New Roman; font-size:12pt; font-weight:bold; ">
+						<xsl:text>ГОСУДАРСТВЕННАЯ ИНФОРМАЦИОННАЯ СИСТЕМА ТОПЛИВНО-ЭНЕРГЕТИЧЕСКОГО КОМПЛЕКСА</xsl:text>
+					</span>
+				</center>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_0" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td>
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>ПРЕДОСТАВЛЯЕТСЯ В ЭЛЕКТРОННОМ ВИДЕ </xsl:text>
+										</span>
+										<br/>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>В МИНИСТЕРСТВО ЭНЕРГЕТИКИ РОССИЙСКОЙ ФЕДЕРАЦИИ</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<span style="font-size:8pt; ">
+					<xsl:text>&#160;</xsl:text>
 				</span>
 				<br/>
-				<span style="font-size:16pt; ">
-					<xsl:text>за _______ квартал 20____ года</xsl:text>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td style="text-align:center; ">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; font-weight:bold; ">
+											<xsl:text>Сведения о работе по охране труда</xsl:text>
+										</span>
+										<br/>
+										<span style="font-family:Times New Roman; font-size:12pt; font-weight:bold; ">
+											<xsl:text>за _______ квартал 2____ года</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<span>
+					<xsl:text>&#160;</xsl:text>
 				</span>
 				<br/>
-				<hr/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td width="60%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Сегмент в области</xsl:text>
+										</span>
+										<br/>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>электроэнергетики, теплоэнергетики</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td>
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Шифр формы: 4.139.</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<span>
+					<xsl:text>&#160;</xsl:text>
+				</span>
+				<br/>
+				<xsl:variable name="altova:table">
+					<table border="1" width="100%">
+						<xsl:variable name="altova:CurrContextGrid_3" select="."/>
+						<xsl:variable name="altova:ColumnData"/>
+						<tbody>
+							<tr>
+								<td width="60%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Представляют:</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td width="20%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Сроки представления:</xsl:text>
+										</span>
+									</center>
+								</td>
+								<td width="20%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>Периодичность предоставления:</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+							<tr>
+								<td width="60%">
+									<span style="font-family:Times New Roman; font-size:12pt; ">
+										<xsl:text>субъекты электроэнергетики, владеющие на праве собственности или на ином законном основании объектами электроэнергетики, установленная генерирующая мощность которых в совокупности равна или превышает 500 кВт (с детализацией по отдельным объектам электроэнергетики, установленная генерирующая мощность каждого из которых равна или превышает 500 кВт); территориальные сетевые организации (с детализацией по субъектам Российской Федерации); организация по управлению единой национальной (общероссийской) электрической сетью (с детализацией по филиалам); собственники или иные законные владельцы объектов электросетевого хозяйства, входящих в единую национальную (общероссийскую) электрическую сеть; системный оператор (с детализацией по филиалам); иные субъекты оперативно-диспетчерского управления в электроэнергетике</xsl:text>
+									</span>
+									<br/>
+								</td>
+								<td width="20%">
+									<span style="font-family:Times New Roman; font-size:12pt; ">
+										<xsl:text>до 20-го числа месяца, следующего за отчетным периодом</xsl:text>
+									</span>
+								</td>
+								<td width="20%">
+									<center>
+										<span style="font-family:Times New Roman; font-size:12pt; ">
+											<xsl:text>ежеквартальная</xsl:text>
+										</span>
+									</center>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</xsl:variable>
+				<xsl:variable name="altova:col-count" select="sum( for $altova:cell in $altova:table/table/(thead | tbody | tfoot)[ 1 ]/tr[ 1 ]/(th | td) return altova:col-span( $altova:cell ) )"/>
+				<xsl:variable name="altova:generate-cols" as="xs:boolean*" select="for $altova:pos in 1 to $altova:col-count return true()"/>
+				<xsl:apply-templates select="$altova:table" mode="altova:generate-table">
+					<xsl:with-param name="altova:generate-cols" select="$altova:generate-cols"/>
+				</xsl:apply-templates>
+				<br/>
+				<br class="altova-page-break" clear="all"/>
+				<center/>
+				<br/>
+				<br/>
 				<span>
 					<xsl:text>Раздел 1. Число пострадавших по видам происшествий, опасных факторов</xsl:text>
 				</span>
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_0" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_4" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -185,7 +352,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_1" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_5" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -321,7 +488,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_2" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_6" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -457,7 +624,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_3" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_7" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -593,7 +760,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_4" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_8" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -729,7 +896,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_5" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_9" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -866,7 +1033,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_6" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_10" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -1002,7 +1169,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_7" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_11" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -1138,7 +1305,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_8" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_12" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -1274,7 +1441,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_9" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_13" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -1416,7 +1583,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_10" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_14" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
@@ -1484,7 +1651,7 @@
 				<br/>
 				<xsl:variable name="altova:table">
 					<table border="1">
-						<xsl:variable name="altova:CurrContextGrid_11" select="."/>
+						<xsl:variable name="altova:CurrContextGrid_15" select="."/>
 						<xsl:variable name="altova:ColumnData"/>
 						<thead>
 							<tr>
